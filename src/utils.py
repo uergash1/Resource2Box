@@ -17,4 +17,7 @@ def parse_args():
     parser.add_argument("--learning_rate", default=1e-3, type=float, help='learning rate')
     parser.add_argument("--dim", default=768, type=int, help='embedding dimension')
 
+    parser.add_argument("--box_type", default="geometric", type=str, help='box embedding type')
+    parser.add_argument("--gamma", default=0.3, type=float, help='box-vector distance parameter')
+
     return parser.parse_args()
