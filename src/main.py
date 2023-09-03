@@ -42,12 +42,6 @@ else:
     device = torch.device("cpu")
 print('Device:\t', device, '\n')
 
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-bert = BertModel.from_pretrained('bert-base-uncased').to(device)
-
-for param in bert.parameters():
-    param.requires_grad = False
-
 box_embedding = BoxEmbedding(args.box_type, args.dim).to(device)
 
 params = list(box_embedding.parameters())
