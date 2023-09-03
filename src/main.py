@@ -1,4 +1,5 @@
 import torch
+from torch.utils.data import DataLoader, TensorDataset
 from attention import Attention
 from box_embedding import BoxEmbedding
 import torch.optim as optim
@@ -47,50 +48,55 @@ bert = BertModel.from_pretrained('bert-base-uncased').to(device)
 for param in bert.parameters():
     param.requires_grad = False
 
-embedding_dim = args.dim  # BERT's output dimension
-
-box_embedding = BoxEmbedding(args.box_type, embedding_dim).to(device)
+box_embedding = BoxEmbedding(args.box_type, args.dim).to(device)
 
 params = list(box_embedding.parameters())
 optimizer = optim.Adam(params, lr=args.learning_rate)
 
-data = Dataset(args)
-
-# Dummy data and training pairs
-documents = data.load_documents()
-queries = data.load_queries()
+data = Dataset(args, device)
+# documents = data.load_documents()
+# queries = data.load_queries()
 train_pairs = data.get_train_pairs()
+# Create a DataLoader
+train_data = TensorDataset(train_pairs)
+train_loader = DataLoader(train_data, batch_size=args.batch_size, shuffle=True)
 # We should change this later.
-test_pairs = data.get_train_pairs()
+# test_pairs = data.get_train_pairs()
 
 for epoch in range(args.epochs):
     epoch_loss = 0.0
-    for query_idx, pos_idx, neg_idx in tqdm(train_pairs, desc=f"Epoch {epoch + 1}"):
+    for batch in tqdm(train_loader, desc=f"Epoch {epoch + 1}"):
         optimizer.zero_grad()
 
-        # Process query
-        query_tokens = tokenizer(queries[query_idx], return_tensors="pt", padding=True, truncation=True)
-        query_output = bert(**query_tokens.to(device))
-        query_embedding = query_output.last_hidden_state.mean(dim=1).squeeze(0).to(device)
+        # Unpack the batch
+        batch_data = batch[0]
+        query_idx_batch, pos_idx_batch, neg_idx_batch = batch_data[:, 0], batch_data[:, 1], batch_data[:, 2]
 
-        # Process positive data source
-        pos_docs = documents[pos_idx]
-        pos_tokens = tokenizer(pos_docs, return_tensors="pt", padding=True, truncation=True)
-        pos_output = bert(**pos_tokens.to(device))
-        pos_doc_embeddings = pos_output.last_hidden_state.mean(dim=1)
+        query_embedding_batch, pos_resource_embedding_batch, neg_resource_embedding_batch = data.get_batch_embeddings(query_idx_batch, pos_idx_batch, neg_idx_batch)
 
-        # Process negative data source
-        neg_docs = documents[neg_idx]
-        neg_tokens = tokenizer(neg_docs, return_tensors="pt", padding=True, truncation=True)
-        neg_output = bert(**neg_tokens.to(device))
-        neg_doc_embeddings = neg_output.last_hidden_state.mean(dim=1)
+        # # Process query
+        # query_tokens = tokenizer(queries[query_idx], return_tensors="pt", padding=True, truncation=True)
+        # query_output = bert(**query_tokens.to(device))
+        # query_embedding = query_output.last_hidden_state.mean(dim=1).squeeze(0).to(device)
+        #
+        # # Process positive data source
+        # pos_docs = documents[pos_idx]
+        # pos_tokens = tokenizer(pos_docs, return_tensors="pt", padding=True, truncation=True)
+        # pos_output = bert(**pos_tokens.to(device))
+        # pos_doc_embeddings = pos_output.last_hidden_state.mean(dim=1)
+        #
+        # # Process negative data source
+        # neg_docs = documents[neg_idx]
+        # neg_tokens = tokenizer(neg_docs, return_tensors="pt", padding=True, truncation=True)
+        # neg_output = bert(**neg_tokens.to(device))
+        # neg_doc_embeddings = neg_output.last_hidden_state.mean(dim=1)
 
         # Get box embeddings
-        pos_center, pos_offset = box_embedding(pos_doc_embeddings)
-        neg_center, neg_offset = box_embedding(neg_doc_embeddings)
+        pos_center, pos_offset = box_embedding(pos_resource_embedding_batch)
+        neg_center, neg_offset = box_embedding(neg_resource_embedding_batch)
 
         # Compute loss
-        loss = ranking_loss(query_embedding, pos_center, pos_offset, neg_center, neg_offset)
+        loss = ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset)
         epoch_loss += loss.item()
 
         # Backpropagation
@@ -102,32 +108,32 @@ for epoch in range(args.epochs):
 
     print(f"Epoch {epoch + 1}, Average Loss: {epoch_loss / len(train_pairs)}")
 
-box_embedding.eval()
-
-with torch.no_grad():
-    # Get box embeddings of each data source.
-    data_source_box = {}
-    for idx in tqdm(documents):
-        docs = documents[idx]
-        tokens = tokenizer(docs, return_tensors="pt", padding=True, truncation=True)
-        output = bert(**tokens.to(device))
-        doc_embeddings = output.last_hidden_state.mean(dim=1)
-        center, offset = box_embedding(doc_embeddings)
-        data_source_box[idx] = (center, offset)
-
-    # Compute distance between test query and data source boxes
-    for query_idx, pos_idx, neg_idx in tqdm(test_pairs):
-        query_tokens = tokenizer(queries[query_idx], return_tensors="pt", padding=True, truncation=True)
-        query_output = bert(**query_tokens.to(device))
-        query_embedding = query_output.last_hidden_state.mean(dim=1).to(device)
-
-        data_source_dist = {}
-        for idx in data_source_box:
-            center, offset = data_source_box[idx]
-            dist = torch.mean(torch.norm(query_embedding - center, dim=-1) - offset)
-            data_source_dist[idx] = dist
-
-        data_source_rank = sorted(data_source_dist, key=lambda x: data_source_dist[x])
+# box_embedding.eval()
+#
+# with torch.no_grad():
+#     # Get box embeddings of each data source.
+#     data_source_box = {}
+#     for idx in tqdm(documents):
+#         docs = documents[idx]
+#         tokens = tokenizer(docs, return_tensors="pt", padding=True, truncation=True)
+#         output = bert(**tokens.to(device))
+#         doc_embeddings = output.last_hidden_state.mean(dim=1)
+#         center, offset = box_embedding(doc_embeddings)
+#         data_source_box[idx] = (center, offset)
+#
+#     # Compute distance between test query and data source boxes
+#     for query_idx, pos_idx, neg_idx in tqdm(test_pairs):
+#         query_tokens = tokenizer(queries[query_idx], return_tensors="pt", padding=True, truncation=True)
+#         query_output = bert(**query_tokens.to(device))
+#         query_embedding = query_output.last_hidden_state.mean(dim=1).to(device)
+#
+#         data_source_dist = {}
+#         for idx in data_source_box:
+#             center, offset = data_source_box[idx]
+#             dist = torch.mean(torch.norm(query_embedding - center, dim=-1) - offset)
+#             data_source_dist[idx] = dist
+#
+#         data_source_rank = sorted(data_source_dist, key=lambda x: data_source_dist[x])
 
 # Evaluation
 # def rank_data_sources(query_embedding, box_embedding, attention_layer):
