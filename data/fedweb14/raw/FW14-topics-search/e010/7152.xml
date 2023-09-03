@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7152">haskell hash string</query><engine status="OK" timestamp="2014-04-19 10:33:57" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7152-01"><link cache="FW14-topics-docs/e010/7152_01.html" timestamp="2014-04-19 10:33:59">http://academic.research.microsoft.com/Publication/56909517/the-performance-of-the-haskell-containers-package</link><title>The performance of the Haskell containers package</title><description>* The performance of the Haskell containers package
+
+Milan Straka
+
+...package, the de facto standard haskell containers library, comparing it to...persistent data structure based on hashing, which offers the best performance out of available data structures containing strings and bytestrings....
+
+Journal: Sigplan Notices - SIGPLAN , pp. 13-24, 2010</description></snippet><snippet id="FW14-e010-7152-02"><link cache="FW14-topics-docs/e010/7152_02.html" timestamp="2014-04-19 10:35:05">http://academic.research.microsoft.com/Publication/39230333/the-performance-of-the-haskell-containers-package</link><title>The performance of the Haskell containers package</title><description>* The performance of the Haskell containers package
+
+Milan Straka
+
+...package, the de facto standard haskell containers library, comparing it to...persistent data structure based on hashing, which offers the best performance out of available data structures containing strings and bytestrings....
+
+Published in 2010.</description></snippet><snippet id="FW14-e010-7152-03"><link cache="FW14-topics-docs/e010/7152_03.html" timestamp="2014-04-19 10:36:11">http://academic.research.microsoft.com/Publication/4727714/using-bloom-filters-for-large-scale-gene-sequence-analysis-in-haskell</link><title>Using Bloom Filters for Large Scale Gene Sequence Analysis in Haskell</title><description>* Using Bloom Filters for Large Scale Gene Sequence Analysis in Haskell
+
+Ketil Malde, Bryan O’Sullivan
+
+...ecient bloom lter implementation in haskell, and implement a simple bioinformatics...
+
+Conference: Practical Aspects of Declarative Languages - PADL , pp. 183-194, 2009</description></snippet><snippet id="FW14-e010-7152-04"><link cache="FW14-topics-docs/e010/7152_04.html" timestamp="2014-04-19 10:37:23">http://academic.research.microsoft.com/Publication/6172044/generic-discrimination-partitioning-and-sorting-of-complex-data-in-linear-time</link><title>Generic Discrimination: Partitioning and Sorting of Complex Data in Linear Time</title><description>* Generic Discrimination: Partitioning and Sorting of Complex Data in Linear Time
+
+Fritz Henglein
+
+...of the values (as for hash-based methods). thus even ref...</description></snippet><snippet id="FW14-e010-7152-05"><link cache="FW14-topics-docs/e010/7152_05.html" timestamp="2014-04-19 10:38:31">http://academic.research.microsoft.com/Publication/2317462/patterns-in-datatype-generic-programming</link><title>Patterns in Datatype-Generic Programming</title><description>* Patterns in Datatype-Generic Programming (Citations: 18)
+
+Jeremy Gibbons
+
+Generic programming consists of increasing the expressive- ness of programs by allowing a wider variety of kinds of parameter than is usual. The most popular instance of this scheme is the C++ Standard Template Library. Datatype-generic programming is another instance, in which the parameters take the form of datatypes. We argue that datatype-generic programming is sucient to express ...
+
+Published in 2003.</description></snippet><snippet id="FW14-e010-7152-06"><link cache="FW14-topics-docs/e010/7152_06.html" timestamp="2014-04-19 10:39:39">http://academic.research.microsoft.com/Publication/1724272/a-design-for-type-directed-programming-in-java</link><title>A Design for Type-Directed Programming in Java</title><description>* A Design for Type-Directed Programming in Java (Citations: 6)
+
+Stephanie Weirich, Liang Huang
+
+Type-directed programming is an important and widely used paradigm in the design of soft- ware. With this form of programming, an application may analyze type information to deter- mine its behavior. By analyzing the structure of data, many operations, such as serialization, cloning, adaptors and iterators may be defined once, for all types of data. That way, as the ...
+
+Journal: Electronic Notes in Theoretical Computer Science - ENTCS , vol. 138, no. 2, pp. 117-136, 2005</description></snippet><snippet id="FW14-e010-7152-07"><link cache="FW14-topics-docs/e010/7152_07.html" timestamp="2014-04-19 10:40:36">http://academic.research.microsoft.com/Publication/5016523/how-to-edit-gigabyte-xml-files-on-a-mobile-phone-with-xas-reftrees-and-raxs</link><title>How to edit gigabyte XML files on a mobile phone with XAS, RefTrees, and RAXS</title><description>* How to edit gigabyte XML files on a mobile phone with XAS, RefTrees, and RAXS (Citations: 1)
+
+Tancred Lindholm, Jaakko Kangasharju
+
+The Open Source mobility middleware developed in the Fuego Core project provides a stack for ecient XML processing on limited devices. Its components are a persistent map API, advanced XML serialization and out-of-order parsing with byte-level access (XAS ), data structures and algorithms for lazy manipulation and random access to XML trees (Ref- Tree), and a component for ...
+
+Conference: International Conference on Mobile and Ubiquitous Systems: Networking and Services - MOBIQUITOUS , 2008</description></snippet><snippet id="FW14-e010-7152-08"><link cache="FW14-topics-docs/e010/7152_08.html" timestamp="2014-04-19 10:41:30">http://academic.research.microsoft.com/Publication/6516708/topics-in-data-structures</link><title>Topics in Data Structures</title><description>* Topics in Data Structures (Citations: 3)
+
+Giuseppe F. Italiano, Rajeev Raman
+
+Acknowledgments,................ ................ ............. 5-25 References ................ ................ ................ ...... 5-25 Further Information ................ ................ ........... 5-29 5.1 Introduction In this chapter, we describe advanced data structures and algorithmic techniques, mostly focusing our attention to two important,problems: set union and persistence. We first describe set union data structures. Their discovery required a new,set of techniques and tools that have proved useful in other areas ...
+
+Published in 1999.</description></snippet></snippets></search_results>

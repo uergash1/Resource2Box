@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7490">convert wav mp3</query><engine status="OK" timestamp="2014-04-20 23:01:54" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7490-01"><link cache="FW14-topics-docs/e004/7490_01.html" timestamp="2014-04-20 23:01:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.53.5438&amp;rank=1</link><title>Cryptographic Limitations on Learning Boolean Formulae and Finite Automata</title><description>Cryptographic Limitations on Learning Boolean Formulae and Finite Automata
+
+by Michael Kearns, Leslie Valiant \- PROCEEDINGS OF THE TWENTY-FIRST ANNUAL ACM SYMPOSIUM ON THEORY OF COMPUTING , 1989
+
+"... \Gammaff 2 mp=3 These bounds in the form they are stated are from the paper of Angluin and Valiant [9 ..."
+
+Abstract \- Cited by 311 (16 self) \- Add to MetaCart
+
+the RSA cryptosystem, factor Blum integers (composite numbers equivalent to &lt;em&gt;3&lt;/em&gt; modulo 4), and detect</description></snippet><snippet id="FW14-e004-7490-02"><link cache="FW14-topics-docs/e004/7490_02.html" timestamp="2014-04-20 23:03:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.13.2424&amp;rank=2</link><title>Mining the Peanut Gallery: Opinion Extraction and Semantic Classification of Product Reviews</title><description>Mining the Peanut Gallery: Opinion Extraction and Semantic Classification of Product Reviews
+
+by Kushal Dave, Steve Lawrence, David M. Pennock , 2003
+
+"... of product (such as MP3 player or movie pages), sites for newspapers and magazines that may feature reviews ..."
+
+Abstract \- Cited by 281 (0 self) \- Add to MetaCart
+
+The web contains a wealth of product reviews, but sifting through them is a daunting task. Ideally, an opinion mining tool would process a set of search results for a given item, generating a list of product attributes (quality, features, etc.) and aggregating opinions about each of them (poor, mixed, good). We begin by identifying the unique properties of this problem and develop a method for automatically distinguishing between positive and negative reviews. Our classifier draws on information retrieval techniques for feature extraction and scoring, and the results for various metrics and heuristics vary depending on the testing situation. The best methods work as well as or better than traditional machine learning. When operating on individual sentences collected from web searches, performance is limited due to noise and ambiguity. But in the context of a complete web-based tool and aided by a simple method for grouping sentences into attributes, the results are qualitatively quite useful.</description></snippet><snippet id="FW14-e004-7490-03"><link cache="FW14-topics-docs/e004/7490_03.html" timestamp="2014-04-20 23:05:31">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.17.1229&amp;rank=3</link><title>Tolerating Latency Through Software-Controlled Prefetching in Shared-Memory Multiprocessors</title><description>Tolerating Latency Through Software-Controlled Prefetching in Shared-Memory Multiprocessors
+
+by Todd Mowry, Anoop Gupta \- Journal of Parallel and Distributed Computing , 1991
+
+"... synchronization and sharing primitives. The three applications we studied are MP3D, LU, and PTHOR. Table 1 shows ..."
+
+Abstract \- Cited by 277 (17 self) \- Add to MetaCart
+
+The large latency of memory accesses is a major obstacle in obtaining high processor utilization in large scale shared-memory multiprocessors. Although the provision of coherent caches in many recent machines has alleviated the problem somewhat, cache misses still occur frequently enough that they significantly lower performance. In this paper we evaluate the effectiveness of non-binding software-controlled lyrefetching, as proposed in the Stanford DASH Multiprocessor, to address this problem. The prefetches are non-binding in the sense that the prefetched data is brought to a cache close to the processor, but is still available to the cache coherence protocol to keep it consistent. Prefetching is software-controlled since the program must explicitly issue prefetch instructions.</description></snippet><snippet id="FW14-e004-7490-04"><link cache="FW14-topics-docs/e004/7490_04.html" timestamp="2014-04-20 23:08:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.9.5520&amp;rank=4</link><title>Memory Access and Computational Behavior of MP3 Encoding</title><description>Memory Access and Computational Behavior of MP3 Encoding
+
+by Michael Lance Karm, Michael Lance Karm, Supervisor Lizy, Kurian John , 2003
+
+"... to the success of a perceptual codec. The MP3 encoding process converts PCM domain samples to the frequency ..."
+
+Abstract \- Add to MetaCart
+
+This report provides an understanding of the execution characteristics of audio compression applications in order to understand the bottlenecks that bound performance. These results could be used to design optimal multimedia processor architectures</description></snippet><snippet id="FW14-e004-7490-05"><link cache="FW14-topics-docs/e004/7490_05.html" timestamp="2014-04-20 23:09:05">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.135.7508&amp;rank=5</link><title>PDF to MP3 conversion: an alternative method to reading academic papers</title><description>PDF to MP3 conversion: an alternative method to reading academic papers
+
+by Dorian Miller
+
+"... into the MP3 format [9]. Depending on the audio quality and the number of channels, the WAV to MP3 compression ..."
+
+Abstract \- Add to MetaCart
+
+The PDF to &lt;em&gt;MP&lt;/em&gt;&lt;em&gt;3&lt;/em&gt; project provides alternative access to academic documents for the blind, weak</description></snippet><snippet id="FW14-e004-7490-06"><link cache="FW14-topics-docs/e004/7490_06.html" timestamp="2014-04-20 23:11:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.111.5524&amp;rank=6</link><title>Query by humming: musical information retrieval in an audio database</title><description>Query by humming: musical information retrieval in an audio database
+
+by Asif Ghias, Jonathan Logan, David Chamberlin, Brian C. Smith \- In ACM Multimedia , 1995
+
+"... ) is converted into a string in a 3 letter alphabet, we now discuss our method for searching an audio database ..."
+
+Abstract \- Cited by 190 (0 self) \- Add to MetaCart
+
+The emergence of audio and video data types in databases will require new information retrieval methods adapted to the specific characteristics and needs of these data types. An effective and natural way of querying a musical audio database is by humming the tune of a song. In this paper, a system for querying an audio database by humming is described along with a scheme for representing the melodic information in a song as relative pitch changes. Relevant difficulties involved with tracking pitch are enumerated, along with the approach we followed, and the performance results of system indicating its effectiveness are presented.</description></snippet><snippet id="FW14-e004-7490-07"><link cache="FW14-topics-docs/e004/7490_07.html" timestamp="2014-04-20 23:12:58">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.134.7472&amp;rank=7</link><title>%mp3.class; Defined Notation MP3 Types</title><description>%mp3.class; Defined Notation MP3 Types
+
+by unknown authors
+
+"... | amc | tasmg) %mp3.class; Defined Notation MP3 Types Apredefinedlist containing common MP3 formats ..."
+
+Abstract \- Add to MetaCart
+
+be updated to include other audio types.</description></snippet><snippet id="FW14-e004-7490-08"><link cache="FW14-topics-docs/e004/7490_08.html" timestamp="2014-04-20 23:16:03">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.57.5561&amp;rank=8</link><title>Learning Decision Trees using the Fourier Spectrum</title><description>Learning Decision Trees using the Fourier Spectrum
+
+by Eyal Kushilevitz, Yishay Mansour , 1991
+
+"... + ") \Delta p 1 \Gamma 2e \Gamma" 2 mp=3 ffl If X i 2 [\Gamma1; +1] then P rob " j Sm m \Gamma pj ..."
+
+Abstract \- Cited by 182 (10 self) \- Add to MetaCart
+
+This work gives a polynomial time algorithm for learning decision trees with respect to the uniform distribution. (This algorithm uses membership queries.) The decision tree model that is considered is an extension of the traditional boolean decision tree model that allows linear operations in each node (i.e., summation of a subset of the input variables over GF (2)). This paper shows how to learn in polynomial time any function that can be approximated (in norm L 2 ) by a polynomially sparse function (i.e., a function with only polynomially many non-zero Fourier coefficients). The authors demonstrate that any function f whose L 1 -norm (i.e., the sum of absolute value of the Fourier coefficients) is polynomial can be approximated by a polynomially sparse function, and prove that boolean decision trees with linear operations are a subset of this class of functions. Moreover, it is shown that the functions with polynomial L 1 -norm can be learned deterministically. The algorithm can a...</description></snippet><snippet id="FW14-e004-7490-09"><link cache="FW14-topics-docs/e004/7490_09.html" timestamp="2014-04-20 23:18:19">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.65.4451&amp;rank=9</link><title>The SAMMIE corpus of multimodal dialogues with an mp3 player</title><description>The SAMMIE corpus of multimodal dialogues with an mp3 player
+
+by Ivana Kruijff-korbayová, Tilman Becker, Nate Blaylock, Ciprian Gerstenberger \- In Proc. of LREC (to appear), 2006. TALK D6.4 (Part II) 20th December 2006 Page 57/60 , 2005
+
+"... ﻿The SAMMIE Corpus of Multimodal Dialogues with an MP3 Player Ivana Kruijff-Korbayová ∗ , Tilman ..."
+
+Abstract \- Cited by 6 (2 self) \- Add to MetaCart
+
+We describe a corpus of multimodal dialogues with an &lt;em&gt;MP&lt;/em&gt;&lt;em&gt;3&lt;/em&gt; player collected in Wizard</description></snippet><snippet id="FW14-e004-7490-10"><link cache="FW14-topics-docs/e004/7490_10.html" timestamp="2014-04-20 23:19:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=01ED32E72A541AD9A5ABDB9EEABCE96A?doi=10.1.1.39.7696&amp;rank=10</link><title>MINT: A Front End for Efficient Simulation of Shared-Memory Multiprocessors</title><description>MINT: A Front End for Efficient Simulation of Shared-Memory Multiprocessors
+
+by Jack Veenstra, Robert J. Fowler , 1994
+
+"... .77 gauss 65 64 146 2.25 MP3D 59 35 173 2.94 Table 1: Memory reference characteristics of the test programs ..."
+
+Abstract \- Cited by 177 (1 self) \- Add to MetaCart
+
+Mint is a software package designed to ease the process of constructing event-driven memory hierarchy simulators for multiprocessors. It provides a set of simulated processors that run standard Unix executable files compiled for a MIPS R3000 based multiprocessor. These generate multiple streams of memory reference events that drive a user-provided memory system simulator. Mint uses a novel hybrid technique that exploits the best aspects of native execution and software interpretation to minimize the overhead of processor simulation. Combined with related techniques to improve performance, this approach makes simulation on uniprocessor hosts extremely efficient. 1 Introduction The simulation of high-performance computer systems is computationally expensive. Each unit of simulated processor execution time requires many units of simulator time. If the target is a parallel computer, simulator time necessarily grows in proportion to the total amount of work done in the simulated parallel ...</description></snippet></snippets></search_results>

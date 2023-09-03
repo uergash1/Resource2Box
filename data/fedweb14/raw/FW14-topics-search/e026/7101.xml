@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7101">innodb versus myisam</query><engine status="OK" timestamp="2014-04-25 23:00:12" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7101-01"><link cache="FW14-topics-docs/e026/7101_01.html" timestamp="2014-04-25 23:00:13">http://unixserveradmin.wordpress.com/2011/05/10/mysql-engines-innodb-vs-myisam/</link><title>MySQL Engines: InnoDB vs. MyISAM</title><description>MySQL Engines: InnoDB vs. MyISAM
+
+9 May 2011 by unixserv on UnixServerAdmin unixserveradmin.wordpress.com/2011/05/10/mysql-engines-innodb-vs-myisam/
+
+…  types of table storage engines for MySQL databases are InnoDB and MyISAM. To summarize the differences of features and performance, 1\. InnoDB is …
+
+Topics: mysql</description></snippet><snippet id="FW14-e026-7101-02"><link cache="FW14-topics-docs/e026/7101_02.html" timestamp="2014-04-25 23:00:29">http://avinash6784.wordpress.com/2011/04/29/mysql-engines-innodb-vs-myisam/</link><title>MySQL Engines: InnoDB vs. MyISAM</title><description>MySQL Engines: InnoDB vs. MyISAM
+
+29 Apr 2011 by Avinash Pawar on Avinash Pawar - My PHP Blog avinash6784.wordpress.com/2011/04/29/mysql-engines-innodb-vs-myisam/
+
+…  databases are 2 major storage engines InnoDB and MyISAM. Following are the important differences of features and performance, 1\. InnoDB is newer while MyISAM is older. 2\. InnoDB is more complex while …
+
+Topics: mysql, Mysql engines, MySql, innodb, myisam, Database, MySQl Storage Engines, storage engines, Difference between MYISAM and InnoDB</description></snippet><snippet id="FW14-e026-7101-03"><link cache="FW14-topics-docs/e026/7101_03.html" timestamp="2014-04-25 23:01:08">http://startabc.wordpress.com/2014/04/01/innodb-and-myisam/</link><title>Innodb and Myisam</title><description>Innodb and Myisam
+
+1 Apr 2014 by ramesh260 on Are u ready startabc.wordpress.com/2014/04/01/innodb-and-myisam/
+
+Innodb and myisam both are the mysql engine. In the latest phpmyadmin innodb is default mysql engine. Innodb \- Row level locking while Myisam …
+
+Topics: mysql</description></snippet><snippet id="FW14-e026-7101-04"><link cache="FW14-topics-docs/e026/7101_04.html" timestamp="2014-04-25 23:01:27">http://richlab.wordpress.com/2010/12/09/myisam-vs-innobd/</link><title>MYISAM vs INNOBD</title><description>MYISAM vs INNOBD
+
+9 Dec 2010 by leperegoriot on Richlab team's Blog richlab.wordpress.com/2010/12/09/myisam-vs-innobd/
+
+…  storage engines for MySQL databases (/var/lib/mysql) are InnoDB and MyISAM. To summarize the differences of features and performance: InnoDB is newer while MyISAM is older. InnoDB is more complex while MyISAM is …
+
+Topics: DB-MySql</description></snippet><snippet id="FW14-e026-7101-05"><link cache="FW14-topics-docs/e026/7101_05.html" timestamp="2014-04-25 23:01:48">http://blogbysid.wordpress.com/2013/03/17/what-is-the-differences-between-innodb-and-myisam/</link><title>What is the differences between InnoDB and MyISAM?</title><description>What is the differences between InnoDB and MyISAM?
+
+17 Mar 2013 by Siddharth Jain on Web Development Tips blogbysid.wordpress.com/2013/03/17/what-is-the-differences-between-innodb-and-myisam/
+
+InnoDB MyISAM InnoDB implements row-level locking. MyISAM implements table-level locking. Automatic …
+
+Topics: mysql, innodb, SQL, MySql, InnoDB and MyISAM, myisam, Database Engine, differences between InnoDB and MyISAM</description></snippet><snippet id="FW14-e026-7101-06"><link cache="FW14-topics-docs/e026/7101_06.html" timestamp="2014-04-25 23:02:23">http://viralsolani.wordpress.com/2010/11/16/mysql-table-types/</link><title>MySQL Table Types</title><description>MySQL Table Types
+
+16 Nov 2010 by viralsolani on Viral Solani viralsolani.wordpress.com/2010/11/16/mysql-table-types/
+
+…  The table types are available in MySQL are: ISAM MyISAM InnoDB BerkeleyDB (BDB) MERGE HEAP The most important feature to …
+
+Topics: My SQL</description></snippet><snippet id="FW14-e026-7101-07"><link cache="FW14-topics-docs/e026/7101_07.html" timestamp="2014-04-25 23:02:56">http://magentoissue.wordpress.com/2013/06/26/convert-magento-database-to-innodb/</link><title>Convert Magento Database to Innodb</title><description>Convert Magento Database to Innodb
+
+26 Jun 2013 by tarungeit on magentoissue magentoissue.wordpress.com/2013/06/26/convert-magento-database-to-innodb/
+
+…  TABLE `admin_assert` ENGINE=InnoDB;ALTER TABLE `admin_role` ENGINE=InnoDB;ALTER TABLE `admin_rule` ENGINE=InnoDB;ALTER TABLE `admin_user` …  ENGINE=InnoDB;ALTER TABLE `catalogsearch_fulltext` ENGINE=MyISAM;ALTER TABLE `catalogsearch_query` ENGINE=InnoDB;ALTER TABLE …</description></snippet><snippet id="FW14-e026-7101-08"><link cache="FW14-topics-docs/e026/7101_08.html" timestamp="2014-04-25 23:03:25">http://birpalkaur11.wordpress.com/2013/11/06/table-types-in-mysql/</link><title>Table types in mysql</title><description>Table types in mysql
+
+6 Nov 2013 by birpalk on birpalkaur11 birpalkaur11.wordpress.com/2013/11/06/table-types-in-mysql/
+
+…  we explore the two table types of mysql i.e MyISAM and Innodb. Using InnoDB you can do transactions i.e insert, delete and update while MyISAM …
+
+Topics: Daily Dairy</description></snippet><snippet id="FW14-e026-7101-09"><link cache="FW14-topics-docs/e026/7101_09.html" timestamp="2014-04-25 23:03:48">http://bhushankumarram.wordpress.com/2010/08/26/myisam-and-innodb/</link><title>Difference between MYISAM and InnoDB</title><description>Difference between MYISAM and InnoDB
+
+26 Aug 2010 by Bhushan on Bhushan's Blog bhushankumarram.wordpress.com/2010/08/26/myisam-and-innodb/
+
+…  those PHP follower to understand the difference between MYISAM and INNODB. Before you choose the engine type.... MYISAM: MYISAM …
+
+Topics: mysql, Difference between MYISAM and InnoDB</description></snippet><snippet id="FW14-e026-7101-10"><link cache="FW14-topics-docs/e026/7101_10.html" timestamp="2014-04-25 23:04:26">http://svidhya.wordpress.com/2010/01/05/comparing-innodb-and-myisam/</link><title>Comparing InnoDB and MyISAM</title><description>Comparing InnoDB and MyISAM
+
+5 Jan 2010 by svidhya on Vidhya's Blog svidhya.wordpress.com/2010/01/05/comparing-innodb-and-myisam/
+
+…  Mysql InnoDB and MYISAM are two different storage engines. By deafult the storage engine is MYISAM. Difference between InnoDB and MyISAM : 1\. InnoDB supports transactions whereas MYISAM does not. …
+
+Topics: php, innodb and mysql</description></snippet></snippets></search_results>

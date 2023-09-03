@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7465">xman sequel</query><engine status="OK" timestamp="2014-04-20 13:27:40" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7465-01"><link cache="FW14-topics-docs/e004/7465_01.html" timestamp="2014-04-20 13:27:41">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=CA42F476D9A13F57BF1C1369146B31FE?doi=10.1.1.144.2860&amp;rank=1</link><title>analysis, and integration of web documents: a case study with FLORID</title><description>analysis, and integration of web documents: a case study with FLORID
+
+by Rainer Himmeroder, Paul-th. Kandzia, Bertram Ludascher, Wolfgang May, Georg Lausen \- in Proceedings of the InternationalWorkshop on Deductive Databases and Logic Programming (DDLP’98 , 1998
+
+"... .father:man :{ X:man, if added to the program, creates an in nite number of objects john.father, john ..."
+
+Abstract \- Cited by 4 (0 self) \- Add to MetaCart
+
+Languages supporting deduction and object-orientation seem particularly promising for querying and reasoning about structure and contents of the Web, and for the integration of information from heterogeneous sources. Florid, an implementation of the deductive object-oriented language F-logic, has been extended to provide a declarative semantics for querying the Web. This extension allows extraction and restructuring of data from the Web and a seamless integration with local data. Since the functionality of wrappers and mediators is integrated into a single declarative language, the development ofadvanced applications based on the Web as an information source is signi cantly simpli ed. This claim is substantiated using a comprehensive example. 1</description></snippet><snippet id="FW14-e004-7465-02"><link cache="FW14-topics-docs/e004/7465_02.html" timestamp="2014-04-20 13:30:58">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=CA42F476D9A13F57BF1C1369146B31FE?doi=10.1.1.250.7226&amp;rank=2</link><title>The split-algebras and non-compact Hopf maps</title><description>The split-algebras and non-compact Hopf maps
+
+by Kazuki Hasebe \- J. Math. Phys
+
+"... Introduction In the sequel papers in 1931 and 1935 [1, 2], Heinz Hopf introduced the notion of topological maps ..."
+
+Abstract \- Cited by 1 (1 self) \- Add to MetaCart
+
+We develop a non-compact version of the Hopf maps based on the split-algebras. The split-algebras consist of three species: split-complex numbers, split-quaternions, and split-octonions. They correspond to three non-compact Hopf maps that represent topological mapping between higher dimensional hyperboloids in different dimensions with hyperboloid-bundles. We realize such non-compact Hopf maps in two ways: one is to utilize the split-imaginary unit, and the other is to utilize the ordinary imaginary unit. The connections of the hyperboloid-bundles in the non-compact Hopf maps are evaluated, and they are naturally regarded as non-compact gauge fields of monopoles.</description></snippet></snippets></search_results>

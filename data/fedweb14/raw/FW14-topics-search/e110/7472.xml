@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7472">python re tutorial</query><engine status="OK" timestamp="2014-04-25 15:31:49" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7472-01"><link cache="FW14-topics-docs/e110/7472_01.html" timestamp="2014-04-25 15:32:28">https://news.ycombinator.com/item?id=3552656</link><title>Goal: become developer this year from scratch. Feedback?</title><description>Goal: become developer this year from scratch. Feedback?
+
+13 points
+
+by grokaholic
+
+2 years ago
+
+10 comments Follow
+
+Interested in meeting fellow travelers who are doing the same, have done the same, or are just interested. My email is thegrokaholic [AT SYMBOL] gmail [DOT] com.
+
+BACKGROUND:
+
+28 years old, San Francisco. Programming experience consists of a Python tutorial, making a simple text game for friends. Want to build stuff on computers all day for work, initially freelancing or working a job for experience, and later building products and a company.
+
+MAIN GOAL: Current temp job ends in May. Taking this chance to leap into professional web development. Saved enough to cover living expenses thru Sept. By May, will have enough to cover living expenses thru Dec. By Dec, goal is to get first client and make $2k from web dev. After taxes, that $2k will cover Jan expenses, buying another month to find the next client, then the next. If I fail, I'll go back to temping and save until I can try this again.
+
+SPRING GOAL: Build my personal site while learning HTML/CSS/Javascript/jQuery as I go. Lots of overtime at the current job, so I'm just doing as much dev as I can when I can on the side. Using internet tutorials while attending classes at the Noisebridge hackerspace for Frontend Web Dev (HTML/CSS/JS), Python, and Web Apps (learning Git, Python frameworks e.g. Django).
+
+Focusing most of my time on HTML/CSS/JS, but really enjoy learning more Python/Django/Git/Unix/SQL material. Not only is Python/Django what I want to ultimately do at this point, studying this and associated topics (Git version control/command line/SQL) gives me this sense of wider perspective on frontend topics.
+
+That said, reached out to someone who has done what I'm trying to do, and they advised me to only focus on either HTML/CSS/JS or Python/Django for now. What do you think? Is it realistic to attempt them all while achieving my $2k goal by Dec, or am I definitely better of sticking to just HTML/CS/JS this year?
+
+SUMMER GOAL: In June, once my current job ends, going into 24/7 build mode, building sites for my portfolio while continuing to grok what I need as I go. These will be sites for friends or charities.
+
+FALL/WINTER GOAL:
+
+Then around Sept, switch out of bootcamp mode and start devoting half my time to getting my portfolio out there, and trying to get that first customer, even if it's just subcontracting menial tasks from another dev. Other half of my time will stay devoted to building and grokking new things.
+
+What do you think? Perspective, advice welcome. Thanks for reading.
+
+PS If you're trying to do the same thing, and are interested in an example of someone who has succeeded in becoming a dev from scratch within a similar timeframe, check out the site of proudn00b (http://www.proudn00b.com/). If you know sites of other people who have done the same, drop me a link. The inspiration helps. Thanks!
+
+*[2 years ago]: 2012-02-04T23:34:41.000Z</description><thumb cache="FW14-topics-docs/e110/7472_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3552656.png</thumb></snippet><snippet id="FW14-e110-7472-02"><link cache="FW14-topics-docs/e110/7472_02.html" timestamp="2014-04-25 15:32:56">https://news.ycombinator.com/item?id=4669704</link><title>Porting for good: Help bring a Humble Android Bundle to life (YC W'11)</title><description>Porting for good: Help bring a Humble Android Bundle to life (YC W'11)
+
+8 points
+
+by collinjackson
+
+2 years ago
+
+0 comment Follow
+
+Humble Bundle (YC W'11) and Apportable (YC W'11) are bringing indie games to Android through Humble Android Bundles. Indie developers often don't have the resources to create a polished Android version, so they need our help. We've worked together with the original devs to port over some of the best mobile indie games including Osmos, EDGE, Cogs, Avadon: the Black Fortress, Zen Bound 2, BIT.TRIP BEAT, Spirits, Uplink, and Swords and Soldiers. With your help, these bundles have raised $2.4 million to support the Electronic Frontier Foundation, Child's Play, and independent game developers.
+
+We're working on a new Android bundle that has the potential to be the best yet. And we'd like to try an experiment. Would any of you like to come to San Francisco and help us finish it?
+
+We're looking for strong programmers who love games. Familiarity with Objective-C, C++, and Python will be helpful. No Android experience necessary; we'll be using Apportable's Objective-C SDK for Android.
+
+What's included:
+
+\- All-expenses paid trip to San Francisco (if you're not already here)
+
+\- Spend 3 - 7 days in the Humble Bundle and Apportable offices in October or November
+
+\- Hands-on tutorial building Objective-C apps on Android using Apportable SDK
+
+\- Work with the source code of the best indie game developers (under NDA, of course)
+
+\- Opportunities for future employment at Humble Bundle and Apportable
+
+\- That warm feeling that you made the world a better place
+
+Interested? Drop us a line at humblebundle@apportable.com
+
+*[2 years ago]: 2012-10-18T17:07:40.000Z</description><thumb cache="FW14-topics-docs/e110/7472_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/4669704.png</thumb></snippet><snippet id="FW14-e110-7472-03"><link cache="FW14-topics-docs/e110/7472_03.html" timestamp="2014-04-25 15:33:20">https://news.ycombinator.com/item?id=6186478</link><title>Ask HN: Any practical advice/tips for a new Machine Learning guy?</title><description>Ask HN: Any practical advice/tips for a new Machine Learning guy?
+
+1 point
+
+by justanewmlguy
+
+9 months ago
+
+3 comments Follow
+
+I just moved from a software engineer position to a machine learning team. I know most of ML theory from my comp sci classes, I've re-read the PRML book by Bishop and I'm working through Hastie as we speak. What I'm missing is practical knowledge. I've been using Python and Scikit-learn recently on the tutorial problems from Kaggle, and I know I should get familiar with a Mapreduce implementation like Hadoop. What other skills/tools should I be familiar with?
+
+*[9 months ago]: 2013-08-09T16:11:04.000Z</description><thumb cache="FW14-topics-docs/e110/7472_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6186478.png</thumb></snippet><snippet id="FW14-e110-7472-04"><link cache="FW14-topics-docs/e110/7472_04.html" timestamp="2014-04-25 15:33:45">https://news.ycombinator.com/item?id=6689521</link><title>Ask HN: Want to improve your product?</title><description>Ask HN: Want to improve your product?
+
+1 point
+
+by yoseph
+
+6 months ago
+
+0 comment Follow
+
+TL;DR: Skilled product/business guy is learning to code and wants to help you make your product awesome in return for help with Python and JS questions.
+
+\---
+
+I can help with: product/customer development, conversion optimization, product processes, and data/analytics
+
+Ideally, you're a full stack developer experienced with Python and JS, with a product you've shipped or an idea you'd like to validate.
+
+\---
+
+My Background:
+
+\- Co-founded Vuru, went through an accelerator (FounderFuel) and sold Vuru to Wave \- Led product side of Wave Personal and company-wide engagement efforts \- Laid data-driven foundation for Wave and led team that increased key company-wide metrics by over 50%
+
+Progress Learning to Code:
+
+\- Completed up to lesson 43 of Learn Python the Hard Way \- Worked through Google's Python class and exercises \- Currently going through the Django Tutorial and Udacity Intro to CS
+
+\---
+
+If you think this could be fun, contact me via email (yoseph [dot] west [at] gmail) or twitter (@ycwest)
+
+*[6 months ago]: 2013-11-07T14:41:00.000Z</description><thumb cache="FW14-topics-docs/e110/7472_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6689521.png</thumb></snippet><snippet id="FW14-e110-7472-05"><link cache="FW14-topics-docs/e110/7472_05.html" timestamp="2014-04-25 15:34:23">https://news.ycombinator.com/item?id=6683031</link><title>Ask HN: Want to improve your product/business chops?</title><description>Ask HN: Want to improve your product/business chops?
+
+1 point
+
+by yoseph
+
+6 months ago
+
+0 comment Follow
+
+TL;DR: Skilled product/business guy is learning to code and is offering his time in return for help with Python and JS questions.
+
+\---
+
+Hello HN!
+
+I want to help you with any and all of the following: product/customer development, conversion optimization, product processes, and data/analytics. In return, I'd like your help with Python\- and Javascript-related questions I can't seem to solve/find an answer to on Stack Overflow.
+
+My Background:
+
+\- Built a company (Vuru), went through an accelerator (FounderFuel) and sold Vuru to Wave (Wave's investors include S+C, CRV and OMERS) \- Led product side of Wave's personal finance product (https://www.waveapps.com/personal/) and company-wide engagement efforts \- Laid data-driven foundation for Wave and led team that increased key company-wide metrics by over 50%
+
+Progress Learning to Code:
+
+\- Completed up to lesson 43 of Learn Python the Hard Way \- Worked through Google's Python class and exercises (highly recommended) \- Currently going through the Django Tutorial (https://docs.djangoproject.com/en/1.4/intro/tutorial01/)
+
+To provide a strong foundation, I'm following this article's advice: http://lifehacker.com/how-i-taught-myself-to-code-in-eight-weeks-511615189
+
+\---
+
+You:
+
+You're a full stack developer, experienced with Python and JS, and are looking to improve your business/product chops.
+
+If you fit that description and think this could be fun, email me: yoseph [dot] west [at] gmail
+
+*[6 months ago]: 2013-11-06T15:08:26.000Z</description><thumb cache="FW14-topics-docs/e110/7472_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6683031.png</thumb></snippet><snippet id="FW14-e110-7472-06"><link cache="FW14-topics-docs/e110/7472_06.html" timestamp="2014-04-25 15:34:58">https://news.ycombinator.com/item?id=6677099</link><title>Barter with HN: Product/Business Guy Learning to Code</title><description>Barter with HN: Product/Business Guy Learning to Code
+
+1 point
+
+by yoseph
+
+6 months ago
+
+0 comment Follow
+
+TL;DR: Skilled product/business guy offering his time in return for help with Python and JS coding questions.
+
+\---
+
+Hello HN!
+
+I want to help you with any and all of the following: product/customer development, conversion optimization, product processes, and data/analytics. In return, I'd like your help with Python\- and Javascript-related coding questions I can't seem to solve/find an answer to on Stack Overflow.
+
+My Background:
+
+\- Built a company (Vuru), went through an accelerator (FounderFuel) and sold Vuru to Wave (Wave's investors include S+C, CRV and OMERS) \- Led product side of Wave's personal finance product (https://www.waveapps.com/personal/) and company-wide engagement efforts \- Laid data-driven foundation for Wave and led team that increased key company-wide metrics by over 50%
+
+Progress Learning to Code:
+
+\- Completed up to lesson 43 of Learn Python the Hard Way \- Worked through Google's Python class and exercises (highly recommended) \- Currently going through the Django Tutorial (https://docs.djangoproject.com/en/1.4/intro/tutorial01/)
+
+To provide a strong foundation, I'm following this article's advice: http://lifehacker.com/how-i-taught-myself-to-code-in-eight-weeks-511615189
+
+\---
+
+You:
+
+You're a full stack developer, experienced with Python and JS, and are looking to improve your business/product chops.
+
+If you fit that description and think this could be fun, email me: yoseph [dot] west [at] gmail
+
+*[6 months ago]: 2013-11-05T18:42:46.000Z</description><thumb cache="FW14-topics-docs/e110/7472_06_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6677099.png</thumb></snippet><snippet id="FW14-e110-7472-07"><link cache="FW14-topics-docs/e110/7472_07.html" timestamp="2014-04-25 15:35:29">https://news.ycombinator.com/item?id=3303383</link><title>Ask HN: OpenCV and Computer Vision, where do we stand now?</title><description>Ask HN: OpenCV and Computer Vision, where do we stand now?
+
+4 points
+
+by switz
+
+2 years ago
+
+2 comments Follow
+
+I want to do a project involving Computer Vision. Mostly object detection/identification. After some research, I keep coming back to OpenCV. But all of the tutorials are from 2008 (I guess it was big for a bit then). It doesn't appear to compile in Python on a Mac. I'm using the C++ framework in xCode, but none of the tutorials work (except one) as they're outdated and the documentation sucks from what I can parse.
+
+Is there a better solution for what I'm doing, and does anyone have any suggestions as to learning how to to use OpenCV?
+
+Thanks
+
+P.S. I saw O'Reilly's book, but it's from '08. Check out this review: "Book was good at the time, but no longer applies as opencv has moved on. They should update their book."
+
+*[2 years ago]: 2011-12-02T09:52:10.000Z</description><thumb cache="FW14-topics-docs/e110/7472_07_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3303383.png</thumb></snippet><snippet id="FW14-e110-7472-08"><link cache="FW14-topics-docs/e110/7472_08.html" timestamp="2014-04-25 15:36:09">https://news.ycombinator.com/item?id=677123</link><title>Ask HN: Looking for in-browser programming tutorials like 'Try Ruby!'</title><description>Ask HN: Looking for in-browser programming tutorials like 'Try Ruby!'
+
+8 points
+
+by jayro
+
+5 years ago
+
+5 comments Follow
+
+I'm trying to create a list of really good interactive, in-browser programming tutorials like 'Try Ruby!', but in other languages like Python, LISP, Scheme, Javascript, Erlang, etc. I don' know if they even exist, but if they're out there I'd like to locate them and create a nice web page for easy reference. So, if you know of any that are any good then please post them in a comment. Thanks!
+
+*[5 years ago]: 2009-06-27T20:00:10.000Z</description><thumb cache="FW14-topics-docs/e110/7472_08_thumb.png">https://drcs9k8uelb9s.cloudfront.net/677123.png</thumb></snippet><snippet id="FW14-e110-7472-09"><link cache="FW14-topics-docs/e110/7472_09.html" timestamp="2014-04-25 15:36:47">https://news.ycombinator.com/item?id=7559595</link><title>Ask HN: What should I do now on my free time?</title><description>Ask HN: What should I do now on my free time?
+
+5 points
+
+by antocv
+
+16 days ago
+
+2 comments Follow
+
+Ive got a month or two of free time, and there is so many things I want to do, but how to prioritize?
+
+I want to
+
+* learn Scheme/Guile and help with Guix, 
+* another Java EE app to showcase my skills, but what should it do? 
+* make an Android app, to use the above Java web-service 
+* improve on Python skills, how? Ive made several flask apps, played with numpy when doing machine learning tutorials, dont want to learn domain-specific anymore like ML or "how to make a GUI app with pyside", but something more
+
+How do you decide what to do and stick with it?
+
+I just float from this idea to the next every day, one day Im toying with dis in python, next day installing guix and trying to understand .scm files, next day starting an appFuse project for a last.fm re-implementation.
+
+*[16 days ago]: 2014-04-09T14:49:06.000Z</description><thumb cache="FW14-topics-docs/e110/7472_09_thumb.png">https://drcs9k8uelb9s.cloudfront.net/7559595.png</thumb></snippet><snippet id="FW14-e110-7472-10"><link cache="FW14-topics-docs/e110/7472_10.html" timestamp="2014-04-25 15:37:14">https://news.ycombinator.com/item?id=6107937</link><title>Ask HN: Writing my first app</title><description>Ask HN: Writing my first app
+
+3 points
+
+by pbhjpbhj
+
+9 months ago
+
+15 comments Follow
+
+I've got a killer idea (!) and want to write my first app. What's the best way to do it. I'd like to optimise widest coverage for time spent initially.
+
+Which platforms should I target. It's to be a paid app for parents (though generally info about targeting demographics vs platforms appreciated) but I'd consider free as they're are strong advertising opportunities. I'm assuming iOS is going to be best but I'd love to develop once and deploy to android as well if that's even possible. Primarily I see it being used on phones.
+
+Primarily my closest domain experience is in webdev (PHP, HTML, JS) though I've done a tiny bit of python, C++, SmallTalk, Fortran in the past.
+
+I don't have funds to purchase anything, I'm on Kubuntu but have Windows accessible.
+
+Thanks for any info and advice.
+
+[Sorry if this is a dupe of a dupe ... I did search but couldn't find "App Dev 101" - this is probably the closest https://news.ycombinator.com/item?id=4731469 (the link should be http://www.codelearn.org/rails-tutorials) but it has no info about implementation on a device, distribution, getting in to app-stores and such.]
+
+*[9 months ago]: 2013-07-26T12:58:12.000Z</description><thumb cache="FW14-topics-docs/e110/7472_10_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6107937.png</thumb></snippet></snippets></search_results>

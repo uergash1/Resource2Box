@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7471">php foreach</query><engine status="OK" timestamp="2014-04-23 17:04:39" name="AllExperts" id="FW14-e128"/><snippets><snippet id="FW14-e128-7471-01"><link cache="FW14-topics-docs/e128/7471_01.html" timestamp="2014-04-23 17:04:40">http://en.allexperts.com/q/PHP4-3507/Delete-checked-checkbox.htm</link><title>PHP4: Delete all checked checkbox, checkbox, foreach \- AllExperts</title><description>PHP4: Delete all checked checkbox, checkbox, foreach \- AllExperts
+
+Jul 19, 2007 ... checkbox, foreach, cheers: hi there, from what i could get, i think u may be working ... &lt;form name="form1" method="post" action="&lt;?php echo ...
+
+http://en.allexperts.com/q/PHP4-3507/Delete-checked-checkbox.htm</description></snippet><snippet id="FW14-e128-7471-02"><link cache="FW14-topics-docs/e128/7471_02.html" timestamp="2014-04-23 17:05:29">http://en.allexperts.com/q/PHP5-3508/php.htm</link><title>PHP5: php, array example, associative array - AllExperts</title><description>PHP5: php, array example, associative array - AllExperts
+
+May 15, 2007 ... array example, associative array, php engine: Tony, I d need to see the HTML code to tell you for certain, but I ve done what I can to address the ...
+
+http://en.allexperts.com/q/PHP5-3508/php.htm</description></snippet><snippet id="FW14-e128-7471-03"><link cache="FW14-topics-docs/e128/7471_03.html" timestamp="2014-04-23 17:06:23">http://en.allexperts.com/q/PHP5-3508/2011/5/PHP-Checkbox-form.htm</link><title>PHP5: PHP Checkbox form, loop through, key value \- AllExperts</title><description>PHP5: PHP Checkbox form, loop through, key value \- AllExperts
+
+May 10, 2011 ... In your script.php page &lt;?php foreach($_POST as $key=&gt;$value) { echo $key . ' - ' $value . '&lt;br /&gt;'; } ?&gt; The PHP code will loop through the ...
+
+http://en.allexperts.com/q/PHP5-3508/2011/5/PHP-Checkbox-form.htm</description></snippet><snippet id="FW14-e128-7471-04"><link cache="FW14-topics-docs/e128/7471_04.html" timestamp="2014-04-23 17:07:08">http://en.allexperts.com/q/PHP5-3508/2008/2/PHP-Nested-Loops.htm</link><title>PHP5: PHP Nested Loops., modulus operator, question thanks</title><description>PHP5: PHP Nested Loops., modulus operator, question thanks
+
+Feb 16, 2008 ... someone suggested something on php nested loops which i tried to the best of my knowledge ... Shouldn't "for" be used instead of "foreach" ?
+
+http://en.allexperts.com/q/PHP5-3508/2008/2/PHP-Nested-Loops.htm</description></snippet><snippet id="FW14-e128-7471-05"><link cache="FW14-topics-docs/e128/7471_05.html" timestamp="2014-04-23 17:07:57">http://en.allexperts.com/q/PHP3-1538/Reindexing-PHP-arrays.htm</link><title>PHP3: Reindexing PHP arrays, array values, element array</title><description>PHP3: Reindexing PHP arrays, array values, element array
+
+Aug 4, 2004 ... array values, element array, array element: Instead of print_r(array_values($a)); echo br ; echo After array_values br ; foreach($a as $k= $v) ...
+
+http://en.allexperts.com/q/PHP3-1538/Reindexing-PHP-arrays.htm</description></snippet><snippet id="FW14-e128-7471-06"><link cache="FW14-topics-docs/e128/7471_06.html" timestamp="2014-04-23 17:08:28">http://en.allexperts.com/q/PHP4-3507/Modify-POST-values-PHP.htm</link><title>PHP4: Modify POST values with PHP, pritesh, javascript code</title><description>PHP4: Modify POST values with PHP, pritesh, javascript code
+
+Aug 25, 2007 ... pritesh, javascript code, key value: hi there thomas. ... PHP4/Modify POST values with PHP ... foreach($_POST as $key =&gt; $value)
+
+http://en.allexperts.com/q/PHP4-3507/Modify-POST-values-PHP.htm</description></snippet><snippet id="FW14-e128-7471-07"><link cache="FW14-topics-docs/e128/7471_07.html" timestamp="2014-04-23 17:09:35">http://en.allexperts.com/q/PHP3-1538/check-form-filled.htm</link><title>PHP3: how to check form filled, script function, null value \- AllExperts</title><description>PHP3: how to check form filled, script function, null value \- AllExperts
+
+Jan 15, 2004 ... For example: function is_filled_out( ) { // test each element of $_POST for a value foreach ( $_POST as $key = $value ) { if ( empty( $_POST[ ...
+
+http://en.allexperts.com/q/PHP3-1538/check-form-filled.htm</description></snippet><snippet id="FW14-e128-7471-08"><link cache="FW14-topics-docs/e128/7471_08.html" timestamp="2014-04-23 17:10:49">http://en.allexperts.com/q/Perl-CGI-1045/Use-uninitialized-value-eval.htm</link><title>Perl &amp; CGI: Use of uninitialized value at (eval 7) line 3 !, compilation ...</title><description>Perl &amp; CGI: Use of uninitialized value at (eval 7) line 3 !, compilation ...
+
+Mar 22, 2004 ... Perl &amp; CGI/Use of uninitialized value at (eval 7) line 3 ! ... However if I comment out the entire foreach loop, it works fine, so it appears the syntax ...
+
+http://en.allexperts.com/q/Perl-CGI-1045/Use-uninitialized-value-eval.htm</description></snippet><snippet id="FW14-e128-7471-09"><link cache="FW14-topics-docs/e128/7471_09.html" timestamp="2014-04-23 17:11:24">http://en.allexperts.com/q/Javascript-1520/create-HTML-document-uses.htm</link><title>Javascript/How to create HTML document that uses arrays. - AllExperts</title><description>Javascript/How to create HTML document that uses arrays. - AllExperts
+
+Jul 7, 2004 ... You really should look in to using PHP &amp; MySQL for that. ... PHP Tutorial - PHP FOREACH \- PHP Loops · Unobtrusive JavaScript - Arrays ...
+
+http://en.allexperts.com/q/Javascript-1520/create-HTML-document-uses.htm</description></snippet><snippet id="FW14-e128-7471-10"><link cache="FW14-topics-docs/e128/7471_10.html" timestamp="2014-04-23 17:12:31">http://en.allexperts.com/q/PHP5-3508/2013/6/php-scraper.htm</link><title>PHP5: PHP Scraper, dom library, dom parser - AllExperts</title><description>PHP5: PHP Scraper, dom library, dom parser - AllExperts
+
+Jun 24, 2013 ... PHP5/PHP Scraper ... foreach ($posts as $post) { $content1 ... http://net.tutsplus. com/tutorials/php/html-parsing-and-screen-scraping-with-the-
+
+http://en.allexperts.com/q/PHP5-3508/2013/6/php-scraper.htm</description></snippet></snippets></search_results>

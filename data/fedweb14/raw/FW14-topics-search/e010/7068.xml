@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7068">Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition</query><engine status="OK" timestamp="2014-04-18 23:23:59" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7068-01"><link cache="FW14-topics-docs/e010/7068_01.html" timestamp="2014-04-18 23:24:07">http://academic.research.microsoft.com/Publication/12791787/speech-and-language-processing-an-introduction-to-natural-language-processing-computational</link><title>Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition</title><description>* Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (Citations: 1429)
+
+Daniel Jurafsky, James H. Martin
+
+Published in 2000.</description></snippet><snippet id="FW14-e010-7068-02"><link cache="FW14-topics-docs/e010/7068_02.html" timestamp="2014-04-18 23:25:22">http://academic.research.microsoft.com/Publication/870434/review-of-speech-and-language-processing-an-introduction-to-natural-language-processing</link><title>Review of "Speech and language processing: an introduction to natural language processing, computational linguistics, and speech recognition" by Daniel Jurafsky and James H. Martin. Prentice Hall 2000</title><description>* Review of "Speech and language processing: an introduction to natural language processing, computational linguistics, and speech recognition" by Daniel Jurafsky and James H. Martin. Prentice Hall 2000
+
+Virginia Teller
+
+Journal: Computational Linguistics \- COLI , 2000</description></snippet><snippet id="FW14-e010-7068-03"><link cache="FW14-topics-docs/e010/7068_03.html" timestamp="2014-04-18 23:26:34">http://academic.research.microsoft.com/Publication/15244301/speech-and-language-processing-an-introduction-to-natural-language-processing-computational</link><title>Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition Daniel Jurafsky and James H. Martin (University of Colorado, Boulder) Upper Saddle River, NJ : Prentice Hall (Prentice Hall series in artificial intelligence, edited by Stuart Russell and Peter Norvig), 2000 , xxvi+934 pp; hardbound, ISBN 0-13-095069-6 , $64.00</title><description>* Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition Daniel Jurafsky and James H. Martin (University of Colorado, Boulder) Upper Saddle River, NJ : Prentice Hall (Prentice Hall series in artificial intelligence, edited by Stuart Russell and Peter Norvig), 2000 , xxvi+934 pp; hardbound, ISBN 0-13-095069-6 , $64.00
+
+Virginia Teller
+
+Journal: Computational Linguistics \- COLI , vol. 26, no. 4, pp. 638-641, 2000</description></snippet><snippet id="FW14-e010-7068-04"><link cache="FW14-topics-docs/e010/7068_04.html" timestamp="2014-04-18 23:27:44">http://academic.research.microsoft.com/Publication/48559603/applications-of-weighted-automata-in-natural-language-processing</link><title>Applications of Weighted Automata in Natural Language Processing</title><description>* Applications of Weighted Automata in Natural Language Processing (Citations: 8)
+
+Kevin Knight, Jonathan May
+
+...additionally describe the representation of language models, critical data sources in natural language processing, as weighted automata. we outline the wide range of work in natural language processing that makes use of weighted string and tree automata and describe current work and challenges. ...
+
+Published in 2009.</description></snippet><snippet id="FW14-e010-7068-05"><link cache="FW14-topics-docs/e010/7068_05.html" timestamp="2014-04-18 23:29:03">http://academic.research.microsoft.com/Publication/845489/a-phrase-structured-grammatical-framework-for-transportable-natural-language-processing</link><title>A Phrase-Structured Grammatical Framework for Transportable Natural Language Processing</title><description>* A Phrase-Structured Grammatical Framework for Transportable Natural Language Processing (Citations: 5)
+
+Bruce W. Ballard, Nancy L. Tinkham
+
+...arise in the construction of natural language processors that seek to allow users, as opposed to computational linguists, to customize an interface to operate with a new domain...we demonstrate several practical benefits to our approach. the results of three experiments with our grammar and parser are also given....
+
+Journal: Computational Linguistics \- COLI , vol. 10, no. 2, pp. 81-96, 1984</description></snippet><snippet id="FW14-e010-7068-06"><link>http://academic.research.microsoft.com/Publication/6107054/natural-language-processing-and-systems-biology</link><title>Natural Language Processing and Systems Biology</title><description>* Natural Language Processing and Systems Biology (Citations: 41)
+
+K. Bretonnel Cohen, Lawrence Hunter
+
+...basic families of applications of natural language processing techniques to questions of interest to systems biologists and describes publicly available resources for...</description></snippet><snippet id="FW14-e010-7068-07"><link cache="FW14-topics-docs/e010/7068_07.html" timestamp="2014-04-18 23:31:51">http://academic.research.microsoft.com/Publication/615361/learning-approaches-for-natural-language-processing</link><title>Learning approaches for natural language processing</title><description>* Learning approaches for natural language processing (Citations: 6)
+
+Stefan Wermter, Ellen Riloff, Gabriele Scheler
+
+...purpose of this chapter is to provide an introduction to the field of connectionist, statistical and symbolic approaches to learning for natural language processing, based on the contributions in this book. the introduction has been split into three parts: (1) neural networks and connectionist approaches, (2) statistical approaches, and (3) symbolic machine learning approaches...
+
+Conference: International Joint Conference on Artificial Intelligence - IJCAI , pp. 1-16, 1995</description></snippet><snippet id="FW14-e010-7068-08"><link cache="FW14-topics-docs/e010/7068_08.html" timestamp="2014-04-18 23:33:11">http://academic.research.microsoft.com/Publication/2138836/graphical-models-and-automatic-speech-recognition</link><title>Graphical Models and Automatic Speech Recognition</title><description>* Graphical Models and Automatic Speech Recognition (Citations: 58)
+
+Jeffrey A. Bilmes
+
+...component analysis, linear discriminant analysis, and hidden markov models. moreover, this paper shows that many advanced models for speech recognition and language processing can also be simply described...improve hidden markov model-based speech recognition by improving structural discriminability. it also includes an example where a graph can be used to represent language model smoothing constraints. as will...</description></snippet><snippet id="FW14-e010-7068-09"><link cache="FW14-topics-docs/e010/7068_09.html" timestamp="2014-04-18 23:34:35">http://academic.research.microsoft.com/Publication/39310710/a-survey-of-grammatical-inference-methods-for-natural-language-learning</link><title>A survey of grammatical inference methods for natural language learning</title><description>* A survey of grammatical inference methods for natural language learning
+
+Arianna D’Ulizia, Fernando Ferri, Patrizia Grifoni
+
+...researchers in the area of natural language processing to investigate various solutions for automating grammar generation and updating processes. many algorithms for context-free...goal of the paper is to provide a reader with introduction to major concepts and current approaches in natural language learning research....
+
+Journal: Artificial Intelligence Review - AIR , vol. 36, no. 1, pp. 1-27, 2011</description></snippet><snippet id="FW14-e010-7068-10"><link cache="FW14-topics-docs/e010/7068_10.html" timestamp="2014-04-18 23:35:43">http://academic.research.microsoft.com/Publication/3331431/linguistic-theory-and-grammar-implementation-introduction-to-this-special-issue</link><title>Linguistic Theory and Grammar Implementation: Introduction to this Special Issue</title><description>* Linguistic Theory and Grammar Implementation: Introduction to this Special Issue (Citations: 1)
+
+Erhard W. Hinrichs, W. Detmar Meurers, Shuly Wintner
+
+...the close collaboration of theoretical and computational linguists. the introduction of data-driven approaches and stochastic modeling into computational linguistics, prompted by new applications for natural language processing such as speech recognition and information retrieval, has made it less obvious how to combine such methods with the...
+
+Journal: Research on Language and Computation , vol. 2, no. 2, pp. 155-163, 2004</description></snippet></snippets></search_results>

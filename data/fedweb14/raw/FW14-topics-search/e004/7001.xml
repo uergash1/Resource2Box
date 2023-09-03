@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7001">LHC collision publications</query><engine status="OK" timestamp="2014-04-11 22:57:33" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7001-01"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.41.4144&amp;rank=1</link><title>Random Oracles are Practical: A Paradigm for Designing Efficient Protocols</title><description>Random Oracles are Practical: A Paradigm for Designing Efficient Protocols
+
+by Mihir Bellare, Phillip Rogaway , 1995
+
+"... all parties have access to a public random oracle--- provides a bridge between cryptographic theory ..."
+
+Abstract \- Cited by 1333 (62 self) \- Add to MetaCart
+
+We argue that the random oracle model -- where all parties have access to a &lt;em&gt;public&lt;/em&gt; random oracle</description></snippet><snippet id="FW14-e004-7001-02"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.10.4919&amp;rank=2</link><title>Freenet: A Distributed Anonymous Information Storage and Retrieval System</title><description>Freenet: A Distributed Anonymous Information Storage and Retrieval System
+
+by Ian Clarke, Oskar Sandberg, Brandon Wiley, Theodore W. Hong \- INTERNATIONAL WORKSHOP ON DESIGNING PRIVACY ENHANCING TECHNOLOGIES: DESIGN ISSUES IN ANONYMITY AND UNOBSERVABILITY , 2001
+
+"... .hong@(email omitted); Abstract. We describe Freenet, an adaptive peer-to-peer network application that permits the publication ..."
+
+Abstract \- Cited by 854 (10 self) \- Add to MetaCart
+
+We describe Freenet, an adaptive peer-to-peer network application that permits the &lt;em&gt;publication&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7001-03"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.116.2833&amp;rank=3</link><title>How to leak a secret</title><description>How to leak a secret
+
+by Ronald L. Rivest, Adi Shamir, Yael Tauman \- PROCEEDINGS OF THE 7TH INTERNATIONAL CONFERENCE ON THE THEORY AND APPLICATION OF CRYPTOLOGY AND INFORMATION SECURITY: ADVANCES IN CRYPTOLOGY , 2001
+
+"... by using his secret key and the others’ public keys, without getting their approval or assistance. Ring ..."
+
+Abstract \- Cited by 1754 (4 self) \- Add to MetaCart
+
+by using his secret key and the others ’ &lt;em&gt;public&lt;/em&gt; keys, without getting their approval or assistance. Ring</description></snippet><snippet id="FW14-e004-7001-04"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.153.7538&amp;rank=4</link><title>MACAW: Media access protocol for wireless lans</title><description>MACAW: Media access protocol for wireless lans
+
+by Vaduvur Bharghavan, Alan Demers, Scott Shenker, Lixia Zhang \- In In Proceedings of the ACM SIGCOMM Conference , 1994
+
+"... and the title of the publication and its date appear, and notice is given lation results may only apply to PARC ..."
+
+Abstract \- Cited by 671 (11 self) \- Add to MetaCart
+
+In recent years, a wide variety of mobile computing devices has emerged, including portables, palmtops, and personal digit al assistants. Providing adequate network connectivity y for these devices will require a new generation of wireless LAN technology. In this paper we study media access protocols for a single channel wireless LAN being developed at Xerox Corporation’s Palo Alto Research Center. We start with the MACA media access protocol first proposed by Karn [9] and later refined by Biba [3] which uses an RTS-CTS-DATA packet exchange and binary exponential backoff. Using packet-level simulations, we examine various performance and design issues in such protocols, Our analysis leads to a new protocol, MACAW, which uses an RTS-CTS-DS-DATA-ACK message exchange and includes a significantly different backoff algorithm. 1</description></snippet><snippet id="FW14-e004-7001-05"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.123.8151&amp;rank=5</link><title>Statistical pattern recognition: A review</title><description>Statistical pattern recognition: A review
+
+by Anil K. Jain, Robert P. W. Duin, Jianchang Mao \- IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE , 2000
+
+"... -dimcnsionnl feature space. 'l'hc effcctiveness of the reprcscntntioii space (feature sct) is determined by hnw wcll ..."
+
+Abstract \- Cited by 657 (22 self) \- Add to MetaCart
+
+The primary goal of pattern recognition is supervised or unsupervised classification. Among the various frameworks in which pattern recognition has been traditionally formulated, the statistical approach has been most intensively studied and used in practice. More recently, neural network techniques and methods imported from statistical learning theory have bean receiving increasing attention. The design of a recognition system requires careful attention to the following issues: definition of pattern classes, sensing environment, pattern representation, feature extraction and selection, cluster analysis, classifier design and learning, selection of training and test samples, and performance evaluation. In spite of almost 50 years of research and development in this field, the general problem of recognizing complex patterns with arbitrary orientation, location, and scale remains unsolved. New and emerging applications, such as data mining, web searching, retrieval of multimedia data, face recognition, and cursive handwriting recognition, require robust and efficient pattern recognition techniques. The objective of this review paper is to summarize and compare some of the well-known methods used in various stages of a pattern recognition system and identify research topics and applications which are at the forefront of this exciting and challenging field.</description></snippet><snippet id="FW14-e004-7001-06"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.317.3619&amp;rank=6</link><title>Flocks, herds, and schools: a distributed behavioral model</title><description>Flocks, herds, and schools: a distributed behavioral model
+
+by Craig W. Reynolds \- Computer Graphics , 1987
+
+"... copyright notice and the title of the publication and its date appear, and notice is given that copying ..."
+
+Abstract \- Cited by 796 (4 self) \- Add to MetaCart
+
+The aggregate motion of a flock of birds, a herd of land animals, or a school of fish is a beautiful and familiar part of the natural world. But this type of complex motion is rarely seen in computer animation. This paper explores an approach based on simulation as an alternative to scripting the paths of each bird individually. The simulated flock is an elaboration of a particle system, with the simulated birds being the particles. The aggregate motion of the simulated flock is created by a distributed behavioral model much like that at work in a natural flock; the birds choose their own course. Each simulated bird is implemented as an independent actor that navigates according to its local perception of the dynamic environment, the laws of simulated physics that rule its motion, and a set of behaviors programmed into it by the "animator. " The aggregate motion of the simulated flock is the result of the dense interaction of the relatively simple behaviors of the individual simulated birds.</description></snippet><snippet id="FW14-e004-7001-07"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.21.7631&amp;rank=7</link><title>The Cricket Location-Support System</title><description>The Cricket Location-Support System
+
+by Nissanka B. Priyantha, Anit Chakraborty, Hari Balakrishnan , 2000
+
+"... wireless LANs, cellular digital packet data (CDPD), infrared, public telephone, and powerline using X10 [21 ..."
+
+Abstract \- Cited by 768 (10 self) \- Add to MetaCart
+
+This paper presents the design, implementation, and evaluation of Cricket, a location-support system for in-building, mobile, locationdependent applications. It allows applications running on mobile and static nodes to learn their physical location by using listeners that hear and analyze information from beacons spread throughout the building. Cricket is the result of several design goals, including user privacy, decentralized administration, network heterogeneity, and low cost. Rather than explicitly tracking user location, Cricket helps devices learn where they are and lets them decide whom to advertise this information to; it does not rely on any centralized management or control and there is no explicit coordination between beacons; it provides information to devices regardless of their type of network connectivity; and each Cricket device is made from off-the-shelf components and costs less than U.S. $10. We describe the randomized algorithm used by beacons to transmit information, the use of concurrent radio and ultrasonic signals to infer distance, the listener inference algorithms to overcome multipath and interference, and practical beacon configuration and positioning techniques that improve accuracy. Our experience with Cricket shows that several location-dependent applications such as in-building active maps and device control can be developed with little effort or manual configuration. 1</description></snippet><snippet id="FW14-e004-7001-08"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.132.4609&amp;rank=8</link><title>Ariadne: A secure on-demand routing protocol for ad hoc networks</title><description>Ariadne: A secure on-demand routing protocol for ad hoc networks
+
+by Yih-chun Hu , 2002
+
+"... 0 + i × t,whereT0is the time at which K0 is published, and t is the key publication interval. TESLA ..."
+
+Abstract \- Cited by 648 (11 self) \- Add to MetaCart
+
+An ad hoc network is a group of wireless mobile computers (or nodes), in which individual nodes cooperate by forwarding packets for each other to allow nodes to communicate beyond direct wireless transmission range. Prior research in ad hoc networking has generally studied the routing problem in a non-adversarial setting, assuming a trusted environment. In this paper, we present attacks against routing in ad hoc networks, and we present the design and performance evaluation of a new secure on-demand ad hoc network routing protocol, called Ariadne. Ariadne prevents attackers or compromised nodes from tampering with uncompromised routes consisting of uncompromised nodes, and also prevents a large number of types of Denial-of-Service attacks. In addition, Ariadne is efficient, using only highly efficient symmetric cryptographic primitives.</description></snippet><snippet id="FW14-e004-7001-09"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.294.8962&amp;rank=9</link><title>OBB-Tree: A hierarchical structure for rapid interference detection</title><description>OBB-Tree: A hierarchical structure for rapid interference detection
+
+by S. Gottschalk, M. C. Lin, D. Manocha, S. Gottschalk, M. C. Lint, D. Manocha \- Proc. ACM SIGGRAPH, 171–180 , 1996
+
+"... -tracing and extended to curved geometries and deformable models. 2 Previous Work Interference and collision detection ..."
+
+Abstract \- Cited by 658 (43 self) \- Add to MetaCart
+
+{gottscha,lin,manocha}©cs. unc.edu We present a data structure and an algorithm for efficient and exact interference detection amongst complex models undergoing rigid motion. The algorithm is applicable to all general polygonal and curved models. It pre-computes a hierarchical representation of models using tight-fitting oriented bounding box trees. At runtime, the algorithm traverses the tree and tests for overlaps between oriented bounding boxes based on a new separating axis theorem, which takes less than 200 operations in practice. It has been implemented and we compare its performance with other hierarchical data structures. In particular, it can accurately detect all the contacts between large complex geometries composed of hundreds of thousands of polygons at interactive rates, almost one order of magnitude faster than earlier methods.</description></snippet><snippet id="FW14-e004-7001-10"><link>http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=FAD4BF81447E7ABF581FA19587C1C573?doi=10.1.1.248.4138&amp;rank=10</link><title>Particle swarm optimization</title><description>Particle swarm optimization
+
+by James Kennedy, Russell Eberhart , 1995
+
+"... : collision. Two individuals can hold identical attitudes and beliefs without banging together, but two birds ..."
+
+Abstract \- Cited by 1620 (15 self) \- Add to MetaCart
+
+eberhart @ engr.iupui.edu A concept for the optimization of nonlinear functions using particle swarm methodology is introduced. The evolution of several paradigms is outlined, and an implementation of one of the paradigms is discussed. Benchmark testing of the paradigm is described, and applications, including nonlinear function optimization and neural network training, are proposed. The relationships between particle swarm optimization and both artificial life and genetic algorithms are described, 1</description></snippet></snippets></search_results>

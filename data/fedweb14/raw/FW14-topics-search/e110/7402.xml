@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7402">little johnny</query><engine status="OK" timestamp="2014-04-25 12:56:37" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7402-01"><link cache="FW14-topics-docs/e110/7402_01.html" timestamp="2014-04-25 12:56:59">https://news.ycombinator.com/item?id=2217057</link><title>Ask HN: Why is IE6 still so popular?</title><description>Ask HN: Why is IE6 still so popular?
+
+5 points
+
+by jonny_eh
+
+3 years ago
+
+14 comments Follow
+
+And will it be for much longer?
+
+According to some stats[1], IE6 has about 11% market share. Seems kinda high. Are these users worth bending over backwards for to allow them to use your site?
+
+I'm almost done implementing a new web app. I've been using Chrome during development almost exclusively due to its great set of debugging tools. From time to time I'll then go open it up in firefox and fix little CSS inconsistencies.
+
+But now that we're nearing the launch of our v1, we have to consider IE compatibility. Since we used tools like JQuery, the site behaves as expected, but the CSS is all messed up.
+
+By technology standards, IE6 is ancient. Why don't IE6 users install Chrome, IE8, Firefox, or anything else?
+
+Is IE6 still popular because it was the default browser in XP, people don't want/can't upgrade to Windows 7, and since they're using a pirated copy, they can't upgrade IE?
+
+I'm sure there are some enterprise users, like my wife, who are forced to use IE6 because IT hasn't been given the budget to upgrade everyone. But they shouldn't be more than a percentage point in browser market share, right?
+
+How do we kill it? Do we turn our noses up at it and force users to at least install Chrome Tab? Have other developers found this to be a workable compromise? Is there a javascript library that will automatically convert a site's CSS to a versin that's IE compatible?
+
+[1] http://www.netmarketshare.com/browser-market-share.aspx?qprid=2
+
+*[3 years ago]: 2011-02-14T15:30:54.000Z</description><thumb cache="FW14-topics-docs/e110/7402_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2217057.png</thumb></snippet></snippets></search_results>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7152">haskell hash string</query><engine status="OK" timestamp="2014-04-22 07:21:09" name="YouTube" id="FW14-e022"/><snippets><snippet id="FW14-e022-7152-01"><link cache="FW14-topics-docs/e022/7152_01.html" timestamp="2014-04-22 07:21:10">http://www.youtube.com/watch?v=RbcA_G6eZcQ</link><title>Laziness and ... - Haskell from Scratch #8</title><description>* 28:08
+
+Laziness and ... - Haskell from Scratch #8
+
+* by jekor
+* 10 months ago
+* 1,349 views
+
+Laziness (non-strictness) can have confusing effects, especially with a fake pure function like trace. And on the topic of laziness, ...
+
+* HD</description><thumb cache="FW14-topics-docs/e022/7152_01_thumb.jpg">http://i1.ytimg.com/vi/RbcA_G6eZcQ/mqdefault.jpg</thumb></snippet><snippet id="FW14-e022-7152-02"><link cache="FW14-topics-docs/e022/7152_02.html" timestamp="2014-04-22 07:22:37">http://www.youtube.com/watch?v=-IpE0CyHK7Q</link><title>FRP (Haskell/Yampa) with the game Cuboid (Part 1) - Episode 9</title><description>* 18:40
+
+FRP (Haskell/Yampa) with the game Cuboid (Part 1) - Episode 9
+
+* by jekor
+* 1 year ago
+* 1,730 views
+
+We're diving into research territory in this episode of Code Deconstructed. We'll glance at the game Cuboid (written in only 251 ...
+
+* HD</description><thumb cache="FW14-topics-docs/e022/7152_02_thumb.jpg">http://i1.ytimg.com/vi/-IpE0CyHK7Q/mqdefault.jpg</thumb></snippet><snippet id="FW14-e022-7152-03"><link cache="FW14-topics-docs/e022/7152_03.html" timestamp="2014-04-22 07:23:52">http://www.youtube.com/watch?v=Dn74rhQrKeQ</link><title>Faster persistent data structures through hashing - Johan Tibell</title><description>* 28:01
+
+Faster persistent data structures through hashing - Johan Tibell
+
+* by Neil Mitchell
+* 2 years ago
+* 1,277 views
+
+The most commonly used map (dictionary) data types in Haskell are implemented using some kind of binary tree, typically a size ...</description><thumb cache="FW14-topics-docs/e022/7152_03_thumb.jpg">http://i1.ytimg.com/vi/Dn74rhQrKeQ/mqdefault.jpg</thumb></snippet><snippet id="FW14-e022-7152-04"><link cache="FW14-topics-docs/e022/7152_04.html" timestamp="2014-04-22 07:25:40">http://www.youtube.com/watch?v=Yiw4mF6kTEw</link><title>Haskell Live Coding - FASTA Algorithm, Part 4: Diagonal Scoring</title><description>* 18:56
+
+Haskell Live Coding - FASTA Algorithm, Part 4: Diagonal Scoring
+
+* by Mitchell Rosen
+* 10 months ago
+* 63 views
+
+In this episode I hash out a first attempt at the diagonal scoring step. It still needs work, so expect some more refactoring next ...
+
+* HD</description><thumb cache="FW14-topics-docs/e022/7152_04_thumb.jpg">http://i1.ytimg.com/vi/Yiw4mF6kTEw/mqdefault.jpg</thumb></snippet><snippet id="FW14-e022-7152-05"><link cache="FW14-topics-docs/e022/7152_05.html" timestamp="2014-04-22 07:27:18">http://www.youtube.com/watch?v=NxXtX-KO9vQ&amp;list=PLF5363394606160CE</link><title>Haskell Implementors Workshop 2011</title><description>* 9 videos Play all 
+
+Haskell Implementors Workshop 2011
+
+* by Neil Mitchell
+
+* 28:00 Improving the GHC inliner: Smart loop breaker choice - Bas den Heijer 
+* 28:01 Faster persistent data structures through hashing - Johan Tibell 
+
+View full playlist (9 videos)</description><thumb cache="FW14-topics-docs/e022/7152_05_thumb.jpg">http://i1.ytimg.com/vi/NxXtX-KO9vQ/mqdefault.jpg</thumb></snippet><snippet id="FW14-e022-7152-06"><link cache="FW14-topics-docs/e022/7152_06.html" timestamp="2014-04-22 07:28:32">http://www.youtube.com/watch?v=KhRQmT22SSg</link><title>Timothy Baldridge - Data All The ASTs</title><description>* 42:23
+
+Timothy Baldridge - Data All The ASTs
+
+* by ClojureTV
+* 4 weeks ago
+* 1,632 views
+
+The ClojureScript has inspired a revolution in compiler design. The concept of treating Abstract Syntax Trees as nested hash ...
+
+* HD</description><thumb cache="FW14-topics-docs/e022/7152_06_thumb.jpg">http://i1.ytimg.com/vi/KhRQmT22SSg/mqdefault.jpg</thumb></snippet><snippet id="FW14-e022-7152-07"><link cache="FW14-topics-docs/e022/7152_07.html" timestamp="2014-04-22 07:30:34">http://www.youtube.com/watch?v=lVGNs-DAzfc</link><title>Anagram Solving Algorithm</title><description>* 6:35
+
+Anagram Solving Algorithm
+
+* by Michael Obermeyer
+* 4 years ago
+* 12,003 views
+
+I debated uploading this for a while, but figured, "eh, why not?" I give you ample time in the video to turn back, so take that warning ...</description><thumb cache="FW14-topics-docs/e022/7152_07_thumb.gif">http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif</thumb></snippet><snippet id="FW14-e022-7152-08"><link cache="FW14-topics-docs/e022/7152_08.html" timestamp="2014-04-22 07:31:29">http://www.youtube.com/watch?v=VZ1zE7Sl0Ac</link><title>Hashtags: #WhyDontTheyMakeThat (Late Night with Jimmy Fallon)</title><description>* 3:53
+
+Hashtags: #WhyDontTheyMakeThat (Late Night with Jimmy Fallon)
+
+* by The Tonight Show Starring Jimmy Fallon
+* 1 year ago
+* 985,985 views
+
+Jimmy reads his favorite tweets with the hashtag #WhyDontTheyMakeThat. Subscribe NOW to The Tonight Show Starring Jimmy ...
+
+* HD</description><thumb cache="FW14-topics-docs/e022/7152_08_thumb.gif">http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif</thumb></snippet><snippet id="FW14-e022-7152-09"><link cache="FW14-topics-docs/e022/7152_09.html" timestamp="2014-04-22 07:32:34">http://www.youtube.com/watch?v=PnjDTrDiXWs</link><title>CodeCasts.tv - Intro to Ruby 01 - Numbers and Strings</title><description>* 11:18
+
+CodeCasts.tv - Intro to Ruby 01 - Numbers and Strings
+
+* by Michael Koby
+* 1 year ago
+* 82 views
+
+For higher quality videos, please visit http://www.codecasts.tv In this first episode of CodeCasts, you will get a short intro to ...</description><thumb cache="FW14-topics-docs/e022/7152_09_thumb.gif">http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif</thumb></snippet><snippet id="FW14-e022-7152-10"><link cache="FW14-topics-docs/e022/7152_10.html" timestamp="2014-04-22 07:36:45">http://www.youtube.com/watch?v=Z7WpEZgr7H8</link><title>Twitter Hashtags To Build Buzz About Your Events</title><description>* 6:18
+
+Twitter Hashtags To Build Buzz About Your Events
+
+* by Krishna De
+* 5 years ago
+* 8,033 views
+
+http://www.bizgrowthnews.com Twitter the microblogging platform is being used by large and small companies to build ...</description><thumb cache="FW14-topics-docs/e022/7152_10_thumb.gif">http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif</thumb></snippet></snippets></search_results>

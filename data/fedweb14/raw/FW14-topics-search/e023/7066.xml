@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7066">awk trim non-printable characters</query><engine status="OK" timestamp="2014-04-20 22:53:33" name="Google Blogs" id="FW14-e023"/><snippets><snippet id="FW14-e023-7066-01"><link cache="FW14-topics-docs/e023/7066_01.html" timestamp="2014-04-20 22:53:34">http://www.unix.com/shell-programming-and-scripting/14108-remove-non-printing-chars.html</link><title>Remove non printing chars | Unix Linux Forums | Shell Programming ...</title><description>* Remove non printing chars | Unix Linux Forums | Shell Programming ...
+
+www.unix.com › shell-programming-and-scripting‎
+
+* Cached
+
+Jun 1, 2004 - 7 posts - ‎3 authors
+
+How can I remove all the non printing characters from a file? I've tried ... You could use awk. ... What do you mean by non-printing characters?
+
+Removing Non-printable characters in unix file | Unix ...
+
+3 posts
+
+31 Aug 2011
+
+Read columns from delimited file in UNIX | Unix Linux ...
+
+7 posts
+
+20 Dec 2010
+
+removing non-printable chars from multiple files | Unix ...
+
+2 posts
+
+19 Jan 2009
+
+Best way to search files for non-printable characters ...
+
+3 posts
+
+30 Mar 2005
+
+More results from www.unix.com</description></snippet><snippet id="FW14-e023-7066-02"><link cache="FW14-topics-docs/e023/7066_02.html" timestamp="2014-04-20 22:56:54">http://stackoverflow.com/questions/15034944/trying-to-delete-non-ascii-characters-only</link><title>Trying to delete non ascii characters only - Stack Overflow</title><description>* Trying to delete non ascii characters only - Stack Overflow
+
+stackoverflow.com › questions‎
+
+* Cached
+* Similar
+
+Stack Overflow
+
+Loading...
+
+Feb 22, 2013 - I am trying to manipulate a txt file and remove non-ascii characters from the text. I don't ... However, non printable stuff is still appearing. When I ...</description></snippet><snippet id="FW14-e023-7066-03"><link cache="FW14-topics-docs/e023/7066_03.html" timestamp="2014-04-20 22:58:40">https://groups.google.com/forum/#!topic/comp.lang.awk/uJi_9jcGEfA</link><title>Can AWK filter non-printable characters? - Google Groups</title><description>* Can AWK filter non-printable characters? - Google Groups
+
+groups.google.com › topic › comp.lang.awk‎
+
+* Cached
+
+Google Groups
+
+Loading...
+
+Apr 21, 1998 - Can I use Awk to remove these non-printable characters (ASCII 0 - 31)? Can I use Awk to read input from the keyboard immediately? Can I use ...</description></snippet><snippet id="FW14-e023-7066-04"><link cache="FW14-topics-docs/e023/7066_04.html" timestamp="2014-04-20 23:00:44">http://mainstreetanswers.org/gsgatc.php</link><title>grep/sed/gawk/awk/tr/cut \- MainStreetAnswers.org</title><description>* grep/sed/gawk/awk/tr/cut \- MainStreetAnswers.org
+
+mainstreetanswers.org › gsgatc‎
+
+* Cached
+* Similar
+
+Apr 22, 2008 - Using awk: awk [options]: awk [options] -f program_file: awk ... Filter non printable characters: tr -dc '[:print:]'; Remove parts of a string: tr -cd ...</description></snippet><snippet id="FW14-e023-7066-05"><link cache="FW14-topics-docs/e023/7066_05.html" timestamp="2014-04-20 23:02:09">http://www.programmingforums.org/post192677.html</link><title>non-printable Character \- Sed and Awk \- Programming Forums</title><description>* non-printable Character \- Sed and Awk \- Programming Forums
+
+www.programmingforums.org › Script Programming › Sed and Awk‎
+
+* Cached
+* Similar
+
+Sep 23, 2010 - 4 posts - ‎2 authors
+
+how can I find a non-printable ascii character in a txt file with awk or sed utility? ... If you also use non-ASCII/UTF-8 character codes (f.e. latin ...</description></snippet><snippet id="FW14-e023-7066-06"><link cache="FW14-topics-docs/e023/7066_06.html" timestamp="2014-04-20 23:04:01">http://objectmix.com/awk/769902-non-printable-chars-textfile.html</link><title>non-printable chars in textfile - awk \- Application Forum at ...</title><description>* non-printable chars in textfile - awk \- Application Forum at ...
+
+objectmix.com › Software Development › Programming Languages › awk‎
+
+* Cached
+* Similar
+
+Oct 13, 2008 - 9 posts
+
+How can I ****yse a text file for non-printable/control characters in windows gawk (3.1.6) ? Text files are ... Also reading of text files with gawk stops at ^Z (eof char). Can I circumvent it ? .... how can i remove these charcters.</description></snippet><snippet id="FW14-e023-7066-07"><link cache="FW14-topics-docs/e023/7066_07.html" timestamp="2014-04-20 23:05:34">http://compgroups.net/comp.lang.awk/sed-for-removing-non-ascii-characters/9979</link><title>sed for removing non ASCII characters \- comp.lang.awk</title><description>* sed for removing non ASCII characters \- comp.lang.awk
+
+compgroups.net › comp.lang.awk‎
+
+* Cached
+* Similar
+
+I have to remove all the bytes from 128 - 255 in my text file. F... 9979. ... I'm looking for a way to encode non-printable and non-ASCII characters portably.</description></snippet><snippet id="FW14-e023-7066-08"><link cache="FW14-topics-docs/e023/7066_08.html" timestamp="2014-04-20 23:07:21">http://seismo.berkeley.edu/~rallen/resources/UNIXcmds/sed_tr_cut_od.html</link><title>Unix text editing - sed, tr, cut, od</title><description>* Unix text editing - sed, tr, cut, od
+
+seismo.berkeley.edu › resources › UNIXcmds‎
+
+* Cached
+* Similar
+
+University of California, Berkeley
+
+Loading...
+
+Sep 14, 1999 - A tr script to remove all non-printing characters from a file is below. ... The commands to take only part of the text on a line are awk and cut.</description></snippet><snippet id="FW14-e023-7066-09"><link cache="FW14-topics-docs/e023/7066_09.html" timestamp="2014-04-20 23:09:55">http://www.chemie.fu-berlin.de/chemnet/use/info/gawk/gawk_5.html</link><title>AWK Language Programming - Regular Expressions</title><description>* AWK Language Programming - Regular Expressions
+
+www.chemie.fu-berlin.de › chemnet › use › info › gawk‎
+
+* Cached
+* Similar
+
+Free University of Berlin
+
+Loading...
+
+awk '/foo/ { print $2 }' BBS-list -| 555-1234 -| 555-6699 -| 555-6480 -| 555-2127. Regular ... Another use of backslash is to represent unprintable characters such as tab or newline. While there is nothing to ... Strip the backslash out. This is what ...</description></snippet><snippet id="FW14-e023-7066-10"><link cache="FW14-topics-docs/e023/7066_10.html" timestamp="2014-04-20 23:12:28">http://www.commandlinefu.com/commands/view/11560/delete-all-non-printing-characters-from-a-file</link><title>Delete all non-printing characters from a file - Commandlinefu</title><description>* Delete all non-printing characters from a file - Commandlinefu
+
+www.commandlinefu.com › commands › view‎
+
+* Cached
+* Similar
+
+Nov 22, 2012 - Delete all non-printing characters from a file - tr -dc '[:print:]' &lt; \- tr has some predefined sets of characters that are more convenient to use than ...</description></snippet></snippets></search_results>

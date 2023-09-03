@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7025">M/G/1 queue</query><engine status="OK" timestamp="2014-04-25 14:05:52" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7025-01"><link cache="FW14-topics-docs/e026/7025_01.html" timestamp="2014-04-25 14:05:53">http://projectsworlds.wordpress.com/2011/04/20/modeling-ip-atm-gateway-using-mg1n-queue-paper-presentation-and-ppt/</link><title>MODELING IP-ATM GATEWAY USING M/G/1/N QUEUE \- Paper Presentation And PPT</title><description>MODELING IP-ATM GATEWAY USING M/G/1/N QUEUE \- Paper Presentation And PPT
+
+20 Apr 2011 by pradeep97879 on projectsworlds projectsworlds.wordpress.com/2011/04/20/modeling-ip-atm-gateway-using-mg1n-queue-paper-presentation-and-ppt/
+
+…  docstoc_title="MODELING IP-ATM GATEWAY USING MG1N QUEUE [www.projectsforyou.co.cc]";var docstoc_urltitle="MODELING …  [www.projectsforyou.co.cc]"; 1.In the seminar an M/G/1/N  model for studying the performance of an IP-ATM gate way with …</description></snippet><snippet id="FW14-e026-7025-02"><link cache="FW14-topics-docs/e026/7025_02.html" timestamp="2014-04-25 14:06:37">http://f0rth3r3c0rd.wordpress.com/2012/02/01/uva-11159-factors-and-multiples/</link><title>UVA - 11159 - Factors and Multiples</title><description>UVA - 11159 - Factors and Multiples
+
+1 Feb 2012 by epicrado on f0rth3r3c0rd f0rth3r3c0rd.wordpress.com/2012/02/01/uva-11159-factors-and-multiples/
+
+…  java.util.LinkedList; import java.util.Queue; import java.util.Scanner; public class Main { public static int bfs(int s, int t, int[][] res, int[] parent) { Queue&lt;Integer&gt; Q = new …
+
+Topics: MaxFlow, Bipartite matching</description></snippet><snippet id="FW14-e026-7025-03"><link cache="FW14-topics-docs/e026/7025_03.html" timestamp="2014-04-25 14:07:36">http://alkautsarpens.wordpress.com/2008/10/21/ieee-802154-with-uplink-transmission/</link><title>IEEE 802.15.4 with uplink transmission</title><description>IEEE 802.15.4 with uplink transmission
+
+21 Oct 2008 by izzul hadziq on Udin Harun alkautsarpens.wordpress.com/2008/10/21/ieee-802154-with-uplink-transmission/
+
+…  using the theory of discrete time markov chains and M/G/1/K queues. The model considers ACK uplink transmission in non-saturation …  is idle and the probability distribution of the packet queue size at the device,etc. Source : Performance of IEEE 802.15.4 …
+
+Topics: Research</description></snippet><snippet id="FW14-e026-7025-04"><link cache="FW14-topics-docs/e026/7025_04.html" timestamp="2014-04-25 14:08:27">http://belbesy.wordpress.com/2011/05/31/uva-383-shipping-routes/</link><title>UVA - 383 - Shipping Routes</title><description>UVA - 383 - Shipping Routes
+
+31 May 2011 by belbesy on Belbesy M. Adel belbesy.wordpress.com/2011/05/31/uva-383-shipping-routes/
+
+…  &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;vector&gt; #include &lt;map&gt; using namespace …  -1, sizeof distance); distance[m[source]] = 0; queue&lt;int&gt; que; que.push(m[source]); while (!que.empty()) …
+
+Topics: UVA, Graphs, BF's, Vol 03</description></snippet><snippet id="FW14-e026-7025-05"><link cache="FW14-topics-docs/e026/7025_05.html" timestamp="2014-04-25 14:08:54">http://cse331studentposts.wordpress.com/2011/10/06/lecture-16-10052011/</link><title>Lecture 16 (10/05/2011)</title><description>Lecture 16 (10/05/2011)
+
+6 Oct 2011 by jon9999 on Companion blog to the CSE 331 blog cse331studentposts.wordpress.com/2011/10/06/lecture-16-10052011/
+
+…  or FIFO. You can combine all layers into one queue: and all the children of a node are added to the end of the queue. Queue O(m+n) Implementation The only difference between a Queue and a BFS …</description></snippet><snippet id="FW14-e026-7025-06"><link cache="FW14-topics-docs/e026/7025_06.html" timestamp="2014-04-25 14:09:47">http://f0rth3r3c0rd.wordpress.com/2011/10/06/uva-10480-sabotage/</link><title>UVA - 10480 - Sabotage</title><description>UVA - 10480 - Sabotage
+
+6 Oct 2011 by epicrado on f0rth3r3c0rd f0rth3r3c0rd.wordpress.com/2011/10/06/uva-10480-sabotage/
+
+…  java.util.LinkedList; import java.util.Queue; public class Sabotage { static boolean[][] edge; static int[][] …  done = false; while (!done) { done = true; Queue&lt;Integer&gt; Q = new LinkedList&lt;Integer&gt;(); long V = …
+
+Topics: MaxFlow</description></snippet><snippet id="FW14-e026-7025-07"><link cache="FW14-topics-docs/e026/7025_07.html" timestamp="2014-04-25 14:10:28">http://kyo88kyo.wordpress.com/2008/05/20/topo/</link><title>Topo</title><description>Topo
+
+20 May 2008 by kyo88kyo on KYO kyo88kyo.wordpress.com/2008/05/20/topo/
+
+…  tmp[100], m, i, u, v, total; JRB vertex; Dllist node, queue; queue = new_dllist(); jrb_traverse(vertex, g.vertices) { u = …  = indegree(g, u, tmp); if (indeg[u]==0) dll_append(queue, new_jval_i(u)); } total = 0; while ( !dll_empty(queue) ) { node = …</description></snippet><snippet id="FW14-e026-7025-08"><link cache="FW14-topics-docs/e026/7025_08.html" timestamp="2014-04-25 14:11:27">http://mukeshiiitm.wordpress.com/2010/02/10/pollard-rho-prime-factorisation/</link><title>Pollard Rho prime factorisation</title><description>Pollard Rho prime factorisation
+
+10 Feb 2010 by tiwari_mukesh on My Weblog mukeshiiitm.wordpress.com/2010/02/10/pollard-rho-prime-factorisation/
+
+…  10, 2010 1:35:26 AM$" import random from Queue import Queue def gcd(a,b): while b: a,b=b,a%b return a def …
+
+Topics: Programming</description></snippet><snippet id="FW14-e026-7025-09"><link cache="FW14-topics-docs/e026/7025_09.html" timestamp="2014-04-25 14:12:00">http://belbesy.wordpress.com/2011/05/31/uva-336-a-node-too-far/</link><title>UVA - 336 - A Node Too Far</title><description>UVA - 336 - A Node Too Far
+
+31 May 2011 by belbesy on Belbesy M. Adel belbesy.wordpress.com/2011/05/31/uva-336-a-node-too-far/
+
+…  &lt;string&gt; #include &lt;string.h&gt; #include &lt;queue&gt; #include &lt;list&gt; #include &lt;map&gt; #define N …  -1, sizeof distance); distance[source]= 0; queue&lt;int&gt; que; que.push(source); while(!que.empty()){ int node …
+
+Topics: UVA, Graphs, BF's, Vol 03</description></snippet><snippet id="FW14-e026-7025-10"><link cache="FW14-topics-docs/e026/7025_10.html" timestamp="2014-04-25 14:12:56">http://ravisankar1.wordpress.com/2012/08/26/31/</link><title>1\. Adequacy – expert opinion about the ability o …</title><description>1\. Adequacy – expert opinion about the ability o …
+
+26 Aug 2012 by ravisankar1 on ravisankar1 ravisankar1.wordpress.com/2012/08/26/31/
+
+…  WebSphere® MQ Explorer Navigator pane, right-click the queue manager and click Object Authorities &gt; Add Role Based Authorities The …  commands: setmqaut -m QMgrName -n '**' -t queue -g GroupName +alladm +browse setmqaut -m QMgrName -n @class -t queue …</description></snippet></snippets></search_results>

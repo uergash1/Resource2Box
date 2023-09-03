@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7039">import .csv excel</query><engine status="OK" timestamp="2014-04-24 16:09:06" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7039-01"><link cache="FW14-topics-docs/e110/7039_01.html" timestamp="2014-04-24 16:09:49">http://advancedphptutorial.blogspot.nl/2011/11/import-csvexcel-data-into-mysql.html</link><title>Import CSV/Excel data into MYSQL database via PHP</title><description>Import CSV/Excel data into MYSQL database via PHP (http://advancedphptutorial.blogspot.com/2011/11/import-csvexcel-data-into-mysql.html)
+
+1 point
+
+by learnphp123
+
+2 years ago
+
+0 comment Follow
+
+*[2 years ago]: 2011-11-27T17:11:29.000Z</description><thumb cache="FW14-topics-docs/e110/7039_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3282780.png</thumb></snippet><snippet id="FW14-e110-7039-02"><link cache="FW14-topics-docs/e110/7039_02.html" timestamp="2014-04-24 16:10:25">http://www.batch.vcardimport.org/</link><title>Batch vCard Import</title><description>Batch vCard Import (http://www.batch.vcardimport.org/)
+
+1 point
+
+by softspire
+
+2 years ago
+
+0 comment Follow
+
+Make use of Batch vCard Import tool of SoftSpire labs to import stacks of vCard contacts to Outlook, batch import vCard to Excel and CSV in single conversion round, as per your requirement. The software supports to do batch vCard import process with complete efficiency and maintained data integrity.
+
+*[2 years ago]: 2012-05-29T09:28:28.000Z</description><thumb cache="FW14-topics-docs/e110/7039_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/4036657.png</thumb></snippet><snippet id="FW14-e110-7039-03"><link cache="FW14-topics-docs/e110/7039_03.html" timestamp="2014-04-24 16:11:18">http://opensas.wordpress.com/2013/06/27/journey-to-the-open-data-jungle-with-openrefine-cartodb-leaflet-and-javascript/</link><title>Journey to the open data jungle with OpenRefine, CartoDB, Leaflet and Javascript</title><description>Journey to the open data jungle with OpenRefine, CartoDB, Leaflet and Javascript (http://opensas.wordpress.com/2013/06/27/journey-to-the-open-data-jungle-with-openrefine-cartodb-leaflet-and-javascript/)
+
+1 point
+
+by opensas
+
+10 months ago
+
+0 comment Follow
+
+Playing around with data is not an easy task. Theres no secret formula for successfully finding your way through a bunch of pdf, csv, excel, APIs or whatever else you might have to deal with. Theres not even a single tool that could help you through the whole process, on the contrary, youll have to spend some time learning and trying out different techniques.
+
+In this series of articles we will take a look at a couple of really mind-blowing tools. We will use google contacts process them with OpenRefine, then we will geolocate each contact using google map web service API. After that we will import it into CartoDB to expose it as a web service API, and finally, with some Javascript magic we will use leaflet to browse our contacts on a map.
+
+*[10 months ago]: 2013-06-28T14:29:27.000Z</description><thumb cache="FW14-topics-docs/e110/7039_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/5958140.png</thumb></snippet><snippet id="FW14-e110-7039-04"><link cache="FW14-topics-docs/e110/7039_04.html" timestamp="2014-04-24 16:12:28">http://www.vcard.converter.softspire.com/</link><title>VCard Converter Tool</title><description>VCard Converter Tool (http://www.vcard.converter.softspire.com/)
+
+1 point
+
+by softspire
+
+2 years ago
+
+0 comment Follow
+
+SoftSpire vCard Converter tool acts as vCard to Outlook Converter to convert vCard to Outlook, vCard to Excel Importer to import VCF files from vCard to Excel , vCard to CSV Migration tool to migrate contacts from vCard to CSV exactly and instantly.
+
+*[2 years ago]: 2012-03-14T08:59:54.000Z</description><thumb cache="FW14-topics-docs/e110/7039_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3702331.png</thumb></snippet><snippet id="FW14-e110-7039-05"><link cache="FW14-topics-docs/e110/7039_05.html" timestamp="2014-04-24 16:13:23">https://news.ycombinator.com/item?id=2351461</link><title>What is your preferred online accounting software?</title><description>What is your preferred online accounting software?
+
+2 points
+
+by davidandgoliath
+
+3 years ago
+
+4 comments Follow
+
+In brief: What's your preferred online accounting software, like 60mo, xero, lessaccounting or $i?
+
+Lengthy version: I've been operating a "start-up" for a number of years and have essentially reached the point where I'm in too deep re: billing stuff. We've done well managing our finances and have outlived most of our competition, and have been profitable for a number of years. Up until now I've been really uncomfortable with the idea of putting our accounting online for privacy reasons, but at some point excel spreadsheets just aren't cutting it any longer for $x reasons.
+
+(Though admittedly, zetabee's cashflow made that a bit easier recently -- I'd still like a better overview of our finances).
+
+Security is of utmost concern, so 'tossing stuff online' with $x company that hasn't been vetted is something I am entirely uncomfortable with. I'm relatively open with my finances in the first place though (often posting our revenues online on our blog) so at some point I have to cede some control.
+
+So, what's your recommendation? I'm looking for something that gives a solid overview of finances, and makes importing transactions a breeze.
+
+Requirements: * Importing / tagging has to be a breeze. We're Canadian, and our bank seems to hate technology. This means we'll have to import everything by hand in csv format. * Security. If available, I'd like a company that has been vetted / hopefully around longer than a week. * UI is important for usability, but I couldn't care less if it's pretty, as long as it's functional. Graphs are a plus, but we'll happily export the data and generate our own. * Last, but not least, in fact, the largest requirement: Export! We don't want to lock our data into anything.
+
+Thoughts? :) Appreciate everyone's feedback.
+
+*[3 years ago]: 2011-03-21T20:42:20.000Z</description><thumb cache="FW14-topics-docs/e110/7039_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2351461.png</thumb></snippet></snippets></search_results>

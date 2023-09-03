@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7473">noise canceling head phones</query><engine status="OK" timestamp="2014-04-20 16:26:58" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7473-01"><link cache="FW14-topics-docs/e004/7473_01.html" timestamp="2014-04-20 16:27:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.116.5688&amp;rank=1</link><title>On limits of wireless communications in a fading environment when using multiple antennas</title><description>On limits of wireless communications in a fading environment when using multiple antennas
+
+by G. J. Foschini, M. J. Gans \- Wireless Personal Communications , 1998
+
+"... /cycle for every 3 dB of signal-to-noise ratio (SNR) increase, remarkably with MEAs, the scaling is almost like n ..."
+
+Abstract \- Cited by 1530 (7 self) \- Add to MetaCart
+
+’s classical formula scales as one more bit/cycle for every 3 dB of signal-to-&lt;em&gt;noise&lt;/em&gt; ratio (SNR) increase</description></snippet><snippet id="FW14-e004-7473-02"><link cache="FW14-topics-docs/e004/7473_02.html" timestamp="2014-04-20 16:28:53">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.9.5130&amp;rank=2</link><title>A Conceptual Framework and a Toolkit for Supporting the Rapid Prototyping of Context-Aware Applications</title><description>A Conceptual Framework and a Toolkit for Supporting the Rapid Prototyping of Context-Aware Applications
+
+by Anind K. Dey, Gregory D. Abowd, Daniel Salber , 2001
+
+"... HEAD: SUPPORTING RAPID PROTOTYPING OF CONTEXT- AWARE APPLICATIONS Corresponding Author’s Contact ..."
+
+Abstract \- Cited by 609 (22 self) \- Add to MetaCart
+
+Computing devices and applications are now used beyond the desktop, in diverse environments, and this trend toward ubiquitous computing is accelerating. One challenge that remains in this emerging research field is the ability to enhance the behavior of any application by informing it of the context of its use. By context, we refer to any information that characterizes a situation related to the interaction between humans, applications and the surrounding environment. Context-aware applications promise richer and easier interaction, but the current state of research in this field is still far removed from that vision. This is due to three main problems: (1) the notion of context is still ill defined; (2) there is a lack of conceptual models and methods to help drive the design of context-aware applications; and (3) no tools are available to jump-start the development of context-aware applications. In this paper, we address these three problems in turn. We first define context, identify categories of contextual information, and characterize context-aware application behavior. Though the full impact of context-aware computing requires understanding very subtle and high-level notions of context, we are focusing our efforts on the pieces of context that can be inferred automatically from sensors in a physical environment. We then present a conceptual framework that separates the acquisition and representation of context from the delivery and reaction to context by a contextaware application. We have built a toolkit, the Context Toolkit, that instantiates this conceptual framework and supports the rapid development of a rich space of context-aware applications. We illustrate the usefulness of the conceptual framework by describing a number of contextaware applications that h...</description></snippet><snippet id="FW14-e004-7473-03"><link cache="FW14-topics-docs/e004/7473_03.html" timestamp="2014-04-20 16:32:24">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.105.9014&amp;rank=3</link><title>An application-specific protocol architecture for wireless networks</title><description>An application-specific protocol architecture for wireless networks
+
+by Wendi Beth Heinzelman , 2000
+
+"... . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58 3.1.1 Determining Cluster-Head Nodes . . . . . . . . . . . . . . . . . . . . . . . . . 59 3 ..."
+
+Abstract \- Cited by 678 (18 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7473-04"><link cache="FW14-topics-docs/e004/7473_04.html" timestamp="2014-04-20 16:34:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.110.696&amp;rank=4</link><title>An information-maximization approach to blind separation and blind deconvolution</title><description>An information-maximization approach to blind separation and blind deconvolution
+
+by Anthony J. Bell, Terrence J. Sejnowski \- NEURAL COMPUTATION , 1995
+
+"... knowledge of the input distributions, and is de ned here for the zero-noise limit. Under these conditions ..."
+
+Abstract \- Cited by 1073 (54 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7473-05"><link cache="FW14-topics-docs/e004/7473_05.html" timestamp="2014-04-20 16:35:42">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.131.2072&amp;rank=5</link><title>The Visual Analysis of Human Movement: A Survey</title><description>The Visual Analysis of Human Movement: A Survey
+
+by D. M. Gavrila \- Computer Vision and Image Understanding , 1999
+
+"... with some thoughts about future directions. The conclusions are listed in Section 8. Face analysis (head ..."
+
+Abstract \- Cited by 580 (7 self) \- Add to MetaCart
+
+The ability to recognize humans and their activities by vision is key for a machine to interact intelligently and effortlessly with a human-inhabited environment. Because of many potentially important applications, “looking at people ” is currently one of the most active application domains in computer vision. This survey identifies a number of promising applications and provides an overview of recent developments in this domain. The scope of this survey is limited to work on whole-body or hand motion; it does not include work on human faces. The emphasis is on discussing the various methodologies; they are grouped in 2-D approaches with or without explicit shape models and 3-D approaches. Where appropriate, systems are reviewed. We conclude with some thoughts about future directions. c ○ 1999 Academic Press 1.</description></snippet><snippet id="FW14-e004-7473-06"><link cache="FW14-topics-docs/e004/7473_06.html" timestamp="2014-04-20 16:38:47">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.130.9378&amp;rank=6</link><title>Fundamentals of Wireless Communications</title><description>Fundamentals of Wireless Communications
+
+by David Tse, Pramod Viswanath , 2004
+
+"... . . . . . . . . . . . . . . . . . 32 2.2.4 Additive White Noise . . . . . . . . . . . . . . . . . . . . . . . . 36 2.3 Time ..."
+
+Abstract \- Cited by 669 (17 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7473-07"><link cache="FW14-topics-docs/e004/7473_07.html" timestamp="2014-04-20 16:40:33">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.150.4833&amp;rank=7</link><title>Towards a better understanding of context and context-awareness</title><description>Towards a better understanding of context and context-awareness
+
+by Anind K. Dey, Gregory D. Abowd \- In HUC ’99: Proceedings of the 1st international symposium on Handheld and Ubiquitous Computing , 1999
+
+"... people, and social situation • Physical environment lighting and noise level Dey et al. define context ..."
+
+Abstract \- Cited by 570 (7 self) \- Add to MetaCart
+
+Abstract. The use of context is important in interactive applications. It is particularly important for applications where the user’s context is changing rapidly, such as in both handheld and ubiquitous computing. In order to better understand how we can use context and facilitate the building of context-aware applications, we need to more fully understand what constitutes a contextaware application and what context is. Towards this goal, we have surveyed existing work in context-aware computing. In this paper, we provide an overview of the results of this survey and, in particular, definitions and categories of context and context-aware. We conclude with recommendations for how this better understanding of context inform a framework for the development of context-aware applications. 1</description></snippet><snippet id="FW14-e004-7473-08"><link cache="FW14-topics-docs/e004/7473_08.html" timestamp="2014-04-20 16:42:40">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.10.3247&amp;rank=8</link><title>Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection</title><description>Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection
+
+by Peter N. Belhumeur, João P. Hespanha, David J. Kriegman , 1997
+
+"... Dept. of Electrical Engineering Yale University New Haven, CT 06520-8267 Phone: 203-432-4249 Fax: 203 ..."
+
+Abstract \- Cited by 1505 (18 self) \- Add to MetaCart
+
+We develop a face recognition algorithm which is insensitive to gross variation in lighting direction and facial expression. Taking a pattern classification approach, we consider each pixel in an image as a coordinate in a high-dimensional space. We take advantage of the observation that the images of a particular face, under varying illumination but fixed pose, lie in a 3-D linear subspace of the high dimensional image space -- if the face is a Lambertian surface without shadowing. However, since faces are not truly Lambertian surfaces and do indeed produce self-shadowing, images will deviate from this linear subspace. Rather than explicitly modeling this deviation, we linearly project the image into a subspace in a manner which discounts those regions of the face with large deviation. Our projection method is based on Fisher's Linear Discriminant and produces well separated classes in a low-dimensional subspace even under severe variation in lighting and facial expressions. The Eigenface</description></snippet><snippet id="FW14-e004-7473-09"><link cache="FW14-topics-docs/e004/7473_09.html" timestamp="2014-04-20 16:44:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.296.5944&amp;rank=9</link><title>Direct manipulation: a step beyond programming languages</title><description>Direct manipulation: a step beyond programming languages
+
+by Ben Shneiderman \- Computer , 1983
+
+"... the document. Tables, lists, page breaks, skipped lines, section headings, centered text, and figures can ..."
+
+Abstract \- Cited by 487 (11 self) \- Add to MetaCart
+
+Direct manipulation systems offer the satisfying experience of operating on visible objects. The computer becomes transparent, and users can concentrate on their tasks.</description></snippet><snippet id="FW14-e004-7473-10"><link cache="FW14-topics-docs/e004/7473_10.html" timestamp="2014-04-20 16:46:57">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1823F5DFA76EFA69FF335CDA0133BF9F?doi=10.1.1.20.5732&amp;rank=10</link><title>The Challenges of Mobile Computing</title><description>The Challenges of Mobile Computing
+
+by George H. Forman, John Zahorjan \- IEEE Computer , 1994
+
+"... and expedient notification of important events, yet with much more flexibility than with cellular phones ..."
+
+Abstract \- Cited by 370 (1 self) \- Add to MetaCart
+
+this article we focus on the issues pertinent to software designers without delving into the lower level details of the hardware realization of mobile computers. We look at some promising approaches under investigation and also consider their limitations. The many issues to be dealt with stem from three essential properties of mobile computing: communication, mobility, and portability. Of course, special-purpose systems may avoid some design pressures by doing without certain desirable properties. For instance, portability would be less of a concern for mobile computers installed in the dashboards of cars than with hand-held mobile computers. However, we concentrate on the goal of large-scale, hand-held mobile computing as a way to reveal a wide assortment of issues</description></snippet></snippets></search_results>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7077">django django</query><engine status="OK" timestamp="2014-04-19 00:28:00" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7077-01"><link cache="FW14-topics-docs/e010/7077_01.html" timestamp="2014-04-19 00:28:04">http://academic.research.microsoft.com/Publication/2168488/fast-theta-subsumption-with-constraint-satisfaction-algorithms</link><title>Fast Theta-Subsumption with Constraint Satisfaction Algorithms</title><description>* Fast Theta-Subsumption with Constraint Satisfaction Algorithms (Citations: 22)
+
+Jérôme Maloberti, Michèle Sebag
+
+...a novel ?-subsumption algorithm named django,1 which combines well-known csp procedures and ?-subsumption-specific data structures. django is validated using the stochastic...building a control layer over django, termed meta-django, which determines the best procedures...
+
+Journal: Machine Learning - ML , vol. 55, no. 2, pp. 137-174, 2004</description></snippet><snippet id="FW14-e010-7077-02"><link cache="FW14-topics-docs/e010/7077_02.html" timestamp="2014-04-19 00:29:23">http://academic.research.microsoft.com/Publication/5028332/computational-redesign-of-endonuclease-dna-binding-and-cleavage-specificity</link><title>Computational redesign of endonuclease DNA binding and cleavage specificity</title><description>* Computational redesign of endonuclease DNA binding and cleavage specificity (Citations: 112)
+
+Justin Ashworth, James J. Havranek, Carlos M. Duarte, Django Sussman, Raymond J. Monnat, Barry L. Stoddard, David Baker
+
+The reprogramming of DNA-binding specificity is an important challenge for computational protein design that tests current understanding of protein-DNA recognition, and has considerable practical relevance for biotechnology and medicine. Here we describe the computational redesign of the cleavage specificity of the intron-encoded homing endonuclease I-MsoI using a physically realistic atomic-level forcefield. Using an in silico ...
+
+Journal: Nature , vol. 441, no. 7093, pp. 656-659, 2006</description></snippet><snippet id="FW14-e010-7077-03"><link cache="FW14-topics-docs/e010/7077_03.html" timestamp="2014-04-19 00:30:46">http://academic.research.microsoft.com/Publication/56919351/web-development-with-python-and-django-abstract-only</link><title>Web development with python and django (abstract only)</title><description>* Web development with python and django (abstract only)
+
+Ariel Ortiz
+
+...level. this workshop will introduce django, an open source python web...web applications with minimal fuss. django follows the model-view-controller...
+
+Published in 2012.</description></snippet><snippet id="FW14-e010-7077-04"><link cache="FW14-topics-docs/e010/7077_04.html" timestamp="2014-04-19 00:32:00">http://academic.research.microsoft.com/Publication/3281423/isolation-and-characterization-of-new-homing-endonuclease-specificities-at-individual-target-site</link><title>Isolation and Characterization of New Homing Endonuclease Specificities at Individual Target Site Positions</title><description>* Isolation and Characterization of New Homing Endonuclease Specificities at Individual Target Site Positions (Citations: 30)
+
+Django Sussman, Meg Chadsey, Steve Fauce, Alex Engel, Anna Bruett, Ray Monnat Jr, Barry L. Stoddard, Lenny M. Seligman
+
+Homing endonucleases are highly specific DNA endonucleases, encoded within mobile introns or inteins, that induce targeted recombination, double-strand repair and gene conversion of their cognate target sites. Due to their biological function and high level of target specificity, these enzymes are under intense investigation as tools for gene targeting. These studies require that naturally occurring enzymes be redesigned to ...
+
+Journal: Journal of Molecular Biology - J MOL BIOL , vol. 342, no. 1, pp. 31-41, 2004</description></snippet><snippet id="FW14-e010-7077-05"><link cache="FW14-topics-docs/e010/7077_05.html" timestamp="2014-04-19 00:33:07">http://academic.research.microsoft.com/Publication/10514907/evaluation-of-an-integrated-multi-task-machine-learning-system-with-humans-in-the-loop</link><title>Evaluation of an integrated multi-task machine learning system with humans in the loop</title><description>* Evaluation of an integrated multi-task machine learning system with humans in the loop (Citations: 10)
+
+Aaron Steinfeld, S. Rachael Bennett, Kyle Cunningham, Matt Lahut, Pablo-Alejandro Quinones, Django Wexler, Dan Siewiorek, Jordan Hayes, Paul Cohen, Julie Fitzgerald, Othar Hansson, Mike Poolhttp://academic.research.microsoft.com/io.ashx?type=5&amp;id=10514907&amp;selfId1=-1&amp;selfId2=-1&amp;maxNumber=12&amp;query=django django
+
+Performance of a cognitive personal assistant, RADAR, consisting of multiple machine learning components, natural language processing, and optimization was examined with a test explicitly developed to measure the impact of integrated machine learning when used by a human user in a real world setting. Three conditions (conventional tools, Radar without learning, and Radar with learning) were evaluated in a large-...
+
+Published in 2007.</description></snippet><snippet id="FW14-e010-7077-06"><link cache="FW14-topics-docs/e010/7077_06.html" timestamp="2014-04-19 00:34:09">http://academic.research.microsoft.com/Publication/57551863/cultural-value-and-viscerality-in-sukiyaki-western-django-towards-a-phenomenology-of-bad-film</link><title>Cultural value and viscerality in Sukiyaki Western Django: Towards a phenomenology of bad film</title><description>* Cultural value and viscerality in Sukiyaki Western Django: Towards a phenomenology of bad film
+
+Jane Stadler
+
+...s hybrid homage sukiyaki western django (2007) can be critiqued in...this article analyses sukiyaki western django in terms of a phenomenology...
+
+Journal: Continuum-journal of Media &amp; Cultural Studies - CONTINUUM-J MEDIA CULT STUD , vol. 24, no. 5, pp. 679-691, 2010</description></snippet><snippet id="FW14-e010-7077-07"><link cache="FW14-topics-docs/e010/7077_07.html" timestamp="2014-04-19 00:35:12">http://academic.research.microsoft.com/Publication/48088868/introduction-to-django</link><title>Introduction to Django</title><description>* Introduction to Django
+
+Adrian Holovaty, Jacob Kaplan-Moss
+
+...this book is about django, aweb development framework that saves you time and makes web development a joy. using django, you can build and maintain...</description></snippet><snippet id="FW14-e010-7077-08"><link cache="FW14-topics-docs/e010/7077_08.html" timestamp="2014-04-19 00:36:15">http://academic.research.microsoft.com/Publication/4583360/the-lhc-lead-injector-chain</link><title>The LHC Lead Injector Chain</title><description>* The LHC Lead Injector Chain (Citations: 7)
+
+A. Beuret, J. Borburgh, A. Blas, H. Burkhardt, Christian Carli, M. Chanel, A. Fowler, M. Gourber-Pace, S. Hancock, M. Hourican, C. E. Hill, John M Jowetthttp://academic.research.microsoft.com/io.ashx?type=5&amp;id=4583360&amp;selfId1=-1&amp;selfId2=-1&amp;maxNumber=12&amp;query=django django
+
+A sizeable part of the LHC physics programme foresees lead-lead collisions with a design luminosity of 1027 cm-2 s-1. This will be achieved after an upgrade of the ion injector chain comprising Linac3, LEIR, PS and SPS machines [1,2]. Each LHC ring will be filled in 10 min by almost 600 bunches, each of 7×107 lead ...
+
+Published in 2004.</description></snippet><snippet id="FW14-e010-7077-09"><link cache="FW14-topics-docs/e010/7077_09.html" timestamp="2014-04-19 00:37:25">http://academic.research.microsoft.com/Publication/13524065/metal-dependent-dna-cleavage-mechanism-of-the-i-cre-i-laglidadg-homing-endonuclease</link><title>Metal-Dependent DNA Cleavage Mechanism of the I Cre I LAGLIDADG Homing Endonuclease † , ‡</title><description>* Metal-Dependent DNA Cleavage Mechanism of the I Cre I LAGLIDADG Homing Endonuclease † , ‡ (Citations: 23)
+
+Brett Chevalier, Django Sussman, Christian Otis, Ann-Josée Noël, Monique Turmel, Claude Lemieux, Kathy Stephens, Barry L. Stoddard
+
+The LAGLIDADG homing endonucleases include free-standing homodimers, pseudosymmetric monomers, and related enzyme domains embedded within inteins. DNA-bound structures of homodimeric I-CreI and monomeric I-SceI indicate that three catalytic divalent metal ions are distributed across a pair of overlapping active sites, with one shared metal participating in both strand cleavage reactions. These structures differ in the precise ...
+
+Journal: Biochemistry - BIOCHEMISTRY-USA , vol. 43, no. 44, pp. 14015-14026, 2004</description></snippet><snippet id="FW14-e010-7077-10"><link cache="FW14-topics-docs/e010/7077_10.html" timestamp="2014-04-19 00:38:37">http://academic.research.microsoft.com/Publication/18146315/first-results-of-electron-cooling-experiments-at-lear</link><title>First results of electron cooling experiments at LEAR</title><description>* First results of electron cooling experiments at LEAR (Citations: 6)
+
+Helmut Poth, W. Schwab, B. Seligmann, M. Wörtge, A. Wolf, S A Baird, M. Chanel, H. Haseroth, C. E. Hill, R. Ley, Django Manglunki, G. Tranquillehttp://academic.research.microsoft.com/io.ashx?type=5&amp;id=18146315&amp;selfId1=-1&amp;selfId2=-1&amp;maxNumber=12&amp;query=django django
+
+The first results are presented of electron cooling experiments in the Low-Energy Antiproton Ring (LEAR) at CERN, performed with a proton beam of about 50 and 21 MeV. The number of stored protons ranged from 107 to 3 × 109. Cooling times of the order 1 s and proton drag rates of up to 0.7 MeV/s were ...
+
+Journal: European Physical Journal A - EUR PHYS J A , vol. 332, no. 2, pp. 171-188, 1989</description></snippet></snippets></search_results>

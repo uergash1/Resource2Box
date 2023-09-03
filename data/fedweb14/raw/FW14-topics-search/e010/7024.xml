@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7024">reinforcement learning</query><engine status="OK" timestamp="2014-04-18 17:53:02" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7024-01"><link cache="FW14-topics-docs/e010/7024_01.html" timestamp="2014-04-18 17:53:05">http://academic.research.microsoft.com/Publication/1315091/reinforcement-learning-an-introduction</link><title>Reinforcement learning: An introduction</title><description>* Reinforcement learning: An introduction (Citations: 5592)
+
+Richard S. Sutton, Andrew G. Barto
+
+Conference: Neural Information Processing Systems - NIPS , vol. 9, no. 5, pp. 1054-1054, 1998</description></snippet><snippet id="FW14-e010-7024-02"><link cache="FW14-topics-docs/e010/7024_02.html" timestamp="2014-04-18 17:54:08">http://academic.research.microsoft.com/Publication/137/reinforcement-learning-a-survey</link><title>Reinforcement Learning: A Survey</title><description>* Reinforcement Learning: A Survey (Citations: 2060)
+
+Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore
+
+...paper surveys the field of reinforcement learning from a computer-science perspective. it is written to be accessible to researchers familiar with machine learning. both the historical basis of...of current work are summarized.reinforcement learning is the problem faced by an agent that learns behavior through trial-and-error...
+
+Journal: Journal of Artificial Intelligence Research - JAIR , vol. cs.AI/9605, pp. 237-285, 1996</description></snippet><snippet id="FW14-e010-7024-03"><link cache="FW14-topics-docs/e010/7024_03.html" timestamp="2014-04-18 17:55:23">http://academic.research.microsoft.com/Publication/66235/automatic-programming-of-behavior-based-robots-using-reinforcement-learning</link><title>Automatic Programming of Behavior-Based Robots Using Reinforcement Learning</title><description>* Automatic Programming of Behavior-Based Robots Using Reinforcement Learning (Citations: 431)
+
+Sridhar Mahadevan, Jonathan Connell
+
+...based robot. new behaviors are learned by trial and error using a performance feedback function as reinforcement. two algorithms for behavior learning are described that combine q learning, a well known scheme for propagating reinforcement values temporally across actions, with...
+
+Conference: National Conference on Artificial Intelligence - AAAI , pp. 768-773, 1991</description></snippet><snippet id="FW14-e010-7024-04"><link cache="FW14-topics-docs/e010/7024_04.html" timestamp="2014-04-18 17:56:32">http://academic.research.microsoft.com/Publication/1274763/temporal-credit-assignment-in-reinforcement-learning</link><title>Temporal credit assignment in reinforcement learning</title><description>* Temporal credit assignment in reinforcement learning (Citations: 276)
+
+R. S. Sutton
+
+Published in 1984.</description></snippet><snippet id="FW14-e010-7024-05"><link cache="FW14-topics-docs/e010/7024_05.html" timestamp="2014-04-18 17:57:41">http://academic.research.microsoft.com/Publication/2159/markov-games-as-a-framework-for-multi-agent-reinforcement-learning</link><title>Markov Games as a Framework for Multi-Agent Reinforcement Learning</title><description>* Markov Games as a Framework for Multi-Agent Reinforcement Learning (Citations: 604)
+
+Michael L. Littman
+
+...process (mdp) formaliza- tion of reinforcement learning, a single adaptive agent interacts...environment. it describes a q-learning-like algorithm for finding optimal...
+
+Conference: International Conference on Machine Learning \- ICML , pp. 157-163, 1994</description></snippet><snippet id="FW14-e010-7024-06"><link cache="FW14-topics-docs/e010/7024_06.html" timestamp="2014-04-18 17:58:52">http://academic.research.microsoft.com/Publication/227857/between-mdps-and-semi-mdps-a-framework-for-temporal-abstraction-in-reinforcement-learning</link><title>Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning</title><description>* Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning (Citations: 504)
+
+Richard S. Sutton, Doina Precup, Satinder P. Singh
+
+...within the mathematical framework of reinforce\- ment learning and markov decision processes (mdps...to be included in the reinforcement learning frame- work in a natural...
+
+Journal: Artificial Intelligence - AI , vol. 112, no. 1-2, pp. 181-211, 1999</description></snippet><snippet id="FW14-e010-7024-07"><link>http://academic.research.microsoft.com/Publication/530779/multi-agent-reinforcement-learning-independent-versus-cooperative-agents</link><title>Multi-Agent Reinforcement Learning: Independent versus Cooperative Agents</title><description>* Multi-Agent Reinforcement Learning: Independent versus Cooperative Agents (Citations: 344)
+
+Ming Tan
+
+...cooperativesocial environment that facilitateslearning. they learn not only by trialand-error, but also through cooperation bysharing instantaneous information, episodicexperience, and learned knowledge. thekey investigations of this paper are, &amp;quot;giventhe same number of reinforcement learningagents, will cooperative agents outperformindependent agents who do not communicateduring learning?&amp;quot; and &amp;quot...
+
+Conference: International Conference on Machine Learning \- ICML , pp. 330-337, 1993</description></snippet><snippet id="FW14-e010-7024-08"><link>http://academic.research.microsoft.com/Publication/708844/self-improving-reactive-agents-based-on-reinforcement-learning-planning-and-teaching</link><title>Self-Improving Reactive Agents Based On Reinforcement Learning, Planning and Teaching</title><description>* Self-Improving Reactive Agents Based On Reinforcement Learning, Planning and Teaching (Citations: 317)
+
+Long-Ji Lin
+
+...to date, reinforcement learning has mostly been studied solving simple learning tasks. reinforcement learning methods that have been studied...methods that will speed up reinforcement learning. this paper compares eight reinforcement learning frameworks: adaptive heuristic critic (ahc) learning due to sutton, q-learning due to watkins, and three...
+
+Journal: Machine Learning \- ML , vol. 8, no. 3-4, pp. 293-321, 1992</description></snippet><snippet id="FW14-e010-7024-09"><link cache="FW14-topics-docs/e010/7024_09.html" timestamp="2014-04-18 18:02:13">http://academic.research.microsoft.com/Publication/362546/ants-and-reinforcement-learning-a-case-study-in-routing-in-dynamic-networks</link><title>Ants and Reinforcement Learning: A Case Study in Routing in Dynamic Networks</title><description>* Ants and Reinforcement Learning: A Case Study in Routing in Dynamic Networks (Citations: 134)
+
+Devika Subramanian, Peter Druschel, Johnny Chen
+
+...explore the network and rapidly learn good routes, using a novel varia­ tion of reinforcement learning. these two algo- rithms are...
+
+Conference: International Joint Conference on Artificial Intelligence - IJCAI , pp. 832-839, 1997</description></snippet><snippet id="FW14-e010-7024-10"><link cache="FW14-topics-docs/e010/7024_10.html" timestamp="2014-04-18 18:03:11">http://academic.research.microsoft.com/Publication/384201/prioritized-sweeping-reinforcement-learning-with-less-data-and-less-time</link><title>Prioritized Sweeping: Reinforcement Learning With Less Data and Less Time</title><description>* Prioritized Sweeping: Reinforcement Learning With Less Data and Less Time (Citations: 327)
+
+Andrew W. Moore, Christopher G. Atkeson
+
+...control of stochasticmarkov systems. incremental learning methods such as temporal differencing...
+
+Journal: Machine Learning \- ML , vol. 13, no. 1, pp. 103-130, 1993</description></snippet></snippets></search_results>

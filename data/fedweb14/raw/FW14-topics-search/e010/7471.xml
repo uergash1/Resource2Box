@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7471">php foreach</query><engine status="OK" timestamp="2014-04-24 19:27:38" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7471-01"><link cache="FW14-topics-docs/e010/7471_01.html" timestamp="2014-04-24 19:27:38">http://academic.research.microsoft.com/Publication/4734542/html-templates-that-fly-a-template-engine-approach-to-automated-offloading-from-server-to-client</link><title>HTML templates that fly: a template engine approach to automated offloading from server to client</title><description>* HTML templates that fly: a template engine approach to automated offloading from server to client (Citations: 3)
+
+Michiaki Tatsubori, Toyotaro Suzumura
+
+Web applications often use HTML templates to separate the webpage presentation from its underlying business logic and objects. This is now the de facto standard programming model for Web application development. This paper pro- poses a novel implementation for existing server-side tem- plate engines, FlyingTemplate, for (a) reduced bandwidth consumption in Web application servers, and (b) off-loading HTML ...
+
+Conference: World Wide Web Conference Series - WWW , pp. 951-960, 2009</description></snippet></snippets></search_results>

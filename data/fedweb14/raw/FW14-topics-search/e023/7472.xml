@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7472">python re tutorial</query><engine status="OK" timestamp="2014-04-24 19:09:42" name="Google Blogs" id="FW14-e023"/><snippets><snippet id="FW14-e023-7472-01"><link cache="FW14-topics-docs/e023/7472_01.html" timestamp="2014-04-24 19:09:43">https://docs.python.org/2/howto/regex.html</link><title>Regular Expression HOWTO — Python v2.7.6 documentation</title><description>* Regular Expression HOWTO — Python v2.7.6 documentation
+
+https://docs.python.org/2/howto/regex.html‎
+
+* Cached
+
+Python
+
+Loading...
+
+This document is an introductory tutorial to using regular expressions in Python with the re module. It provides a gentler introduction than the corresponding ...</description></snippet><snippet id="FW14-e023-7472-02"><link cache="FW14-topics-docs/e023/7472_02.html" timestamp="2014-04-24 19:10:41">http://www.tutorialspoint.com/python/python_reg_expressions.htm</link><title>Python regular expressions tutorial \- Tutorials Point</title><description>* Python regular expressions tutorial \- Tutorials Point
+
+www.tutorialspoint.com/python/python_reg_expressions.htm‎
+
+* Cached
+* Similar
+
+90+ items - Python Regular Expressions \- Learning Python in simple and ...
+
+pattern
+
+This is the regular expression to be matched
+
+string
+
+This is the string, which would be searched to match the pattern at the ...</description></snippet><snippet id="FW14-e023-7472-03"><link cache="FW14-topics-docs/e023/7472_03.html" timestamp="2014-04-24 19:12:25">https://developers.google.com/edu/python/regular-expressions</link><title>Python Regular Expressions \- Google Developers</title><description>* Python Regular Expressions \- Google Developers
+
+https://developers.google.com/edu/python/regular-expressions‎
+
+* Cached
+* Similar
+
+Google
+
+Loading...
+
+The Python "re" module provides regular expression support. .... includes no parenthesis, then findall() returns a list of found strings as in earlier examples.</description></snippet><snippet id="FW14-e023-7472-04"><link cache="FW14-topics-docs/e023/7472_04.html" timestamp="2014-04-24 19:12:58">http://stackoverflow.com/questions/2717856/any-good-and-gentle-python-regexp-tutorials-out-there</link><title>regex \- Any good and gentle Python Regexp tutorials out ...</title><description>* regex \- Any good and gentle Python Regexp tutorials out ...
+
+stackoverflow.com/.../any-good-and-gentle-python-rege...‎
+
+* Cached
+* Similar
+
+Stack Overflow
+
+Loading...
+
+Apr 27, 2010 - This question appears to be off-topic. The users who voted to close gave this specific reason ...</description></snippet><snippet id="FW14-e023-7472-05"><link cache="FW14-topics-docs/e023/7472_05.html" timestamp="2014-04-24 19:13:31">http://www.pythonforbeginners.com/systems-programming/regular-expressions-in-python/</link><title>Regular Expressions in Python</title><description>* Regular Expressions in Python
+
+www.pythonforbeginners.com/systems.../regular-expressions-in-python/‎
+
+* Cached
+* Similar
+
+Feb 18, 2013 - The power of regular expressions is that they can specify patterns, ... Many examples in this articles can be found on: Googles Python Course ...</description></snippet><snippet id="FW14-e023-7472-06"><link cache="FW14-topics-docs/e023/7472_06.html" timestamp="2014-04-24 19:14:51">http://flockhart.virtualave.net/RBIF0100/regexp.html</link><title>Python Regular Expressions by Example</title><description>* Python Regular Expressions by Example
+
+flockhart.virtualave.net/RBIF0100/regexp.html‎
+
+* Cached
+* Similar
+
+This section is lifted from Wikipedia's Regular expression examples page. All I've done is translate the code from Perl to Python 2\. For this version, assume that ...</description></snippet><snippet id="FW14-e023-7472-07"><link cache="FW14-topics-docs/e023/7472_07.html" timestamp="2014-04-24 19:15:58">http://www.dotnetperls.com/re</link><title>Python Re Match, Search Examples</title><description>* Python Re Match, Search Examples
+
+www.dotnetperls.com/re‎
+
+* Cached
+* Similar
+
+This Python article covers regular expressions. It uses re, match and search. It shows split and findall.</description></snippet><snippet id="FW14-e023-7472-08"><link cache="FW14-topics-docs/e023/7472_08.html" timestamp="2014-04-24 19:16:57">http://www.learnpython.org/en/Regular_Expressions</link><title>Regular Expressions \- Learn Python \- Free Interactive ...</title><description>* Regular Expressions \- Learn Python \- Free Interactive ...
+
+www.learnpython.org/en/Regular_Expressions‎
+
+* Cached
+* Similar
+
+LearnPython.org is a free interactive Python tutorial for people who want to learn ... Regular Expressions (sometimes shortened to regexp, regex, or re) are a tool ...</description></snippet><snippet id="FW14-e023-7472-09"><link cache="FW14-topics-docs/e023/7472_09.html" timestamp="2014-04-24 19:18:12">http://www.diveintopython.net/regular_expressions/</link><title>Chapter 7. Regular Expressions \- Dive Into Python</title><description>* Chapter 7. Regular Expressions \- Dive Into Python
+
+www.diveintopython.net › Dive Into Python‎
+
+* Cached
+* Similar
+
+Regular expressions are a powerful and standardized way of searching, replacing, and parsing text with complex patterns of characters. If you've used regular ...</description></snippet><snippet id="FW14-e023-7472-10"><link cache="FW14-topics-docs/e023/7472_10.html" timestamp="2014-04-24 19:19:19">http://gnosis.cx/publish/programming/regular_expressions.html</link><title>Learning to Use Regular Expressions \- Gnosis.cx</title><description>* Learning to Use Regular Expressions \- Gnosis.cx
+
+gnosis.cx/publish/programming/regular_expressions.html‎
+
+* Cached
+* Similar
+
+In general, for the simplest cases, this tutorial will use examples based around grep or sed . For a few more exotic capabilities, Perl or Python examples will be ...</description></snippet></snippets></search_results>

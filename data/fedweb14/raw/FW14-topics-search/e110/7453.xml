@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7453">pc 2 games reviews</query><engine status="OK" timestamp="2014-04-25 14:42:59" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7453-01"><link cache="FW14-topics-docs/e110/7453_01.html" timestamp="2014-04-25 14:43:21">https://news.ycombinator.com/item?id=3826663</link><title>Show HN: Our flight sim for iOS: Infinite Flight</title><description>Show HN: Our flight sim for iOS: Infinite Flight
+
+9 points
+
+by kpao
+
+2 years ago
+
+24 comments Follow
+
+We started this flight simulator about 2 years ago to be PC based, after realizing that it was too big of a task, we switched to Windows Phone 7 (Release Apr 2011) and recently released on iOS (March 2012).
+
+So far, the reviews have been encouraging, and we're closing in on our second update. Last update brought iPad3 support, new airplanes and bug fixes. Next one will bring 2 additional aircrafts, missions, better map, IFR Fixes/Airways...
+
+Now, for the things that the HN crowd might be interested in:
+
+\- It's entirely in C#. Codebase of the simulator itself (excluding XNA, MonoGame) is 99% shared between WP7 and iOS.
+
+\- The user base on iOS is much larger than on WP7, the numbers go far beyond our wildest expectations. (It's a bit early to tell, but something like 30x to 45x what we had on Windows Phone so far)
+
+\- The physics engine is custom, we're using rigid body simulation and apply forces based on angle of attack, airspeed, lift tables...
+
+\- Using MonoGame/MonoTouch has been incredible, the guys at Xamarin are great!
+
+\- We did run into issues with Garbage Collection, but nothing that we couldn't solve with a classic optimization session at the end
+
+\- People seem to love the fact that we setup a uservoice site. (http://feedback.flyingdevstudio.com). We've got tons of suggestions and we'll try to implement what people want first.
+
+Some videos/pics: http://youtu.be/YBww2pOkPec
+
+http://imgur.com/a/n9hXV
+
+Here's how to get the game:
+
+http://itunes.apple.com/us/app/infinite-flight/id471341991?mt=8
+
+Some promo codes:
+
+R9ARH4W3734E
+
+RHKE3YXPNJKE
+
+PAXRJMKAJRW4
+
+7JH9L3XRYXL9
+
+F9HEY6MXP9JX
+
+*[2 years ago]: 2012-04-11T09:27:20.000Z</description><thumb cache="FW14-topics-docs/e110/7453_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3826663.png</thumb></snippet><snippet id="FW14-e110-7453-02"><link>https://hn.algolia.com/%20</link><title>Introduction to Sales &amp; Marketing:</title><description>Introduction to Sales &amp; Marketing: ( )
+
+2 points
+
+by rcitelli
+
+3 years ago
+
+0 comment Follow
+
+@Sales &amp; Marketing delivers sophisticated services to build brands by identifying and implementing strategic alliances and third-party partnerships as well as coordinating corporate marketing, public relations and advertising programs. Our team is comprised of successful serial entrepreneurs, hands-on experts who willl drive your business forward with timely and measurable strategic consulting and tactical results. We provide senior management expertise, contacts and qualifications at affordable rates even in today's Great Recession marketplace. If your organization needs to add personnel for projects or extended programs and wants to accomplish its most important goals and objectives in a timely and economically sound fashion, consider @Sales &amp; Marketing.&lt;p&gt;&lt;pre&gt;&lt;code&gt; Founded in 1998, we operate from offices in N. CA, S. CA, Metro NY and Metro Seattle, WA. We provide hands-on B2C and B2B sales representation and affiliate marketing, public relations, marketing communications, media sales, business development and strategic business planning. 
+&lt;/code&gt;&lt;/pre&gt; 
+Our principals and associate partners are former Founders, CEOs and/or Vice Presidents of Sales and Marketing for major internet services, packaged goods companies, wholesaler/distributors and retail chains. We have vast experience across a broad range of industries and retail channels including everything Internet (pre-bubble and Web 2.0), consumer electronics, music and video, computer software and hardware, real estate, education, home and garden, toy and hobby, office supply, book stores, and more. We are well versed in establishing logistics, operations, and distribution networks for businesses.&lt;p&gt;Current clients include: 
+•\tBack To The Beach Software, publishers of Web Studio, the easy to use web design software (www.webstudio.com); 
+•\tMedProcure, SaaS providing innovative software for ordering and tracking medical supplies (www.medprocure.com); 
+•\tAviberry, SaaS delivering cloud-based video encoding and processing (www.aviberry.com); 
+•\tMovavi, makers of the ultimate software solution for most audio and video conversion needs (www.movavi.com); 
+•\tCurrent Wear, green products manufacturers of caps and hats with built-in solar powered lights (www.currentwear.com); 
+•\tTopics Entertainment, the publisher of utility, language, SMB and entertainment software (www.topics-ent.com); 
+•\tMentorNet, the E-Mentoring Social Network for STEM students and corporations seeking to hire them (www.mentornet.net); 
+•\tSelectSoft Publishing, one of the largest independent publishers of educational, faith based and family entertainment software (www.selectsoft.com) 
+•\tViva Media, a Top 10 entertainment software publisher tracked by NPD (www.viva-media); 
+•\tN3V Games, Australia’s biggest independent video game publisher (www.n3vgames.com); and 
+•\tStarr Labs, manufacturers of innovative MIDI solutions for the professional musician (www.starrlabs.com).&lt;p&gt;Recent accomplishments with current clients include business development and affiliate marketing efforts for Viva Media placing this publisher’s software into digital distribution portals including Valve/Steam, iWin, Big Fish Games, IGN Direct2Drive, Metaboli, Exent, Wild Tangent and Trygames. SelectSoft titles are now available for digital distribution from Amazon.com, Yummy International, GamersGate and others as a result of our efforts.&lt;p&gt;Previously, we were instrumental in placing SupportSpace’s virtual tech support marketplace at Best Buy as part of the Geek Squad program and at TrendMicro. At GameStreamer, we secured digital distribution rights from top publishers including PlayFirst, National Geographic, Merscom, Perpetual FX, NovaLogic, Sony Online Entertainment, Knowledge Adventure, and Prima Games whose titles are now available throughout GameStreamer’s White Label Partner network. In late 2008 and throughout most of 2009 @Sales &amp; Marketing initiated B2B contracts for PayByCash with Power Challenge, SendYourFiles.com and others seeking alternate payment options for their under-banked or credit challenged customers. We were instrumental in re-invigorating the Cosmi brand for the Company’s new ownership and we delivered to Cosmi Finance Intellectual Property licenses to republish and distribute to retail stores software from Electronic Arts, Eidos, Auran Games, Topware and others. @Sales &amp; Marketing placed the iWin Arcade as a premium incentive within third party retail software packages from various publishers and e-tailers; secured digital distribution for Simply Software at Yummy Interactive and Game du Jour; and placed On Hand Software within NeoEdge.com and iWin.&lt;p&gt;Our Public Relations efforts on behalf of Liquid Shade, manufacturers of an innovative portable misting station, resulted in extensive online, print and television placements. StadiumTRAY was featured in NYSportsJournalism.com and MediaWeek.com prior to Super Bowl XLIV. Extensive print and local television coverage was generated for the San Francisco Bay Area-based DIY Academy and in the run-up to the 2010 E3 Expo we secured extensive pre-show publicity for N3V Games’ new Wii, Xbox, PS3 and PC software releases. Public relations campaigns headed by @Sales &amp; Marketing have landed other clients' stories on the front page of major city publications as well as leading marketing and trade magazines. Our Marcom efforts have increased clients sales via newsletters, sell sheets, print advertising and direct mail. Samples are available upon request.&lt;p&gt;When can we review our extensive portfolio and your organization's current needs? We’d welcome a chance to speak with you and your associates.&lt;p&gt;Best wishes,&lt;p&gt;Bob&lt;p&gt;Robert J. Citelli 
+Principal Founder 
+@Sales &amp; Marketing 
+236 North Santa Cruz Avenue 
+Suite 237A 
+Los Gatos, CA 95030 
+408 406 0604 
+www.sales-and-marketing.net
+
+*[3 years ago]: 2011-01-08T18:45:18.000Z</description><thumb cache="FW14-topics-docs/e110/7453_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2083636.png</thumb></snippet><snippet id="FW14-e110-7453-03"><link cache="FW14-topics-docs/e110/7453_03.html" timestamp="2014-04-25 14:44:12">https://news.ycombinator.com/item?id=3521982</link><title>Tell HN: RAM Requirements are going through the roof</title><description>Tell HN: RAM Requirements are going through the roof
+
+99 points
+
+by babebridou
+
+2 years ago
+
+89 comments Follow
+
+There have been a few talks about how Moore's law is coming to an end, about how you can now build servers with close to a TB of RAM, how you can now scale clusters of servers and achieve great metrics when it comes to raw data storage or memcaching, how incredible feats in both parallelization and miniaturization will reverse the downhill trend for high-end computing.
+
+Then there's the desktop. My desktop PC, for instance. It's a great 6 months old working computer, with 8 cores and 16GB of RAM. "This ought to be enough for all my needs", I thought. The Bill Gates in me was right so far, but unfortunately this won't be enough for long.
+
+Yesterday I took a look at my memory usage, out of curiosity: 11.4GB. Woah. I had a look at the breakdown.
+
+- Chrome : ~3GB
+- Firefox : ~1.5GB
+- Java (eclipse) : ~1.2GB
+- Rest in tons of various work-related apps.
+
+I'm of course responsible for letting this accumulate over several days, but still, a third of my RAM taken up by web browsing tabs? Chrome on its own clogging more than twice as much as Eclipse?
+
+What worries me now is how hard we are getting struck with RAM-hogging web pages. Since I began writing this post, my freshly restarted Chrome browser with 9 open tabs (Hacker News (x2), Coding Horror, Google Search for "Mac osX Lion review 6 months", MoPub Ad Service monitoring, Google Analytics Visitors Overview, Android Developer Console, Twitter, Gmail) is taking up roughly 500MB of RAM. That's insane. On my 2010 Macbook Pro with 4GB of RAM, this means 20% of my overall caching capacity is taken up by my core web needs. Needless to say, I can't use my macbook anymore.
+
+Last summer I was working on a little java experiment - a cross-platform 3D labyrinth. I wanted the overall memory and data footprint to be as low as possible so it could be played on a low-end android phone with really fast loading, and yet to keep the game space as big as I could, so I designed my own dedicated data structures overnight. I made the following calculation: over 500MB of raw, uncompressed data, I could store the description of an area roughly equivalent to a map of Europe with a resolution of 2.5 meters per pixel.
+
+I'm not claiming any feat here, just stating the obvious: web programmers are doing something that's definitely not cool for our current RAM budget. We forgot any sense of measure. It's unnecessary for a twitter feed following 175 persons for an hour or so to claim a 70MB RAM footprint. You're not the only nor the worst offender, Twitter. Except that I had 26 new tweets to display, I clicked, and the footprint suddenly grew to 76MB. 26 tweets = 6MB. We're talking about 140 characters tweets, let's be generous and multiply that amount by 100 to take into account the tweeter's profile (which are all 10,000 characters essays as we all know), and we get a total of 364 000 new characters, which end up claiming more than 6 million bytes in RAM. Which means the RAM impact of adding 26 new tweets to a webpage is at very very least 10 times higher than it could be, and probably more like a thousand times too high.
+
+Like I said, I'm only using Twitter to state a point. I mean nothing wrong with Twitter's web devs - actually I'm myself a very poor web developer - and I'm pretty sure the blame could also be put on Google Chrome instead, but I remember a day in 2002 where my Internet Explorer was trying to load a 4MB webpage from the hard drive, causing a RAM footprint above 40MB and a failure after 20 minutes of waiting in front of a white screen. Back then I was merely a junior consultant working on QA, and I was the one to tell the devs that they were definitely doing something not cool at all for the user's computer. True, we were showing rather complex and impressive amounts of "data" on our webapp with much simpler but oh so wrongly implemented "UI" (in that case, hundreds of unnecessary nested table anchors), but I can't help thinking back at those times where it was simply impossible to make a product that was not cool for the user's computer, because the computer would refuse to run it at all. We're way past this line today. My Twitter's tab has now garbage collected some data. It's back to 73MB ram footprint. There are 32 new tweets to show. I click them, and the footprint bumps back up to 78MB. Meanwhile, my overall Chrome footprint is now showing 550MB private memory. That's 50MB for two clicks on Twitter and ~4500 characters in a HackerNews' submit form.
+
+Moore's Law nowadays affects the computing power requirements of software rather than the computing performance of hardware, and this is killing us.
+
+*[2 years ago]: 2012-01-28T13:07:40.000Z</description><thumb cache="FW14-topics-docs/e110/7453_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3521982.png</thumb></snippet></snippets></search_results>

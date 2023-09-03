@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7481">worms nexus 7</query><engine status="OK" timestamp="2014-04-24 21:02:27" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7481-01"><link cache="FW14-topics-docs/e010/7481_01.html" timestamp="2014-04-24 21:02:29">http://academic.research.microsoft.com/Publication/210279/reliable-management-of-distributed-computations-in-nexus</link><title>Reliable Management of Distributed Computations in Nexus</title><description>* Reliable Management of Distributed Computations in Nexus
+
+Anand R. Tripathi, Surya P. Koneru, Clifton Nock, Renu Tewari, Neeran M. Karnik, Vijay Bandi, Khaled Day, Terence Noonan
+
+...taken for configurationmanagement in the nexus distributed operatingsystem. this approach uses...
+
+Conference: IEEE International Symposium on High Performance Distributed Computing - HPDC , pp. 298-305, 1993</description></snippet><snippet id="FW14-e010-7481-02"><link cache="FW14-topics-docs/e010/7481_02.html" timestamp="2014-04-24 21:03:07">http://academic.research.microsoft.com/Publication/38611677/foxo-gene-family-evolution-in-vertebrates</link><title>FoxO gene family evolution in vertebrates</title><description>* FoxO gene family evolution in vertebrates (Citations: 4)
+
+Minghui Wang, Xiangzhe Zhang, Hongbo Zhao, Qishan Wang, Yuchun Pan
+
+...involved in regulating longevity of worms and flies. the degree of...
+
+Journal: BMC Evolutionary Biology - BMC EVOL BIOL , vol. 9, no. 1, pp. 222-15, 2009</description></snippet><snippet id="FW14-e010-7481-03"><link cache="FW14-topics-docs/e010/7481_03.html" timestamp="2014-04-24 21:04:42">http://academic.research.microsoft.com/Publication/47621793/the-abc-transporter-gene-family-of-caenorhabditis-elegans-has-implications-for-the-evolutionary</link><title>The ABC transporter gene family of Caenorhabditis elegans has implications for the evolutionary dynamics of multidrug resistance in eukaryotes</title><description>* The ABC transporter gene family of Caenorhabditis elegans has implications for the evolutionary dynamics of multidrug resistance in eukaryotes (Citations: 40)
+
+Jonathan A Sheps, Steven Ralph, Zhongying Zhao, David L Baillie, Victor Ling
+
+Background  Many drugs of natural origin are hydrophobic and can pass through cell membranes. Hydrophobic molecules must be susceptible to active efflux systems if they are to be maintained at lower concentrations in cells than in their environment. Multi-drug resistance (MDR), often mediated by intrinsic membrane proteins that couple energy to drug efflux, provides this function. All eukaryotic genomes encode ...
+
+Journal: Genome Biology - GENOME BIOL , vol. 5, no. 3, pp. 1-17, 2004</description></snippet><snippet id="FW14-e010-7481-04"><link cache="FW14-topics-docs/e010/7481_04.html" timestamp="2014-04-24 21:05:14">http://academic.research.microsoft.com/Publication/6688619/not-a-bot-improving-service-availability-in-the-face-of-botnet-attacks</link><title>Not-a-Bot: Improving Service Availability in the Face of Botnet Attacks</title><description>* Not-a-Bot: Improving Service Availability in the Face of Botnet Attacks (Citations: 7)
+
+Ramakrishna Gummadi, Hari Balakrishnan, Petros Maniatis, Sylvia Ratnasamy
+
+A large fraction of email spam, distributed denial-of- service (DDoS) attacks, and click-fraud on web adver- tisements are caused by traffic sent from compromised machines that form botnets. This paper posits that by identifying human-generated traffic as such, one can ser- vice it with improved reliability or higher priority, miti- gating the effects of botnet attacks. The ...
+
+Conference: Networked Systems Design and Implementation - NSDI , pp. 307-320, 2009</description></snippet><snippet id="FW14-e010-7481-05"><link cache="FW14-topics-docs/e010/7481_05.html" timestamp="2014-04-24 21:06:19">http://academic.research.microsoft.com/Publication/6767419/immunity-genes-and-their-orthologs-a-multi-species-database</link><title>Immunity genes and their orthologs: a multi-species database</title><description>* Immunity genes and their orthologs: a multi-species database (Citations: 4)
+
+Kathryn Rannikko, Csaba Ortutay, Mauno Vihinen
+
+Metazoan species, from sponges to insects and mammals, possess successful defence systems against their pathogens and parasites. The evolutionary origins of these diverse systems are beginning to be more comprehensively investigated and mapped out. We have collected 1811 metazoan immunity genes from literature and gene ontology annotations. Tentative orthologs of these genes were identified using reciprocal protein-protein Blast searches ...
+
+Journal: International Immunology - INT IMMUNOL , vol. 19, no. 12, pp. 1361-1370, 2007</description></snippet><snippet id="FW14-e010-7481-06"><link cache="FW14-topics-docs/e010/7481_06.html" timestamp="2014-04-24 21:07:26">http://academic.research.microsoft.com/Publication/4888720/not-a-bot-nab-improving-service-availability-in-the-face-of-botnet-attacks</link><title>Not-a-Bot (NAB): Improving Service Availability in the Face of Botnet Attacks</title><description>* Not-a-Bot (NAB): Improving Service Availability in the Face of Botnet Attacks (Citations: 4)
+
+Sylvia Ratnasamy
+
+A large fraction of email spam, distributed denial-of- service (DDoS) attacks, and click-fraud on web adver- tisements are caused by traffic sent from compromised machines that form botnets. This paper posits that by identifying human-generated traffic as such, one can mit- igate botnet attacks, by servicing human-generated traffic with improved reliability or higher priority. The key ...
+
+Conference: Networked Systems Design and Implementation - NSDI</description></snippet></snippets></search_results>

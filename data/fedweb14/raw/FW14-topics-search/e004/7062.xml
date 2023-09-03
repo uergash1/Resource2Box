@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7062">marquette university news</query><engine status="OK" timestamp="2014-04-18 23:51:12" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7062-01"><link cache="FW14-topics-docs/e004/7062_01.html" timestamp="2014-04-18 23:51:15">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.136.4322&amp;rank=1</link><title>GroupLens: An Open Architecture for Collaborative Filtering of Netnews</title><description>GroupLens: An Open Architecture for Collaborative Filtering of Netnews
+
+by Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl , 1994
+
+"... -325 50 Memorial Drive Cambridge, MA 02139 617-253-8694 Email: presnick@(email omitted); ** University of Minnesota ..."
+
+Abstract \- Cited by 1114 (33 self) \- Add to MetaCart
+
+in the huge stream of available articles. &lt;em&gt;News&lt;/em&gt; reader clients display predicted scores and make it easy</description></snippet><snippet id="FW14-e004-7062-02"><link cache="FW14-topics-docs/e004/7062_02.html" timestamp="2014-04-18 23:52:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.140.9959&amp;rank=2</link><title>LIBLINEAR: A Library for Large Linear Classification</title><description>LIBLINEAR: A Library for Large Linear Classification
+
+by Rong-en Fan, Kai-wei Chang, Cho-jui Hsieh, Xiang-rui Wang, Chih-jen Lin , 2008
+
+"... cjlin@(email omitted); Department of Computer Science National Taiwan University Taipei 106, Taiwan ..."
+
+Abstract \- Cited by 547 (22 self) \- Add to MetaCart
+
+LIBLINEAR is an open source library for large-scale linear classification. It supports logistic regression and linear support vector machines. We provide easy-to-use command-line tools and library calls for users and developers. Comprehensive documents are available for both beginners and advanced users. Experiments demonstrate that LIBLINEAR is very efficient on large sparse data sets.</description></snippet><snippet id="FW14-e004-7062-03"><link cache="FW14-topics-docs/e004/7062_03.html" timestamp="2014-04-18 23:53:34">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.188.3982&amp;rank=3</link><title>The use of MMR, diversity-based reranking for reordering documents and producing summaries</title><description>The use of MMR, diversity-based reranking for reordering documents and producing summaries
+
+by Jaime Carbonell, Jade Goldstein \- In SIGIR , 1998
+
+"... Carbonell Language Technologies Institute Carnegie Mellon University jgc@(email omitted); Jade Goldstein Language ..."
+
+Abstract \- Cited by 523 (9 self) \- Add to MetaCart
+
+jadeQcs.cmu.edu Abstract This paper presents a method for combining query-relevance with information-novelty in the context of text retrieval and summarization. The Maximal Marginal Relevance (MMR) criterion strives to reduce redundancy while maintaining query relevance in re-ranking retrieved documents and in selecting apprw priate passages for text summarization. Preliminary results indicate some benefits for MMR diversity ranking in document retrieval and in single document summarization. The latter are borne out by the recent results of the SUMMAC conference in the evaluation of summarization systems. However, the clearest advantage is demonstrated in constructing non-redundant multi-document summaries, where MMR results are clearly superior to non-MMR passage selection. 2 Maximal Marginal Relevance Most modem IR search engines produce a ranked list of retrieved documents ordered by declining relevance to the user’s query. In contrast, we motivated the need for “relevant novelty ” as a potentially superior criterion. A first approximation to measuring relevant novelty is to measure relevance and novelty independently and provide a linear combination as the metric. We call the linear combination “marginal relevance ”- i.e. a document has high marginal relevance if it is both relevant to the query and contains minimal similarity to previously selected documents. We strive to maximize-marginal relevance in retrieval and summarization, hence we label our method “maximal marginal relevanci ” (MMR).</description></snippet><snippet id="FW14-e004-7062-04"><link cache="FW14-topics-docs/e004/7062_04.html" timestamp="2014-04-18 23:54:47">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.365.9468&amp;rank=4</link><title>The Behaviour of Stock Market Prices</title><description>The Behaviour of Stock Market Prices
+
+by Eugene F. Fama \- Journal of Business , 1965
+
+"... %3ATBOSP%3E2.0.CO%3B2-6 The Journal of Business is currently published by The University of Chicago Press ..."
+
+Abstract \- Cited by 546 (2 self) \- Add to MetaCart
+
+prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you may use content in the JSTOR archive only for your personal, non-commercial use. Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at</description></snippet><snippet id="FW14-e004-7062-05"><link cache="FW14-topics-docs/e004/7062_05.html" timestamp="2014-04-18 23:55:57">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.375.9462&amp;rank=5</link><title>Internet Protocol</title><description>Internet Protocol
+
+by J. Reynolds, J. Postel \- DARPA Internet Program Protocol Specification", STD 5, RFC 791, USC/Information Sciences Institute , 1981
+
+"... --------------------------------------------- (IP) STATUS: Required SPECIFICATION: RFC 791 (in DPH) COMMENTS: This is the universal protocol ..."
+
+Abstract \- Cited by 601 (12 self) \- Add to MetaCart
+
+This memo is an official status report on the protocols used in the Internet community. Distribution of this memo is unlimited.</description></snippet><snippet id="FW14-e004-7062-06"><link cache="FW14-topics-docs/e004/7062_06.html" timestamp="2014-04-18 23:57:06">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.107.2790&amp;rank=6</link><title>Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions</title><description>Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions
+
+by Gediminas Adomavicius, Alexander Tuzhilin \- IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING , 2005
+
+"... ], and news at VERSIFI Technologies (formerly AdaptiveInfo.com) [14]. Moreover, some of the vendors have ..."
+
+Abstract \- Cited by 733 (14 self) \- Add to MetaCart
+
+This paper presents an overview of the field of recommender systems and describes the current generation of recommendation methods that are usually classified into the following three main categories: content-based, collaborative, and hybrid recommendation approaches. This paper also describes various limitations of current recommendation methods and discusses possible extensions that can improve recommendation capabilities and make recommender systems applicable to an even broader range of applications. These extensions include, among others, an improvement of understanding of users and items, incorporation of the contextual information into the recommendation process, support for multcriteria ratings, and a provision of more flexible and less intrusive types of recommendations.</description></snippet><snippet id="FW14-e004-7062-07"><link cache="FW14-topics-docs/e004/7062_07.html" timestamp="2014-04-18 23:58:12">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.46.1529&amp;rank=7</link><title>A comparison of event models for Naive Bayes text classification</title><description>A comparison of event models for Naive Bayes text classification
+
+by Andrew McCallum, Kamal Nigam , 1998
+
+"... of Computer Science Carnegie Mellon University Pittsburgh, PA 15213 Abstract Recent work in text ..."
+
+Abstract \- Cited by 753 (26 self) \- Add to MetaCart
+
+Recent work in text classification has used two different first-order probabilistic models for classification, both of which make the naive Bayes assumption. Some use a multi-variate Bernoulli model, that is, a Bayesian Network with no dependencies between words and binary word features (e.g. Larkey and Croft 1996; Koller and Sahami 1997). Others use a multinomial model, that is, a uni-gram language model with integer word counts (e.g. Lewis and Gale 1994; Mitchell 1997). This paper aims to clarify the confusion by describing the differences and details of these two models, and by empirically comparing their classification performance on five text corpora. We find that the multi-variate Bernoulli performs well with small vocabulary sizes, but that the multinomial performs usually performs even better at larger vocabulary sizes---providing on average a 27% reduction in error over the multi-variate Bernoulli model at any vocabulary size.</description></snippet><snippet id="FW14-e004-7062-08"><link cache="FW14-topics-docs/e004/7062_08.html" timestamp="2014-04-18 23:59:23">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.1.5684&amp;rank=8</link><title>Text Classification from Labeled and Unlabeled Documents using EM</title><description>Text Classification from Labeled and Unlabeled Documents using EM
+
+by Kamal Nigam, Andrew Kachites Mccallum, Sebastian Thrun, Tom Mitchell \- Machine Learning , 1999
+
+"... MITCHELL y tom.mitchell@(email omitted); y School of Computer Science, Carnegie Mellon University, Pittsburgh ..."
+
+Abstract \- Cited by 803 (17 self) \- Add to MetaCart
+
+. This paper shows that the accuracy of learned text classifiers can be improved by augmenting a small number of labeled training documents with a large pool of unlabeled documents. This is important because in many text classification problems obtaining training labels is expensive, while large quantities of unlabeled documents are readily available. We introduce an algorithm for learning from labeled and unlabeled documents based on the combination of Expectation-Maximization (EM) and a naive Bayes classifier. The algorithm first trains a classifier using the available labeled documents, and probabilistically labels the unlabeled documents. It then trains a new classifier using the labels for all the documents, and iterates to convergence. This basic EM procedure works well when the data conform to the generative assumptions of the model. However these assumptions are often violated in practice, and poor performance can result. We present two extensions to the algorithm that improve ...</description></snippet><snippet id="FW14-e004-7062-09"><link cache="FW14-topics-docs/e004/7062_09.html" timestamp="2014-04-19 00:00:32">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.144.7995&amp;rank=9</link><title>Wide-Area Traffic: The Failure of Poisson Modeling</title><description>Wide-Area Traffic: The Failure of Poisson Modeling
+
+by Vern Paxson, Sally Floyd \- IEEE/ACM TRANSACTIONS ON NETWORKING , 1995
+
+"... Group at the Lawrence Berkeley Laboratory, University of California. This work was supported ..."
+
+Abstract \- Cited by 1405 (21 self) \- Add to MetaCart
+
+Network arrivals are often modeled as Poisson processes for analytic simplicity, even though a number of traffic studies have shown that packet interarrivals are not exponentially distributed. We evaluate 24 wide-area traces, investigating a number of wide-area TCP arrival processes (session and connection arrivals, FTP data connection arrivals within FTP sessions, and TELNET packet arrivals) to determine the error introduced by modeling them using Poisson processes. We find that user-initiated TCP session arrivals, such as remotelogin and file-transfer, are well-modeled as Poisson processes with fixed hourly rates, but that other connection arrivals deviate considerably from Poisson; that modeling TELNET packet interarrivals as exponential grievously underestimates the burstiness of TELNET traffic, but using the empirical Tcplib [Danzig et al, 1992] interarrivals preserves burstiness over many time scales; and that FTP data connection arrivals within FTP sessions come bunched into “connection bursts,” the largest of which are so large that they completely dominate FTP data traffic. Finally, we offer some results regarding how our findings relate to the possible self-similarity of widearea traffic.</description></snippet><snippet id="FW14-e004-7062-10"><link cache="FW14-topics-docs/e004/7062_10.html" timestamp="2014-04-19 00:01:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=494C66B419F9FC7CE92E55348F0F52A0?doi=10.1.1.78.8384&amp;rank=10</link><title>Evaluating collaborative filtering recommender systems</title><description>Evaluating collaborative filtering recommender systems
+
+by Jonathan L. Herlocker, Joseph A. Konstan, Loren G. Terveen, John, T. Riedl \- ACM Transactions on Information Systems , 2004
+
+"... &amp; Computer Science, Oregon State University and JOSEPH A. KONSTAN, LOREN G. TERVEEN, AND JOHN T. RIEDL Group ..."
+
+Abstract \- Cited by 566 (13 self) \- Add to MetaCart
+
+© ACM, 2004. This is the author's version of the work. It is posted here by permission of ACM for your personal use. Not for redistribution. The definitive version was published in ACM</description></snippet></snippets></search_results>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7303">what causes itchy feet</query><engine status="OK" timestamp="2014-05-21 22:36:36" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7303-01"><link cache="FW14-topics-docs/e004/7303_01.html" timestamp="2014-05-21 22:36:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.32.7692&amp;rank=1</link><title>Reinforcement Learning I: Introduction</title><description>Reinforcement Learning I: Introduction
+
+by Richard S. Sutton, Andrew G. Barto , 1998
+
+"... All rights reserved [In which we try to give a basic intuitive sense of what reinforcement learning ..."
+
+Abstract \- Cited by 3760 (98 self) \- Add to MetaCart
+
+In which we try to give a basic intuitive sense of &lt;em&gt;what&lt;/em&gt; reinforcement learning is and how</description></snippet><snippet id="FW14-e004-7303-02"><link cache="FW14-topics-docs/e004/7303_02.html" timestamp="2014-05-21 22:36:51">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.21.7631&amp;rank=2</link><title>The Cricket Location-Support System</title><description>The Cricket Location-Support System
+
+by Nissanka B. Priyantha, Anit Chakraborty, Hari Balakrishnan , 2000
+
+"... such reflective materials that affect the propagation of radio frequency (RF) signals in non-trivial ways, causing ..."
+
+Abstract \- Cited by 768 (10 self) \- Add to MetaCart
+
+This paper presents the design, implementation, and evaluation of Cricket, a location-support system for in-building, mobile, locationdependent applications. It allows applications running on mobile and static nodes to learn their physical location by using listeners that hear and analyze information from beacons spread throughout the building. Cricket is the result of several design goals, including user privacy, decentralized administration, network heterogeneity, and low cost. Rather than explicitly tracking user location, Cricket helps devices learn where they are and lets them decide whom to advertise this information to; it does not rely on any centralized management or control and there is no explicit coordination between beacons; it provides information to devices regardless of their type of network connectivity; and each Cricket device is made from off-the-shelf components and costs less than U.S. $10. We describe the randomized algorithm used by beacons to transmit information, the use of concurrent radio and ultrasonic signals to infer distance, the listener inference algorithms to overcome multipath and interference, and practical beacon configuration and positioning techniques that improve accuracy. Our experience with Cricket shows that several location-dependent applications such as in-building active maps and device control can be developed with little effort or manual configuration. 1</description></snippet><snippet id="FW14-e004-7303-03"><link cache="FW14-topics-docs/e004/7303_03.html" timestamp="2014-05-21 22:37:08">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.215.296&amp;rank=3</link><title>Pfinder: Real-time tracking of the human body</title><description>Pfinder: Real-time tracking of the human body
+
+by Christopher Richard Wren, Ali Azarbayejani, Trevor Darrell, Alex Paul Pentland \- IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE , 1997
+
+"... movement. For instance, if a person moves a book it causes the texture map to change in both the locations ..."
+
+Abstract \- Cited by 1114 (48 self) \- Add to MetaCart
+
+Pfinder is a real-time system for tracking people and interpreting their behavior. It runs at 10Hz on a standard SGI Indy computer, and has performed reliably on thousands of people in many different physical locations. The system uses a multiclass statistical model of color and shape to obtain a 2D representation of head and hands in a wide range of viewing conditions. Pfinder has been successfully used in a wide range of applications including wireless interfaces, video databases, and low-bandwidth coding.</description></snippet><snippet id="FW14-e004-7303-04"><link cache="FW14-topics-docs/e004/7303_04.html" timestamp="2014-05-21 22:37:27">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.113.6035&amp;rank=4</link><title>W4: Real-time surveillance of people and their activities</title><description>W4: Real-time surveillance of people and their activities
+
+by Ismail Haritaoglu, David Harwood, Larry S. Davis \- IEEE Transactions on Pattern Analysis and Machine Intelligence , 2000
+
+"... , feet, torso) and to create models of people's appearance so that they can be tracked through ..."
+
+Abstract \- Cited by 486 (7 self) \- Add to MetaCart
+
+people and their parts (head, hands, &lt;em&gt;feet&lt;/em&gt;, torso) and to create models of people's appearance so</description></snippet><snippet id="FW14-e004-7303-05"><link cache="FW14-topics-docs/e004/7303_05.html" timestamp="2014-05-21 22:37:43">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.117.4330&amp;rank=5</link><title>A survey of context-aware mobile computing research</title><description>A survey of context-aware mobile computing research
+
+by Guanling Chen, David Kotz , 2000
+
+"... about context awareness, focusing on applications, what context they use, and how contextual information ..."
+
+Abstract \- Cited by 468 (2 self) \- Add to MetaCart
+
+Context-aware computing is a mobile computing paradigm in which applications can discover and take advantage of contextual information (such as user location, time of day, nearby people and devices, and user activity). Since it was proposed about a decade ago, many researchers have studied this topic and built several context-aware applications to demonstrate the usefulness of this new technology. Context-aware applications (or the system infrastructure to support them), however, have never been widely available to everyday users. In this survey of research on context-aware systems and applications, we looked in depth at the types of context used and models of context information, at systems that support collecting and disseminating context, and at applications that adapt to the changing context. Through this survey, it is clear that context-aware research is an old but rich area for research. The difficulties and possible solutions we outline serve as guidance for researchers hoping to make context-aware computing a reality. 1.</description></snippet><snippet id="FW14-e004-7303-06"><link cache="FW14-topics-docs/e004/7303_06.html" timestamp="2014-05-21 22:38:03">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.125.962&amp;rank=6</link><title>Cone Trees: Animated 3D Visualizations of Hierarchical Information</title><description>Cone Trees: Animated 3D Visualizations of Hierarchical Information
+
+by George G. Robertson, Jock D. Actckinlay, Ancl Stuart K. Card , 1991
+
+"... spaces, because it is hard to visualize what is there and how the various parts are related. Enlerg ..."
+
+Abstract \- Cited by 465 (9 self) \- Add to MetaCart
+
+The task of managing and accessing large information spaces is a problem in large scale cognition. Enwrging technologies for 3D visualization and interactive aninla-iion offer potential solutions to this problenl, especially when the structure of the information can be visualized. We describe one of these Information Visualtzaiion techniques, called the Cone Tree, which is used for visualizing hierarchical information structures. The hi-erarchy is presented in 3D to nlaxilnize effective use of available screen space and enable visualization of the whole structure. Interactive aninlation is used (,o shift sonle of the user’s cognitive load to the human percep-tual system, KEYWORDS: User-Interface Design Issues: visual output strategies, inierjace metaphors, graphic presentations, screen layout. Analysis hlethods: analysis of contenis of particular domains. Domain Specific Designs: inforntaiion retrieval.</description></snippet><snippet id="FW14-e004-7303-07"><link cache="FW14-topics-docs/e004/7303_07.html" timestamp="2014-05-21 22:38:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.38.2935&amp;rank=7</link><title>Photobook: Content-Based Manipulation of Image Databases</title><description>Photobook: Content-Based Manipulation of Image Databases
+
+by A. Pentland, R. W. Picard, S. Sclaroff , 1995
+
+"... the increasing use of imagery is causing severe problems, because the technology for organizing and searching ..."
+
+Abstract \- Cited by 463 (0 self) \- Add to MetaCart
+
+We describe the Photobook system, which is a set of interactive tools for browsing and searching images and image sequences. These query tools differ from those used in standard image databases in that they make direct use of the image content rather than relying on text annotations. Direct search on image content is made possible by use of semantics-preserving image compression, which reduces images to a small set of perceptually-significant coefficients. We describe three types of Photobook descriptions in detail: one that allows search based on appearance, one that uses 2-D shape, and a third that allows search based on textural properties. These image content descriptions can be combined with each other and with textbased descriptions to provide a sophisticated browsing and search capability. In this paper we demonstrate Photobook on databases containing images of people, video keyframes, hand tools, fish, texture swatches, and 3-D medical data.</description></snippet><snippet id="FW14-e004-7303-08"><link cache="FW14-topics-docs/e004/7303_08.html" timestamp="2014-05-21 22:38:32">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.331.2614&amp;rank=8</link><title>The design of an acquisitional query processor for sensor networks</title><description>The design of an acquisitional query processor for sensor networks
+
+by Samuel Madden, Michael J. Franklin, Joseph M. Hellerstein, Wei Hong \- In SIGMOD , 2003
+
+"... : 1\. When should samples for a particular query be taken? 2\. What sensor nodes have data relevant to a ..."
+
+Abstract \- Cited by 434 (26 self) \- Add to MetaCart
+
+We discuss the design of an acquisitional query processor for data collection in sensor networks. Acquisitional issues are those that pertain to where, when, and how often data is physically acquired (sampled) and delivered to query processing operators. By focusing on the locations and costs of acquiring data, we are able to significantly reduce power consumption over traditional passive systems that assume the a priori existence of data. We discuss simple extensions to SQL for controlling data acquisition, and show how acquisitional issues influence query optimization, dissemination, and execution. We evaluate these issues in the context of TinyDB, a distributed query processor for smart sensor devices, and show how acquisitional techniques can provide significant reductions in power consumption on our sensor devices. 1.</description></snippet><snippet id="FW14-e004-7303-09"><link cache="FW14-topics-docs/e004/7303_09.html" timestamp="2014-05-21 22:38:54">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.177.4643&amp;rank=9</link><title>Games and decisions</title><description>Games and decisions
+
+by Debra Edwards Ph. D , 1957
+
+"... ......................................................................... 61 3V. What Registrants Need to Do ..."
+
+Abstract \- Cited by 416 (0 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7303-10"><link cache="FW14-topics-docs/e004/7303_10.html" timestamp="2014-05-21 22:39:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B4A5D29074A6138891A405D9BC93F2C5?doi=10.1.1.3.5380&amp;rank=10</link><title>Link-level Measurements from an 802.11b Mesh Network</title><description>Link-level Measurements from an 802.11b Mesh Network
+
+by Daniel Aguayo, John Bicket, Sanjit Biswas, Glenn Judd, Robert Morris \- In SIGCOMM , 2004
+
+"... , jbicket, biswas, rtm}@(email omitted); This paper analyzes the causes of packet loss in a 38-node urban multi ..."
+
+Abstract \- Cited by 408 (11 self) \- Add to MetaCart
+
+This paper anal yzes the &lt;em&gt;causes&lt;/em&gt; of packetl oss in a 38-node urban mul ti-hop 802.11b network</description></snippet></snippets></search_results>

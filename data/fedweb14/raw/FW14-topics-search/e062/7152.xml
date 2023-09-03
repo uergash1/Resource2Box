@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7152">haskell hash string</query><engine status="OK" timestamp="2014-04-25 15:07:23" name="Baidu" id="FW14-e062"/><snippets><snippet id="FW14-e062-7152-01"><link cache="FW14-topics-docs/e062/7152_01.html" timestamp="2014-04-25 15:07:55">http://www.oschina.net/p/haskell/</link><title>Haskell首页、文档和下载 - 函数式编程语言 - 开源中国社区</title><description>Haskell首页、文档和下载 - 函数式编程语言 - 开源中国社区
+
+Haskell是一种纯函数式编程语言,它的命名源自美国数学家Haskell Brooks Curry,他在数学逻辑方面上的工作使得函数式编程语言有了广泛的基础。Haskell语言是1990年在编程...
+
+www.oschina.net/p/ha... 2013-03-29
+
+ - 百度快照 - 评价
+
+查看更多关于“Haskell首页”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7152-02"><link cache="FW14-topics-docs/e062/7152_02.html" timestamp="2014-04-25 15:08:46">http://baike.baidu.com/link?url=stVn5zjgeQOOcOdivGSHl2l1CkVrb3LuqfAcq_OAn5gef7YVjHLowCFVCc0n5pnX</link><title>Haskell_百度百科</title><description>Haskell_百度百科
+
+Haskell是一种标准化的、通用纯函数式编程语言，有非限定性语义和强静态类型。它的命名源自美国逻辑学家Haskell Brooks Curry，他在数学逻辑方面的工作使得函...
+
+概述 - 发展 - 特性 - 相关语言
+
+baike.baidu.com/ 2014-03-15
+
+ - 百度快照</description></snippet><snippet id="FW14-e062-7152-03"><link cache="FW14-topics-docs/e062/7152_03.html" timestamp="2014-04-25 15:09:31">http://lambda-the-ultimate.org/node/724</link><title>Haskell for C Programmers | Lambda the Ultimate</title><description>Haskell for C Programmers | Lambda the Ultimate
+
+and Pascal...For [beginning] computer science students,...Haskell is weird... If you store every string in a hash table, you can use a single ...
+
+lambda-the-ultimate.o... 2005-05-22
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7152-04"><link cache="FW14-topics-docs/e062/7152_04.html" timestamp="2014-04-25 15:10:03">http://stackoverflow.com/questions/7836928/ruby-string-to-hash-conversion</link><title>ruby string to hash conversion - Stack Overflow</title><description>ruby string to hash conversion - Stack Overflow
+
+I want to know how to convert the given string into a hash. (i.e my... I never really heard that one before and I do Haskell and Clojure on ...
+
+stackoverflow.com/que... 2011-10-20
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7152-05"><link cache="FW14-topics-docs/e062/7152_05.html" timestamp="2014-04-25 15:10:59">http://hackage.haskell.org/package/cryptohash</link><title>Hackage: cryptohash: collection of crypto hashes, fast, pure ...</title><description>Hackage: cryptohash: collection of crypto hashes, fast, pure ...
+
+The implementations are made in C with a haskell FFI wrapper that hide ... ByteString -&gt; String hexSha3_512 bs = show (hash bs :: Digest SHA3_...
+
+hackage.haskell.org... 2014-01-19
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7152-06"><link cache="FW14-topics-docs/e062/7152_06.html" timestamp="2014-04-25 15:11:46">https://www.byvoid.com/blog/string-hash-compare/</link><title>各种字符串Hash函数比较 - BYVoid</title><description>各种字符串Hash函数比较 - BYVoid
+
+常用的字符串Hash函数还有ELFHash,APHash等等,都是十分简单有效的方法。这些函数... C++ string 用法详解 - 63266 避讳借字——“屌”、“肏”、“屄” - ...
+
+www.byvoid.com/blog/... 2013-12-01
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7152-07"><link cache="FW14-topics-docs/e062/7152_07.html" timestamp="2014-04-25 15:12:44">http://www.reddit.com/r/haskell/comments/1v7fa4/ask_rhaskell_how_to_implement_a_symbol_table_for/</link><title>Ask /r/haskell: how to implement a symbol table for a ...</title><description>Ask /r/haskell: how to implement a symbol table for a ...
+
+limit my search to /r/haskell use the following search parameters to ... class SymbolTable { private HashTable&lt;String, String&gt; table; public String...
+
+www.reddit.com/r/has... 2014-01-14
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7152-08"><link cache="FW14-topics-docs/e062/7152_08.html" timestamp="2014-04-25 15:13:16">http://fanyi.baidu.com/translate?query=haskell%20hash%20string&amp;lang=en2zh</link><title>haskell hash string的中文翻译_百度翻译</title><description>haskell hash string的中文翻译_百度翻译
+
+haskell hash string
+
+Haskell哈希字符串
+
+fanyi.baidu.com</description></snippet><snippet id="FW14-e062-7152-09"><link cache="FW14-topics-docs/e062/7152_09.html" timestamp="2014-04-25 15:14:15">http://www.tuicool.com/articles/JfyYB3B</link><title>What I Wish I Knew When Learning Haskell 2.0 - 推酷</title><description>What I Wish I Knew When Learning Haskell 2.0 - 推酷
+
+error :: String -&gt; a undefined :: aThe bottom is a singular value that inhabits every type. When evaluated the semantics of Haskell longer yield a ...
+
+www.tuicool.com/artic... 2014-04-24
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7152-10"><link cache="FW14-topics-docs/e062/7152_10.html" timestamp="2014-04-25 15:15:16">http://hackage.haskell.org/packages/</link><title>Hackage: packages by category</title><description>Hackage: packages by category
+
+KMP library: Knuth–Morris–Pratt string searching algorithm lca library: O...: The Threefish block cipher and the Skein hash function for Haskell...
+
+hackage.haskell.org... 2014-04-08
+
+ - 百度快照 - 评价</description></snippet></snippets></search_results>

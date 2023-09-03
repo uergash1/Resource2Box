@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7472">python re tutorial</query><engine status="OK" timestamp="2014-04-20 18:24:36" name="LinkedIn Blog" id="FW14-e024"/><snippets><snippet id="FW14-e024-7472-01"><link cache="FW14-topics-docs/e024/7472_01.html" timestamp="2014-04-20 18:24:37">http://blog.linkedin.com/2008/08/19/jdbc-connection-pooling-for-rails-on-glassfish/</link><title>JDBC Connection Pooling for Rails on Glassfish</title><description>* Ikai Lan
+
+JDBC Connection Pooling for Rails on Glassfish Ikai Lan August 19, 2008
+
+In Light Engineering (LED), we’re known to be multilingual – depending on the project, we’ve been known to speak Perl, Python, Java, C++, Javascript and PHP, to name a few. Our weapon of choice is still Ruby on Rails, the popular MVC framework. Out belief is that Rails makes certain types of tasks easy, and others laughably trivial. That being said, LinkedIn is still primarily a Java shop, and for good reason. Java technologies are mature, proven, and all around solid. For this…
+
+* Topics:
+* Engineering</description><thumb cache="FW14-topics-docs/e024/7472_01_thumb.jpg">http://blog.linkedin.com/wp-content/uploads/2012/11/IkaiLan.jpg</thumb></snippet></snippets></search_results>

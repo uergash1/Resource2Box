@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7439">make crown</query><engine status="OK" timestamp="2014-04-20 02:34:29" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7439-01"><link cache="FW14-topics-docs/e004/7439_01.html" timestamp="2014-04-20 02:34:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.15.9610&amp;rank=1</link><title>DataGuides: Enabling Query Formulation and Optimization in Semistructured Databases</title><description>DataGuides: Enabling Query Formulation and Optimization in Semistructured Databases
+
+by Roy Goldman, Jennifer Widom , 1997
+
+"... Guides, dynamically generated and maintained structural summaries of semistructured databases. This paper makes ..."
+
+Abstract \- Cited by 503 (14 self) \- Add to MetaCart
+
+In semistructured databases there is no schema fixed in advance. To provide the benefits of a schema in such environments, we introduce DataGuides: concise and accurate structural summaries of semistructured databases. DataGuides serve as dynamic schemas, generated from the database; they are useful for browsing database structure, formulating queries, storing information such as statistics and sample values, and enabling query optimization. This paper presents the theoretical foundations of DataGuides along with an algorithm for their creation and an overview of incremental maintenance. We provide performance results based on our implementation of DataGuides in the Lore DBMS for semistructured data. We also describe the use of DataGuides in Lore, both in the user interface to enable structure browsing and query formulation, and as a means of guiding the query processor and optimizing query execution.</description></snippet><snippet id="FW14-e004-7439-02"><link cache="FW14-topics-docs/e004/7439_02.html" timestamp="2014-04-20 02:35:46">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.23.4807&amp;rank=2</link><title>Understanding Normal and Impaired Word Reading: Computational Principles in Quasi-Regular Domains</title><description>Understanding Normal and Impaired Word Reading: Computational Principles in Quasi-Regular Domains
+
+by David C. Plaut , James L. McClelland, Mark S. Seidenberg, Karalyn Patterson \- PSYCHOLOGICAL REVIEW , 1996
+
+"... ) whose pronunciations violate the standard correspondences. To make matters worse, some spelling patterns ..."
+
+Abstract \- Cited by 362 (86 self) \- Add to MetaCart
+
+We develop a connectionist approach to processing in quasi-regular domains, as exemplified by English word reading. A consideration of the shortcomings of a previous implementation (Seidenberg &amp; McClelland, 1989, Psych. Rev.) in reading nonwords leads to the development of orthographic and phonological representations that capture better the relevant structure among the written and spoken forms of words. In a number of simulation experiments, networks using the new representations learn to read both regular and exception words, including low-frequency exception words, and yet are still able to read pronounceable nonwords as well as skilled readers. A mathematical analysis of the effects of word frequency and spelling-sound consistency in a related but simpler system serves to clarify the close relationship of these factors in influencing naming latencies. These insights are verified in subsequent simulations, including an attractor network that reproduces the naming latency data directly in its time to settle on a response. Further analyses of the network's ability to reproduce data on impaired reading in surface dyslexia support a view of the reading system that incorporates a graded division-of-labor between semantic and phonological processes. Such a view is consistent with the more general Seidenberg and McClelland framework and has some similarities with---but also important differences from---the standard dual-route account.</description></snippet><snippet id="FW14-e004-7439-03"><link cache="FW14-topics-docs/e004/7439_03.html" timestamp="2014-04-20 02:39:16">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.11.9982&amp;rank=3</link><title>Word-Sense Disambiguation Using Statistical Models of Roget's Categories Trained on Large Corpora</title><description>Word-Sense Disambiguation Using Statistical Models of Roget's Categories Trained on Large Corpora
+
+by David Yarowsky , 1992
+
+"... ... traditional ABC method and ... nter of rotation .PP A tower ... rshy areas .SB The crowned adz has a concave ..."
+
+Abstract \- Cited by 304 (13 self) \- Add to MetaCart
+
+This paper describes a program that disambiguates English word senses in unrestricted text using statistical models of the major Roget's Thesaurus categories. Roget's categories serve as approximations of conceptual classes. The categories listed for a word in Roget's index tend to correspond to sense distinctions; thus selecting the most likely category provides a useful level of sense disambiguation. The selection of categories is accomplished by identifying and weighting words that are indicative of each category when seen in context, using a Bayesian theoretical framework. Other</description></snippet><snippet id="FW14-e004-7439-04"><link cache="FW14-topics-docs/e004/7439_04.html" timestamp="2014-04-20 02:40:07">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.140.3395&amp;rank=4</link><title>Why Cryptosystems Fail</title><description>Why Cryptosystems Fail
+
+by Ross Anderson , 2005
+
+"... . This was one of the reasons he managed to make 43 withdrawals of $200 each� the other was that when she did ..."
+
+Abstract \- Cited by 274 (35 self) \- Add to MetaCart
+
+Designers of cryptographic systems are at a disadvantage to most other engineers, in that information on how their systems fail is hard to get: their major users have traditionally been government agencies, which are very secretive about their mistakes. In this article, we present the results of a survey of the failure modes of retail banking systems, which constitute the next largest application of cryptology. It turns out that the threat model commonly used by cryptosystem designers was wrong: most frauds were not caused by cryptanalysis or other technical attacks, but by implementation errors and management failures. This suggests that a paradigm shift is overdue in computer security; we look at some of the alternatives, and see some signs that this shift may begetting under way.</description></snippet><snippet id="FW14-e004-7439-05"><link cache="FW14-topics-docs/e004/7439_05.html" timestamp="2014-04-20 02:43:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.178.2723&amp;rank=5</link><title>One sense per discourse</title><description>One sense per discourse
+
+by William A. Gale, Kenneth W. Church, David Yarowsky \- In DARPA Speech and Natural Language Workshop , 1992
+
+"... . In addition, it could also be used to help evaluate disambiguation algorithms that did not make use ..."
+
+Abstract \- Cited by 212 (7 self) \- Add to MetaCart
+
+not &lt;em&gt;make&lt;/em&gt; use of the discourse constraint.</description></snippet><snippet id="FW14-e004-7439-06"><link cache="FW14-topics-docs/e004/7439_06.html" timestamp="2014-04-20 02:45:24">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.24.2763&amp;rank=6</link><title>SUSAN - A New Approach to Low Level Image Processing</title><description>SUSAN - A New Approach to Low Level Image Processing
+
+by S. M. Smith, J. M. Brady \- International Journal of Computer Vision , 1995
+
+"... detection, univalue areas, noise reduction, smoothing. c fl Crown Copyright (1995), Defence Research Agency ..."
+
+Abstract \- Cited by 205 (3 self) \- Add to MetaCart
+
+This paper describes a new approach to low level image processing; in particular, edge and corner detection and structure preserving noise reduction.</description></snippet><snippet id="FW14-e004-7439-07"><link cache="FW14-topics-docs/e004/7439_07.html" timestamp="2014-04-20 02:49:05">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.235.8115&amp;rank=7</link><title>Analysis on the Crown Domain</title><description>Analysis on the Crown Domain
+
+by Bernhard Krötz, Eric Opdam , 2008
+
+"... that the crown domain admits a natural parametrization by unipotent GR-orbits which makes Bernstein’s ideas work ..."
+
+Abstract \- Cited by 5 (3 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7439-08"><link cache="FW14-topics-docs/e004/7439_08.html" timestamp="2014-04-20 02:53:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.201.4996&amp;rank=8</link><title>Investor Protection and Corporate Governance</title><description>Investor Protection and Corporate Governance
+
+by Rafael La Porta, Florencio Lopez-de-Silanes, Andrei Shleifer, Robert Vishny , 1999
+
+"... not finance firms through either debt or equity, making it hard or impossible for entrepreneurs to fund even ..."
+
+Abstract \- Cited by 195 (8 self) \- Add to MetaCart
+
+Recent research on corporate governance has documented large differences between countries in ownership concentration in publicly traded firms, in the breadth and depth of financial markets, and in the access of firms to external finance. We suggest that there is a common element to the explanations of these differences, namely how well investors, both shareholders and creditors, are protected by law from expropriation by the managers and controlling shareholders of firms. We describe the differences in laws and the effectiveness of their enforcement across countries, summarize the consequences of these differences, and suggest potential strategies of reform of corporate governance. We argue that the legal approach is a more fruitful way to understand corporate governance and its reform than the conventional distinction between bank-centered and market-centered financial systems.</description></snippet><snippet id="FW14-e004-7439-09"><link cache="FW14-topics-docs/e004/7439_09.html" timestamp="2014-04-20 02:56:27">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.202.6222&amp;rank=9</link><title>Governance of Crown Financial Assets</title><description>Governance of Crown Financial Assets
+
+by Nick Davis
+
+"... ﻿TREASURY WORKING PAPER 98/2 Governance of Crown Financial Assets Nick Davis ABSTRACT This paper ..."
+
+Abstract \- Add to MetaCart
+
+risk tolerance for the &lt;em&gt;Crown&lt;/em&gt;, although the conclusions drawn from this study may contribute</description></snippet><snippet id="FW14-e004-7439-10"><link cache="FW14-topics-docs/e004/7439_10.html" timestamp="2014-04-20 02:58:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=539B293C397A4B9803F413C438810584?doi=10.1.1.130.1077&amp;rank=10</link><title>An Investigation of the Therac-25 Accidents</title><description>An Investigation of the Therac-25 Accidents
+
+by Nancy G. Leveson \- IEEE Computer , 1993
+
+"... of business make it difficult to find out the details behind serious engi- neering mistakes. When ..."
+
+Abstract \- Cited by 195 (2 self) \- Add to MetaCart
+
+A thorough account of the Therac-25 medical electron accelerator accidents reveals previously unknown details and suggests ways to reduce risk in the future. omputers are increasingly being introduced into safety-critical systems and, as a consequence, have been involved in accidents. Some of the most widely cited software-related accidents in safety-critical systems involved a computerized radiation therapy machine called the Therac-25. Between June 1985 and January 1987, six known accidents involved massive overdoses by the Therac-25-with resultant deaths and serious injuries. They have been described as the worst series of radiation accidents in the 35year history of medical acceler-</description></snippet></snippets></search_results>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7104">How to go from New York to Montreal</query><engine status="OK" timestamp="2014-04-19 06:27:29" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7104-01"><link cache="FW14-topics-docs/e004/7104_01.html" timestamp="2014-04-19 06:27:35">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.22.6538&amp;rank=1</link><title>How to Model an Internetwork</title><description>How to Model an Internetwork
+
+by Ellen Zegura, Kenneth Calvert, Samrat Bhattacharjee \- In Proceedings of IEEE INFOCOM , 1996
+
+"... How to Model an Internetwork Ellen W. Zegura ewz@(email omitted); Kenneth L. Calvert calvert ..."
+
+Abstract \- Cited by 676 (8 self) \- Add to MetaCart
+
+&lt;em&gt;from&lt;/em&gt; routing to resource reservation. A variety of graph models are found in the literature, including</description></snippet><snippet id="FW14-e004-7104-02"><link cache="FW14-topics-docs/e004/7104_02.html" timestamp="2014-04-19 06:28:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.103.8926&amp;rank=2</link><title>How bad is selfish routing?</title><description>How bad is selfish routing?
+
+by Tim Roughgarden, Éva Tardos \- JOURNAL OF THE ACM , 2002
+
+"... ﻿How Bad Is Selfish Routing? TIM ROUGHGARDEN AND ÉVA TARDOS Cornell University, Ithaca, New York ..."
+
+Abstract \- Cited by 516 (27 self) \- Add to MetaCart
+
+We consider the problem of routing traffic to optimize the performance of a congested network. We are given a network, a rate of traffic between each pair of nodes, and a latency function for each edge specifying the time needed to traverse the edge given its congestion; the objective is to route traffic such that the sum of all travel times—the total latency—is minimized. In many settings, it may be expensive or impossible to regulate network traffic so as to implement an optimal assignment of routes. In the absence of regulation by some central authority, we assume that each network user routes its traffic on the minimum-latency path available to it, given the network congestion caused by the other users. In general such a “selfishly motivated ” assignment of traffic to paths will not minimize the total latency; hence, this lack of regulation carries the cost of decreased network performance. In this article, we quantify the degradation in network performance due to unregulated traffic. We prove that if the latency of each edge is a linear function of its congestion, then the total latency of the routes chosen by selfish network users is at most 4/3 times the minimum possible total latency (subject to the condition that all traffic must be routed). We also consider the more general setting in which edge latency functions are assumed only to be continuous and nondecreasing in the edge congestion. Here, the total</description></snippet><snippet id="FW14-e004-7104-03"><link cache="FW14-topics-docs/e004/7104_03.html" timestamp="2014-04-19 06:30:11">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.252.4404&amp;rank=3</link><title>A New Kind of Science</title><description>A New Kind of Science
+
+by Stephen Wolfram , 2002
+
+"... between events. Pages 486–496 and 508–515 discuss in detail how to generate such a network from a simple ..."
+
+Abstract \- Cited by 496 (0 self) \- Add to MetaCart
+
+“Somebody says, ‘You know, you people always say that space is continuous. &lt;em&gt;How&lt;/em&gt; do you know when you</description></snippet><snippet id="FW14-e004-7104-04"><link cache="FW14-topics-docs/e004/7104_04.html" timestamp="2014-04-19 06:31:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.159.9648&amp;rank=4</link><title>The Science of Monetary Policy: A New Keynesian Perspective</title><description>The Science of Monetary Policy: A New Keynesian Perspective
+
+by Richard Clarida, Jordi Galí, Mark Gertler \- Journal of Economic Literature , 1999
+
+"... : Columbia University and NBER; Galí: New York University, Universitat Pompeu Fabra, CEPR, and NBER; Gertler ..."
+
+Abstract \- Cited by 927 (30 self) \- Add to MetaCart
+
+“Having looked at monetary policy &lt;em&gt;from&lt;/em&gt; both sides now, I can testify that central banking</description></snippet><snippet id="FW14-e004-7104-05"><link cache="FW14-topics-docs/e004/7104_05.html" timestamp="2014-04-19 06:32:19">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.299.1113&amp;rank=5</link><title>Virtual clock: A new traffic control algorithm for packet switching networks</title><description>Virtual clock: A new traffic control algorithm for packet switching networks
+
+by Lixia Zhang \- In Proc. ACM SIGCOMM , 1990
+
+"... feedback to flow sources if their actual throughput ever depart significantly from the reserved rate. How ..."
+
+Abstract \- Cited by 561 (6 self) \- Add to MetaCart
+
+A challenging research issue in high speed networking is &lt;em&gt;how&lt;/em&gt; to control the transmission rate</description></snippet><snippet id="FW14-e004-7104-06"><link cache="FW14-topics-docs/e004/7104_06.html" timestamp="2014-04-19 06:33:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.40.1433&amp;rank=6</link><title>A New Learning Algorithm for Blind Signal Separation</title><description>A New Learning Algorithm for Blind Signal Separation
+
+by S. Amari, A. Cichocki, H. H. Yang \- Advances in Neural Information Processing Systems , 1996
+
+"... . for Information Representation FRP, RIKEN Wako-Shi, Saitama, 351-01, JAPAN hhy@(email omitted);.go.jp Abstract A new ..."
+
+Abstract \- Cited by 510 (72 self) \- Add to MetaCart
+
+A &lt;em&gt;new&lt;/em&gt; on-line learning algorithm which minimizes a statistical dependency among outputs is derived</description></snippet><snippet id="FW14-e004-7104-07"><link cache="FW14-topics-docs/e004/7104_07.html" timestamp="2014-04-19 06:34:43">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.187.8988&amp;rank=7</link><title>TCP Vegas: New techniques for congestion detection and avoidance</title><description>TCP Vegas: New techniques for congestion detection and avoidance
+
+by Lawrence S. Brakmo, Sean W. O’malley, Larry L. Peterson \- In SIGCOMM , 1994
+
+"... the cornerstone of that mechanism. This paper attempts to go beyond this earlier work; to provide some new ..."
+
+Abstract \- Cited by 507 (3 self) \- Add to MetaCart
+
+Vegas is a &lt;em&gt;new&lt;/em&gt; implementation of TCP that achieves between 40 and 70 % better throughput, with one</description></snippet><snippet id="FW14-e004-7104-08"><link cache="FW14-topics-docs/e004/7104_08.html" timestamp="2014-04-19 06:35:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.146.1122&amp;rank=8</link><title>RSVP: A New Resource Reservation Protocol</title><description>RSVP: A New Resource Reservation Protocol
+
+by Lixia Zhang, Steve Deering, Deborah Estrin, Scott Shenker, Daniel Zappala \- IEEE NETWORKS MAGAZINE , 1993
+
+"... in References [14, 17]. Routing The network must decide how to transport packets from the source to the receiver ..."
+
+Abstract \- Cited by 934 (26 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7104-09"><link cache="FW14-topics-docs/e004/7104_09.html" timestamp="2014-04-19 06:37:10">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.91.1599&amp;rank=9</link><title>A new approach to the maximum flow problem</title><description>A new approach to the maximum flow problem
+
+by Andrew V. Goldberg, Robert E. Tarjan \- Journal of the ACM , 1988
+
+"... on Theory of Computing (Berkeley, Calif., May 28-30). ACM, New York, 1986, pp. 136-146. The work of A. V ..."
+
+Abstract \- Cited by 512 (31 self) \- Add to MetaCart
+
+Abstract. All previously known efftcient maximum-flow algorithms work by finding augmenting paths, either one path at a time (as in the original Ford and Fulkerson algorithm) or all shortest-length augmenting paths at once (using the layered network approach of Dinic). An alternative method based on the preflow concept of Karzanov is introduced. A preflow is like a flow, except that the total amount flowing into a vertex is allowed to exceed the total amount flowing out. The method maintains a preflow in the original network and pushes local flow excess toward the sink along what are estimated to be shortest paths. The algorithm and its analysis are simple and intuitive, yet the algorithm runs as fast as any other known method on dense. graphs, achieving an O(n)) time bound on an n-vertex graph. By incorporating the dynamic tree data structure of Sleator and Tarjan, we obtain a version of the algorithm running in O(nm log(n’/m)) time on an n-vertex, m-edge graph. This is as fast as any known method for any graph density and faster on graphs of moderate density. The algorithm also admits efticient distributed and parallel implementations. A parallel implementation running in O(n’log n) time using n processors and O(m) space is obtained. This time bound matches that of the Shiloach-Vishkin algorithm, which also uses n processors but requires O(n’) space.</description></snippet><snippet id="FW14-e004-7104-10"><link cache="FW14-topics-docs/e004/7104_10.html" timestamp="2014-04-19 06:38:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=4A317E4C158995C2588D966458E797F1?doi=10.1.1.18.7815&amp;rank=10</link><title>How to 0wn the Internet in Your Spare Time</title><description>How to 0wn the Internet in Your Spare Time
+
+by Stuart Staniford, Vern Paxson, Nicholas Weaver , 2002
+
+"... ﻿Abstract How to 0wn the Internet in Your Spare Time Stuart Staniford ∗ Vern Paxson † Nicholas ..."
+
+Abstract \- Cited by 484 (15 self) \- Add to MetaCart
+
+The ability of attackers to rapidly gain control of vast numbers of Internet hosts poses an immense risk to the overall security of the Internet. Once subverted, these hosts can not only be used to launch massive denial of service floods, but also to steal or corrupt great quantities of sensitive information, and confuse and disrupt use of the network in more subtle ways.</description></snippet></snippets></search_results>

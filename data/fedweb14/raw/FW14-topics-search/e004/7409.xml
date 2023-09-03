@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7409">rihanna chris brown</query><engine status="OK" timestamp="2014-05-23 00:11:27" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7409-01"><link cache="FW14-topics-docs/e004/7409_01.html" timestamp="2014-05-23 00:11:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.229.3127&amp;rank=1</link><title>Visual reconstruction</title><description>Visual reconstruction
+
+by Andrew Blake, Andrew Zisserman , 1987
+
+"... the software expertise of Gavin Brelstaff. Stephen Pollard and Chris Brown supplied many digitised images ..."
+
+Abstract \- Cited by 739 (2 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7409-02"><link cache="FW14-topics-docs/e004/7409_02.html" timestamp="2014-05-23 00:11:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.110.9916&amp;rank=2</link><title>The click modular router</title><description>The click modular router
+
+by Eddie Kohler , 2001
+
+"... Chelle Gentemann Chris Onufryk Marcel Bruchez Rebecca Leonardson Elizabeth Stoehr Federica Pasquotto ..."
+
+Abstract \- Cited by 873 (26 self) \- Add to MetaCart
+
+Click is a new software architecture for building flexible and configurable routers. A Click router is assembled from packet processing modules called elements. Individual elements implement simple router functions like packet classification, queueing, scheduling, and interfacing with network devices. A router configuration is a directed graph with elements at the vertices; packets flow along the edges of the graph. Configurations are written in a declarative language that supports user-defined abstractions. This language is both readable by humans and easily manipulated by tools. We present language tools that optimize router configurations and ensure they satisfy simple invariants. Due to Click’s architecture and language, Click router configurations are modular and easy to extend. A standards-compliant Click IP router has sixteen elements on its forwarding path. We present extensions to this router that support dropping policies, fairness among flows, quality-of-service, and</description></snippet><snippet id="FW14-e004-7409-03"><link cache="FW14-topics-docs/e004/7409_03.html" timestamp="2014-05-23 00:12:01">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.18.4016&amp;rank=3</link><title>Alignment by Maximization of Mutual Information</title><description>Alignment by Maximization of Mutual Information
+
+by Paul A. Viola , 1995
+
+"... resource is unfettered. Chris and Tomas have supported me through thick andthrough thin. They've taught ..."
+
+Abstract \- Cited by 751 (13 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7409-04"><link cache="FW14-topics-docs/e004/7409_04.html" timestamp="2014-05-23 00:12:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.53.3812&amp;rank=4</link><title>The Penn Treebank: Annotating Predicate Argument Structure</title><description>The Penn Treebank: Annotating Predicate Argument Structure
+
+by Mitchell Marcus, Grace Kim, Mary Ann Marcinkiewicz, Robert Macintyre, Ann Bies, Mark Ferguson, Karen Katz, Britta Schasberger \- In ARPA Human Language Technology Workshop , 1994
+
+"... skeletally parsed version of the Brown corpus, the classic million word balanced corpus of American English ..."
+
+Abstract \- Cited by 289 (3 self) \- Add to MetaCart
+
+The Penn Treebank has recently implemented a new syntactic annotation scheme, designed to highlight aspects of predicate-argument structure. This paper discusses the implementation of crucial aspects of this new annotation scheme. It incorporates a more consistent treatment of a wide range of grammatical phenomena, provides a set of coindexed null elements in what can be thought of as "underlying " position for phenomena such as wh-movement, passive, and the subjects of infinitival constructions, provides some non-context free annotational mechanism to allow the structure of discontinuous constituents to be easily recovered, and allows for a clear, concise tagging system for some semantic roles. 1. INTRODUCTION During the first phase of the The Penn Treebank project [10], ending in December 1992, 4.5 million words of text were tagged for part-of-speech, with about two-thirds of this material also annotated with a skeletal syntactic bracketing. All of this material has been hand corre...</description></snippet><snippet id="FW14-e004-7409-05"><link cache="FW14-topics-docs/e004/7409_05.html" timestamp="2014-05-23 00:12:33">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.131.9951&amp;rank=5</link><title>Variational algorithms for approximate Bayesian inference</title><description>Variational algorithms for approximate Bayesian inference
+
+by Matthew J. Beal , 2003
+
+"... for their support and useful comments: Andrew Brown, Nando de Freitas, Oliver Downs, Alex Gray, Yoel Haitovsky, Sham ..."
+
+Abstract \- Cited by 276 (7 self) \- Add to MetaCart
+
+The Bayesian framework for machine learning allows for the incorporation of prior knowledge in a coherent way, avoids overfitting problems, and provides a principled basis for selecting between alternative models. Unfortunately the computations required are usually intractable. This thesis presents a unified variational Bayesian (VB) framework which approximates these computations in models with latent variables using a lower bound on the marginal likelihood. Chapter 1 presents background material on Bayesian inference, graphical models, and propaga-tion algorithms. Chapter 2 forms the theoretical core of the thesis, generalising the expectation-maximisation (EM) algorithm for learning maximum likelihood parameters to the VB EM al-gorithm which integrates over model parameters. The algorithm is then specialised to the large family of conjugate-exponential (CE) graphical models, and several theorems are presented to pave the road for automated VB derivation procedures in both directed and undirected graphs (Bayesian and Markov networks, respectively). Chapters 3-5 derive and apply the VB EM algorithm to three commonly-used and important models: mixtures of factor analysers, linear dynamical systems, and hidden Markov models.</description></snippet><snippet id="FW14-e004-7409-06"><link cache="FW14-topics-docs/e004/7409_06.html" timestamp="2014-05-23 00:12:52">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.6.4083&amp;rank=6</link><title>Directed Sonar Sensing for Mobile Robot Navigation</title><description>Directed Sonar Sensing for Mobile Robot Navigation
+
+by John J. Leonard, Hugh F. Durrant-Whyte, Ox Pj , 1992
+
+"... with Ingemar Cox of NEC Research Institute and Chris Brown of the University of Rochester. Anonymous reviewers ..."
+
+Abstract \- Cited by 240 (25 self) \- Add to MetaCart
+
+Contents List of Figures . . . . . . . . . . . . . . . . . . . . . . . . . . . . xi List of Tables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xv List of Abbreviations and Symbols . . . . . . . . . . . . . . . . . xvii Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xix 1 Introduction 1 1.1 The Navigation Problem . . . . . . . . . . . . . . . . . . . . 1 1.2 Why Use Sonar? . . . . . . . . . . . . . . . . . . . . . . . . 3 1.3 Choosing a Representation . . . . . . . . . . . . . . . . . . . 3 1.4 The Kalman Filter . . . . . . . . . . . . . . . . . . . . . . . 5 1.5 Data Association . . . . . . . . . . . . . . . . . . . . . . . . 10 1.6 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 2 A Sonar Sensor Model 13 2.2 Previous Work . . . . . . . . . . . . . . . . . . . . . . . . . 14 2.3 Terminology . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 2.4 The Physics of Sonar . . . . . . . . . . . . . . . . . . . . . . 17 2.5 Predi</description></snippet><snippet id="FW14-e004-7409-07"><link cache="FW14-topics-docs/e004/7409_07.html" timestamp="2014-05-23 00:13:05">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.192.2893&amp;rank=7</link><title>SELECTION AND INFORMATION: A CLASS-BASED APPROACH TO LEXICAL RELATIONSHIPS</title><description>SELECTION AND INFORMATION: A CLASS-BASED APPROACH TO LEXICAL RELATIONSHIPS
+
+by Philip Stuart Resnik , 1993
+
+"... of students. I owe a debt of gratitude to Nan Biltz, Carolyn Elken, Dawn Greisbach, Chris Sandy, Estelle ..."
+
+Abstract \- Cited by 235 (8 self) \- Add to MetaCart
+
+Selectional constraints are limitations on the applicability of predicates to arguments. For example, the statement “The number two is blue” may be syntactically well formed, but at some level it is anomalous — BLUE is not a predicate that can be applied to numbers. According to the influential theory of (Katz and Fodor, 1964), a predicate associates a set of defining features with each argument, expressed within a restricted semantic vocabulary. Despite the persistence of this theory, however, there is widespread agreement about its empirical shortcomings (McCawley, 1968; Fodor, 1977). As an alternative, some critics of the Katz-Fodor theory (e.g. (Johnson-Laird, 1983)) have abandoned the treatment of selectional constraints as semantic, instead treating them as indistinguishable from inferences made on the basis of factual knowledge. This provides a better match for the empirical phenomena, but it opens up a different problem: if selectional constraints are the same as inferences in general, then accounting for them will require a much more complete understanding of knowledge representation and inference than we have at present. The problem, then, is this: how can a theory of selectional constraints be elaborated without first having either an empirically adequate theory of defining features or a comprehensive theory of inference? In this dissertation, I suggest that an answer to this question lies in the representation of conceptual</description></snippet><snippet id="FW14-e004-7409-08"><link cache="FW14-topics-docs/e004/7409_08.html" timestamp="2014-05-23 00:13:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.163.9373&amp;rank=8</link><title>The Determinants of Credit Spread Changes</title><description>The Determinants of Credit Spread Changes
+
+by Pierre Collin-Dufresne, Robert S. Goldstein, J. Spencer Martin , 2001
+
+"... and Martin were at The Ohio State University. We thank Rui Albuquerque, Gurdip Bakshi, Greg Bauer, Dave Brown ..."
+
+Abstract \- Cited by 224 (2 self) \- Add to MetaCart
+
+Using dealer’s quotes and transactions prices on straight industrial bonds, we investigate the determinants of credit spread changes. Variables that should in theory determine credit spread changes have rather limited explanatory power. Further, the residuals from this regression are highly cross-correlated, and principal components analysis implies they are mostly driven by a single common factor. Although we consider several macroeconomic and financial variables as candidate proxies, we cannot explain this common systematic component. Our results suggest that monthly credit spread changes are principally driven by local supply0 demand shocks that are independent of both credit-risk factors and standard proxies for liquidity.</description></snippet><snippet id="FW14-e004-7409-09"><link cache="FW14-topics-docs/e004/7409_09.html" timestamp="2014-05-23 00:13:39">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.145.3577&amp;rank=9</link><title>THE SIMPLE ECONOMICS OF OPEN SOURCE</title><description>THE SIMPLE ECONOMICS OF OPEN SOURCE
+
+by Josh Lerner, Jean Tirole , 2000
+
+"... Center, and Chris Darwall in particular, was instrumental in the development of the case studies ..."
+
+Abstract \- Cited by 210 (6 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7409-10"><link cache="FW14-topics-docs/e004/7409_10.html" timestamp="2014-05-23 00:13:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6481001020B8AE97D6BE47B04D5F963E?doi=10.1.1.17.3514&amp;rank=10</link><title>Consumption Over the Life Cycle</title><description>Consumption Over the Life Cycle
+
+by Pierre-olivier Gourinchas, Jonathan A. Parker, Chris Carroll, Charles Fleischman, Franco Modigliani, Steve Pischke, Nicholas Souleles \- Econometrica , 1995
+
+"... Olivier Jean Blanchard, Ricardo Caballero, and Chris Carroll, for detailed comments and encouragement. We ..."
+
+Abstract \- Cited by 177 (8 self) \- Add to MetaCart
+
+This paper employs a synthetic cohort technique and Consumer Expenditure Survey data to construct average age-profiles of consumption and income over the working lives of typical households across different education and occupation groups. Even after controlling for family and cohort effects, typical consumption profiles are not flat, and seem to track income at young ages. Using these profiles, we estimate a structural model of optimal life-cycle consumption expenditures in the presence of realistic income uncertainty. The model fits the profiles quite well. In addition to providing tight estimates of the discount rate and risk aversion, we find that consumer behavior changes strikingly over the life-cycle. Young consumers behave as "buffer-stock" agents. Around age 43, the typical household starts accumulating liquid assets for retirement and its behavior mimics more closely that of a certainty equivalent consumer. This change in behavior is mostly driven by the life-cycle profile of expected income. Our methodology provides a natural decomposition of saving into its precautionary and retirement components.</description></snippet></snippets></search_results>

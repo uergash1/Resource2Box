@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7147">breast cancer review</query><engine status="OK" timestamp="2014-05-21 15:42:00" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7147-01"><link cache="FW14-topics-docs/e004/7147_01.html" timestamp="2014-05-21 15:42:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.115.7807&amp;rank=1</link><title>Molecular classification of cancer: class discovery and class prediction by gene expression</title><description>Molecular classification of cancer: class discovery and class prediction by gene expression
+
+by T. R. Golub, D. K. Slonim, P. Tamayo, C. Huard, M. Gaasenbeek, J. P. Mesirov, H. Coller, M. L. Loh, J. R. Downing, M. A. Caligiuri, C. D. Bloomfield \- Science , 1999
+
+"... — such as whether a prostate cancer turns out to be indolent or a breast cancer responds to a given chemotherapy. We ..."
+
+Abstract \- Cited by 1218 (14 self) \- Add to MetaCart
+
+Although &lt;em&gt;cancer&lt;/em&gt; classification has improved over the past 30 years, there has been no general</description></snippet><snippet id="FW14-e004-7147-02"><link cache="FW14-topics-docs/e004/7147_02.html" timestamp="2014-05-21 15:42:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.352.9175&amp;rank=2</link><title>Gene selection for cancer classification using support vector machines</title><description>Gene selection for cancer classification using support vector machines
+
+by Isabelle Guyon, Jason Weston, Stephen Barnhill, Vladimir Vapnik, Nello Cristianini \- Machine Learning
+
+"... plausible relevance to cancer diagnosis. After formally stating the problem and reviewing prior work ..."
+
+Abstract \- Cited by 680 (23 self) \- Add to MetaCart
+
+and determine whether those genes are active, hyperactive or silent in normal or &lt;em&gt;cancerous&lt;/em&gt; tissue. Because</description></snippet><snippet id="FW14-e004-7147-03"><link cache="FW14-topics-docs/e004/7147_03.html" timestamp="2014-05-21 15:42:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.114.5140&amp;rank=3</link><title>Comparison of discrimination methods for the classification of tumors using gene expression data</title><description>Comparison of discrimination methods for the classification of tumors using gene expression data
+
+by Sandrine Dudoit, Jane Fridlyand, Terence P. Speed \- JOURNAL OF THE AMERICAN STATISTICAL ASSOCIATION , 2002
+
+"... , labeling, hybridization, scanning), a leukemia (K562) cell line and a breast cancer (MCF7) cell line were ..."
+
+Abstract \- Cited by 501 (4 self) \- Add to MetaCart
+
+of &lt;em&gt;cancer&lt;/em&gt;. cDNA microarrays and high-density oligonucleotide chips are novel biotechnologies increasingly</description></snippet><snippet id="FW14-e004-7147-04"><link cache="FW14-topics-docs/e004/7147_04.html" timestamp="2014-05-21 15:43:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.133.9187&amp;rank=4</link><title>A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection</title><description>A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection
+
+by Ron Kohavi \- INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE , 1995
+
+"... and variance of k-fold cross-validation on several datasets (the breast cancer dataset is not shown ..."
+
+Abstract \- Cited by 749 (12 self) \- Add to MetaCart
+
+We &lt;em&gt;review&lt;/em&gt; accuracy estimation methods and compare the two most common methods: cross</description></snippet><snippet id="FW14-e004-7147-05"><link cache="FW14-topics-docs/e004/7147_05.html" timestamp="2014-05-21 15:43:35">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.317.9673&amp;rank=5</link><title>The theory of planned behavior</title><description>The theory of planned behavior
+
+by Icek Ajzen \- Organizational Behavior and Human Decision Processes , 1991
+
+"... * the theory of planned behavior (Ajzen, 1985, 1987) is reviewed, and some unresolved issues are discussed ..."
+
+Abstract \- Cited by 540 (1 self) \- Add to MetaCart
+
+) is &lt;em&gt;reviewed&lt;/em&gt;, and some unresolved issues are discussed. In broad terms, the theory is found to be well</description></snippet><snippet id="FW14-e004-7147-06"><link cache="FW14-topics-docs/e004/7147_06.html" timestamp="2014-05-21 15:43:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.125.5395&amp;rank=6</link><title>Random forests</title><description>Random forests
+
+by Leo Breiman, E. Schapire \- Machine Learning , 2001
+
+"... size Inputs Classes Glass 214 – 9 6 Breast cancer 699 – 9 2 Diabetes 768 – 8 2 Sonar 208 – 60 2 Vowel ..."
+
+Abstract \- Cited by 1382 (2 self) \- Add to MetaCart
+
+Abstract. Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund &amp; R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ∗∗∗, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.</description></snippet><snippet id="FW14-e004-7147-07"><link cache="FW14-topics-docs/e004/7147_07.html" timestamp="2014-05-21 15:44:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.385.5272&amp;rank=7</link><title>On the optimality of the simple Bayesian classifier under zero-one loss</title><description>On the optimality of the simple Bayesian classifier under zero-one loss
+
+by Pedro Domingos, Michael Pazzani \- MACHINE LEARNING , 1997
+
+"... .8±5.43 71.0±5.15 21.3 Annealing 95.3±1.2 84.3±3.81 90.5±2.21 98.8±0.81 81.2±5.41 76.4 Breast cancer 71 ..."
+
+Abstract \- Cited by 601 (25 self) \- Add to MetaCart
+
+The simple Bayesian classifier is known to be optimal when attributes are independent given the class, but the question of whether other sufficient conditions for its optimality exist has so far not been explored. Empirical results showing that it performs surprisingly well in many domains containing clear attribute dependences suggest that the answer to this question may be positive. This article shows that, although the Bayesian classifier’s probability estimates are only optimal under quadratic loss if the independence assumption holds, the classifier itself can be optimal under zero-one loss (misclassification rate) even when this assumption is violated by a wide margin. The region of quadratic-loss optimality of the Bayesian classifier is in fact a second-order infinitesimal fraction of the region of zero-one optimality. This implies that the Bayesian classifier has a much greater range of applicability than previously thought. For example, in this article it is shown to be optimal for learning conjunctions and disjunctions, even though they violate the independence assumption. Further, studies in artificial domains show that it will often outperform more powerful classifiers for common training set sizes and numbers of attributes, even if its bias is a priori much less appropriate to the domain. This article’s results also imply that detecting attribute dependence is not necessarily the best way to extend the Bayesian classifier, and this is also verified empirically.</description></snippet><snippet id="FW14-e004-7147-08"><link cache="FW14-topics-docs/e004/7147_08.html" timestamp="2014-05-21 15:44:31">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.32.9399&amp;rank=8</link><title>Bagging Predictors</title><description>Bagging Predictors
+
+by Leo Breiman, Leo Breiman \- Machine Learning , 1996
+
+"... to classification trees using the following data sets: waveform (simulated) heart breast cancer (Wisconsin ..."
+
+Abstract \- Cited by 2479 (1 self) \- Add to MetaCart
+
+Bagging predictors is a method for generating multiple versions of a predictor and using these to get an aggregated predictor. The aggregation averages over the versions when predicting a numerical outcome and does a plurality vote when predicting a class. The multiple versions are formed by making bootstrap replicates of the learning set and using these as new learning sets. Tests on real and simulated data sets using classification and regression trees and subset selection in linear regression show that bagging can give substantial gains in accuracy. The vital element is the instability of the prediction method. If perturbing the learning set can cause significant changes in the predictor constructed, then bagging can improve accuracy. 1. Introduction A learning set of L consists of data f(y n ; x n ), n = 1; : : : ; Ng where the y's are either class labels or a numerical response. We have a procedure for using this learning set to form a predictor '(x; L) --- if the input is x we ...</description></snippet><snippet id="FW14-e004-7147-09"><link cache="FW14-topics-docs/e004/7147_09.html" timestamp="2014-05-21 15:44:52">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.382.6479&amp;rank=9</link><title>Generalized Additive Models</title><description>Generalized Additive Models
+
+by Ttcvor Hastie, Robert Tibahirani , 1990
+
+"... . This is one of the smooths from the analysis of Haberman’s breast cancer data, discussed in detail in Sections ..."
+
+Abstract \- Cited by 1314 (33 self) \- Add to MetaCart
+
+Liklihood based regression models, such as the normal linear regression model and the linear logistic model, assume a linear (or some other parametric) form for the covariate effects. We introduce the Local Scotinq procedure which replaces the liner form C Xjpj by a sum of smooth functions C Sj(Xj)a The Sj(.) ‘s are unspecified functions that are estimated using scatterplot smoothers. The technique is applicable to any likelihood-based regression model: the class of Generalized Linear Models contains many of these. In this class, the Locul Scoring procedure replaces the linear predictor VI = C Xj@j by the additive predictor C ai ( hence, the name Generalized Additive Modeb. Local Scoring can also be applied to non-standard models like Cox’s proportional hazards model for survival data. In a number of real data examples, the Local Scoring procedure proves to be useful in uncovering non-linear covariate effects. It has the advantage of being completely automatic, i.e. no “detective work ” is needed on the part of the statistician. In a further generalization, the technique is modified to estimate the form of the link function for generalized linear models. The Local Scoring procedure is shown to be asymptotically equivalent to Local Likelihood estimation, another technique for estimating smooth covariate functions. They are seen to produce very similar results with real data, with Local Scoring being considerably faster. As a theoretical underpinning, we view Local Scoring and Local Likelihood as empirical maximizers of the ezpected log-likelihood, and this makes clear their connection to standard maximum likelihood estimation. A method for estimating the “degrees of freedom ” of the procedures is also given.</description></snippet><snippet id="FW14-e004-7147-10"><link cache="FW14-topics-docs/e004/7147_10.html" timestamp="2014-05-21 15:45:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=B65C5BC617E6A4016481E945012F88F8?doi=10.1.1.122.4983&amp;rank=10</link><title>Markov Logic Networks</title><description>Markov Logic Networks
+
+by Matthew Richardson, Pedro Domingos \- Machine Learning , 2006
+
+"... begin the paper by briefly reviewing the fundamentals of Markov networks (Section 2) and first ..."
+
+Abstract \- Cited by 569 (34 self) \- Add to MetaCart
+
+Abstract. We propose a simple approach to combining first-order logic and probabilistic graphical models in a single representation. A Markov logic network (MLN) is a first-order knowledge base with a weight attached to each formula (or clause). Together with a set of constants representing objects in the domain, it specifies a ground Markov network containing one feature for each possible grounding of a first-order formula in the KB, with the corresponding weight. Inference in MLNs is performed by MCMC over the minimal subset of the ground network required for answering the query. Weights are efficiently learned from relational databases by iteratively optimizing a pseudo-likelihood measure. Optionally, additional clauses are learned using inductive logic programming techniques. Experiments with a real-world database and knowledge base in a university domain illustrate the promise of this approach.</description></snippet></snippets></search_results>

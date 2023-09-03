@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7471">php foreach</query><engine status="OK" timestamp="2014-04-25 15:29:25" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7471-01"><link cache="FW14-topics-docs/e110/7471_01.html" timestamp="2014-04-25 15:30:04">http://stackoverflow.com/questions/10057671/how-foreach-actually-works/</link><title>How PHP's foreach works</title><description>How PHP's foreach works (http://stackoverflow.com/questions/10057671/how-foreach-actually-works/)
+
+193 points
+
+by vlucas
+
+about a year ago
+
+43 comments Follow
+
+*[about a year ago]: 2013-02-27T21:23:15.000Z</description><thumb cache="FW14-topics-docs/e110/7471_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/5295034.png</thumb></snippet><snippet id="FW14-e110-7471-02"><link cache="FW14-topics-docs/e110/7471_02.html" timestamp="2014-04-25 15:30:55">http://www.crazyws.fr/dev/premiere-beta-de-php-5-5-T72DX.html</link><title>Premire bta de PHP 5.5</title><description>Premire bta de PHP 5.5 (http://www.crazyws.fr/dev/premiere-beta-de-php-5-5-T72DX.html)
+
+1 point
+
+by crazymax
+
+about a year ago
+
+0 comment Follow
+
+Les dveloppeurs de PHP ont publi une premire version bta 5.5. Cela signifie qu'aucune autre nouvelle caractristique ne sera ajoute la prochaine version de PHP. Parmi les dernires fonctionnalits majeures qui ont t ajoutes, on retrouve la fonction array_column() qui simplifie l'extraction des colonnes de tableaux multidimensionnels, l'intgration de Zend Optimizer+, le support des cls itratives non-scalaires via les boucles foreach(). Toutes les nouvelles fonctionnalits sont listes sur sur GitHub.
+
+*[about a year ago]: 2013-03-22T15:56:35.000Z</description><thumb cache="FW14-topics-docs/e110/7471_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/5423721.png</thumb></snippet></snippets></search_results>

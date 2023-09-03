@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7487">april fools day ideas</query><engine status="OK" timestamp="2014-04-25 16:30:02" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7487-01"><link cache="FW14-topics-docs/e110/7487_01.html" timestamp="2014-04-25 16:31:12">https://news.ycombinator.com/item?id=3632119</link><title>Show HN: iPhone prank web app in jQuery</title><description>Show HN: iPhone prank web app in jQuery
+
+14 points
+
+by hkuo
+
+2 years ago
+
+3 comments Follow
+
+Just wanted to get some feedback on this web app I recently made. I had the idea to recreate the iPhone interface in HTML, and when I got that working, I had the idea to turn it into a prank app, making it really easy to install on someone else's phone without the need of an Apple ID password. In any case, maybe you can save this for April Fools day coming up soon.
+
+url: http://www.iphoneception.com
+
+*[2 years ago]: 2012-02-25T04:05:24.000Z</description><thumb cache="FW14-topics-docs/e110/7487_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3632119.png</thumb></snippet><snippet id="FW14-e110-7487-02"><link cache="FW14-topics-docs/e110/7487_02.html" timestamp="2014-04-25 16:32:11">https://news.ycombinator.com/item?id=153760</link><title>Brilliant/retarded idea for startup. Brilliant/retarded developers needed.</title><description>Brilliant/retarded idea for startup. Brilliant/retarded developers needed.
+
+5 points
+
+by cthulha
+
+6 years ago
+
+13 comments Follow
+
+I've already submitted a YCombinator app with friends (under the username ltoop, which has a secure password I can't remember) but I had a really stupid/awesome idea after my coffee today.
+
+Pi is infinite and non-repeating, so there must be a sequence in there somewhere which corresponds to any binary sequence you care to name: text, audio, video, application binaries (Source code!)
+
+So, we could start up a RapidShare/BitTorrent competitor (I have registered ThePiBay.org in preparation!) where is a database of offsets and lengths within Pi for a given file. We don't store anything illegal, have really low bandwidth consumption, and can access an infinite amount of material.
+
+Users upload a file to us. We search for it in Pi, and give them a link to a page which has the details. They'll need some kind of application to use these details to generate the file, and since this could be computationally intense, ideally it could distribute the load across a range of peers and share chunks of the resulting binary sequences. That is, a Pi2Pi application.
+
+Heck, why would anyone waste time downloading 0-day warez releases when you can search for software yet to be designed/released? With appropriate data-mining, people will use us for -1-day warez, like MSOffice 2020 or Mac OS X 10.9. How about i-day warez, imaginary programs that people have never have written and will never write, that are waiting in the digits of pi for us to find them! The winner of the NetFlix competition is in there somewhere!
+
+I'm almost out of puns and stupid jokes (finally), so lets talk about business plans/monetisation.
+
+Perhaps we have free and paid users, where free users can only search within the first few billion digits of pi. Or maybe their algorithm approximates pi with 22/7 :)
+
+Maybe we search for versions of the sequence that incorporate ads for our sponsors (these versions are already in there somewhere!) and serve them to non-paying users, or we give them low res versions and spelling mistakes or captions in Polish. Pi is an infinite resource, just waiting for us to mine it!
+
+Seriously though, I wish I thought of this last week so I had time to put up a fake page for April Fool's day. Anyone wanna help design a fake website for it with me :)
+
+*[6 years ago]: 2008-04-03T08:51:25.000Z</description><thumb cache="FW14-topics-docs/e110/7487_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/153760.png</thumb></snippet></snippets></search_results>

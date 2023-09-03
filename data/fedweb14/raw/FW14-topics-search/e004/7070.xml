@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7070">compact flash memory card</query><engine status="OK" timestamp="2014-04-19 01:02:04" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7070-01"><link cache="FW14-topics-docs/e004/7070_01.html" timestamp="2014-04-19 01:02:07">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.368.2254&amp;rank=1</link><title>Some studies in machine learning using the game of Checkers</title><description>Some studies in machine learning using the game of Checkers
+
+by Arthur L. Samuel \- IBM JOURNAL OF RESEARCH AND DEVELOPMENT , 1959
+
+"... or by means of punched cards. The computer verifies the legality of the opponent's move, rejecting l ..."
+
+Abstract \- Cited by 612 (0 self) \- Add to MetaCart
+
+Two machine-learning procedures have been investigated in some detail using the game of checkers. Enough work has been done to verify the fact that a computer can be programmed so that it will learn to play a better game of checkers than can be played by the person who wrote the program. Furthermore, it can learn to do this in a remarkably short period of time (8 or 10 hours of machine-playing time) when given only the rules of the game, a sense of direction, and a redundant and incomplete list of parameters which are thought to have something to do with the game, but whose correct signs and relative weights are unknown and unspecified. The principles of machine learning verified by these experiments are, of course, applicable to many other situations.</description></snippet><snippet id="FW14-e004-7070-02"><link cache="FW14-topics-docs/e004/7070_02.html" timestamp="2014-04-19 01:03:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.111.1818&amp;rank=2</link><title>Tapestry: An infrastructure for fault-tolerant wide-area location and routing</title><description>Tapestry: An infrastructure for fault-tolerant wide-area location and routing
+
+by Ben Y. Zhao, John Kubiatowicz, Anthony D. Joseph, Ben Y. Zhao, John Kubiatowicz, Anthony D. Joseph , 2001
+
+"... fragile, subject to flash crowd loads, denial of service attacks, security breaches, server failures ..."
+
+Abstract \- Cited by 1033 (31 self) \- Add to MetaCart
+
+In today’s chaotic network, data and services are mobile and replicated widely for availability, durability, and locality. Components within this infrastructure interact in rich and complex ways, greatly stressing traditional approaches to name service and routing. This paper explores an alternative to traditional approaches called Tapestry. Tapestry is an overlay location and routing infrastructure that provides location-independent routing of messages directly to the closest copy of an object or service using only point-to-point links and without centralized resources. The routing and directory information within this infrastructure is purely soft state and easily repaired. Tapestry is self-administering, faulttolerant, and resilient under load. This paper presents the architecture and algorithms of Tapestry and explores their advantages through a number of experiments. 1</description></snippet><snippet id="FW14-e004-7070-03"><link cache="FW14-topics-docs/e004/7070_03.html" timestamp="2014-04-19 01:04:19">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.117.4330&amp;rank=3</link><title>A survey of context-aware mobile computing research</title><description>A survey of context-aware mobile computing research
+
+by Guanling Chen, David Kotz , 2000
+
+"... expansion modules supporting IEEE 802.11 and OpenAir™ standards in the form of CompactFlash, PCMCIA ..."
+
+Abstract \- Cited by 468 (2 self) \- Add to MetaCart
+
+Context-aware computing is a mobile computing paradigm in which applications can discover and take advantage of contextual information (such as user location, time of day, nearby people and devices, and user activity). Since it was proposed about a decade ago, many researchers have studied this topic and built several context-aware applications to demonstrate the usefulness of this new technology. Context-aware applications (or the system infrastructure to support them), however, have never been widely available to everyday users. In this survey of research on context-aware systems and applications, we looked in depth at the types of context used and models of context information, at systems that support collecting and disseminating context, and at applications that adapt to the changing context. Through this survey, it is clear that context-aware research is an old but rich area for research. The difficulties and possible solutions we outline serve as guidance for researchers hoping to make context-aware computing a reality. 1.</description></snippet><snippet id="FW14-e004-7070-04"><link cache="FW14-topics-docs/e004/7070_04.html" timestamp="2014-04-19 01:05:18">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.330.5275&amp;rank=4</link><title>The SGI Origin: A ccNUMA highly scalable server</title><description>The SGI Origin: A ccNUMA highly scalable server
+
+by James Laudon, Daniel Lenoski \- In Proceedings of the 24th International Symposium on Computer Architecture (ISCA’97 , 1997
+
+"... is mounted on a horizontal in-line memory module (HIMM) daughter card. The HIMM is parallel to the main node ..."
+
+Abstract \- Cited by 435 (0 self) \- Add to MetaCart
+
+The SGI Origin 2000 is a cache-coherent non-uniform &lt;em&gt;memory&lt;/em&gt; access (ccNUMA) multiprocessor designed</description></snippet><snippet id="FW14-e004-7070-05"><link cache="FW14-topics-docs/e004/7070_05.html" timestamp="2014-04-19 01:06:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.138.5038&amp;rank=5</link><title>Uniprocessor Garbage Collection Techniques</title><description>Uniprocessor Garbage Collection Techniques
+
+by Paul R. Wilson \- SUBMITTED TO ACM COMPUTING SURVEYS
+
+"... Counting 8 2.2 Mark-Sweep Collection :::::::::: 9 2.3 Mark-Compact Collection :::::::: 10 2.4 Copying ..."
+
+Abstract \- Cited by 435 (5 self) \- Add to MetaCart
+
+We survey basic garbage collection algorithms, and variations such as incremental and generational collection; we then discuss low-level implementation considerations and the relationships between storage management systems, languages, and compilers. Throughout, we attempt to present a uni ed view based on abstract traversal strategies, addressing issues of conservatism, opportunism, and immediacy of reclamation; we also point outavariety of implementation details that are likely to have a significant impact on performance.</description></snippet><snippet id="FW14-e004-7070-06"><link cache="FW14-topics-docs/e004/7070_06.html" timestamp="2014-04-19 01:07:39">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.126.6093&amp;rank=6</link><title>Compact Flash card slot – Yes</title><description>Compact Flash card slot – Yes
+
+by Downloadable Protocols Uni-te, Third-party Protocols
+
+"... XBT GT7340 Separate parts Magelis XBT GT terminals Compact Flash memory cards 128 MB 256 MB 512 MB 1 ..."
+
+Abstract \- Add to MetaCart
+
+Magelis XBT GT (with 3.8 ” to 15 ” LCD touch screen) graphic terminals provide simple access to communication solutions via their direct connection to the Ethernet TCP/IP network.</description></snippet><snippet id="FW14-e004-7070-07"><link cache="FW14-topics-docs/e004/7070_07.html" timestamp="2014-04-19 01:08:45">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.85.9752&amp;rank=7</link><title>Reality Mining: Sensing Complex Social Systems</title><description>Reality Mining: Sensing Complex Social Systems
+
+by Nathan Eagle, Alex Pentland \- J. OF PERSONAL AND UBIQUITOUS COMPUTING , 2005
+
+"... significantly, through human error. Data Corruption. All the data from a phone are stored on a flash memory card ..."
+
+Abstract \- Cited by 387 (22 self) \- Add to MetaCart
+
+We introduce a system for sensing complex social systems with data collected from one hundred mobile phones over the course of six months. We demonstrate the ability to use standard Bluetooth-enabled mobile telephones to measure information access and use in different contexts, recognize social patterns in daily user activity, infer relationships, identify socially significant locations, and model organizational rhythms.</description></snippet><snippet id="FW14-e004-7070-08"><link cache="FW14-topics-docs/e004/7070_08.html" timestamp="2014-04-19 01:09:57">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.406.9101&amp;rank=8</link><title>Compact Flash</title><description>Compact Flash
+
+by Michael D. Linderman, Vikash Gilja, Gopal Santhanam, Afsheen Afshar, Stephen Ryu, Teresa H. Meng, Krishna V. Shenoy, Analog Board, High Pass, Low Pass
+
+"... of recording broadband neural and head acceleration data to a removable compact flash card for up to 48 hours ..."
+
+Abstract \- Add to MetaCart
+
+broadband neural and head acceleration data to a removable &lt;em&gt;compact&lt;/em&gt; &lt;em&gt;flash&lt;/em&gt; &lt;em&gt;card&lt;/em&gt; for up to 48 hours.</description></snippet><snippet id="FW14-e004-7070-09"><link cache="FW14-topics-docs/e004/7070_09.html" timestamp="2014-04-19 01:11:05">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.149.7163&amp;rank=9</link><title>Above the Clouds: A Berkeley View of Cloud Computing</title><description>Above the Clouds: A Berkeley View of Cloud Computing
+
+by Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy H. Katz, Andrew Konwinski, Gunho Lee, David A. Patterson, Ariel Rabkin, Matei Zaharia , 2009
+
+"... with VMs, flash memory should be added to the memory hierarchy, and LAN switches and WAN routers must ..."
+
+Abstract \- Cited by 360 (10 self) \- Add to MetaCart
+
+personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, to republish, to post on servers or to redistribute to lists, requires prior specific permission. Acknowledgement The RAD Lab's existence is due to the generous support of the founding members Google, Microsoft, and Sun Microsystems and of the affiliate members Amazon Web Services, Cisco Systems, Facebook, Hewlett-</description></snippet><snippet id="FW14-e004-7070-10"><link cache="FW14-topics-docs/e004/7070_10.html" timestamp="2014-04-19 01:12:17">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2F17C7EE191EF009DEFA0AE1965364A9?doi=10.1.1.308.5720&amp;rank=10</link><title>Memory resource management in vmware esx server</title><description>Memory resource management in vmware esx server
+
+by Carl A. Waldspurger \- In OSDI , 2002
+
+"... ProbeAndLock- Pages() in Windows. Future guest OS support for hot-pluggable memory cards would enable an additional ..."
+
+Abstract \- Cited by 310 (2 self) \- Add to MetaCart
+
+novel ESX Server mechanisms and policies for managing &lt;em&gt;memory&lt;/em&gt;. A ballooning technique reclaims the pages</description></snippet></snippets></search_results>

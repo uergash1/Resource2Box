@@ -1,0 +1,964 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7472">python re tutorial</query><engine status="OK" timestamp="2014-05-20 19:48:41" name="Picasa" id="FW14-e122"/><snippets><snippet id="FW14-e122-7472-01"><link>https://plus.google.com/s/python%20re%20tutorial/photos/109780686446922422512/albums/5986738431445142417/5986738430208357442</link><title>Tutorial: Raspberry Pi GPIO Pins and Python 
+
+The GPIO pins on a Raspberry Pi are a great way to interface physical devices like buttons and LEDs with the little Linux processor. If you’re a Python developer, there’s a sweet library called RPi.GPIO that handles interfacing with the pins. In just three lines of code, you can get an LED blinking on one of the GPIO pins. 
+
+http://makezine.com/projects/tutorial-raspberry-pi-gpio-pins-and-python﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_01_thumb.jpg">https://lh3.googleusercontent.com/-QXnOpbFYrts/UxUq4he_tEI/AAAAAAAAmR8/FoVOkAPSEwg/w426-h263/fb_fig0701.jpg</thumb></snippet><snippet id="FW14-e122-7472-03"><link>https://plus.google.com/s/python%20re%20tutorial/photos/114040550910618745631/albums/5974339057352925809/5974339064648977618</link><title>I recently finished working on the first version of a "smart" wall clock based on a Raspberry Pi Model B. Since this kind of setup allows you to create endless solutions while being extremely simple to develop, I think sharing the basics about how I did it could be interesting. 
+
+THE BASICS 
+The smart clock shows the current time and weather, a weather forecast for the next 18 hours and waiting time at the bus stops closer to my house. As you'll read, configuring the kind of data displayed is really easy, and it only requires a little knowledge of Linux systems (in my case, the Raspbian distribution) and PHP (even if you can also use Python, NodeJS or any other language). 
+
+SHOPPING LIST 
+First of all, you'll need a Raspberry Pi computer. I chose the "Model B" because it is a little bit more powerful than the original one. You can buy one from one of the Raspberry official resellers (a list is available here: http://www.raspberrypi.org/ ). If you live in Italy, you'll find that buying it on Amazon.it is easier than ordering it from the official sellers. I bought mine at this link http://www.amazon.it/gp/product/B008PT4GGC/ref=as_li_tf_tl?ie=UTF8&amp;camp=3370&amp;creative=23322&amp;creativeASIN=B008PT4GGC&amp;linkCode=as2&amp;tag=simonlippo06-21. 
+
+The second step is to buy an SD card. Check the list of compatible SD Cards on the Raspberry Pi site. I am using this one bought (once again) on Amazon: http://www.amazon.it/gp/product/B000OF2F36/ref=as_li_tf_tl?ie=UTF8&amp;camp=3370&amp;creative=23322&amp;creativeASIN=B000OF2F36&amp;linkCode=as2&amp;tag=simonlippo06-21 
+
+Your next step is finding a way to provide power to the Raspberry. You have two choices: if you plan to use a modern TV as a monitor for your clock, then you can just plug the Raspberry into one of the TV's USB ports; the other solution is to use any micro-USB adaptor (yes, the one that comes with your Android or Windows Phone mobile will work perfectly). Should you need to buy one, Amazon is still a good place where you can find a cheap power adaptor ( http://www.amazon.it/gp/product/B003XRQE3E/ref=as_li_tf_tl?ie=UTF8&amp;camp=3370&amp;creative=23322&amp;creativeASIN=B003XRQE3E&amp;linkCode=as2&amp;tag=simonlippo06-21 ). Every Raspberry Pi official seller has its own adaptor. 
+Also, I noticed that sites like Adafruit ( http://www.adafruit.com/ ) sell a "Raspberry Starter Kit" that already contains the Raspberry itself, the power adaptor and the SD card. You might consider buying one of them. 
+
+Another thing you'll need is a monitor. My specific need was to have something extremely small, so I chose to buy a 4.3'' LCD monitor. This kind of monitors are the one that you are using as rearview monitors on your car, they're very cheap (mine cost me around 26 EUR) but not too accurate in displaying fancy graphics (consider this if your design contains a lot of pictures and low-contrast graphics). My idea is to fit everything, Raspberry + Monitor in some sort of box and hang it to the wall next to my apartment's entrance door. If your requirements are different, maybe you'll find a different solution. Anyway, the monitor that I am using is like this one, again, from Amazon: http://www.amazon.it/gp/product/B009VYKGLO/ref=as_li_tf_tl?ie=UTF8&amp;camp=3370&amp;creative=23322&amp;creativeASIN=B009VYKGLO&amp;linkCode=as2&amp;tag=simonlippo06-21. 
+
+You will probably need to find a way to supply power to the monitor: This kind of device is designed to work on cars, so you'll need to buy a power adaptor to make it work in your house. Amazon is full of cheap devices that will do this job, just like this one: http://www.amazon.it/gp/product/B002TPY1VS/ref=as_li_tf_tl?ie=UTF8&amp;camp=3370&amp;creative=23322&amp;creativeASIN=B002TPY1VS&amp;linkCode=as2&amp;tag=simonlippo06-21 
+
+Another thing that you have to consider is the internet connection: the Raspberry comes with an Ethernet port, if you plan to use WI-FI you have to buy a USB adaptor; again, check the Raspberry Pi site for a list of compatible devices, the one that I am using is this one: http://www.amazon.it/gp/product/B002VGQQAE/ref=as_li_tf_tl?ie=UTF8&amp;camp=3370&amp;creative=23322&amp;creativeASIN=B002VGQQAE&amp;linkCode=as2&amp;tag=simonlippo06-21 
+
+Raspberry Pi: 38.90 EUR 
+SD Card: 6.08 EUR 
+Power adaptor for the Raspberry: 16.99 EUR 
+Monitor: 29.55 EUR 
+Power adaptor for the monitor: 14.14 EUR 
+Wi-fi USB adaptor: 12.08 EUR 
+\-------------------------------------------------------------------- 
+Total: 117.74 
+
+INITIAL SETUP 
+First thing you'll need to do is setting up your Raspberry properly. Follow the instructions that you can find on the Raspberry website ( http://www.raspberrypi.org/downloads ) on how to install the latest Raspbian version on your SD card. The process won't take more than 30 minutes; once it's completed, just insert your SD card into the Raspberry, plug the power in, and start some advanced configuration. During this process, my advice is to connect the Raspberry to a real monitor, just to be able to read what appears on the screen. 
+
+Now you have to setup your network connection: if you plugged an ethernet cable in, then you don't need to do anything. If you are using the USB wi-fi adaptor, follow this tutorial to configure it: http://www.raspberryshake.com/raspberry-pi-wireless-network-setup/ 
+
+The next phase consists of updating your system (type sudo apt-get update) and installing the server-side software you'll need. I wrote my bots with PHP, so I installed Apache and Php5 with mod_curl. Follow this tutorial: http://www.dingleberrypi.com/2012/09/tutorial-install-apache-php-and-mysql-on-raspberry-pi/ for step-by-step instructions. 
+
+Now your Raspberry is ready to be transformed into a Kiosk or, since the monitor you bought is smaller than the one on your iphone, a wall clock. Follow this tutorial to install chromium and configure your Raspberry to boot with a full-screen chromium instance: http://blogs.wcode.org/2013/09/howto-boot-your-raspberry-pi-into-a-fullscreen-browser-kiosk/ If you plan to use a small analog monitor as a display, you can skip any editing at the /boot/config.txt file. 
+
+Once it's done, you're almost set. Shut the Raspberry off, disconnect it from the "real" monitor and connect it to your small monitor. Turn the power on and see what happens. 
+
+Well, actually I know what will happen. The Raspberry will start, and you'll see a lot of unreadable lines on your monitor. Since the screen that you are using is analog, the Raspberry is unable to read its resolutions and properties, so you'll have to manually configure them. Just use another computer to SSH into your Raspberry Pi, and follow this tutorial on how to setup the screen resolution: http://learn.adafruit.com/using-a-mini-pal-ntsc-display-with-a-raspberry-pi/overview you'll probably need to play a lot with the overscan settings: my monitor was sold as a 480x272px but I was forced to add more than 50px at the top and as overscan... This is the most boring part, because every time you'll edit a parameter you'll need to reboot to see the changes. But once it's one, you're all set! 
+In the next post I'll spend a couple of words on how the interface was created, and on how to create some simple bots written in PHP.﻿
+
+Meer lezen (132 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_03_thumb.jpg">https://lh3.googleusercontent.com/-N-Zl-ed1Vo0/UukdudQkTNI/AAAAAAAAJvY/O00cCZMFBDs/w426-h320/unnamed.jpg</thumb></snippet><snippet id="FW14-e122-7472-04"><link>https://plus.google.com/s/python%20re%20tutorial/photos/114424163811716070551/albums/5701287279516143745/5701287277453833650</link><title>Over 200 Free Online Educational Resources (v.2.3) 
+
+Warning: Very long post. Please open in a new browser tab. 
+
+Here is decades' worth of knowledge freely available online for those who love to learn. Links that fit under multiple categories are listed only once. 
+
+What are your favorite sites to learn from? What sites would you add to this list? 
+
+(View the original post for any future updates: http://goo.gl/8HLFw) 
+
+CONTENTS: 
+
+I. Top Picks 
+II. Universities and Higher Education (updated to v.2.0 on 1/27/12) 
+III. General Collections (updated to v.2.3 on 2/10/12) 
+IV. How-to &amp; DIY 
+V. Studying with Peers 
+VI. Online Books, eBooks, &amp; Journals 
+VII. Computers, Software, &amp; Programming (updated to v.2.2 on 2/6/12) 
+VIII. Science &amp; Math (updated to v.2.3 on 2/10/12) 
+IX. Logic, Words, &amp; Memory 
+X. Languages 
+XI. Music (updated to v.1.2 on 1/26/12) 
+XII. History 
+XIII. Business, Economics, Finance, &amp; Investing (updated to v.1.2 on 1/26/12) 
+XIV. Food, Nutrition, &amp; Cooking 
+XV. Survival Tips 
+XVI. Documentaries &amp; Film Studies (updated to v.2.3 on 2/10/12) 
+XVII. Other 
+
+=========== 
+
+I. TOP PICKS 
+
+Khan Academy 
+http://www.khanacademy.org/ 
+
+Academic Earth - Online courses from the world's top scholars 
+http://academicearth.org/ 
+
+TED - Technology, Entertainment, &amp; Design 
+http://www.ted.com/ 
+
+MIT Open CourseWare 
+http://ocw.mit.edu/courses/ 
+
+Stanford Engineering Everywhere 
+http://see.stanford.edu/see/courses.aspx 
+
+Open Yale Courses 
+http://oyc.yale.edu/ 
+
+About U. - Collection of free online courses from About.com 
+http://u.about.com/ 
+
+Wikiversity 
+http://en.wikiversity.org/wiki/Wikiversity:Main_Page 
+
+YouTube EDU 
+http://www.youtube.com/education?b=400 
+
+The Open University - Study at the OU 
+http://www3.open.ac.uk/study/ 
+http://openlearn.open.ac.uk/ 
+
+University of the People 
+www.uopeople.org 
+
+University of Reddit 
+http://ureddit.com/ 
+
+Open Culture - The best free cultural &amp; educational media on the web 
+http://openculture.com/ 
+
+VideoLectures - Exchange ideas &amp; share knowledge 
+http://videolectures.net/ 
+
+CosmoLearning - Free educational website with thousands of courses &amp; documentaries 
+http://www.cosmolearning.com/ 
+
+================================ 
+
+II. UNIVERSITIES &amp; HIGHER EDUCATION 
+
+Lecture Fox - Free university lectures 
+http://lecturefox.com/ 
+
+Faculty Project - The best professors from the world's leading Universities 
+http://facultyproject.com/ 
+
+Google in Education 
+http://www.google.com/edu/index.html 
+
+More Open Courses: 
+
+OCW Search - Find free university courses online 
+http://www.ocwsearch.com/ 
+
+Open Courseware Consortium 
+http://www.ocwconsortium.org/ 
+
+Harvard Extension School - Computer Science &amp; Technology 
+http://computerscience1.tv/2010/spring/ 
+
+Johns Hopkins University 
+http://ocw.jhsph.edu/ 
+
+Kaplan University 
+http://ocw.kaplan.edu/ 
+
+Notre Dame 
+http://ocw.nd.edu/ 
+
+Princeton's Institute for Advanced Study 
+http://video.ias.edu/all 
+
+Tufts 
+http://ocw.tufts.edu/ 
+
+Utah State 
+http://ocw.usu.edu/ 
+
+ArsDigita University - Computer science and math lectures 
+http://aduni.org/courses/ 
+
+UC Berkeley Webcast - Central service for online video &amp; audio for learners around the globe 
+http://webcast.berkeley.edu/ 
+
+UC Berkeley Video Courses - Free education online 
+http://education.jimmyr.com/ 
+
+Capilano University 
+http://ocw.capilanou.ca/ 
+
+Carnegie Mellon Open Learning Initiative 
+http://oli.web.cmu.edu/openlearning/ 
+
+Delft University of Technology 
+http://ocw.tudelft.nl/courses/ 
+
+Rice University Connexions - A place to view and share educational modules 
+http://cnx.org/ 
+
+Stanford on iTunes U - Stanford-related digital audio content 
+http://itunes.stanford.edu/content/overview.html 
+
+UC Irvine 
+http://ocw.uci.edu/ 
+
+UC San Diego Podcasts 
+http://podcast.ucsd.edu/ 
+
+University of Chicago's Mind Online - Thought-provoking samples of critical thinking &amp; debate 
+http://news.uchicago.edu/multimedia 
+
+University of Colorado, Colorado Springs 
+http://www.uccs.edu/~math/vidarchive.html 
+
+University of Massachusetts 
+http://ocw.umb.edu/ 
+
+University of Michigan 
+http://open.umich.edu/education 
+
+University of Southern Queensland 
+http://ocw.usq.edu.au/ 
+
+University of Sydney - Podcast episodes 
+http://sydney.edu.au/podcasts/2011.php 
+
+University of Virginia - Podcasts &amp; webcasts 
+http://www.virginia.edu/uvapodcast/ 
+
+University of Washington - Computer Science &amp; Engineering 
+http://www.cs.washington.edu/education/course-webs.html 
+
+Utah Valley University - Online courses &amp; open educational resources 
+http://open.uvu.edu/ 
+
+YouTube Channels: 
+
+Stanford 
+http://www.youtube.com/stanford 
+
+Stanford Class Central - YouTube summaries of Stanford's online courses 
+http://www.class-central.com/ 
+
+UC Berkeley 
+http://www.youtube.com/user/UCBerkeley 
+
+University of New South Wales 
+http://www.youtube.com/user/UNSWelearning 
+
+Yale 
+http://www.youtube.com/yalecourses 
+
+India's NPTEL 
+http://www.youtube.com/user/nptelhrd 
+
+====================== 
+
+III. GENERAL COLLECTIONS 
+
+Udemy - Take and build online courses on any subject 
+http://www.udemy.com/ 
+
+Free Video Lectures - 800+ Online Courses and 19,000+ Videos from Top 30+ Universities on 35+ Categories 
+http://freevideolectures.com/ 
+
+100 Intro Open Courses on Everything You've Ever Wanted to Learn 
+http://www.bestcollegesonline.com/blog/2010/05/12/100-intro-open-courses-on-everything-youve-ever-wanted-to-learn/ 
+
+Annotum (formerly Google's Knol) 
+http://annotum.org/ 
+
+InfoCoBuild's Free Education - Audio/video lectures for academic courses 
+http://www.infocobuild.com/education/education.html 
+
+IncrediCampus - Lectures and preparation/admission advice for college &amp; graduate schoolshttp://www.incredicampus.com/ 
+
+Learners TV - Thousands of downloadable video lectures on liberal arts, science, engineering, and more 
+http://www.learnerstv.com/ 
+
+Online Education Database - 200 free online classes to learn anything 
+http://oedb.org/library/beginning-online-learning/200-free-online-classes-to-learn-anything 
+
+Infoplease - All the knowledge you need 
+http://www.infoplease.com/ 
+
+MERLOT - Multimedia educational resource for learning and online teaching 
+http://www.merlot.org/merlot/index.htm 
+
+Internet Archive 
+http://www.archive.org/ 
+
+101 Online Self-improvement Resources 
+http://www.pickthebrain.com/blog/101-self-improvement-resources/ 
+
+Alison - 300 free online courses at certificate or diploma level (sign-up required) 
+http://alison.com/ 
+
+Teaching Resources: 
+
+The Orange Grove Digital Repository - Online library of openly available instructional resources for Florida's educators 
+http://www.theorangegrove.org/ 
+
+Learner.org - Browse teacher resources 
+http://www.learner.org/resources/browse.html 
+
+Google in Education - Teacher Resources 
+http://www.google.com/edu/teachers/educator-resources.html 
+
+============== 
+
+IV. HOW-TO &amp; DIY 
+
+WikiHow - The how-to manual that you can edit 
+http://www.wikihow.com/ 
+
+How Stuff Works 
+http://www.howstuffworks.com/ 
+
+Wonder How To 
+http://www.wonderhowto.com/categories/ 
+
+Instructables 
+http://www.instructables.com/ 
+
+Make Magazine 
+http://www.makezine.com/ 
+
+How-to Help &amp; Videos for Dummies 
+http://www.dummies.com/ 
+
+VideoJug - Get good at life 
+http://www.videojug.com/ 
+
+How to Create a Book in Wikipedia 
+http://en.wikipedia.org/wiki/Help:Books 
+
+Let's Make Robots 
+http://letsmakerobots.com/ 
+
+==================== 
+
+V. STUDYING with PEERS 
+
+Open Study - Study together 
+http://openstudy.com/ 
+
+P2P University - Learn anything with your peers 
+http://p2pu.org/en/ 
+
+Study Blue - Your digital backpack 
+http://www.studyblue.com/ 
+
+================================== 
+
+VI. ONLINE BOOKS, eBOOKS, &amp; JOURNALS 
+
+Google Books 
+http://books.google.com/ 
+
+WikiBooks - Open-content textbooks collection that anyone can edit 
+http://en.wikibooks.org/wiki/Main_Page 
+
+Project Gutenberg 
+http://www.gutenberg.org/wiki/Main_Page 
+
+Planet eBook - Home of free classic literature 
+http://www.planetebook.com/about.asp 
+
+Open Book Project 
+http://openbookproject.net/ 
+
+The Free Library 
+http://www.thefreelibrary.com/ 
+
+Many Books - Ad-free eBooks 
+http://www.manybooks.net/ 
+
+WorldCat - Collections &amp; services of more than 10,000 libraries worldwide 
+http://www.worldcat.org/ 
+
+iBiblio - The public's library and digital archive 
+http://www.ibiblio.org/ 
+
+LibriVox - Free public domain audiobooks 
+http://librivox.org/ 
+
+The Assayer - Web's largest catalog of books whose authors have made them available for free 
+http://theassayer.org/ 
+
+Amazon.com Free eBook Collection 
+http://www.amazon.com/b/ref=amb_link_85650291_15?ie=UTF8&amp;node=2245146011 
+
+Scribd - Reading and publishing evolved 
+http://www.scribd.com/ 
+
+Textbook Revolution - Student-run site dedicated to increasing the use of free educational materials 
+http://www.textbookrevolution.org/index.php/Main_Page 
+
+Directory of Open Access Journals 
+http://www.doaj.org/ 
+
+eReaderIQ - Recent non-public domain freebies &amp; price-drop alerts 
+http://www.ereaderiq.com/ 
+
+Longform - New and classic non-fiction articles curated across the web 
+http://longform.org/ 
+
+Flatworld Knowledge - The first and largest publisher of free &amp; open textbooks 
+http://www.flatworldknowledge.com/ 
+
+======================================= 
+
+VII. COMPUTERS, SOFTWARE, &amp; PROGRAMMING 
+
+Google Code University 
+http://code.google.com/edu/ 
+
+The New Boston - Step-by-step tutorials for multiple coding languages 
+http://thenewboston.org/ 
+
+UDacity - CS 101 
+http://www.udacity.com/ 
+
+PHP Academy 
+http://www.youtube.com/user/phpacademy 
+
+Better PHP 
+http://www.youtube.com/betterphp 
+
+Programming eBooks 
+http://appsapps.com/ebooks/ 
+
+W3Schools - The world's largest web development site 
+http://www.w3schools.com/ 
+http://w3fools.com/#what-should-be-done 
+
+Wired How-to Wiki - Teach a kid to program 
+http://howto.wired.com/wiki/Teach_a_Kid_to_Program 
+
+NetTuts+ - A large collection of coding tutorials 
+http://nettuts.com/ 
+
+Tutorial Guide - The site for all your tutorial needs 
+http://www.tutorialguide.net/ 
+
+Codecademy - Fun &amp; interactive way to learn how to code 
+http://www.codecademy.com/ 
+
+Free Technology Academy - High quality educational material based on free software &amp; open standards 
+http://ftacademy.org/ 
+
+Higher Computing for Everyone - Writing basic programs 
+http://www.highercomputingforeveryone.com/ 
+
+HTML 5 Please 
+http://html5please.us/ 
+
+Rails for Zombies 
+http://railsforzombies.org/ 
+
+Ruby Warrior - Open source game to teach Ruby language 
+http://www.trybloc.com/courses/ruby-warrior/chapters/beginner#/1 
+
+Got API - Documentation search engine 
+http://start.gotapi.com/ 
+
+Coding Bat - Online code practice in Java &amp; Python 
+http://codingbat.com/ 
+
+PySchools - Python programming language tutorial 
+http://www.pyschools.com/ 
+
+Python Learn - Provides materials to learn Python on your own 
+http://www.py4inf.com/ 
+
+appendTo - Learn jQuery and Javascript for free 
+http://learn.appendto.com/ 
+
+Professor Messer - Free CompTIA A+ Certification Training Course 
+http://www.professormesser.com/ 
+
+Lynda - Online software training videos 
+http://www.lynda.com/ 
+
+Intro to Linux 
+http://www.reddit.com/r/Ubuntu/comments/bbnkp/ive_tinkered_in_ubuntu_before_but_its_the_primary/c0lzpwk 
+
+Stack Overflow - Q&amp;A for professional and enthusiast programmers 
+http://stackoverflow.com/ 
+
+DZone - Fresh links for developers 
+http://www.dzone.com/links/index.html 
+
+Project Euler - A series of challenging mathematical &amp; computer programming problems 
+http://projecteuler.net/ 
+
+Photoshop &amp; Graphics: 
+
+Tutorial Hero - Photoshop &amp; Flash tutorials 
+http://www.tutorialhero.com/ 
+
+PSD Tuts+ 
+http://psd.tutsplus.com/ 
+
+Photoshop Tutorials 
+http://photoshoptutorials.ws/ 
+
+Graphic Tutorials 
+http://www.graphictutorials.net/ 
+
+Photoshop Pack Graphic Design Resources 
+http://www.photoshop-pack.com/ 
+
+PSD FanExtra Tutorials 
+http://psd.fanextra.com/category/tutorials/ 
+
+Vandelay Design - Photoshop Tutorial Hall of Fame 
+http://vandelaydesign.com/blog/design/photoshop-tutorial-tutorials/ 
+
+Grokking the GIMP 
+http://gimp-savvy.com/BOOK/index.html 
+
+Video CoPilot - Tutorials for VFx &amp; motion graphics 
+http://www.videocopilot.net/tutorials/ 
+
+================== 
+
+VIII. SCIENCE &amp; MATH 
+
+Google Scholar - Stand on the shoulder of giants 
+http://scholar.google.com/ 
+
+Scirus - The most comprehensive scientific research tool on the web 
+http://www.scirus.com/ 
+
+Cite Seer X - Access scientific and scholarly knowledge 
+http://citeseerx.ist.psu.edu/ 
+
+getCited - Academic database, directory, &amp; discussion forum 
+http://www.getcited.org/ 
+
+Academia.edu - A place to share and follow research 
+http://academia.edu/ 
+
+National Science Digital Library - Explore, share, create 
+http://nsdl.org/ 
+
+Science Magazine Podcasts 
+http://www.sciencemag.org/multimedia/podcast/ 
+
+National Programme on Technology Enhanced Learning - Science, Engineering, &amp; Technology 
+http://www.nptel.iitm.ac.in/ 
+
+KQED's Quest - Explore science, nature, and environment stories from Northern California and beyond 
+http://science.kqed.org/quest/ 
+
+Freelance Teacher - Videos on physics, chemistry, math, &amp; biology 
+http://www.freelance-teacher.com/videos.htm 
+
+FHSST - Free high school science texts in physical sciences &amp; math 
+http://fhsst.org/ 
+
+Free Science Lectures - Free Science Videos &amp; Lectures 
+http://www.freesciencelectures.com/ 
+
+Minute Physics on YouTube 
+http://www.youtube.com/user/minutephysics/featured 
+
+Physicist TV - Collection of science &amp; documentary videos 
+http://www.physicisttv.com/ 
+
+Educated Earth - Videos on astronomy, biology, chemistry, earth sciences, math, physics, and more 
+http://www.educatedearth.net/ 
+
+The Science Network - Videos about science meetings and general science discussions 
+http://thesciencenetwork.org/ 
+
+cK-12 Flexbooks 
+http://www.ck12.org/flexbook/ 
+
+Paul's Online Math Notes 
+http://tutorial.math.lamar.edu/ 
+
+Reddit's List of Useful Online Math Resources 
+http://www.reddit.com/r/math/comments/bqbex/lets_list_all_the_useful_free_online_math/ 
+
+Math, Better Explained 
+http://betterexplained.com/ 
+
+Astronomy &amp; Outerspace: 
+
+Space Engine - Free space simulation software 
+http://en.spaceengine.org/ 
+
+Google Sky 
+http://www.google.com/sky/ 
+
+NASA for Students 
+http://www.nasa.gov/audience/forstudents/index.html 
+
+Scale of the Universe - Interactive Flash Animation 
+http://www.scaleoftheuniverse.com/ 
+
+Statistics: 
+
+Vassar Stats - Concepts and applications of inferential statistics 
+http://faculty.vassar.edu/lowry/webtext.html 
+
+StatSoft Electronic Statistics Textbook 
+http://www.statsoft.com/textbook/stathome.html 
+
+Connexions Collaborative Statistics 
+http://cnx.org/content/col10522/latest/ 
+
+Handbook of Biological Statistics 
+http://udel.edu/~mcdonald/statintro.html 
+
+========================= 
+
+IX. LOGIC, WORDS, &amp; MEMORY 
+
+Mind Tools - Memory improvement techniques 
+http://www.mindtools.com/memory.html 
+
+The Nizkor Project - List of logical fallacies 
+http://www.nizkor.org/features/fallacies/index.html 
+
+Wikipedia's List of Logical Fallacies 
+http://en.wikipedia.org/wiki/List_of_fallacies 
+
+Wikipedia's List of Figures of Speech 
+http://en.wikipedia.org/wiki/Figure_of_speech 
+
+Tool Kit for Rhetorical Analysis 
+http://grammar.about.com/od/rhetorictoolkit/Tool_Kit_for_Rhetorical_Analysis.htm 
+
+KnoWord - Expand your vocabulary 
+http://knoword.org/ 
+
+Vocabulary.com - Learn new words &amp; explore language 
+http://www.vocabulary.com/ 
+
+Brain Workshop - A Dual N-Back Game 
+http://brainworkshop.sourceforge.net/ 
+
+Argument Mapping Tutorials 
+http://austhink.com/reason/tutorials/ 
+
+Philosophy Bites - Podcasts of top philsophers 
+http://www.philosophybites.com/ 
+
+============= 
+
+X. LANGUAGES 
+
+Basic Composition - Reading &amp; Writing 
+http://www.basiccomposition.com/ 
+
+BBC Languages - Beginner courses in multiple languages 
+http://www.bbc.co.uk/languages/ 
+
+Foreign Service Institute Language Courses 
+http://fsi-language-courses.org/Content.php 
+
+Language Guide - Foreign language vocabulary, grammar, &amp; readings 
+http://www.languageguide.org/ 
+
+eLanguage School - Free foreign language lessons online 
+http://www.elanguageschool.net/ 
+
+Free Online Language Courses via About.com 
+http://distancelearn.about.com/od/onlinecourses/a/freelanguage.htm 
+
+DuoLingo - Learn a language for free &amp; simultaneously translate the web 
+http://duolingo.com/ 
+
+Babel Nation - Learning languages online for free 
+http://www.babelnation.com/ 
+
+Transparent Language - Language learning software &amp; resources in over 100 languages 
+http://www.transparent.com/language-resources/languages.html 
+
+Survival Phrases - Learn essential travel phrases, tips, and insights 
+http://survivalphrases.com/ 
+
+Talk to Me in Korean 
+http://talktomeinkorean.com/ 
+
+Chinese Toolbox - Software for learning Chinese through reading 
+http://www.chinesetoolbox.com/ 
+
+LiveMocha - World's largest language learning community 
+http://www.livemocha.com/ 
+
+American Sign Language (ASL) University 
+http://www.lifeprint.com/asl101/lessons/lesson01.htm 
+
+Handspeak - Sign language 
+http://www.handspeak.com/ 
+
+Signing Savvy - Your sign language resource 
+http://www.signingsavvy.com/index.php 
+
+======== 
+
+XI. MUSIC 
+
+Berklee Shares - Free music lessons from Berklee College of Music 
+http://www.berkleeshares.com/ 
+
+Music Theory - Lessons, exercises, &amp; tools 
+http://www.musictheory.net/ 
+
+Ear Training &amp; Music Theory Software 
+http://www.trainear.com/ 
+
+Basic Music Theory 
+http://www.howmusicworks.org/ 
+
+About.com Music Education - Music theory 
+http://musiced.about.com/od/musictheory/u/musiced_musictheory.htm 
+
+Teoria - Music Theory Web 
+http://teoria.com/ 
+
+Ultimate Guitar - Lessons, techniques, &amp; styles 
+http://www.ultimate-guitar.com/lessons/ 
+
+Justin Guitar - The best guitar instruction on the web 
+http://www.justinguitar.com/ 
+
+Chorder - Chord fingering and guitar resources 
+http://www.chorder.com/guitar-chords/ 
+
+Funk University - Assembly of Music's Finest 
+http://www.thefunkuniversity.com/ 
+
+Play Bass Now - Lessons, licks, and low notes 
+http://playbassnow.com/ 
+
+How to Play Piano 
+http://www.howtoplaypiano.ca/ 
+
+=========== 
+
+XII. HISTORY 
+
+Teacher Resources - Western Civilization (52 half-hour video programs) 
+http://www.learner.org/resources/series58.html 
+
+Metropolitan Museum of Art - Timeline of Art History 
+http://www.metmuseum.org/toah/ 
+
+========================================= 
+
+XIII. BUSINESS, ECONOMICS, FINANCE, &amp; INVESTING 
+
+Investopedia 
+http://www.investopedia.com/ 
+
+Google Advisor 
+https://www.google.com/advisor/home 
+
+Google Finance 
+http://www.google.com/finance 
+
+MarketWatch by WSJ 
+http://www.marketwatch.com/ 
+
+Main Street - Business &amp; financial headlines &amp; advice 
+http://www.mainstreet.com/ 
+
+Stanford University's Entrepreneurship Corner 
+http://ecorner.stanford.edu/ 
+
+Value Based Management - Methods, models, and theories 
+http://www.valuebasedmanagement.net/ 
+
+Ludwig von Mises Institute - Austrian economics and praxeology 
+http://mises.org/ 
+
+Foundation for Economic Education 
+http://www.fee.org/ 
+
+Library of Economics and Liberty 
+http://www.econlib.org/ 
+
+============================ 
+
+XIV. FOOD, NUTRITION, &amp; COOKING 
+
+Good Eats Fan Page 
+http://www.goodeatsfanpage.com/GEFP/index.htm 
+
+Jamie's Home Cooking Skills 
+http://www.jamieshomecookingskills.com/ 
+
+Chef Todd Mohr's Web Cooking Classes (YouTube) 
+http://www.youtube.com/user/ChefToddMohr 
+
+Nutrition Data - Self nutrition data; know what you eat 
+http://www.nutritiondata.com/ 
+
+Nutrition.gov - Smart nutrition &amp; practical tips 
+http://www.nutrition.gov/ 
+
+Choose My Plate via USDA 
+http://www.choosemyplate.gov/ 
+
+The World's Healthiest Foods 
+http://whfoods.org/foodstoc.php 
+
+Calorie King 
+http://www.calorieking.com/ 
+
+Start Making Choices - Simple ideas for living healthier on a budget 
+http://www.startmakingchoices.com/index.jsp 
+
+Eat Right Nutrition Tips 
+http://www.eatright.org/Public/content.aspx?id=206 
+
+================ 
+
+XV. SURVIVAL TIPS 
+
+Off Grid Survival - Wilderness and urban survival skills 
+http://offgridsurvival.com/ 
+
+Backwoods Magazine - Self reliance and self sufficiency 
+http://www.backwoodshome.com/index.html 
+
+Survival Topics - Your online survival kit 
+http://www.survivaltopics.com/ 
+
+Wilderness Survival - Free info covering all aspects of survival 
+http://www.wilderness-survival.net/ 
+
+Discovery's Worst-Case Scenario Video Clips 
+http://dsc.discovery.com/videos/worst-case-scenario/ 
+
+=============================== 
+
+XVI. DOCUMENTARIES &amp; FILM STUDIES 
+
+Documentary Wire 
+http://www.documentarywire.com/ 
+
+Factual TV - The documentary film video store 
+http://www.factualtv.com/ 
+
+Documentary Heaven - Food for your brain 
+http://documentaryheaven.com/ 
+
+Surf the Channel 
+http://www.surfthechannel.com/cat/61482.html 
+
+DocuWatch - Free streaming documentaries on Art, History, Science, and more 
+http://www.docuwat.ch/watch-documentaries/ 
+
+Documentary Tube - Watch full-length documentaries online for free 
+http://www.documentarytube.com/ 
+
+Documentary Log - Watch hundreds of the most interesting, popular, and full-length documentaries 
+http://www.documentary-log.com/ 
+
+Documentary Stream 
+http://www.documentarystream.com/ 
+
+Documentary Storm - Free streaming documentaries 
+http://documentarystorm.com/ 
+
+Top Documentary Films - Watch free documentaries online 
+http://topdocumentaryfilms.com/ 
+
+Movies Found Online - Free movies &amp; documentaries 
+http://www.moviesfoundonline.com/documentaries.php 
+
+Quick Silver Screen - Movies &amp; documentaries 
+http://www.quicksilverscreen.ch/videos?g=5&amp;mt=1 
+
+MVGroup Forums - An education in P2P (sign-up required) 
+http://forums.mvgroup.org/ 
+http://en.wikipedia.org/wiki/MVGroup 
+
+InfoCoBuild's Books and Films - Science and Technology 
+http://www.infocobuild.com/books-and-films/science.html 
+
+Film Studies: 
+
+Film Studies for Free - Web archive of notable film studies resources 
+http://filmstudiesforfree.blogspot.com/p/open-access-film-e-books-list.html 
+
+Online Film and Movie Image Studies, PhD and MPhil Theses 
+http://filmstudiesforfree.blogspot.com/p/online-film-and-moving-studies-phd.html 
+
+Online Film and Media Studies Journals 
+http://filmstudiesforfree.blogspot.com/p/fsff-online-film-media-studies-journals.html 
+
+========== 
+XVII. OTHER 
+
+Advanced Yoga Practices - Directory for Main Lessons 
+http://www.aypsite.com/MainDirectory.html 
+
+Creative Live - A live, worldwide creative classroom 
+http://www.creativelive.com/﻿
+
+Meer lezen (919 regels)Minder weergeven</title><thumb cache="FW14-topics-docs/e122/7472_04_thumb.png">https://lh4.googleusercontent.com/-LVrNt-Qu7wk/Tx8KkncW9bI/AAAAAAAADDc/N_ProGORzs4/w426-h373/Online%2BLearning.png</thumb></snippet><snippet id="FW14-e122-7472-06"><link>https://plus.google.com/s/python%20re%20tutorial/photos/107770072576338242009/albums/5874488124032979441/5874488132214957058?authkey=COTz_bDDrvqzFA&amp;sqi=113390432655174294208&amp;sqsi=bd2cf842-b503-4d09-aaca-3af67a4a7e14</link><title>Recommendations for touch screens to use with Raspberry Pi? 
+
+Someday I'd like to teach my kids a little programming and I'm thinking about getting a Raspberry Pi. They like my touch screen laptop a lot (where they draw with a stylus in Tux Paint), their Learn and Go Tablet*, and they're quite comfortable with our Nexus 7 tablet. So I'm thinking if I'm going to buy a Raspberry Pi and need to buy a monitor and keyboard anyway, maybe I should buy a touchscreen. Also, I figured I'd start with Python, if that matters. Any thoughts on this or recommendations? 
+
+I'm trying to reconcile what +Eben Upton says at http://creativecodingpodcast.com/34-raspberry-pi-with-eben-upton/ about the Raspberry Pi being a cheap computer for kids to hack on, one that they don't need to worry about breaking, versus the cost of a touch screen, which I assume will be considerably higher than a regular monitor.I do want my kids to feel free to hack away on something. :) 
+
+* http://www.vtechkids.com/product/detail/2073/Learn_and_Go_Tablet﻿
+
+Meer lezen (17 regels)Minder weergeven</title><thumb cache="FW14-topics-docs/e122/7472_06_thumb.png">https://lh6.googleusercontent.com/-hoSSSR-ZD0Q/UYZf1PXrpAI/AAAAAAAABWg/e8gMITfVwGY/w426-h331/Raspberry_Pi_Tou_5103de6c28f0f.png</thumb></snippet><snippet id="FW14-e122-7472-07"><link>https://plus.google.com/s/python%20re%20tutorial/photos/112526208786662512291/albums/5919494425198917009/5919494431458527954?authkey=CL_B7O_vpcGbAQ</link><title>Tutorial: Introducing TRINKET 
+http://learn.adafruit.com/introducing-trinket/ 
+
+rinket may be small, but do not be fooled by its size! It’s a tiny microcontroller board, built around the Atmel ATtiny85, a little chip with a lot of power. We wanted to design a microcontroller board that was small enough to fit into any project, and low cost enough to use without hesitation. Perfect for when you don’t want to give up your expensive dev-board and you aren’t willing to take apart the project you worked so hard to design. It’s our lowest-cost arduino-IDE programmable board! 
+
+The Attiny85 is a fun processor because despite being so small, it has 8K of flash, and 5 I/O pins, including analog inputs and PWM ‘analog’ outputs. We designed a USB bootloader so you can plug it into any computer and reprogram it over a USB port just like an Arduino. In fact we even made some simple modifications to the Arduino IDE so that it works like a mini-Arduino board. You can’t stack a big shield on it but for many small &amp; simple projects the Trinket will be your go-to platform. 
+
+There are two versions of the Trinket. One is 3V and one is 5V. Both work the same, but have different operating logic voltages. Use the 3V one to interface with sensors and devices that need 3V logic, or when you want to power it off of a LiPo battery. The 3V version should only run at 8 MHz. Use the 5V one for sensors and components that can use or require 5V logic. The 5V version can run at 8 MHz or at 16MHz by setting the software-set clock frequency. 
+
+Learn more at our GIANT learning guide for this TINY little board! 
+http://learn.adafruit.com/introducing-trinket/ 
+
+#trinket  ﻿
+
+Meer lezen (29 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_07_thumb.jpg">https://lh6.googleusercontent.com/-x_Q5qhcmXb8/UiZE0pT9CtI/AAAAAAAAaqU/dnc6D6jpx4E/w426-h328/adafruit_products_trinket_clear_products_1500_ORIG.jpg</thumb></snippet><snippet id="FW14-e122-7472-08"><link>https://plus.google.com/s/python%20re%20tutorial/photos/102032172002540958643/albums/5967029238198762305/5967029242782510578?sqi=113390432655174294208&amp;sqsi=44f03421-6cfa-48f9-bf50-91932724c322&amp;sqi=113390432655174294208&amp;sqsi=44f03421-6cfa-48f9-bf50-91932724c322</link><title>my last #raspberrypi  project. temperatur tracking. 
+i used a DS18B20, python, postgres and cron. Costs me 2h and 3€.﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_08_thumb.png">https://lh6.googleusercontent.com/-i-TeaUAGyIc/Us8le0xrbfI/AAAAAAAAahU/uXWRJ_fDhZg/w426-h237/nerd.png</thumb></snippet><snippet id="FW14-e122-7472-09"><link>https://plus.google.com/s/python%20re%20tutorial/photos/105059362788808645801/albums/5835786282413991985/5835786282655408338?authkey=CPrzkPT5o_XP-AE</link><title>Just a shot in the dark here: Does anybody know if there's an easy way to generate the running maximum, minimum and average time series of multiple irregularly sampled time series in Python and Scipy? 
+
+I'm attaching a simple example of what I mean. Three series, in shades of light blue and green. The sample points are irregular and do not in general overlap. 
+
+The resulting average series uses data values and interpolated values from the three series as needed, and is marked with a dotted orange curve. 
+
+The maximum and the minimum over all series are marked as red dotted curves. Note that these series have data points at the cross-over points of the original data series in order to generate a tight maximum or minimum over them. 
+
+As you can see I can obviously calculate this by myself. But it would take a fair bit of time two write something that is reliable and handles all odd corner cases that come up. I much prefer using a well-tested existing solution, so if there is a neat way to do this already, using Scipy and Numpy, perhaps, then I would very much like to know about it. 
+
+#python #numpy #scipy #statistics  ﻿
+
+Meer lezen (21 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_09_thumb.png">https://lh6.googleusercontent.com/-qp-XcxcVBRQ/UPzgtGrF4NI/AAAAAAAACBk/ojQpn9fN8tY/w426-h282/ts.png</thumb></snippet><snippet id="FW14-e122-7472-10"><link>https://plus.google.com/s/python%20re%20tutorial/photos/105279625231358353479/albums/5990680194653145121/5990680199641830290</link><title>The US Supreme Court said corporations are people. 
+
+Clearly not. See graph. Come on Corporations, be people! (And I don't mean in just an unlimited political spend way?) 
+
+Related unrelated note: If you are an analyst, here's a tutorial on how to make this graph (in a head to head match between r and python): http://goo.gl/YPyf5R﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_10_thumb.png">https://lh4.googleusercontent.com/-rjtyShDuJfY/UyMr5s6eE5I/AAAAAAAAbOg/cnAfG24Ie7M/w426-h341/graphPredictR.png</thumb></snippet><snippet id="FW14-e122-7472-11"><link>https://plus.google.com/s/python%20re%20tutorial/photos/113639078034208008248/albums/5952727867630230049/5952727868739029266?sqi=109728488971985783565&amp;sqsi=2623473f-51a8-4e47-920c-2fadb37b88f1</link><title>Do you know in which languages most popular websites built? 
+
+All the programmers must need to know this... 
+
+Let us know if anything is missing...﻿
+
+Meer weergevenMinder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_11_thumb.jpg">https://lh4.googleusercontent.com/-NFkNntIHmTY/UpxWdSzCCRI/AAAAAAAABlg/YSbl7MjA1k0/w426-h346/languages.jpg</thumb></snippet><snippet id="FW14-e122-7472-12"><link>https://plus.google.com/s/python%20re%20tutorial/photos/112526208786662512291/albums/5776601385692198273/5776601384531328082</link><title>Tutorial: Using the BMP085 with +Raspberry Pi  – +Adafruit Industries  Learning System 
+
+http://learn.adafruit.com/using-the-bmp085-with-raspberry-pi/ 
+
+The Raspberry Pi includes support for Python, which makes it easy to get access to a lot of low-level hardware and software stacks — USB, TCP/IP, multiple file systems etc.  This is a good thing since it means you don’t need to wrap your head around all the obscure details that go along with these complex stacks or the implementation details of various serial buses: you can focus on getting your data off your sensor and into your project as quickly as possible.  Hurray for abstraction! 
+
+Most sensors tend to communicate with other devices based on one of three well-defined mechanisms: I2C, SPI or good old analog output.  There are dozens of other serial buses and communication protocols out there (CAN, 1-Wire, etc.), and they all have their strengths and weaknesses, but I2C, SPI and analog cover the overwhelming majority of sensors you’re likely to hook up to the Pi… 
+
+Comes with our python BMP085 library and example code, you’ll be up &amp; running in 15 minutes! Learn more… (http://learn.adafruit.com/using-the-bmp085-with-raspberry-pi/) 
+
+By +Kevin Townsend 
+
+#raspberrypi  ﻿
+
+Meer lezen (24 regels)Minder weergeven  ·  Vertalen</title><thumb cache="FW14-topics-docs/e122/7472_12_thumb.jpg">https://lh5.googleusercontent.com/-cRiMNtzEnYg/UCqcWn4E_FI/AAAAAAAAFpY/dfXmyUH3PgM/w426-h302/using-the-bmp085-with-raspberry-pi.jpeg</thumb></snippet></snippets></search_results>

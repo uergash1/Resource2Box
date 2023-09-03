@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7466">interconnects skin effect</query><engine status="OK" timestamp="2014-04-24 18:45:23" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7466-01"><link cache="FW14-topics-docs/e010/7466_01.html" timestamp="2014-04-24 18:45:25">http://academic.research.microsoft.com/Publication/646836/an-analysis-on-vlsi-interconnection-considering-skin-effect</link><title>An Analysis on VLSI Interconnection Considering Skin Effect</title><description>* An Analysis on VLSI Interconnection Considering Skin Effect (Citations: 1)
+
+Tetsuhisa Mido, Kunihiro Asada
+
+...have developed a two dimensional skin effect simulator by using the split fiber model, that can treat the skin effect as inductive phenomenon of metal...aspect ratio by considering the skin effect. we estimate propagation delay of...
+
+Conference: Asia and South Pacific Design Automation Conference - ASP-DAC , pp. 403-408, 1998</description></snippet><snippet id="FW14-e010-7466-02"><link cache="FW14-topics-docs/e010/7466_02.html" timestamp="2014-04-24 18:45:55">http://academic.research.microsoft.com/Publication/27064161/magnetic-multilayered-interconnects-featuring-skin-effect-suppression</link><title>Magnetic-Multilayered Interconnects Featuring Skin Effect Suppression</title><description>* Magnetic-Multilayered Interconnects Featuring Skin Effect Suppression (Citations: 1)
+
+Yan Zhuang, B. Rejaei, H. Schellevis, M. Vroubel, J. N. Burghartz
+
+...a high-frequency, low-loss interconnect with significant skin effect suppression over a wide frequency...in a significant increase of skin depth and thus, a more...
+
+Journal: IEEE Electron Device Letters - IEEE ELECTRON DEV LETT , vol. 29, no. 4, pp. 319-321, 2008</description></snippet><snippet id="FW14-e010-7466-03"><link cache="FW14-topics-docs/e010/7466_03.html" timestamp="2014-04-24 18:46:46">http://academic.research.microsoft.com/Publication/39332262/self-consistent-design-issues-for-high-frequency-cu-interconnect-reliability-incorporating-skin</link><title>Self-consistent design issues for high frequency Cu interconnect reliability incorporating skin effect</title><description>* Self-consistent design issues for high frequency Cu interconnect reliability incorporating skin effect
+
+Ming Yao, Xuliang Zhang, Chaoyang Zhao, Jianguo Ma
+
+...for a two-level cu interconnect structure, incorporating the impact of skin effect. a skin-effect-related parameter “effective cross section...is used to calculate the interconnect stress evolution and lifetime. from the research of the interconnect structure stressed by a type...
+
+Journal: Microelectronics Reliability , vol. 51, no. 5, pp. 1003-1010, 2011</description></snippet><snippet id="FW14-e010-7466-04"><link cache="FW14-topics-docs/e010/7466_04.html" timestamp="2014-04-24 18:47:33">http://academic.research.microsoft.com/Publication/452770/efficient-model-order-reduction-including-skin-effect</link><title>Efficient model order reduction including skin effect</title><description>* Efficient model order reduction including skin effect (Citations: 7)
+
+Shizhong Mei, Chirayu S. Amin, Yehea I. Ismail
+
+skin effect makes interconnect resistance and inductance frequency dependent...the more complex problem of interconnect simulation with skin effect at almost no overhead compared to constant element interconnect simulation. using the square root...
+
+Conference: Design Automation Conference - DAC , pp. 232-237, 2003</description></snippet><snippet id="FW14-e010-7466-05"><link cache="FW14-topics-docs/e010/7466_05.html" timestamp="2014-04-24 18:48:20">http://academic.research.microsoft.com/Publication/1536587/power-electronic-interconnects-skin-and-proximity-effect-based-frequency-selective-multipath</link><title>Power electronic interconnects: skin\- and Proximity-Effect-based frequency Selective-Multipath propagation</title><description>* Power electronic interconnects: skin\- and Proximity-Effect-based frequency Selective-Multipath propagation (Citations: 4)
+
+W. A. Cronje, J. D. van Wyk, C. K. Campbell, P. J. Wolmarans
+
+...structural electromagnetic effects, attributed to the packaging and...is that phenomena like the skin and proximity effect that are often considered as...
+
+Journal: IEEE Transactions on Power Electronics - IEEE TRANS POWER ELECT , vol. 20, no. 3, pp. 600-610, 2005</description></snippet><snippet id="FW14-e010-7466-06"><link cache="FW14-topics-docs/e010/7466_06.html" timestamp="2014-04-24 18:49:06">http://academic.research.microsoft.com/Publication/50313752/efficient-model-order-reduction-including-skin-effect</link><title>Efficient model order reduction including skin effect</title><description>* Efficient model order reduction including skin effect
+
+Shizhong Mei, Chirayu Amin, Y. I. Ismail
+
+skin effect makes interconnect resistance and inductance frequency dependent...the more complex problem of interconnect simulation with skin effect at almost no overhead compared to constant element interconnect simulation. using the square root...
+
+Conference: Design Automation Conference - DAC , 2003</description></snippet><snippet id="FW14-e010-7466-07"><link cache="FW14-topics-docs/e010/7466_07.html" timestamp="2014-04-24 18:50:55">http://academic.research.microsoft.com/Publication/1238941/accounting-for-the-skin-effect-during-repeater-insertion</link><title>Accounting for the skin effect during repeater insertion</title><description>* Accounting for the skin effect during repeater insertion
+
+Daniel A. Andersson, Lars J. Svensson, Per Larsson-Edefors
+
+...since the skin effect will increase the propagation delay in an interconnect, it will also affect how...we take into account the skin effect and also the relationship between interconnect resistance, capacitance and inductance that...
+
+Conference: ACM Great Lakes Symposium on VLSI , pp. 32-37, 2005</description></snippet><snippet id="FW14-e010-7466-08"><link cache="FW14-topics-docs/e010/7466_08.html" timestamp="2014-04-24 18:51:29">http://academic.research.microsoft.com/Publication/51141141/skin-effect-model-for-time-and-frequency-domain-peec-solver</link><title>Skin-effect model for time and frequency domain PEEC solver</title><description>* Skin-effect model for time and frequency domain PEEC solver
+
+Giulio Antonini, Albert E. Ruehli
+
+...efficient modeling of the broadband skin-effect for conducting planes and 3d...the efficient modeling of the skin-effect for con- ducting planes and 3d shapes as they occur in interconnects and other similar geometries. unfortunately...
+
+Published in 2011.</description></snippet><snippet id="FW14-e010-7466-09"><link cache="FW14-topics-docs/e010/7466_09.html" timestamp="2014-04-24 18:52:05">http://academic.research.microsoft.com/Publication/1462757/a-review-of-the-skin-effect-as-applied-to-thin-film-interconnections</link><title>A review of the skin effect as applied to thin film interconnections</title><description>* A review of the skin effect as applied to thin film interconnections (Citations: 15)
+
+Lih-Tyng Hwang, Iwona Turlik
+
+...to the subnanosecond range, the skin effect becomes an important issue in...been taken to study the skin effect are surveyed. various methods that accommodate the skin effect phenomenon into conductor design rules...
+
+Journal: IEEE Transactions on Components, Hybrids, and Manufacturing Technology , vol. 15, no. 1, pp. 43-55, 1992</description></snippet><snippet id="FW14-e010-7466-10"><link cache="FW14-topics-docs/e010/7466_10.html" timestamp="2014-04-24 18:53:29">http://academic.research.microsoft.com/Publication/1498808/enhanced-skin-effect-for-partial-element-equivalent-circuit-peec-models</link><title>Enhanced skin effect for partial-element equivalent-circuit (PEEC) models</title><description>* Enhanced skin effect for partial-element equivalent-circuit (PEEC) models (Citations: 57)
+
+Karen M. Coperich, Albert E. Ruehli, Andreas Cangellaris
+
+...in this paper, a skin-effect modeling approach is presented that...to accurately capture proximity and skin-effect behaviors will be shown, interconnect resistance and inductance per-unit...
+
+Journal: IEEE Transactions on Microwave Theory and Techniques - IEEE TRANS MICROWAVE THEORY , vol. 48, no. 9, pp. 1435-1442, 2000</description></snippet></snippets></search_results>

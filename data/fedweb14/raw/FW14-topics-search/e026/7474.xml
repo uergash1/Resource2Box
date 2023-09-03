@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7474">php convert special symbols to html</query><engine status="OK" timestamp="2014-04-26 23:49:02" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7474-01"><link cache="FW14-topics-docs/e026/7474_01.html" timestamp="2014-04-26 23:49:03">http://jyotiranjanpattnaik.wordpress.com/2011/02/09/extraction-of-keywords-from-a-web-page/</link><title>Extraction of keywords from a web page URL</title><description>Extraction of keywords from a web page URL
+
+9 Feb 2011 by jrp on JrpBuzz jyotiranjanpattnaik.wordpress.com/2011/02/09/extraction-of-keywords-from-a-web-page/
+
+…  PHP 5+, UTF-8 Topics: PHP,Text Processing, Web Service This is my Btech …  extractor for every character encoding. Instead, we can convert web page text into the generic UTF-8 encoding. The returned UTF-8 text …  in keywords, we need to remove the punctuation, special symbol characters, numbers, currency signs, plus and minus, and other …
+
+Topics: Extraction of keyword from a web page URL, php, Text Processing, web-services, Curl, Character Encoding, UTF-8, http header, crawler, Html Tags</description></snippet><snippet id="FW14-e026-7474-02"><link cache="FW14-topics-docs/e026/7474_02.html" timestamp="2014-04-26 23:49:22">http://eureka.ykyuen.info/2010/10/20/php-convert-special-characters-to-html-entities/</link><title>PHP \- Convert Special Characters to HTML Entities</title><description>PHP \- Convert Special Characters to HTML Entities
+
+19 Oct 2010 by ykyuen on Eureka! eureka.ykyuen.info/2010/10/20/php-convert-special-characters-to-html-entities/
+
+…  the database fail to persist the data. So i try to use the PHP str_replace function to replace those Apostrophe but it has never replaced …  htmlspecialchars which will substitute the following special characters into HTML entities. Ampersand &amp; becomes …  you want to convert all other special characters into HTML entities. You could try the …
+
+Topics: php, HTML</description></snippet><snippet id="FW14-e026-7474-03"><link cache="FW14-topics-docs/e026/7474_03.html" timestamp="2014-04-26 23:49:44">http://jyotiranjanpattnaik.wordpress.com/2011/04/18/stripping-of-html-tagsscripts-and-styles-from-a-web-page-html-entities-decoding/</link><title>Stripping of HTML tags,scripts and styles from a web page &amp; HTML entities decoding</title><description>Stripping of HTML tags,scripts and styles from a web page &amp; HTML entities decoding
+
+17 Apr 2011 by jrp on JrpBuzz jyotiranjanpattnaik.wordpress.com/2011/04/18/stripping-of-html-tagsscripts-and-styles-from-a-web-page-html-entities-decoding/
+
+…  a web page must be stripped away to get clean text for a PHP search engine, keyword extractor, or some other page analysis tool. …  page's content type to get its character set, then convert to UTF-8 using the iconv() function. This insures that the text is in a …
+
+Topics: Extraction of keyword from a web page URL</description></snippet><snippet id="FW14-e026-7474-04"><link cache="FW14-topics-docs/e026/7474_04.html" timestamp="2014-04-26 23:50:01">http://ekkachai.wordpress.com/2012/12/05/php-convert-html-to-pdf/</link><title>PHP Convert HTML to PDF</title><description>PHP Convert HTML to PDF
+
+5 Dec 2012 by E.J. on Memory dumps into Blog ekkachai.wordpress.com/2012/12/05/php-convert-html-to-pdf/
+
+html to pdf with php ที่รองรับภาษาไทย(Recommend site) แปลง HTML เป็นไฟล์ PDF ด้วย HTML2PDF HTML2PDF example download now
+
+Topics: Programming, html to pdf</description></snippet><snippet id="FW14-e026-7474-05"><link cache="FW14-topics-docs/e026/7474_05.html" timestamp="2014-04-26 23:50:21">http://bernieartois738.wordpress.com/2012/08/20/direct-money-text-symbol/</link><title>Direct money text symbol</title><description>Direct money text symbol
+
+19 Aug 2012 by bernieartois738 on Hawes's diary bernieartois738.wordpress.com/2012/08/20/direct-money-text-symbol/
+
+…  appearance of some other newsreaders. Finance::Currency::Convert::XE - search.cpan.org, Finance::Currency::Convert::XE - Currency …  window. Choose a crisp, clear photograph. Create a new PHP class that extends the original class. The decoder is available for free …
+
+Topics: post-format-status</description></snippet><snippet id="FW14-e026-7474-06"><link cache="FW14-topics-docs/e026/7474_06.html" timestamp="2014-04-26 23:50:37">http://webmonkeyuk.wordpress.com/2011/04/23/how-to-avoid-character-encoding-problems-in-php/</link><title>How to Avoid Character Encoding Problems in PHP</title><description>How to Avoid Character Encoding Problems in PHP
+
+22 Apr 2011 by James Cohen on James Cohen webmonkeyuk.wordpress.com/2011/04/23/how-to-avoid-character-encoding-problems-in-php/
+
+…  and suggest solutions. Although this is applied to PHP and a typical LAMP stack you can apply the same principles to any …  Your FTP client, scp, SFTP client doesn't need any special UTF-8 setting. Making sure that web browsers know to use UTF-8 To …  likely they're in latin1) then you'll need to convert them by running the following command for each table: [sourcecode …
+
+Topics: php, LAMP, encoding, Programming</description></snippet><snippet id="FW14-e026-7474-07"><link cache="FW14-topics-docs/e026/7474_07.html" timestamp="2014-04-26 23:50:53">http://kfelahi.wordpress.com/about/</link><title>About Me</title><description>About Me
+
+29 Jul 2011 by kfelahi on Khandaker Fazle Elahi kfelahi.wordpress.com/about/
+
+…  i know: HTML 4.01, HTML 5 CSS2.0, CSS3.0 PHP MySQL Javascript JQuery Bootstrap. wordpress PHP …  9i other related software. What i do: PSD to HTML convert. Dynamic website. Static website. Web based …</description></snippet><snippet id="FW14-e026-7474-08"><link cache="FW14-topics-docs/e026/7474_08.html" timestamp="2014-04-26 23:51:06">http://jyotiranjanpattnaik.wordpress.com/2011/04/17/stripping-symbol-characters-from-a-web-page/</link><title>Stripping symbol characters from a web page</title><description>Stripping symbol characters from a web page
+
+17 Apr 2011 by jrp on JrpBuzz jyotiranjanpattnaik.wordpress.com/2011/04/17/stripping-symbol-characters-from-a-web-page/
+
+…  one context, but not in another. CODE: FILE1: home.php [sourcecode …  the Unicode symbol category. However, there are a few special cases to handle. For instance, to leave prices and other numbers …  page's content type to get its character set, then convert to UTF-8 using the iconv() function. This insures that the text is in …
+
+Topics: Extraction of keyword from a web page URL</description></snippet><snippet id="FW14-e026-7474-09"><link cache="FW14-topics-docs/e026/7474_09.html" timestamp="2014-04-26 23:51:28">http://phptalentguru.wordpress.com/2011/01/17/convert-rtf-to-htmlxml/</link><title>Convert RTF to HTML/XML</title><description>Convert RTF to HTML/XML
+
+17 Jan 2011 by Suryakant on PHP TALENT GURU phptalentguru.wordpress.com/2011/01/17/convert-rtf-to-htmlxml/
+
+…  at http://josefine.ben.tuwien.ac.at/~mfischer/developing/php/rtf/rtfclass.phps Testing suite is available at http://josefine.ben.t …  message, no entities on no error var $wantXML; // convert to XML var $wantHTML; // convert to HTML // the only variable …
+
+Topics: core php</description></snippet><snippet id="FW14-e026-7474-10"><link cache="FW14-topics-docs/e026/7474_10.html" timestamp="2014-04-26 23:51:45">http://pavithrakathirvel.wordpress.com/2010/04/07/basic-php/</link><title>Basic PHP</title><description>Basic PHP
+
+7 Apr 2010 by pavithrakathirvel on Pavithrakathirvel's Blog pavithrakathirvel.wordpress.com/2010/04/07/basic-php/
+
+…  Basic PHP What You Should Already Know Before you continue you should have …  is, a variable will hold only one value. An array is a special variable, which can store multiple values in one single variable. If …
+
+Topics: basic php, about PHP, SQL</description></snippet></snippets></search_results>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7106">active learning survey</query><engine status="OK" timestamp="2014-04-19 04:40:51" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7106-01"><link cache="FW14-topics-docs/e010/7106_01.html" timestamp="2014-04-19 04:40:55">http://academic.research.microsoft.com/Publication/5008317/active-learning-literature-survey</link><title>Active Learning Literature Survey</title><description>* Active Learning Literature Survey (Citations: 101)
+
+Burr Settles
+
+...abstract the key idea behind active learning is that a machine learning algorithm can achieve greater accuracy...e.g., a human annotator). active learning is well-motivated in many modern machine learning problems, where unlabeled data may...</description></snippet><snippet id="FW14-e010-7106-02"><link cache="FW14-topics-docs/e010/7106_02.html" timestamp="2014-04-19 04:42:03">http://academic.research.microsoft.com/Publication/58836982/the-tower-of-bloom-modeling-constructionism-and-active-learning-in-preservice-teacher-education</link><title>The tower of Bloom: Modeling constructionism and active learning in preservice teacher education classrooms</title><description>* The tower of Bloom: Modeling constructionism and active learning in preservice teacher education classrooms
+
+Marian Williams
+
+...abstract concepts. the benefits of active learning and constructionist activities in the university setting will be reviewed and discussed. good modeling of active learning strategies in the pre-service...on how to replicate this activity will be provided as an example of how to activate learning in the university classroom through active learning/constructionist activities....
+
+Published in 2008.</description></snippet><snippet id="FW14-e010-7106-03"><link cache="FW14-topics-docs/e010/7106_03.html" timestamp="2014-04-19 04:43:07">http://academic.research.microsoft.com/Publication/58837675/the-tower-of-bloom-modeling-constructionism-and-active-learning-in-preservice-teacher-education</link><title>The tower of Bloom: Modeling constructionism and active learning in preservice teacher education classrooms</title><description>* The tower of Bloom: Modeling constructionism and active learning in preservice teacher education classrooms
+
+Marian Williams
+
+...abstract concepts. the benefits of active learning and constructionist activities in the university setting will be reviewed and discussed. good modeling of active learning strategies in the pre-service...on how to replicate this activity will be provided as an example of how to activate learning in the university classroom through active learning/constructionist activities....
+
+Published in 2008.</description></snippet><snippet id="FW14-e010-7106-04"><link>http://academic.research.microsoft.com/Publication/6216453/active-learning-literature-survey</link><title>Active Learning Literature Survey</title><description>* Active Learning Literature Survey
+
+Anita Krishnakumar
+
+...the label for that instance. active learning algorithms aim at minimizing the amount of labeled data required to achieve the goal of the machine learning task in hand by strategically...provides a desk where different active learning algorithms can be compared by...</description></snippet><snippet id="FW14-e010-7106-05"><link cache="FW14-topics-docs/e010/7106_05.html" timestamp="2014-04-19 04:45:48">http://academic.research.microsoft.com/Publication/51945991/bridging-the-gap-between-what-is-praised-and-what-is-practiced-supporting-the-work-of-change-as</link><title>Bridging the gap between what is praised and what is practiced: Supporting the work of change as anatomy and physiology instructors introduce active learning into their undergraduate classroom</title><description>* Bridging the gap between what is praised and what is practiced: Supporting the work of change as anatomy and physiology instructors introduce active learning into their undergraduate classroom
+
+Patti Marie Thorn
+
+...decisions regarding the use of active learning? this study documented the experiences of seven instructors from diverse types of institutions as they began using active learning in their classrooms. conceptual change...and widely shifting attitudes toward active learning. data also suggested a developmental progression in beliefs about teaching and learning as instructors implemented active learning, and the progression shared similarities...
+
+Published in 2003.</description></snippet><snippet id="FW14-e010-7106-06"><link cache="FW14-topics-docs/e010/7106_06.html" timestamp="2014-04-19 04:46:55">http://academic.research.microsoft.com/Publication/55000246/the-effect-of-active-learning-on-college-students-achievement-motivation-and-self-efficacy-in-a</link><title>The effect of active learning on college students' achievement, motivation, and self-efficacy in a human physiology course for non-majors</title><description>* The effect of active learning on college students' achievement, motivation, and self-efficacy in a human physiology course for non-majors
+
+Roger Russell Wilke
+
+...of the motivated strategies for learning questionnaire, and attitude surveys to assess the effects of the continuum-based active learning strategies. factorial analyses indicated the...demonstrated a positive attitude toward active learning, believed it helped them to learn the material, and would choose an active learning course in the future if...
+
+Published in 2000.</description></snippet><snippet id="FW14-e010-7106-07"><link cache="FW14-topics-docs/e010/7106_07.html" timestamp="2014-04-19 04:47:59">http://academic.research.microsoft.com/Publication/48060258/margin-based-active-learning-for-structured-predictions</link><title>Margin-based active learning for structured predictions</title><description>* Margin-based active learning for structured predictions (Citations: 12)
+
+Kevin Small, Dan Roth
+
+...margin-based active learning remains the most widely used active learning paradigm due to its simplicity...scope of problems for which active learning can be applied. we empirically validate these proposed active learning techniques by reducing the annotated...
+
+Published in 2010.</description></snippet><snippet id="FW14-e010-7106-08"><link cache="FW14-topics-docs/e010/7106_08.html" timestamp="2014-04-19 04:49:12">http://academic.research.microsoft.com/Publication/13277668/on-active-learning-of-record-matching-packages</link><title>On active learning of record matching packages</title><description>* On active learning of record matching packages (Citations: 2)
+
+Arvind Arasu, Michaela Götz, Raghav Kaushik
+
+...we consider the problem of learning a record matching package (classifier) in an active learning setting. in active learning, the learning algorithm picks the set of examples to be labeled, unlike more traditional passive learning setting where a user selects the labeled examples. active learning is important for record matching...
+
+Conference: International Conference on Management of Data - SIGMOD , pp. 783-794, 2010</description></snippet><snippet id="FW14-e010-7106-09"><link cache="FW14-topics-docs/e010/7106_09.html" timestamp="2014-04-19 04:50:21">http://academic.research.microsoft.com/Publication/13493806/active-learning-for-ranking-through-expected-loss-optimization</link><title>Active learning for ranking through expected loss optimization</title><description>* Active learning for ranking through expected loss optimization (Citations: 3)
+
+Bo Long, Olivier Chapelle, Ya Zhang, Yi Chang, Zhaohui Zheng, Belle L. Tseng
+
+...a great need for the active learning approaches to select most informative examples for ranking learning; however, in the literature there is still very limited work to address active learning for ranking. in this paper, we propose a general active learning framework, expected loss optimization (elo...
+
+Conference: Research and Development in Information Retrieval - SIGIR , pp. 267-274, 2010</description></snippet><snippet id="FW14-e010-7106-10"><link cache="FW14-topics-docs/e010/7106_10.html" timestamp="2014-04-19 04:51:31">http://academic.research.microsoft.com/Publication/42640665/civic-social-and-political-education-active-learning-participation-and-engagement</link><title>Civic, social and political education: active learning, participation and engagement?</title><description>* Civic, social and political education: active learning, participation and engagement? (Citations: 1)
+
+Richard Nugent
+
+...of cspe, their experience of active learning, or its absence, and the benefits pupils derived from active/experiential learning. these findings are presented in...rationale for engaging pupils in active/experiential learning. it is argued that whilst it is important to engage young people in this type of learning, it can only be achieved...
+
+Journal: Irish Educational Studies - IR EDUC STUD , vol. 25, no. 2, pp. 207-229, 2006</description></snippet></snippets></search_results>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7447">running shoes</query><engine status="OK" timestamp="2014-04-20 05:54:40" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7447-01"><link cache="FW14-topics-docs/e004/7447_01.html" timestamp="2014-04-20 05:54:41">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.11.6264&amp;rank=1</link><title>Agents and the Semantic Web</title><description>Agents and the Semantic Web
+
+by James Hendler \- IEEE INTELLIGENT SYSTEMS , 2001
+
+"... colloquium I attended recently, a speaker described a “science fiction” vision comprising agents running ..."
+
+Abstract \- Cited by 1638 (12 self) \- Add to MetaCart
+
+Many challenges of bringing communicating multiagent systems to the Web require ontologies. The integration of agent technology and ontologies could significantly affect the use of Web services and the ability to extend programs to perform tasks for users more efficiently and with less human intervention.</description></snippet><snippet id="FW14-e004-7447-02"><link cache="FW14-topics-docs/e004/7447_02.html" timestamp="2014-04-20 05:58:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.14.5614&amp;rank=2</link><title>Automatic Acquisition of Hyponyms from Large Text Corpora</title><description>Automatic Acquisition of Hyponyms from Large Text Corpora
+
+by Marti A. Hearst , 1992
+
+"... m Common Lisp and run on Sun SparcStations.) We wrote grammar rules for the constituent analyzer ..."
+
+Abstract \- Cited by 876 (5 self) \- Add to MetaCart
+
+We describe a method for the automatic acquisition of the hyponymy lexical relation from unrestricted text. Two goals motivate the approach: (i) avoidante of the need for pre-encoded knowledge and (ii) applicability across a wide range of text. We identify a set of lexico-syntactic patterns that are easily recognizable, that occur frequently and across text genre boundaries, and that indisputably indicate the lexical relation of interest. We describe a method for discovering these patterns and suggest that other lexical relations will also he acquirable iu this way. A subset of the acquisitiou algorithm is implemented and the results are used to augment and critique the structure of a large hand-built thesaurus. Extensions and applications to areas such as information retrieval are suggested.</description></snippet><snippet id="FW14-e004-7447-03"><link cache="FW14-topics-docs/e004/7447_03.html" timestamp="2014-04-20 06:02:41">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.221.2247&amp;rank=3</link><title>Wireless sensor networks: a survey</title><description>Wireless sensor networks: a survey
+
+by I. F. Akyildiz, W. Su, Y. Sankarasubramaniam, E. Cayirci , 2002
+
+"... in the sensor field to provide snapshot and long-running queries. Precision Agriculture: Some of the benefits ..."
+
+Abstract \- Cited by 1135 (21 self) \- Add to MetaCart
+
+This paper describes the concept of sensor networks which has been made viable by the convergence of microelectro-mechanical systems technology, wireless communications and digital electronics. First, the sensing tasks and the potential sensor networks applications are explored, and a review of factors influencing the design of sensor networks is provided. Then, the communication architecture for sensor networks is outlined, and the algorithms and protocols developed for each layer in the literature are explored. Open research issues for the realization of sensor networks are</description></snippet><snippet id="FW14-e004-7447-04"><link cache="FW14-topics-docs/e004/7447_04.html" timestamp="2014-04-20 06:05:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.33.2176&amp;rank=4</link><title>Wrapper Induction for Information Extraction</title><description>Wrapper Induction for Information Extraction
+
+by Nicholas Kushmerick , 1997
+
+"... . Learnability is assessed by the asymptotic complexity of our system's running time; most of our wrapper classes ..."
+
+Abstract \- Cited by 519 (30 self) \- Add to MetaCart
+
+The Internet presents numerous sources of useful information---telephone directories, product catalogs, stock quotes, weather forecasts, etc. Recently, many systems have been built that automatically gather and manipulate such information on a user's behalf. However, these resources are usually formatted for use by people (e.g., the relevant content is embedded in HTML pages), so extracting their content is difficult. Wrappers are often used for this purpose. A wrapper is a procedure for extracting a particular resource's content. Unfortunately, hand-coding wrappers is tedious. We introduce wrapper induction, a technique for automatically constructing wrappers. Our techniques can be described in terms of three main contributions. First, we pose the problem of wrapper construction as one of inductive learn...</description></snippet><snippet id="FW14-e004-7447-05"><link cache="FW14-topics-docs/e004/7447_05.html" timestamp="2014-04-20 06:08:52">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.40.7602&amp;rank=5</link><title>Mining Generalized Association Rules</title><description>Mining Generalized Association Rules
+
+by Ramakrishnan Srikant, Rakesh Agrawal , 1995
+
+"... is-a clothes, we may infer a rule that "people who buy outerwear tend to buy shoes". This rule may ..."
+
+Abstract \- Cited by 447 (7 self) \- Add to MetaCart
+
+to buy &lt;em&gt;shoes&lt;/em&gt;". This rule may hold even if rules that "people who buy jackets tend to buy &lt;em&gt;shoes&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7447-06"><link cache="FW14-topics-docs/e004/7447_06.html" timestamp="2014-04-20 06:12:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.125.8443&amp;rank=6</link><title>Real-time american sign language recognition using desk and wearable computer based video</title><description>Real-time american sign language recognition using desk and wearable computer based video
+
+by Thad Starner, Joshua Weaver, Alex Pentland \- IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE , 1998
+
+"... , book, table, paper, pants, bicycle, bottle, can, wristwatch, umbrella, coat, pencil, shoes, food ..."
+
+Abstract \- Cited by 444 (23 self) \- Add to MetaCart
+
+We present two real-time hidden Markov model-based systems for recognizing sentence-level continuous American Sign Language (ASL) using a single camera to track the user’s unadorned hands. The first system observes the user from a desk mounted camera and achieves 92 percent word accuracy. The second system mounts the camera in a cap worn by the user and achieves 98 percent accuracy (97 percent with an unrestricted grammar). Both experiments use a 40-word lexicon.</description></snippet><snippet id="FW14-e004-7447-07"><link cache="FW14-topics-docs/e004/7447_07.html" timestamp="2014-04-20 06:14:21">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.14.7954&amp;rank=7</link><title>Partial Constraint Satisfaction</title><description>Partial Constraint Satisfaction
+
+by Eugene C. Freuder, Richard J. Wallace , 1992
+
+"... on our running example. First we try Cordovans for shoes, then denims for slacks. According to the given ..."
+
+Abstract \- Cited by 427 (23 self) \- Add to MetaCart
+
+. A constraint satisfaction problem involves finding values for variables subject to constraints on which combinations of values are allowed. In some cases it may be impossible or impractical to solve these problems completely. We may seek to partially solve the problem, in particular by satisfying a maximal number of constraints. Standard backtracking and local consistency techniques for solving constraint satisfaction problems can be adapted to cope with, and take advantage of, the differences between partial and complete constraint satisfaction. Extensive experimentation on maximal satisfaction problems illuminates the relative and absolute effectiveness of these methods. A general model of partial constraint satisfaction is proposed. 1 Introduction Constraint satisfaction involves finding values for problem variables subject to constraints on acceptable combinations of values. Constraint satisfaction has wide application in artificial intelligence, in areas ranging from temporal r...</description></snippet><snippet id="FW14-e004-7447-08"><link cache="FW14-topics-docs/e004/7447_08.html" timestamp="2014-04-20 06:19:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.304.9387&amp;rank=8</link><title>Diamondtouch: a multi-user touch technology</title><description>Diamondtouch: a multi-user touch technology
+
+by Paul Dietz, Darren Leigh, Paul Dietz, Darren Leigh \- Proc. UIST 2001
+
+"... capacitively coupled circuit is completed. The circuit runs from the transmitter, through the touch point ..."
+
+Abstract \- Cited by 406 (7 self) \- Add to MetaCart
+
+A technique for creating touch sensitive surfaces is proposed which allows multiple, simultaneous users to interact in an intuitive fashion. Touch location information is determined independently for each user, allowing each touch on the common surface to be associated with a particular user. The surface gnerates location dependent electric fields, which are capacitively coupled through the users to receivers installed in the work environment. We describe the design of these sytems and their applications. Finally, we conclude with a description of the results we have obtained with a first generation prototype.</description></snippet><snippet id="FW14-e004-7447-09"><link cache="FW14-topics-docs/e004/7447_09.html" timestamp="2014-04-20 06:20:44">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.163.5425&amp;rank=9</link><title>MACROECONOMICS AND REALITY</title><description>MACROECONOMICS AND REALITY
+
+by Christopher A. Sims \- ECONOMETRICA , 1980
+
+"... of these models runs through that part of the economics profession not actively engaged in constructing or using ..."
+
+Abstract \- Cited by 350 (0 self) \- Add to MetaCart
+
+Existing strategies for econometric analysis related to macroeconomics are subject to a number of serious objections, some recently formulated, some old. These objections are summarized in this paper, and it is argued that taken together they make it unlikely that macroeconomic models are in fact over identified, as the existing statistical theory usually assumes. The implications of this conclusion are explored, and an example of econometric work in a non-standard style, taking account of the objections to the standard style, is presented.</description></snippet><snippet id="FW14-e004-7447-10"><link cache="FW14-topics-docs/e004/7447_10.html" timestamp="2014-04-20 06:26:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=14B1B3EC7224BD8D86257993A69D3D92?doi=10.1.1.35.468&amp;rank=10</link><title>XM2VTSDB: The Extended M2VTS Database</title><description>XM2VTSDB: The Extended M2VTS Database
+
+by K. Messer, J. Matas, J. Kittler, K. Jonsson \- In Second International Conference on Audio and Video-based Biometric Person Authentication , 1999
+
+"... 586 PC running Windows 95 and connected it to the digital video equipment using an Adaptec AHA8940 ..."
+
+Abstract \- Cited by 325 (36 self) \- Add to MetaCart
+
+In this paper we describe the acquisition and content of a large multi-modal database intended for training and testing of multi-modal verification systems. The XM2VTSDB database offers synchronised video and speech data as well as image sequences allowing multiple views of the face. It consists of digital video recordings taken of 295 hundred subjects at one month intervals taken over a period of five months. We also describe a protocol for evaluating verification algorithms on the database. The database has been made available to anyone on request to the University of Surrey through http://www.ee.surrey.ac.uk/Research/VSSP/xm2vtsdb.</description></snippet></snippets></search_results>

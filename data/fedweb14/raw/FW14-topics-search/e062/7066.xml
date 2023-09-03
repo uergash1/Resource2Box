@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7066">awk trim non-printable characters</query><engine status="OK" timestamp="2014-04-24 23:57:20" name="Baidu" id="FW14-e062"/><snippets><snippet id="FW14-e062-7066-01"><link cache="FW14-topics-docs/e062/7066_01.html" timestamp="2014-04-24 23:58:32">http://en.wikipedia.org/wiki/Trim_(programming)</link><title>Trimming (computer programming) - Wikipedia, the free ...</title><description>Trimming (computer programming) - Wikipedia, the free ...
+
+(non-printing characters) along with whitespace ... AWK, one can use regular expressions to trim:... Printable version Languages Fran ais Русск...
+
+en.wikipedia.org/wiki... 2009-08-13
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-02"><link cache="FW14-topics-docs/e062/7066_02.html" timestamp="2014-04-24 23:59:33">http://bbs.chinaunix.net/thread-785938-1-1.html</link><title>awk有没有trim函数-Shell-ChinaUnix.net</title><description>awk有没有trim函数-Shell-ChinaUnix.net
+
+9条回复 - 发帖时间: 2006年7月5日
+
+现在找到了在awk里的处理方法,awk里有个sub函数,功能和sed差不多,sub(/^M...ChinaUnix.net 论坛 程序设计 Shell awk有没有trim函数 ...
+
+bbs.chinaunix.net/thr... 2009-07-07
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-03"><link cache="FW14-topics-docs/e062/7066_03.html" timestamp="2014-04-25 00:00:35">http://www.docin.com/p-334128228.html</link><title>O REILLY sed &amp; awk \- NEW compiled by UncleVan - 豆丁网</title><description>O REILLY sed &amp; awk \- NEW compiled by UncleVan - 豆丁网
+
+Writing Scripts for awk Chapter 8: Conditionals, Loops, and Arrays Chapter... space : (see space characters) stripping non-printable nroff : 5.6.1...
+
+www.docin.com/p-33412... 2012-02-02
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-04"><link cache="FW14-topics-docs/e062/7066_04.html" timestamp="2014-04-25 00:01:48">http://www.doc88.com/p-6354702540202.html</link><title>Sed&amp;Awk \- 产品手册 - 道客巴巴</title><description>Sed&amp;Awk \- 产品手册 - 道客巴巴
+
+Expressions see also escape sequences awk lt gt escape sequences 3.2.11. ...Stripping Out Non-Printable Characters from nroff Filescircumflex assignment ...
+
+www.doc88.com/p-63547... 2013-06-28
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-05"><link cache="FW14-topics-docs/e062/7066_05.html" timestamp="2014-04-25 00:03:05">http://hi.baidu.com/jorbmqrwjwaerve/item/c2ed264dc6392ad3c1a5929c</link><title>awk使用手册_PepsiCID_baidu空间_百度空间</title><description>awk使用手册_PepsiCID_baidu空间_百度空间
+
+It is good practice to filter all extra control characters out of the awk input text file, because non-printable control characters cause errors with ...
+
+hi.baidu.com/jorbmqrw... 2007-04-16
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-06"><link cache="FW14-topics-docs/e062/7066_06.html" timestamp="2014-04-25 00:04:14">http://blog.sina.com.cn/s/blog_4cba67d7010008sx.html</link><title>awk使用手册_devvy_新浪博客</title><description>awk使用手册_devvy_新浪博客
+
+It is good practice to filter all extra control characters out of the awk input text file, because non-printable control characters cause errors with ...
+
+blog.sina.com.cn/s/bl... 2007-04-18
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-07"><link cache="FW14-topics-docs/e062/7066_07.html" timestamp="2014-04-25 00:05:02">http://rosettacode.org/wiki/Literals/String</link><title>Literals/String - Rosetta Code</title><description>Literals/String - Rosetta Code
+
+In awk, strings are enclosed using doublequotes....def multiLineGString = """${multiLineString.trim(...characters (usually non-printable characters) which...
+
+rosettacode.org/wiki/... 2014-03-07
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-08"><link cache="FW14-topics-docs/e062/7066_08.html" timestamp="2014-04-25 00:06:20">http://www.oschina.net/code/explore/freebsd/contrib/nvi/common/msg.c</link><title>msg.c - 源码库 - 开源中国社区</title><description>msg.c - 源码库 - 开源中国社区
+
+options.awk options.c options.h options_f...non-printable * characters are formatted for ...screen column each, we can trim the filename...
+
+www.oschina.net/code/... 2012-09-10
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7066-09"><link cache="FW14-topics-docs/e062/7066_09.html" timestamp="2014-04-25 00:07:23">http://issuu.com/mediapath/docs/2014_awk_en_low?e=4385509/6819263</link><title>ISSUU - 2014 awk en low by TRIM S.A</title><description>ISSUU - 2014 awk en low by TRIM S.A
+
+TRIM S.A a month ago F Flag 2014 awk en low chariot thule Share the Experience. Active with Kids 2014 Take your kids along for the ride...
+
+issuu.com/mediapath/d... 2014-04-01
+
+ - 百度快照 - 评价
+
+查看更多关于“ISSUU 2014 awk en low by TRIM S.A”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7066-10"><link>http://www.baidu.com/link?url=avx63aq6rw1Tyw1y7nqTA2A0g4mjoaHZXmLb-NFR8j_Ie4rHyOe1Pv0v5hnFH5jaw1D7ex7aFuJ3xOdMA-jPiK</link><title>如何在awk中实现类似trim的功能(去掉空格) - 程序设计 - IXPUB...</title><description>如何在awk中实现类似trim的功能(去掉空格) - 程序设计 - IXPUB...
+
+3条回复 - 发帖时间: 2008年9月25日
+
+如何在awk中实现类似trim的功能(去掉空格) [复制链接] ruifox 临时会员 该... 请教各位,对于某一特定字符串,如substr提取的内容,如何在awk中去掉空格? gsub(...
+
+www.ixpub.net/thread-... 2008-09-26
+
+ - 百度快照 - 评价</description></snippet></snippets></search_results>

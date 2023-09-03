@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7009">linkedin engineering</query><engine status="OK" timestamp="2014-04-24 13:35:08" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7009-01"><link cache="FW14-topics-docs/e110/7009_01.html" timestamp="2014-04-24 13:35:55">http://www.toptal.com/remote/in-defense-of-female-engineers</link><title>LinkedIn rejects engineering ads with female images, bans account</title><description>LinkedIn rejects engineering ads with female images, bans account (http://www.toptal.com/remote/in-defense-of-female-engineers)
+
+63 points
+
+by kowdermeister
+
+9 months ago
+
+75 comments Follow
+
+*[9 months ago]: 2013-08-02T21:14:39.000Z</description><thumb cache="FW14-topics-docs/e110/7009_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6149728.png</thumb></snippet><snippet id="FW14-e110-7009-02"><link cache="FW14-topics-docs/e110/7009_02.html" timestamp="2014-04-24 13:37:55">http://engineering.linkedin.com/mobile/linkedin-ipad-using-local-storage-snappy-mobile-apps</link><title>LinkedIn For iPad: Snappy mobile apps | LinkedIn Engineering</title><description>LinkedIn For iPad: Snappy mobile apps | LinkedIn Engineering (http://engineering.linkedin.com/mobile/linkedin-ipad-using-local-storage-snappy-mobile-apps)
+
+4 points
+
+by akhileshgupta
+
+2 years ago
+
+0 comment Follow
+
+*[2 years ago]: 2012-04-26T19:02:17.000Z</description><thumb cache="FW14-topics-docs/e110/7009_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3895587.png</thumb></snippet><snippet id="FW14-e110-7009-03"><link cache="FW14-topics-docs/e110/7009_03.html" timestamp="2014-04-24 13:38:39">http://engineering.linkedin.com/testing/continuous-integration-mobile</link><title>Continuous Integration for Mobile - Linkedin engineering</title><description>Continuous Integration for Mobile - Linkedin engineering (http://engineering.linkedin.com/testing/continuous-integration-mobile)
+
+1 point
+
+by kgutteridge
+
+2 years ago
+
+0 comment Follow
+
+*[2 years ago]: 2011-10-31T22:47:58.000Z</description><thumb cache="FW14-topics-docs/e110/7009_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3179499.png</thumb></snippet><snippet id="FW14-e110-7009-04"><link cache="FW14-topics-docs/e110/7009_04.html" timestamp="2014-04-24 13:40:14">https://news.ycombinator.com/item?id=6609415</link><title>LinkedIn Intro - an update on company's blog</title><description>LinkedIn Intro - an update on company's blog
+
+2 points
+
+by nikhilwhirlwind
+
+6 months ago
+
+1 comment Follow
+
+Updates (as on the company's engineering blog):
+
+1) You have to opt-in and install Intro before you see LinkedIn profiles in any email.
+
+2) Usernames, passwords, OAuth tokens, and email contents are not permanently stored anywhere inside LinkedIn data centers. Instead, these are stored on your iPhone.
+
+3) Once you install Intro, a new Mail account is created on your iPhone. Only the email in this new Intro Mail account goes via LinkedIn; other Mail accounts are not affected in any way.
+
+4) All communication from the Mail app to the LinkedIn Intro servers is fully encrypted. Likewise, all communication from the LinkedIn Intro servers to your email provider (e.g. Gmail or Yahoo! Mail) is fully encrypted.
+
+5) Your emails are only accessed when the Mail app is retrieving emails from your email provider. LinkedIn servers automatically look up the "From" email address, so that Intro can then be inserted into the email.
+
+For the entire post: http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios#!
+
+*[6 months ago]: 2013-10-25T02:26:15.000Z</description><thumb cache="FW14-topics-docs/e110/7009_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6609415.png</thumb></snippet><snippet id="FW14-e110-7009-05"><link cache="FW14-topics-docs/e110/7009_05.html" timestamp="2014-04-24 13:41:14">http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios</link><title>LinkedIn Intro: Doing the Impossible on iOS</title><description>LinkedIn Intro: Doing the Impossible on iOS (http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios)
+
+455 points
+
+by martinkl
+
+6 months ago
+
+307 comments Follow
+
+*[6 months ago]: 2013-10-23T18:20:32.000Z</description><thumb cache="FW14-topics-docs/e110/7009_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6600597.png</thumb></snippet><snippet id="FW14-e110-7009-06"><link cache="FW14-topics-docs/e110/7009_06.html" timestamp="2014-04-24 13:43:28">http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying</link><title>The Log: Real-time data's unifying abstraction</title><description>The Log: Real-time data's unifying abstraction (http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+
+236 points
+
+by boredandroid
+
+4 months ago
+
+17 comments Follow
+
+*[4 months ago]: 2013-12-16T18:09:30.000Z</description><thumb cache="FW14-topics-docs/e110/7009_06_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6916557.png</thumb></snippet><snippet id="FW14-e110-7009-07"><link cache="FW14-topics-docs/e110/7009_07.html" timestamp="2014-04-24 13:46:37">http://engineering.linkedin.com/play/play-framework-linkedin</link><title>The Play Framework at LinkedIn</title><description>The Play Framework at LinkedIn (http://engineering.linkedin.com/play/play-framework-linkedin)
+
+205 points
+
+by fatiherikli
+
+about a year ago
+
+183 comments Follow
+
+*[about a year ago]: 2013-02-21T18:11:09.000Z</description><thumb cache="FW14-topics-docs/e110/7009_07_thumb.png">https://drcs9k8uelb9s.cloudfront.net/5258955.png</thumb></snippet><snippet id="FW14-e110-7009-08"><link cache="FW14-topics-docs/e110/7009_08.html" timestamp="2014-04-24 13:48:53">http://engineering.linkedin.com/open-source/indextank-now-open-source</link><title>LinkedIn open sources IndexTank: search engine and service</title><description>LinkedIn open sources IndexTank: search engine and service (http://engineering.linkedin.com/open-source/indextank-now-open-source)
+
+192 points
+
+by wvl
+
+2 years ago
+
+32 comments Follow
+
+*[2 years ago]: 2011-12-22T01:04:20.000Z</description><thumb cache="FW14-topics-docs/e110/7009_08_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3379859.png</thumb></snippet><snippet id="FW14-e110-7009-09"><link cache="FW14-topics-docs/e110/7009_09.html" timestamp="2014-04-24 13:50:49">http://engineering.linkedin.com/performance/optimizing-linux-memory-management-low-latency-high-throughput-databases</link><title>Optimizing Linux Memory Management for Low-latency, High-throughput Databases</title><description>Optimizing Linux Memory Management for Low-latency, High-throughput Databases (http://engineering.linkedin.com/performance/optimizing-linux-memory-management-low-latency-high-throughput-databases)
+
+132 points
+
+by dhruvbird
+
+7 months ago
+
+27 comments Follow
+
+*[7 months ago]: 2013-10-08T18:44:36.000Z</description><thumb cache="FW14-topics-docs/e110/7009_09_thumb.png">https://drcs9k8uelb9s.cloudfront.net/6516974.png</thumb></snippet><snippet id="FW14-e110-7009-10"><link cache="FW14-topics-docs/e110/7009_10.html" timestamp="2014-04-24 13:53:19">https://engineering.linkedin.com/frontend/leaving-jsps-dust-moving-linkedin-dustjs-client-side-templates</link><title>Leaving JSPs in the dust: moving LinkedIn to dust.js client-side templates</title><description>Leaving JSPs in the dust: moving LinkedIn to dust.js client-side templates (https://engineering.linkedin.com/frontend/leaving-jsps-dust-moving-linkedin-dustjs-client-side-templates)
+
+130 points
+
+by eneveu
+
+2 years ago
+
+42 comments Follow
+
+*[2 years ago]: 2011-12-13T23:24:47.000Z</description><thumb cache="FW14-topics-docs/e110/7009_10_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3349845.png</thumb></snippet></snippets></search_results>

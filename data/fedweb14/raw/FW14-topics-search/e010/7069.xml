@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7069">Eames chair</query><engine status="OK" timestamp="2014-04-18 23:36:44" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7069-01"><link cache="FW14-topics-docs/e010/7069_01.html" timestamp="2014-04-18 23:36:47">http://academic.research.microsoft.com/Publication/1851503/digiclip-activating-physical-documents</link><title>DigiClip: Activating Physical Documents</title><description>* DigiClip: Activating Physical Documents (Citations: 12)
+
+Christian Decker, Michael Beigl, Adam Eames, Uwe Kubach
+
+Today many documents are held in parallel as electronic files and as paper based documents. Keeping the properties of both versions in sync is important to assure consistency between the physical and virtual instances of one docu- ment. This paper introduces the DigiClip system that pro- vides a solution to automatically enforce such consistency by converting passive paper documents to ...
+
+Conference: International Conference on Distributed Computing Systems - ICDCS(Workshop) , pp. 388-393, 2004</description></snippet><snippet id="FW14-e010-7069-02"><link cache="FW14-topics-docs/e010/7069_02.html" timestamp="2014-04-18 23:37:45">http://academic.research.microsoft.com/Publication/39256523/family-facial-patch-resemblance-extraction</link><title>Family Facial Patch Resemblance Extraction</title><description>* Family Facial Patch Resemblance Extraction
+
+Mohammad Ghahramani, Wei-Yun Yau, Eam Khwang Teoh
+
+Family members have close facial resemblances to one another; especially for certain specific parts of the face but the resemblance part differ from family to family. However, we have no problem in identifying such facial resemblances to guess the family relationships. This paper attempts to develop such human capability in computers through measurements of the resemblance of each facial patch ...
+
+Conference: Asian Conference on Computer Vision - ACCV , pp. 388-399, 2010</description></snippet><snippet id="FW14-e010-7069-03"><link cache="FW14-topics-docs/e010/7069_03.html" timestamp="2014-04-18 23:38:52">http://academic.research.microsoft.com/Publication/28364609/analgesic-effect-of-raloxifene-on-back-and-knee-pain-in-postmenopausal-women-with-osteoporosis</link><title>Analgesic effect of raloxifene on back and knee pain in postmenopausal women with osteoporosis and/or osteoarthritis</title><description>* Analgesic effect of raloxifene on back and knee pain in postmenopausal women with osteoporosis and/or osteoarthritis (Citations: 1)
+
+Takuo Fujita, Yoshio Fujii, Hiromi Munezane, Mutsumi Ohue, Yasuyuki Takagi
+
+...by standing up from a chair and bending the knee by...stand was evaluated by electroalgometry (eam), based on measurement of the...
+
+Journal: Journal of Bone and Mineral Metabolism - J BONE MINER METAB , vol. 28, no. 4, pp. 477-484, 2010</description></snippet><snippet id="FW14-e010-7069-04"><link cache="FW14-topics-docs/e010/7069_04.html" timestamp="2014-04-18 23:40:08">http://academic.research.microsoft.com/Publication/50691148/enterprise-architecture-management-patterns-exemplifying-the-approach</link><title>Enterprise Architecture Management Patterns -- Exemplifying the Approach</title><description>* Enterprise Architecture Management Patterns -- Exemplifying the Approach (Citations: 6)
+
+Sabine Buckl, Alexander M. Ernst, Josef Lankes, Florian Matthes, Christian M. Schweda
+
+...details of the approach. the eam pattern catalog, presented in this...structure and extent of the eam pattern catalog, and exemplifies its approach by outlining eam patterns for addressing architectural standardization...
+
+Conference: Enterprise Distributed Object Computing Conference - EDOS , pp. 393-402, 2008</description></snippet><snippet id="FW14-e010-7069-05"><link cache="FW14-topics-docs/e010/7069_05.html" timestamp="2014-04-18 23:41:18">http://academic.research.microsoft.com/Publication/54880908/obituary-philip-morrison-1915-2005</link><title>Obituary: Philip Morrison, 1915-2005</title><description>* Obituary: Philip Morrison, 1915-2005
+
+Virginia Trimble
+
+...the federation of american scientists (chair 1973-76) and of the...produced by charles and ray eames in 1979, narrated by phil...
+
+Published in 2005.</description></snippet><snippet id="FW14-e010-7069-06"><link cache="FW14-topics-docs/e010/7069_06.html" timestamp="2014-04-18 23:42:36">http://academic.research.microsoft.com/Publication/5478245/enterprise-architecture-management-patterns</link><title>Enterprise architecture management patterns</title><description>* Enterprise architecture management patterns (Citations: 12)
+
+Alexander M. Ernst
+
+...concept of enterprise architecture management (eam) patterns, a pattern based approach...
+
+Published in 2008.</description></snippet><snippet id="FW14-e010-7069-07"><link cache="FW14-topics-docs/e010/7069_07.html" timestamp="2014-04-18 23:43:45">http://academic.research.microsoft.com/Publication/4459639/paving-the-way-for-implementing-multiagent-systems-refining-gaia-with-auml</link><title>Paving the Way for Implementing Multiagent Systems: Refining Gaia with AUML</title><description>* Paving the Way for Implementing Multiagent Systems: Refining Gaia with AUML (Citations: 1)
+
+Juan C. Garc ´ ia-Ojeda, Alvaro E. Arenas, J. Perez-Alcazar
+
+This paper describes the integration process between the Gaia Methodology and AUML; this integration allows the developer to get a better insight into the multiagent system (MAS) that is being built. Gaia generates an abstract model based on roles that describe the system agents, their services and interactions. AUML uses that model as input and breaks it down into a ...</description></snippet><snippet id="FW14-e010-7069-08"><link cache="FW14-topics-docs/e010/7069_08.html" timestamp="2014-04-18 23:45:00">http://academic.research.microsoft.com/Publication/2416915/paving-the-way-for-implementing-multiagent-systems-integrating-gaia-with-agent-uml</link><title>Paving the Way for Implementing Multiagent Systems: Integrating Gaia with Agent-UML</title><description>* Paving the Way for Implementing Multiagent Systems: Integrating Gaia with Agent-UML
+
+Juan C. García-ojeda, Álvaro Enrique Arenas, José De Jesús Pérez Alcázar
+
+This paper describes how to refine a Gaia design by applying agent- oriented extensions of UML. First, we show how the Gaia Interaction model can be improved by applying the first two layers of the Agent Interaction Protocol (AIP) of AUML. Second, Gaia Agent and Service models are refined by apply- ing the AIP's third layer combined with Extended ...
+
+Conference: Agent-Oriented Software Engineering - AOSE , pp. 179-189, 2005</description></snippet><snippet id="FW14-e010-7069-09"><link cache="FW14-topics-docs/e010/7069_09.html" timestamp="2014-04-18 23:46:10">http://academic.research.microsoft.com/Publication/48438860/paving-the-way-for-implementing-multiagent-systems-integrating-gaia-with-agent-uml</link><title>Paving the Way for Implementing Multiagent Systems: Integrating Gaia with Agent-UML</title><description>* Paving the Way for Implementing Multiagent Systems: Integrating Gaia with Agent-UML
+
+Juan C. García-Ojeda, Alvaro E. Arenas, José de Jesús Pérez-Alcázar
+
+This paper describes how to refine a Gaia design by applying agent-oriented extensions of UML. First, we show how the Gaia Interaction model can be improved by applying the first two layers of the Agent Interaction Protocol (AIP) of AUML. Second, Gaia Agent and Service models are refined by applying the AIP’s third layer combined with Extended UML Class ...</description></snippet></snippets></search_results>

@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7014">Asian culture</query><engine status="OK" timestamp="2014-04-24 14:40:37" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7014-01"><link cache="FW14-topics-docs/e110/7014_01.html" timestamp="2014-04-24 14:42:50">https://news.ycombinator.com/item?id=550465</link><title>Ask HN: Obsessive Asian Parents</title><description>Ask HN: Obsessive Asian Parents
+
+36 points
+
+by buggy_code
+
+5 years ago
+
+35 comments Follow
+
+This isn't meant as a rant. This is also meant to be on topic.
+
+From personal experience (as someone raised in an Asian culture), it appears that there is a strong tendency to take a "stable" route in life (i.e. doctor / engineer / lawyer). In the case of CS majors, this maps to "work at google / yahoo / microsoft" ... or "go to grad school and get a PhD", with startups looked down upon.
+
+If you are in this category, or know of people that are in this category ... how did you break out of this (and deal with the opinions of parents / culture you were raised in) to pursue your startups?
+
+*[5 years ago]: 2009-04-07T05:44:04.000Z</description><thumb cache="FW14-topics-docs/e110/7014_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/550465.png</thumb></snippet><snippet id="FW14-e110-7014-02"><link cache="FW14-topics-docs/e110/7014_02.html" timestamp="2014-04-24 14:45:12">http://www.unifem.org/gender_issues/women_poverty_economics/facts_figures.html</link><title>Facts &amp; Figures on Women, Poverty &amp; Economics</title><description>Facts &amp; Figures on Women, Poverty &amp; Economics (http://www.unifem.org/gender_issues/women_poverty_economics/facts_figures.php)
+
+1 point
+
+by VuongN
+
+3 years ago
+
+1 comment Follow
+
+As an Asian male who grew up in a culture with deep-rooted sexism elements, I found this article very sad. Every time when someone hint that women is in any way inferior, I think about my mother, with her 5th grade level education and a determination to raise us kids well. Both mom and dad work a day job, but when both of them come home, mothers are the ones who take care of dinner, children etc. I grew up with a promise to myself that I will break that cycle of sexism with my own family.
+
+Just thinking about it, what do you think Hackers community can do to make it more warm and welcoming for female hackers? I remember reading an LA Times article recently about how startup culture is inherently male--what can we do to make it more equal in our own community?
+
+*[3 years ago]: 2011-07-01T03:05:42.000Z</description><thumb cache="FW14-topics-docs/e110/7014_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2716841.png</thumb></snippet><snippet id="FW14-e110-7014-03"><link cache="FW14-topics-docs/e110/7014_03.html" timestamp="2014-04-24 14:46:27">http://www.theatlantic.com/entertainment/archive/2011/01/notes-of-a-native-tiger-son-part-1/69748/</link><title>Notes of a native tiger son: it's a weird time to be Asian-American</title><description>Notes of a native tiger son: it's a weird time to be Asian-American (http://www.theatlantic.com/culture/archive/2011/01/notes-of-a-native-tiger-son-part-1/69748/)
+
+68 points
+
+by nitefly
+
+3 years ago
+
+52 comments Follow
+
+*[3 years ago]: 2011-01-19T16:10:43.000Z</description><thumb cache="FW14-topics-docs/e110/7014_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2120162.png</thumb></snippet><snippet id="FW14-e110-7014-04"><link cache="FW14-topics-docs/e110/7014_04.html" timestamp="2014-04-24 14:47:16">https://news.ycombinator.com/item?id=450997</link><title>Ask HN: Idea for Next Generation of Social Networking</title><description>Ask HN: Idea for Next Generation of Social Networking
+
+10 points
+
+by Jd
+
+5 years ago
+
+20 comments Follow
+
+Don't wish to oversell myself or my set of ideas, but I am a potential CEO with a reasonably well-developed set of ideas regarding what could be a generational advancement in online community building and a history of successful project management in the non-profit sector. I also moonlight as a web developer; these days mostly coding in Ruby on Rails.
+
+I conceive of this as primarily a project to increase the aggregate intelligence of the world, not to maximize personal profit, and am looking for a person with similar passions and more solid technical background to serve as CTO.
+
+One might summarize this idea as a new 'usenet' utilizing proprietary group modelling and related human-driven data filtering.
+
+I will provide:
+
+(1) The idea (slightly obfuscated, sorry, but I can't tell everybody everything) (2) Theoretical foundation (3) A little bit about me
+
+Feel free to skip anything that doesn't interest you.
+
+Essential Idea:
+
+(1) Model existing social behaviors, including data dissemination, retrieval and especially human layer of information filtering (also mechanical, but the human aspect tends to be neglected. See mechanical turk as an example of a hopeful trend that is not entirely capitalized).
+
+(2) Determine inefficiencies in currently existing patterns.
+
+(3) Create an online interface (a bit like Hacker News, but not exactly a competitor) that provides an evolving patterns and allows for maximal flexibility in group creation (recognizing also the human element in information filtration).
+
+(1) and (2) are essentially already completed and available for review by interested parties, although I do not believe there is a single optimal pattern and will likely need new iterations. (3) is what needs to be completed.
+
+Theoretical Foundations (grossly over-simplified) :
+
+Modern Western philosophy is presaged on a strong idea of the individual, which is also the foundation of the Western social order (notably democracy), and influences into how we view optimal organization on the web. 'Asian' societies generally have a stronger sense of group identity. While there are serious deficiencies in the Asian model, one strength is that it recognizes the centrality of groups in forming human identity, and the necessity of some group identification for continued societal existence.
+
+Traditionally the primary identification was some kinship group. Over time various types of culture developed, usually as groupings within a kinship group. While certain patterns of behavior can develop among any group, culture can only be developed and sustained in certain situations.
+
+What are some pre-conditions for the development of culture? First, there must be some degree of leisure, or time for thinking not distracted by other concerns. Second, there must be some form of interaction and exchange of ideas. Thirdly, these forms of interaction must not be clogged by 'haters,' 'trolls,' or other forms of deviants, which means usually the erection of some sort of borders or moderation.
+
+I will not summarize Shirky's helpful essays (or book) here but he provides additional examples of web communities which illustrate the problems and potentialities stated in the above paragraph.
+
+A little about me:
+
+Studied computer science at local colleges when I was 13-17, then went to a prestigious college and did mostly humanities (religion and philosophy) then lived in China, worked in a bunch of different industries including government and managed the early-stage development of a non-profit and my own small consulting business. I then lived in Japan and Germany (and learned both languages). I am now 26 and plan to come back to the States soon to work on this project. I also have various connections that could facilitate the raising of venture capital.
+
+I've run this by technical professionals more skilled than I, some of who frequent HN and I hope will contribute to this discussion, and there seems to be nothing technically infusible. It is simply a new way of looking at old problems, taking into account the human aspect.
+
+While I will be participating in the discussion here, persons are welcome to contact me at joel.anselm.dietz @ google's email service.
+
+*[5 years ago]: 2009-01-26T20:36:56.000Z</description><thumb cache="FW14-topics-docs/e110/7014_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/450997.png</thumb></snippet><snippet id="FW14-e110-7014-05"><link cache="FW14-topics-docs/e110/7014_05.html" timestamp="2014-04-24 14:48:35">https://news.ycombinator.com/item?id=1423937</link><title>Ask HN: North Korean Revolution as a Global Community Project ?</title><description>Ask HN: North Korean Revolution as a Global Community Project ?
+
+1 point
+
+by cskau
+
+4 years ago
+
+1 comment Follow
+
+First and foremost I'm an idealist. I've always had a great interest in both politics and culture. Especially in South East Asia.
+
+You'd have to have lived under a rock not to have noticed the many and frequent horror stories of North Korea. And every times an article or a video report pops up in my news stream I throw myself at it. Having read much and varied coverage of the state and it's people. You can't help but to get angry and vastly hopeless at the situation. From a modern, western perspective a great deal of questions arise: How can the global community allow this to happen? Why is seemingly no-one doing anything real about it? etc..
+
+Everything considered the only solution in sight, and one that has been lurking a lot in the background lately, is war. Invasion, presumably from the South, with American/International support.
+
+That however, in my view, would be the worst possible solution. With NK's standing army of 1.000.000 soldiers, and possibly nuclear weapons, it would be an absolute disaster.
+
+With great inspiration from other Asian countries, I personally dream of the day the NK people themselves rise against their utterly corrupt, delusional government.
+
+My question (though long under way) is this: Do you think it is at all possible to create a community around the goal of assisting a NK revolution ?
+
+Note, I'm trying to steer clear of any BandAid-like thing, but instead imagine a bunch of smart people with insight and ideas coming together to create viable solutions to the problem.
+
+May the power of the Internet and Global Community bring freedom to the North Korean People ! :)
+
+*[4 years ago]: 2010-06-11T14:29:59.000Z</description><thumb cache="FW14-topics-docs/e110/7014_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/1423937.png</thumb></snippet><snippet id="FW14-e110-7014-06"><link cache="FW14-topics-docs/e110/7014_06.html" timestamp="2014-04-24 14:50:47">http://viettraveladvisor.com</link><title>VIET TRAVEL ADVISOR</title><description>VIET TRAVEL ADVISOR (http://viettraveladvisor.com)
+
+1 point
+
+by michaelmanh
+
+3 years ago
+
+0 comment Follow
+
+Our Exclusive tours &amp; services
+
+Viet Travel Advisor specializes in Vietnam as well as other asian countries and we are special company as we do not sell cheap and bad quality products. We take personally care to choose the transportation, interview guides, select hotels and restaurants to make sure all is in accordance to our commitment of standard.
+
+We are special in organize tailor-made package tours and small group that will ease the process of planning for your Vietnam travel and ensure an unmatched travel experience. We leverage our local expertise to match your budget and requirements to deliver on that "Vietnam Experience" with oomph.
+
+We are offering you a wide range of customized and independent travel opportunities. We are experts at tailoring unique itineraries for individuals, a group of friends or for families.
+
+We are full travel services agency in addition to your sightseeing tours , we also arrange your accommodations , car rental , international &amp; domestic fights , professional &amp; helpful tour guide and other logistics in advance
+
+Why Us...?
+
+Visit Viet Travel Advisor is a full-scale travel company in Vietnam with highly specialized tours. Since we are adept with heart and soul of Vietnam, we make a difference to your Vietnam travel plans. We take you deep into the Vietnam tradition as we are well acquainted with its every nook and corner. Although it may not be possible to express our qualities through words, following constitutes an attempt to give you a cursory picture.
+
+But also .
+
+We never satisfied with what currently have "It is a pleasure checking your site with its personal touch and useful information in perfect English", "You are a wonderful company", "Never had any problems", those are what our customers speak about us. To that end, we improve our speed of reply under professional manner with extensive knowledge. Continued progress to send executives for inspection and staff trainning to keep up to date products. Develop tight relationships to hoteliers and suppliers to make sure no single issue pops up.
+
+We make a difference?
+
+Let us make a claim at the outset. Yes, we make a difference in the lives of travelers. You must be wondering as how it can be possible since we are not more than a travel agency. Well, we deliver authentic Vietnam traveling experiences and that is what is makes us stand apart in our profession. We do it with utmost care, compassion, and sense of responsibility. Our vast customer feedback forms the bedrock of our travel services. Whats more! Our expert guides make you interact with the best of Vietnam. When we say best, it means the real culture of Vietnam, its tradition, its people, its villages, its customs, its rituals, its ethos.and much more thats real. Nothing is taken casually at our doors!
+
+Quality is nothing more than Commitment to ones work
+
+In the business of tours and travel, one of the most fundamental points is to provide reliable services. We at Vietnam Travel Advisor are guided by this philosophy and this is what make us lead throughout. We always make sure to provide one of the travel experiences and being committed to this makes us lead compared to our counterparts. As our company is full of talent with highly trained professionals, we serve you in the best possible ways. These experts help us to give due attention to detail and that is where we win.
+
+Key Features
+
+* Every tour is planned intelligently in order to make you reach to the optimum traveling experience
+* We believe in value for money. We charge you reasonably as we are firmly rooted to reason in our pursuits
+* Our endeavor is not confined to run a travel agency. Travel is our passion rather.
+
+Right People, Right Attitude, Right Outcomes
+
+Viet Travel Advisor make sure to give you the best of Vietnam travel experience. That is what makes us lead in our endeavor. As we have the right team of travel experts in every department of ours, this is what makes us win every time when travelers rely on us. Since they carry the right attitude we make sure that your tour goes the right way. In fact, we understand the word right and that is what guides our team in whatever they do. One of the other factors that make us stand apart is our capacity to go beyond the obvious. It means that unlike other travel agencies, we take you to the best possible places even without a single glitch. That is what makes your tour and travel all the more significant and worthwhile.
+
+No Hidden Costs Policy
+
+We at Viet Travel Advisor follow no hidden costs policy. In fact, this is what gives us enormous confidence to serve you in the best possible way. That is why we are always ahead of others. Our adhering to this policy further ensures you to rely on us without a tad of doubt. Hence, there is no risk involved with our travel services. All you need to do is relax the moment you subscribe to services from Visit Viet Travel Advisor.
+
+*[3 years ago]: 2011-03-05T08:07:48.000Z</description><thumb cache="FW14-topics-docs/e110/7014_06_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2291069.png</thumb></snippet><snippet id="FW14-e110-7014-07"><link cache="FW14-topics-docs/e110/7014_07.html" timestamp="2014-04-24 14:52:03">http://www.weirdworm.com/five-types-of-chinese-ghosts/</link><title>Five Types of Chinese Ghosts</title><description>Five Types of Chinese Ghosts (http://www.weirdworm.com/five-types-of-chinese-ghosts/)
+
+1 point
+
+by radman
+
+3 years ago
+
+0 comment Follow
+
+Chinese culture has many types of ghosts, many of whom have a history so long that they influenced other Asian cultures and their beliefs. Take a look.
+
+*[3 years ago]: 2010-12-27T12:50:30.000Z</description><thumb cache="FW14-topics-docs/e110/7014_07_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2042395.png</thumb></snippet><snippet id="FW14-e110-7014-08"><link>http://www.SPANISHSPEAKINGCALLCENTER.COM%20</link><title>Spanish speaking call center</title><description>Spanish speaking call center (http://www.SPANISHSPEAKINGCALLCENTER.COM )
+
+1 point
+
+by RichardBlank
+
+4 years ago
+
+0 comment Follow
+
+Costa Rica's Call Center (CCC) is a state of the art telemarketing outsourcing call center located in the capital city of San Jose, Costa Rica in Central America. Our bilingual call centers primary objective is to personally fulfill your need of key BPO call center telemarketing services. The main focus of every BPO outsourcing campaign will always be to personally educated and enhance the skills and every call center agent so that we may give superior quality of outbound and inbound telemarketing solutions to small and medium sized international companies, entrepreneurs as well as fortune 500 companies.
+
+The Costa Rican call center outsourcing industry keeps growing that has produced a highly competitive outsourcing market with many choices depending on price and service. Our advantage, as a bilingual call center located in Costa Rica, can be clearly seen as a closer proximity to the United States, Central Time Zone and Spanish language capability as an added value are now considered almost basic requirements when making an important choice on which BPO call center to use for your important project. Most importantly, if the call center software can support the needs of a client when their outsourced campaign grows? Leaving this to chance is not even an option anymore when choosing where to outsource. Call center software is as important to an outsourced campaign as telemarketing training. Both areas must be reliable, secure and capable of out performing the other call centers that you are currently considering to outsource your BPO campaign.
+
+Our niche is that Costa Ricas Call Center presents any company that has chosen to outsource a practical benefit by providing more than twice the number of extremely well trained and educated bilingual call center agents for the same money as they would be forced to spend within their local area. In addition, individuals that outsource can rightfully benefit from the international tax laws granted to international companies that invest in Costa Rica and its growing economy. The clear amount of the savings and financial benefits will make outsourcing to Costa Rica a very wise and strategic business decision on your part and for your organization.
+
+The high demand for call center services has provided our company with an abundance of respectable resumes of qualified telemarketers that want to work with and for you. By outsourcing agents overseen by highly trained BPO managers and call center supervisors can give your business a proven method of expanding or staying in close contact with your existing customer base. Outsourcing to Costa Rica eliminates the additional pressure and invested time needed by you in order to interview, qualify, hire and train telemarketers by yourself.
+
+In addition, unlike other large and traditional call centers situated far away in India and the Philippines, Costa Ricas Call Center stays focused on only handling up to one hundred call centers agents in one call center at a time. As soon as capacity is reached, an additional identical call center will be formed with the same structure and business plan in order to keep our call center results and expectations consistently higher than that of the competition. Our companys strategy is to take the time to handle one project at a time, in order to successfully manage quality control and analyzing each call center agents phone technique and presentation. Your outsourced campaign deserves a strong commitment to continue an optimistic employee self-confidence so each call center agent continues to make a difference and have create value to your company.
+
+Costa Rica has a very solid infrastructure , stable democratic government, very competitive labor costs and a call center job pool that is especially familar to the North American culture. Many of the offshore call center agents used today are bilingual in their native Middle Eastern or Asian language which is very difficult to the North American ear. Whereas Spanish is more beneficial and clearly a practical solution as a second language for potentially large untapped markets t throughout the North, Central and South American populations as well as those countries where Spanish is either a primary or secondary language. This aspect alone has made Costa Rica a very attractive near-shore outsourcing solution Call center jobs are some of the top paying career opportunities in Costa Rica. This differs greatly from other countries that consider it as a starting position in a dead end company. Turnover at these other locations are five to ten times more than in Costa Rica.
+
+We encourage you to visit one of our call centers on your next personal vacation or business trip to Central America's paradise, Costa Rica. While you are here, we would recommend taking an extra day of your trip to visit breathtaking virgin beaches, play golf next to the ocean, try your luck at deep sea fishing, explore tropical jungles, climb volcanos or just relax in natural hot springs. Come and see for yourself why call center outsourcing in Costa Rica is a perfect solution for your growing company and a powerhouse in the BPO industry.
+
+http://www.outsourcingtocostarica.com/page_builder.php?page=index.php
+
+*[4 years ago]: 2010-09-03T20:49:56.000Z</description><thumb cache="FW14-topics-docs/e110/7014_08_thumb.png">https://drcs9k8uelb9s.cloudfront.net/1661111.png</thumb></snippet><snippet id="FW14-e110-7014-09"><link cache="FW14-topics-docs/e110/7014_09.html" timestamp="2014-04-24 14:56:10">https://news.ycombinator.com/item?id=2705968</link><title>Rate my startup: GiftBait - online gift wish lists with a twist</title><description>Rate my startup: GiftBait - online gift wish lists with a twist
+
+2 points
+
+by giftbait
+
+3 years ago
+
+0 comment Follow
+
+http://www.giftbait.com
+
+Instead of you creating a wish list of items you want as gifts for your party (wedding, house warming), let your guests submit gifts anonymously and vote on the ones you like.
+
+I didn't get a lot of feedback the last time i posted so trying one more time (posting on a weekend probably wasn't a good idea!). I would LOVE feedback on the concept and execution of GiftBait and welcome any and all feedback to help me improve and refine the service.
+
+[Background]:
+
+I have always been frustrated with the way gifts are exchanged. Either: 1) the guest gets something you don't want = wasted $$$, or 2) the host asks* for over-priced items that guests grudgingly have to buy = poor form.
+
+[Concept]:
+
+GiftBait's approach is a happy hybrid of the two. It allows the host to create an event and invite guests. Guests sign in and submit gift ideas. The host gets to see ALL the gifts that get suggested but the names of the guests do not get revealed. They can then like/dislike the gifts and the guest gets notified of their decision.
+
+[The Value Proposition]:
+
+The guest gets to spend only their budgeted amount on the gift and the host gets a huge selection of gifts to choose from. It also gets guests and the host engaged in the whole process which can be fun on its own.
+
+[Known Challenges]:
+
+Wish lists are engrained in the North American psyche and overcoming this with a guest-generated list of gifts that the host will choose from will require time and effort to get people comfortable with the concept.
+
+I'm not sure as yet how many people would pay for such a service. Evite would be a complementary service and despite its popularity it remains a free service.
+
+[Product Positioning / Promotion]:
+
+I am positioning the service at the moments as a gift wish list that can be relevant to any and all events (e.g., weddings, birthdays, house warming, etc.). I want to see if this has traction, else I will attempt to narrow and focus on a specific industry, e.g. only weddings.
+
+To promote, I have reached out to blogs in the events space (e.g. weddings, novel gifts, etc.). I have also considered offering free GiftBait accounts to such blogs as contest prizes...this would likely get some promotion and result in a win-win partnership with the blogs.
+
+[My Humble Ask]:
+
+I would love feedback on the concept and execution. How should I price this (currently it's $1.99 per event hosted or $9.99 for unlimited events)? Or should this be marketed as a free service with revenue through referral sales, advertising, etc.?
+
+Thank you for your time. All feedback would be helpful. I set out to solve for a personal pet peeve but I realize this might not be as big a deal for others.
+
+* Interestingly, many cultures find the North American concept of asking or specifying gifts they like to be very offensive. Asian cultures often go with the "you don't need to get anything for the party, or whatever you get will be awesome...(or at least I will pretend like it's awesome!)".
+*[3 years ago]: 2011-06-28T16:19:06.000Z</description><thumb cache="FW14-topics-docs/e110/7014_09_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2705968.png</thumb></snippet><snippet id="FW14-e110-7014-10"><link cache="FW14-topics-docs/e110/7014_10.html" timestamp="2014-04-24 14:57:06">https://news.ycombinator.com/item?id=2326043</link><title>Japanese Role in Japan during the Tohoku Earthquake</title><description>Japanese Role in Japan during the Tohoku Earthquake
+
+1 point
+
+by asknemo
+
+3 years ago
+
+0 comment Follow
+
+I am based in Asia, and I believe the Western world's reaction to the Japanese earthquake is a bit biased, and I wish to share something that may interest the HN community.
+
+The reference post: http://news.ycombinator.com/item?id=2325226
+
+Right now in Asia we are all discussing how Japanese has handled the earthquake on the Internet and mainstream media. The fact is, the Japanese citizen and corporate has impressed everyone how they cope with the disaster. The city remains orderly. Most shops, convenient stores and supermarket stays open to give out food and drinks for free. Vending machines has triggered their emergency system and drinks are accessible for free by press of buttons. Celebrities give out their advices on Twitter and contribute whatever they can to help to calm people's mind. Wifi hotspot has been made free by telecom companies to help people connect everywhere.
+
+From media and bloggers, we are all at awe with the resilience of the Japanese and the extreme high standard of social responsibility for the corporations. And how we believe our city won't get even close to such order if we ever get an disaster like that.
+
+When me and my friends (some Japanese) read about the reference post above, we feel that the discussion that follows do not do justice to what every other Japanese company, small or large, has done. I doubt Apple is intentionally doing PR out of a disaster - they do know it is of very bad taste, as least to Asian cultures. But by keeping close to what's really happening now in Japan, we will have to say that it is of more justice to salute all Japanese corporates that shows their human side in this disaster, not Apple Japan alone.
+
+I wish I can put evidences of those amazing Japanese stories here, but I can't find much in English media. If you happen to stumble upon one, please do post.
+
+*[3 years ago]: 2011-03-15T04:56:19.000Z</description><thumb cache="FW14-topics-docs/e110/7014_10_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2326043.png</thumb></snippet></snippets></search_results>

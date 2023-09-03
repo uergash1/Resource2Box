@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7168">fabric glue</query><engine status="OK" timestamp="2014-04-24 23:35:50" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7168-01"><link cache="FW14-topics-docs/e110/7168_01.html" timestamp="2014-04-24 23:37:18">http://compositecode.com/2011/01/12/windows-azure-roles-how-they-work/</link><title>Windows Azure Web, Worker, and CGI Roles How They Work</title><description>Windows Azure Web, Worker, and CGI Roles How They Work (http://compositecode.com/2011/01/12/windows-azure-roles-how-they-work/)
+
+2 points
+
+by adron
+
+3 years ago
+
+0 comment Follow
+
+This is a write up Ive put together of how the roles in Windows Azure work. As far as I know, this is all correct but if there are any Windows Azure Team Members out there that wouldnt mind providing some feedback about specifics or adding to the details I have here please do add comments! :)
+
+Windows 2008 and Hyper-V
+
+Windows Azure is built on top of Windows 2008 &amp; Hyper-V. Hyper-V provides virtualization to the various instance types and allocation of resources to those instances. Windows 2008 provides the core operating system functionality for those systems and the Windows Azure Platform Roles and Storage.
+
+The hypervisor that a Hyper-V installation implements does a few unique things compared to many of the other virtualization offerings in the industry. Xen (The Open Source Virtualization Software that Amazon Web Services use) &amp; VMWare both use a shared resource model for utilization of physical resources within a system. This allows for more virtualized instances to be started per physical machine, but can sometimes allow hardware contention. On the other hand Hyper-V pins a particular amount of resources to a virtualized instance, which decreases the number of instances allowed on a physical machine. This enables Hyper-V to prevent hardware contention though. Both designs have their plusses and minuses and in cloud computing these design choices are rarely evident. The context however is important to know when working with high end computing within the cloud.
+
+Windows Azure Fabric Controller
+
+The Windows Azure Fabric Controller is kind of the magic glue that holds all the pieces of Windows Azure together. The Azure Fabric Controller automates all of the load balancing, switches, networking, and other networking configuration. Usually within an IaaS environment youd have to setup the load balancer, static IP address, internal DNS that would allow for connection and routing by the external DNS, the switch configurations, configuring the DMZ, and a host of other configuration &amp; ongoing maintenance is needed. With the Windows Azure Platform and the Fabric Controller, all of that... (read more in full article)
+
+*[3 years ago]: 2011-01-12T15:39:59.000Z</description><thumb cache="FW14-topics-docs/e110/7168_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2096460.png</thumb></snippet></snippets></search_results>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7433">747-8</query><engine status="OK" timestamp="2014-04-20 00:15:33" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7433-01"><link cache="FW14-topics-docs/e004/7433_01.html" timestamp="2014-04-20 00:15:37">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.154.2576&amp;rank=1</link><title>Operator Placement for In-Network Stream Query Processing</title><description>Operator Placement for In-Network Stream Query Processing
+
+by Utkarsh Srivastava, Kamesh Munagala, Jennifer Widom \- In Proc. the 24th ACM SIGACT-SIGMOD-SIGART Symposium on Principle of Database Systems(PODS , 2005
+
+"... -circuited, F3 = ∅. For this plan, c(P) = 747.8, that is lower than the costs in Examples 2.2 and 3.3, and can ..."
+
+Abstract \- Cited by 58 (0 self) \- Add to MetaCart
+
+In sensor networks, data acquisition frequently takes place at low-capability devices. The acquired data is then transmitted through a hierarchy of nodes having progressively increasing network bandwidth and computational power. We consider the problem of executing queries over these data streams, posed at the root of the hierarchy. To minimize data transmission, it is desirable to perform “in-network ” query processing: do some part of the work at intermediate nodes as the data travels to the root. Most previous work on in-network query processing has focused on aggregation and inexpensive filters. In this paper, we address in-network processing for queries involving possibly expensive conjunctive filters, and joins. We consider the problem of placing operators along the nodes of the hierarchy so that the overall cost of computation and data transmission is minimized. We show that the problem is tractable, give an optimal algorithm, and demonstrate that a simpler greedy operator placement algorithm can fail to find the optimal solution. Finally we define a number of interesting variations of the basic operator placement problem and demonstrate their hardness. 1</description></snippet><snippet id="FW14-e004-7433-02"><link cache="FW14-topics-docs/e004/7433_02.html" timestamp="2014-04-20 00:19:53">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.273.3806&amp;rank=2</link><title>Immunoglobulin spots on the surface of rabbit lymphocytes</title><description>Immunoglobulin spots on the surface of rabbit lymphocytes
+
+by Benvenuto Pernis, Luciana Forni, Luisa Amante , 1970
+
+"... Horse ferritin Lymph nodes 5 145/1475 9.8 in footpads (popliteal) R-175 . . . . 6 65/747 8.7 * See ..."
+
+Abstract \- Cited by 45 (0 self) \- Add to MetaCart
+
+There is considerable evidence for the presence of immunoglobulins on the ~urface of lymphocytes in different species. This evidence is given by the transformation of rabbit lymphocytes into immunoblasts after contact with antiimmunoglobulin or anti-allotypic antisera (1), formation of rosettes with the same antisera in the presence of sensitized erythrocytes (2), and inhibition of rosette formation (3). Raft et al. have recently reported the presence of immunoglobulins on mouse lymphocytes as detected by immunofluorescence and autoradiography (4). The work described here shows that about one half of peripheral blood and spleen lymphocytes in the rabbit carry on their surface a number of discrete immunoglobulin spots, and that the immunoglobulins present on a single cell are uniform with regard to the allotype. It appears that the immunoglobulins found on the lymphocyte surface are the product of the same cell that carries them, and that they are firmly attached to the cell membrane. These findings have been obtained by immunofluorescent staining of living</description></snippet><snippet id="FW14-e004-7433-03"><link cache="FW14-topics-docs/e004/7433_03.html" timestamp="2014-04-20 00:22:50">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.10.2808&amp;rank=3</link><title>Improving the AUC of Probabilistic Estimation Trees</title><description>Improving the AUC of Probabilistic Estimation Trees
+
+by Cesar Ferri, Peter A. Flach, Jose Hernandez-Orallo \- In Proc. of the 14th European Conf. on Machine Learning , 2003
+
+"... 75.0 7.9 74.7 8.5 74.7 8.5 35 97.3 2.2 98.5 1.8 98.5 1.8 36 98.2 0.2 99.0 0.1 99.0 0.1 37 99.3 0.2 99 ..."
+
+Abstract \- Cited by 31 (7 self) \- Add to MetaCart
+
+In this work we investigate several issues in order to improve the performance of probabilistic estimation trees (PETs). First, we derive a new probability smoothing that takes into account the class distributions of all the nodes from the root to each leaf. Secondly, we introduce or adapt some new splitting criteria aimed at improving probability estimates rather than improving classification accuracy, and compare them with other accuracy-aimed splitting criteria.</description></snippet><snippet id="FW14-e004-7433-04"><link cache="FW14-topics-docs/e004/7433_04.html" timestamp="2014-04-20 00:26:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.218.1054&amp;rank=4</link><title>2005), ‘Is Value Riskier than Growth</title><description>2005), ‘Is Value Riskier than Growth
+
+by Ralitsa Petkova, Lu Zhang \- Journal of Financial Economics
+
+"... .92 0.93 HML -0.15 -0.11 0.08 0.33 SMB 0.27 0.13 0.20 0.28 t-stat -7.47 -8.30 4.38 26.84 t-stat 14.31 11 ..."
+
+Abstract \- Cited by 35 (2 self) \- Add to MetaCart
+
+Yes! We study the time-varying risk patterns of value and growth stocks across business cycles. We find that the conditional market betas of value stocks covary positively with the expected market risk premium, and that value stocks are riskier than growth stocks in bad times when the expected market risk premium is high. The opposite is true for growth stocks. Methodologically, we measure time-varying risk by sorting conditional betas on the theoretically justified expected market risk premium, instead of the ex post realized market excess return. Our findings lend support to the predictions of recent rational asset pricing theory.</description></snippet><snippet id="FW14-e004-7433-05"><link cache="FW14-topics-docs/e004/7433_05.html" timestamp="2014-04-20 00:28:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.413.2754&amp;rank=5</link><title>P780 Intracellular activity of fusidic acid against clinical isolates of Staphylococcus aureus of increasing MIC</title><description>P780 Intracellular activity of fusidic acid against clinical isolates of Staphylococcus aureus of increasing MIC
+
+by Sandrine Lemaire, Denis Pierard, Françoise Van Bambeke, Paul M. Tulkens Mailing Address, Paul M. Tulkens
+
+"... /1134 8/747 8/18 -2 -1 0 1 2 log10 concentration (mg/L) 0.25 0.5 Intracellular activity of fusidic acid 1 ..."
+
+Abstract \- Add to MetaCart
+
+Background: Multiresistant S. aureus are of growing concern triggering the reassessment of older antibiotic classes. Fusidic acid is currently being reinvestigated for systemic administration, based on the low level of resistance observed in United States (Castanheira et al., AAC 2010, 54:3614-7), which is not the case in Europe (McLaws et al. AAC 2010 Dec 13. [Epub ahead of print]). Our aim was to examine the activity of fusidic acid against intracellular S. aureus of increasing levels of resistance to assess how extracellular and intracellular activities are related. Methods:</description></snippet><snippet id="FW14-e004-7433-06"><link cache="FW14-topics-docs/e004/7433_06.html" timestamp="2014-04-20 00:29:54">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.1.6150&amp;rank=6</link><title>G-Prop-II: Global Optimization of Multilayer Perceptrons using GAs</title><description>G-Prop-II: Global Optimization of Multilayer Perceptrons using GAs
+
+by P. A. Castillo, V. Rivas, J.J. Merelo, J. Gonzalez, J. Gonz Alez, A. Prieto, G. Romero , 1999
+
+"... .2 0.6 12 (132) 0.12 0.09 Prechelt 5.747 8+4 (112) - Cancer 3 QP 4 1 4 (44) 0.034 G-Prop-II 3.0 0 ..."
+
+Abstract \- Cited by 20 (12 self) \- Add to MetaCart
+
+A general problem in model selection is to obtain the right parameters that make a model fit observed data. For a Multilayer Perceptron (MLP) trained with Backpropagation (BP), this means finding the right hidden layer size, appropriate initial weights and learning parameters. This paper proposes a method (G-Prop-II) that attempts to solve that problem by combining a genetic algorithm (GA) and BP to train MLPs with a single hidden layer. The GA selects the initial weights and the learning rate of the network, and changes the number of neurons in the hidden layer through the application of specific genetic operators. G-Prop-II combines the advantages of the global search performed by the GA over the MLP parameter space and the local search of the BP algorithm. The application of the G-Prop-II algorithm to several real-world and benchmark problems shows that MLPs evolved using G-Prop-II are smaller and achieve a higher level of generalization than other perceptron training algorithms, s...</description></snippet><snippet id="FW14-e004-7433-07"><link cache="FW14-topics-docs/e004/7433_07.html" timestamp="2014-04-20 00:33:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.392.6651&amp;rank=7</link><title>Dietary Nutrient and Fat Consumption Pattern of Patients Suffering from Myocardial Infarction (MI) in Comparison to the Adults with no Myocardial</title><description>Dietary Nutrient and Fat Consumption Pattern of Patients Suffering from Myocardial Infarction (MI) in Comparison to the Adults with no Myocardial
+
+by Rasheeda Kanchwala, Munira Hussain, Sangeeta Malu
+
+"... fatty acids in 14.79, (7.47)gm and 15.34, (8.67)gm, amounts/day. Table No.3 indicates that the mean ..."
+
+Abstract \- Add to MetaCart
+
+recorded 1.&lt;em&gt;8&lt;/em&gt; million heart attacks; a 50-percent</description></snippet><snippet id="FW14-e004-7433-08"><link cache="FW14-topics-docs/e004/7433_08.html" timestamp="2014-04-20 00:34:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.46.346&amp;rank=8</link><title>Fast Spectral Methods for the Fokker-Planck-Landau Collision Operator of Plasma Physics</title><description>Fast Spectral Methods for the Fokker-Planck-Landau Collision Operator of Plasma Physics
+
+by L. Pareschi, G. Russo, G. Toscani \- J. Comput. Phys , 1999
+
+"... .98 13.46 13.35 32 32 1.80 10 6 2.94 10 6 1.52 10 6 7.47 8.05 7.60 64 64 1.01 10 8 1.11 10 8 ..."
+
+Abstract \- Cited by 19 (5 self) \- Add to MetaCart
+
+In this paper we present a new spectral method for the fast evaluation of the Fokker-Planck-Landau collision operator. The method allows to obtain spectrally accurate numerical solutions with simply O(n log 2 n) operations in contrast with the usual O(n 2 ) cost of a deterministic scheme. We show that the method preserves the total mass whereas momentum and energy are approximated with spectral accuracy. Numerical results for both the Maxwellian and the Coulombian case in 2D and 3D velocity space are also given. Key words: Fokker-Planck-Landau equation, spectral methods, fast Fourier transform. 1 Introduction. This paper is devoted to the development of numerical schemes for the accurate computation of the solution of the Fokker-Planck-Landau equation. This work was partially supported by TMR project \Asymptotic Methods in Kinetic Theory", Contract Number ERB FMRX CT97 0157. y Department of Mathematics, University of Ferrara, via Machiavelli 35, I-44100 Ferrara, ITALY. (pares...</description></snippet><snippet id="FW14-e004-7433-09"><link cache="FW14-topics-docs/e004/7433_09.html" timestamp="2014-04-20 00:36:29">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.256.3169&amp;rank=9</link><title>A microlensing measurement of the size of the broad emission line region in the lensed</title><description>A microlensing measurement of the size of the broad emission line region in the lensed
+
+by R. B. Wayth, R. L. Webster , 2005
+
+"... summed between (507.9nm, 520.8nm) for C iii] and (747.8nm, 758.5nm) for Mgii. We also calculated ..."
+
+Abstract \- Add to MetaCart
+
+QSO 2237+0305</description></snippet><snippet id="FW14-e004-7433-10"><link cache="FW14-topics-docs/e004/7433_10.html" timestamp="2014-04-20 00:38:36">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=C22A8E7E67A25E76F24C89FF4DD4D79C?doi=10.1.1.401.2468&amp;rank=10</link><title>Executive Summary</title><description>Executive Summary
+
+by unknown authors
+
+"... ................................................................................................ 5-20 5.9.1 WAC 173-340-747(8) and (8)(b) Criteria ..."
+
+Abstract \- Add to MetaCart
+
+The evaluation of potential impacts to groundwater from contaminants in the vadose zone at the Hanford Site is important for making final remedial action decisions for waste sites. The potential impacts or risk associated with groundwater protection pertains to soil contamination throughout the entire vadose zone, and is the principal exposure pathway for contaminants deeper than 4.6 m (15 ft). This document presents the strategy to use vadose zone models to calculate soil concentrations protective of groundwater. It addresses the following three key elements: Identify the regulatory basis for use of fate and transport models for development of screening levels and preliminary remediation goals (PRGs) for contaminants of potential concern (COPCs). Establish a graded approach (GA) for use of vadose flow and transport models that provides for progressively increasing rigor appropriate to the potential risk from a waste site. Identify the model parameter values for use in the first steps of the GA when applied to waste sites on the Central Plateau of the Hanford Site.</description></snippet></snippets></search_results>

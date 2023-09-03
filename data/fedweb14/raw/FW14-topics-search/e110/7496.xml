@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7496">why IEEE member</query><engine status="OK" timestamp="2014-04-25 16:53:01" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7496-01"><link cache="FW14-topics-docs/e110/7496_01.html" timestamp="2014-04-25 16:53:52">https://news.ycombinator.com/item?id=2467515</link><title>Ask HN: Are you a member of any professional orgs? How do you participate?</title><description>Ask HN: Are you a member of any professional orgs? How do you participate?
+
+1 point
+
+by solarmist
+
+3 years ago
+
+0 comment Follow
+
+What professional organizations are you a part of? Why did you join and what do you get out of it?
+
+I've been an on an off member of the IEEE, ACM, and AMS for a few years now and I'm always on the fence as to whether to renew my membership or not.
+
+The journals are nice, but there's few local members in the area I'm in, so it doesn't feel like much more than a magazine subscription to me.
+
+*[3 years ago]: 2011-04-20T17:27:13.000Z</description><thumb cache="FW14-topics-docs/e110/7496_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2467515.png</thumb></snippet><snippet id="FW14-e110-7496-02"><link cache="FW14-topics-docs/e110/7496_02.html" timestamp="2014-04-25 16:54:58">https://news.ycombinator.com/item?id=4527620</link><title>Automatic Database Normalization?</title><description>Automatic Database Normalization?
+
+7 points
+
+by zackmorris
+
+2 years ago
+
+4 comments Follow
+
+Lately I've been working on projects that were started by someone else and the databases tend to be a mess. For example, instead of having a separate Members and Organizations table (like for a user participating in politics), the members are repeated over several rows, with the Organization Name field set different on each row. Then if the member's street address is updated, the SQL UPDATE changes the Address field on all of the rows.
+
+At first glance this seems horrible, and I'm tempted to make a table to store member-organization entries. But unfortunately there are several hundred queries in the app and this is nontrivial to write, much less exhaustively test.
+
+So it got me thinking, why is this the programmer's responsibly? Why not just make a database where you can do anything you want, and the contents of each field would be stored once uniquely, with the duplicates represented by pointers or hashes under the hood? Then run in a mode that guarantees atomic updates over any number of rows.
+
+Then the database could infer relationships by the queries that are executed instead of how the data is organized. It would generate the relationship graph automagically so the programmer just has to sign off on it. It could even run in a mode where if the code tries to execute an operation that breaks the graph, a notification could be sent to IT or whatever.
+
+So this isn't really nosql, it's more like unstructured or self-organizing SQL. Has anyone heard of something like this? I googled a bit but all I found were these unhelpful links:
+
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=4564486&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4564486
+
+http://stackoverflow.com/questions/4477257/is-there-any-software-that-can-normalize-data-bases-tables
+
+http://www.codinghorror.com/blog/2008/07/maybe-normalizing-isnt-normal.html
+
+Thanks!
+
+*[2 years ago]: 2012-09-15T23:20:37.000Z</description><thumb cache="FW14-topics-docs/e110/7496_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/4527620.png</thumb></snippet></snippets></search_results>

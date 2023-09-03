@@ -1,0 +1,41 @@
+<search_results><query id="7066">awk trim non-printable characters</query><engine status="OK" timestamp="2014-04-21 01:03:38" name="BigWeb" id="FW14-e200"/><snippets><snippet id="FW14-e200-7066-01"><link cache="FW14-topics-docs/e200/7066_01.html" timestamp="2014-04-21 01:03:40">http://objectmix.com/awk/769902-non-printable-chars-textfile.html</link><title>non-printable chars in textfile - awk \- Application Forum at ...</title><description>* non-printable chars in textfile - awk \- Application Forum at ...
+
+objectmix.com/awk/769902-non-printable-chars-textfile.html&#160;&#160;&#160;Cached
+
+This is a discussion on non-printable chars in textfile - awk; ... &gt;&gt;i have some non printable characters like this &gt;&gt; &gt;&gt;||||| some text ||||| ...</description></snippet><snippet id="FW14-e200-7066-02"><link cache="FW14-topics-docs/e200/7066_02.html" timestamp="2014-04-21 01:07:38">http://www.programmingforums.org/thread29459.html</link><title>non-printable Character \- Sed and Awk \- Programming Forums</title><description>* non-printable Character \- Sed and Awk \- Programming Forums
+
+www.programmingforums.org/thread29459.html&#160;&#160;&#160;Cached
+
+non-printable Character Sed and Awk. User Name: Password FORUM INDEX | TODAY'S POSTS | ... (f.e. latin characters with accents) ...</description></snippet><snippet id="FW14-e200-7066-03"><link cache="FW14-topics-docs/e200/7066_03.html" timestamp="2014-04-21 01:11:36">http://www.tek-tips.com/viewthread.cfm?qid=271416</link><title>AWK \- Removing non-printable characters via sed?</title><description>* AWK \- Removing non-printable characters via sed?
+
+www.tek-tips.com/viewthread.cfm?qid=271416&#160;&#160;&#160;Cached
+
+Removing non-printable characters via sed? thread271-271416. Forum: Search: FAQs: Links: Jobs: Whitepapers: MVPs: ... Back To AWK. Join | Indeed Jobs | Advertise ...</description></snippet><snippet id="FW14-e200-7066-04"><link cache="FW14-topics-docs/e200/7066_04.html" timestamp="2014-04-21 01:12:36">http://computer-programming-forum.com/11-awk/c51104e4ee85ec0f.htm</link><title>Awk, Can AWK filter non-printable characters?</title><description>* Awk, Can AWK filter non-printable characters?
+
+computer-programming-forum.com/11-awk/c51104e4ee85ec0f.htm&#160;&#160;&#160;Cached
+
+&gt; contains non-printable characters. I wish to use AWK to remove these &gt; characters. Can I use Awk to remove these non-printable characters &gt; (ASCII 0 - 31)?</description></snippet><snippet id="FW14-e200-7066-05"><link cache="FW14-topics-docs/e200/7066_05.html" timestamp="2014-04-21 01:15:04">http://compgroups.net/comp.lang.awk/sed-for-removing-non-ascii-characters/9979</link><title>sed for removing non ASCII characters \- comp.lang.awk</title><description>* sed for removing non ASCII characters \- comp.lang.awk
+
+compgroups.net/comp.lang.awk/...non-ascii-characters/9979&#160;&#160;&#160;Cached
+
+... this is comp.lang.awk. &gt; I have to remove ... technique to strip out the non-printable &gt; characters? ... 31)str if(index(trim(str),'&#1050;&#1088;&#1080;&#1089;&#1090;&#1072;&#1083;&#1083; ...</description></snippet><snippet id="FW14-e200-7066-06"><link cache="FW14-topics-docs/e200/7066_06.html" timestamp="2014-04-21 01:18:18">http://seismo.berkeley.edu/~rallen/resources/UNIXcmds/sed_tr_cut_od.html</link><title>Unix text editing - sed, tr, cut , od - BSL: Berkeley ...</title><description>* Unix text editing - sed, tr, cut , od - BSL: Berkeley ...
+
+seismo.berkeley.edu/~rallen/resources/UNIXcmds/sed_tr...&#160;&#160;&#160;Cached
+
+You can use sed to change any string of printable characters into ... Here is a short awk guide. Cut takes characters in fixed ... coded non-printable characters and ...</description></snippet><snippet id="FW14-e200-7066-07"><link cache="FW14-topics-docs/e200/7066_07.html" timestamp="2014-04-21 01:19:20">http://www.unix.com/shell-programming-scripting/14108-remove-non-printing-chars.html</link><title>Remove non printing chars | Unix Linux Forums | Shell ...</title><description>* Remove non printing chars | Unix Linux Forums | Shell ...
+
+www.unix.com/shell-programming-scripting/14108-remove...&#160;&#160;&#160;Cached
+
+How can I remove all the non printing characters from a file? ... SH, BASH, PERL, PHP, SED, AWK and OTHER shell scripts and shell scripting languages here.</description></snippet><snippet id="FW14-e200-7066-08"><link cache="FW14-topics-docs/e200/7066_08.html" timestamp="2014-04-21 01:20:15">http://compgroups.net/comp.lang.awk/encoding-non-printable-or-non-ascii-characters/473047</link><title>Encoding non-printable or non-ASCII characters \- comp.lang.awk</title><description>* Encoding non-printable or non-ASCII characters \- comp.lang.awk
+
+compgroups.net/comp.lang.awk/encoding-non-printable-or...&#160;&#160;&#160;Cached
+
+... no C. This is what I've come up with : #!/bin/sh LANG=C LC_CTYPE=C awk ... the non-printable characters for "down ... index(trim(str ),'&#1050;&#1088;&#1080;&#1089;&#1090;&#1072;&#1083;&#1083; ...</description></snippet><snippet id="FW14-e200-7066-09"><link cache="FW14-topics-docs/e200/7066_09.html" timestamp="2014-04-21 01:22:59">http://stackoverflow.com/questions/9175801/how-to-remove-leading-and-trailing-whitespaces</link><title>awk \- How to remove leading and trailing whitespaces? - Stack ...</title><description>* awk \- How to remove leading and trailing whitespaces? - Stack ...
+
+stackoverflow.com/questions/9175801/how-to-remove...&#160;&#160;&#160;Cached
+
+I'm using awk '{gsub(/^[ \t]+|[ \t]+$/,""); print;}' in.txt &gt; out.txt to remove both leading and trailing whitespaces. The problem is the output file actually has ...</description></snippet><snippet id="FW14-e200-7066-10"><link cache="FW14-topics-docs/e200/7066_10.html" timestamp="2014-04-21 01:26:19">http://www.perlmonks.org/?node_id=619792</link><title>Removing Non-Ascii chars from text file \- PerlMonks</title><description>* Removing Non-Ascii chars from text file \- PerlMonks
+
+www.perlmonks.org/?node_id=619792&#160;&#160;&#160;Cached
+
+This text contains non-ascii characters that I have ... ^\x00-\x7F Otherwise it will trim out ... 33 are non-printing control characters... and 95 printable ...</description></snippet></snippets></search_results>

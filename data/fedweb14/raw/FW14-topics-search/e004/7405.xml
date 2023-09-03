@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7405">light therapy</query><engine status="OK" timestamp="2014-04-19 19:03:45" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7405-01"><link cache="FW14-topics-docs/e004/7405_01.html" timestamp="2014-04-19 19:03:52">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.132.3930&amp;rank=1</link><title>Marching cubes: A high resolution 3D surface construction algorithm</title><description>Marching cubes: A high resolution 3D surface construction algorithm
+
+by William E. Lorensen, Harvey E. Cline \- COMPUTER GRAPHICS , 1987
+
+"... structures. Applications in radiation therapy [27,11] and surgical planning [4,5,31] show interac- tive 3D ..."
+
+Abstract \- Cited by 2070 (4 self) \- Add to MetaCart
+
+We present a new algorithm, called marching cubes, that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes. We also discuss improvements that decrease processing time and add solid modeling capabilities.</description></snippet><snippet id="FW14-e004-7405-02"><link cache="FW14-topics-docs/e004/7405_02.html" timestamp="2014-04-19 19:04:37">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.4.1857&amp;rank=2</link><title>Full-Spectrum Polarized Lighting: An Option for Light Therapy Boxes</title><description>Full-Spectrum Polarized Lighting: An Option for Light Therapy Boxes
+
+by Daniel Karpen Harbor, Daniel Karpen P. E
+
+"... ﻿Full-Spectrum Polarized Lighting: An Option for Light Therapy Boxes Daniel Karpen, P.E. 3 Harbor ..."
+
+Abstract \- Add to MetaCart
+
+of Seasonal Affective Disorder. By using full-spectrum polarized &lt;em&gt;lighting&lt;/em&gt; in &lt;em&gt;light&lt;/em&gt; &lt;em&gt;therapy&lt;/em&gt; boxes, there is a</description></snippet><snippet id="FW14-e004-7405-03"><link cache="FW14-topics-docs/e004/7405_03.html" timestamp="2014-04-19 19:05:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.272.1136&amp;rank=3</link><title>Acceleration of the Meckel Syndrome by Near-Infrared Light Therapy</title><description>Acceleration of the Meckel Syndrome by Near-Infrared Light Therapy
+
+by Nephron Extra, Jinhwan Lim, Vincent H. Gattone, Ii C Rachel Sinders C, Caroline A. Miller, Yun Liang, Peter Harris, John B. Watkins, Iii B, Diane S. Henshel A , 2011
+
+"... Acceleration of the Meckel Syndrome by Near-Infrared Light Therapy Jinhwan Lim a Vincent H. Gattone, II c ..."
+
+Abstract \- Add to MetaCart
+
+www.karger.com/nne This is an Open Access article licensed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License (www.karger.com/OA-license), applicable to the online version of the article only. Distribution for non-commercial purposes only.</description></snippet><snippet id="FW14-e004-7405-04"><link cache="FW14-topics-docs/e004/7405_04.html" timestamp="2014-04-19 19:06:03">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.270.4454&amp;rank=4</link><title>Anti-hypercholesterolemic and anti-atherosclerotic effects of polarized-light therapy in rabbits</title><description>Anti-hypercholesterolemic and anti-atherosclerotic effects of polarized-light therapy in rabbits
+
+by Dongsun Park, Jangbeen Kyung, Dajeong Kim, Seock-yeon Hwang, Ehn-kyoung Choi, Yun-bae Kim
+
+"... -hypercholesterolemic and anti-atherosclerotic effects of polarized-light therapy in rabbits fed a high-cholesterol diet Dongsun ..."
+
+Abstract \- Add to MetaCart
+
+The effects of polarized-&lt;em&gt;light&lt;/em&gt; &lt;em&gt;therapy&lt;/em&gt; (PLT) on high-cholesterol diet (HCD</description></snippet><snippet id="FW14-e004-7405-05"><link cache="FW14-topics-docs/e004/7405_05.html" timestamp="2014-04-19 19:06:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.278.8804&amp;rank=5</link><title>Apoptosis: a Basic Biological Phenomenon with Wide-ranging Implications in Tissue Kinetics</title><description>Apoptosis: a Basic Biological Phenomenon with Wide-ranging Implications in Tissue Kinetics
+
+by J. F. R. Kerr, A. H. Wyllie, A. R. Curriet \- Br. J. Cancer , 1972
+
+"... ,12-dimethylbenz(a)anthracene (DMBA). Note that the light-microscope appearance3 of nuclear pyknosis occur in both ..."
+
+Abstract \- Cited by 221 (5 self) \- Add to MetaCart
+
+Summary.-The term apoptosis is proposed for a hitherto little recognized mechanism of controlled cell deletion, which appears to play a complementary but opposite role to mitosis in the regulation of animal cell populations. Its morphological features suggest that it is an active, inherently programmed phenomenon, and it has been shown that it can be initiated or inhibited by a variety of environmental stimuli, both physiological and pathological. The structural changes take place in two discrete stages. The first comprises nuclear and cytoplasmic condensation and breaking up of the cell into a number of membrane-bound, ultrastructurally well-preserved fragments. In the second stage these apoptotic bodies are shed from epithelial-lined surfaces or are taken up by other cells, where they undergo a series of changes resembling in vitro autolysis within phagosomes, and are rapidly degraded by lysosomal enzymes derived from the ingesting cells. Apoptosis seems to be involved in cell turnover in many healthy adult tissues and is responsible for focal elimination of cells during normal embryonic development. It occurs spontaneously in untreated malignant neoplasms, and participates in at least some types of therapeutically induced tumour regression. It is implicated in both physiological involution and atrophy of various tissues and organs. It can also be triggered by noxious agents, both in the embryo and adult animal. IN recent years it has become widely recognized that spontaneous loss of cells is an important parameter in neoplastic</description></snippet><snippet id="FW14-e004-7405-06"><link cache="FW14-topics-docs/e004/7405_06.html" timestamp="2014-04-19 19:07:31">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.130.1077&amp;rank=6</link><title>An Investigation of the Therac-25 Accidents</title><description>An Investigation of the Therac-25 Accidents
+
+by Nancy G. Leveson \- IEEE Computer , 1993
+
+"... computerized radiation therapy machine called the Therac-25. Between June 1985 and January 1987, six known ..."
+
+Abstract \- Cited by 195 (2 self) \- Add to MetaCart
+
+cited software-related accidents in safety-critical systems involved a computerized radiation &lt;em&gt;therapy&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7405-07"><link cache="FW14-topics-docs/e004/7405_07.html" timestamp="2014-04-19 19:08:07">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.335.1270&amp;rank=7</link><title>Specificity and mechanism of action of some commonly used protein kinase inhibitors</title><description>Specificity and mechanism of action of some commonly used protein kinase inhibitors
+
+by Stephen P. Davies, Helen Reddy, Matilde Caivano, Philip Cohen \- Biochem. J , 2000
+
+"... † and Philip COHEN*† 3 *Division of Signal Transduction Therapy, University of Dundee, Dundee DD1 5EH, Scotland ..."
+
+Abstract \- Cited by 186 (1 self) \- Add to MetaCart
+
+The specificities of 28 commercially available compounds reported to be relatively selective inhibitors of particular serine� threonine-specific protein kinases have been examined against a large panel of protein kinases. The compounds KT 5720, Rottlerin and quercetin were found to inhibit many protein kinases, sometimes much more potently than their presumed targets, and conclusions drawn from their use in cell-based experiments are likely to be erroneous. Ro 318220 and related bisindoylmaleimides, as well as H89, HA1077 and Y 27632, were more selective inhibitors, but still inhibited two or more protein kinases with similar potency. LY 294002 was found to inhibit casein kinase-2 with similar potency to phosphoinositide (phosphatidylinositol) 3-kinase. The compounds with the most</description></snippet><snippet id="FW14-e004-7405-08"><link cache="FW14-topics-docs/e004/7405_08.html" timestamp="2014-04-19 19:08:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.29.707&amp;rank=8</link><title>LifeLines: Visualizing Personal Histories</title><description>LifeLines: Visualizing Personal Histories
+
+by Catherine Plaisant, Brett Milash, Anne Rose, Seth Widoff, Ben Shneiderman , 1996
+
+"... but remains of light color because the case has not progressed yet. At the top of the screen, next to the name ..."
+
+Abstract \- Cited by 177 (26 self) \- Add to MetaCart
+
+LifeLines provide a general visualization environment for personal histories that can be applied to medical and court records, professional histories and other types of biographical data. A one screen overview shows multiple facets of the records. Aspects, for example medical conditions or legal cases, are displayed as individual time lines, while icons indicate discrete events, such as physician consultations or legal reviews. Line color and thickness illustrate relationships or significance, rescaling tools and filters allow users to focus on part of the information. LifeLines reduce the chances of missing information, facilitate spotting anomalies and trends, streamline access to details, while remaining tailorable and easily transferable between applications. The paper describes the use of LifeLines for youth records of the Maryland Department of Juvenile Justice and also for medical records. User's feedback was collected using a Visual Basic prototype for the youth record. Techniq...</description></snippet><snippet id="FW14-e004-7405-09"><link cache="FW14-topics-docs/e004/7405_09.html" timestamp="2014-04-19 19:09:29">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.280.16&amp;rank=9</link><title>Switching on the Lights for Gene Therapy</title><description>Switching on the Lights for Gene Therapy
+
+by Ra Winkeler, Miguel Sena-esteves, Leonie E. M. Paulis, Hongfeng Li, Yannic Waerzeggers, Benedikt Rückriem, Uwe Himmelreich, Parisa Monfared, Maria A. Rueger, Michael Heneka, Stefan Vollmar, Mathias Hoehn, Cornel Fraefel, Rudolf Graf, Klaus Wienhard, Wolf D, Andreas H. Jacobs
+
+"... ﻿Switching on the Lights for Gene Therapy Alexandra Winkeler, Miguel Sena-Esteves, Leonie E. M ..."
+
+Abstract \- Add to MetaCart
+
+) and for monitoring the induction and regulation of therapeutic genes (e.g., gene &lt;em&gt;therapy&lt;/em&gt;). To demonstrate that non</description></snippet><snippet id="FW14-e004-7405-10"><link cache="FW14-topics-docs/e004/7405_10.html" timestamp="2014-04-19 19:10:07">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=E7049343CFC8A2F21E5E2FAFFC30E9CC?doi=10.1.1.20.2838&amp;rank=10</link><title>The Evolution of Protégé: An Environment for Knowledge-Based Systems Development</title><description>The Evolution of Protégé: An Environment for Knowledge-Based Systems Development
+
+by John H. Gennari, Mark A. Musen, Ray W. Fergerson, William E. Grosso, Monica Crubzy, Henrik Eriksson, Natalya F. Noy, Samson W. Tu \- International Journal of Human-Computer Studies , 2002
+
+"... decade. Protégé began as a small application designed for a medical domain (protocolbased therapy ..."
+
+Abstract \- Cited by 167 (8 self) \- Add to MetaCart
+
+The Protg project has come a long way since Mark Musen first built the Protg metatool for knowledge-based systems in 1987. The original tool was a small application, aimed at building knowledge-acquisition tools for a few specialized programs in medical planning. From this initial tool, the Protg system has evolved into a durable, extensible platform for knowledge-based systems development and research. The current version, Protg-2000, can be run on a variety of platforms, supports customized user-interface extensions, incorporates the Open Knowledge Base Connectivity (OKBC) knowledge model, interacts with standard storage formats such as relational databases, XML, and RDF, and has been used by hundreds of individuals and research groups. In this paper, we follow the evolution of the Protg project through 3 distinct re-implementations. We describe our overall methodology, our design decisions, and the lessons we have learned over the duration of the project.. We believe that our success is one of infrastructure: Protg is a flexible, well-supported, and robust development environment. Using Protg, developers and domain experts can easily build effective knowledge-based systems, and researchers can explore ideas in a variety of knowledge-based domains.</description></snippet></snippets></search_results>

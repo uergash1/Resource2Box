@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7023">calculate jordan normal form</query><engine status="OK" timestamp="2014-04-18 17:42:40" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7023-01"><link cache="FW14-topics-docs/e010/7023_01.html" timestamp="2014-04-18 17:42:44">http://academic.research.microsoft.com/Publication/627195/parallel-computations-with-algebraic-numbers-a-case-study-jordan-normal-form-of-matrices</link><title>Parallel Computations with Algebraic Numbers - A Case Study: Jordan Normal Form of Matrices</title><description>* Parallel Computations with Algebraic Numbers - A Case Study: Jordan Normal Form of Matrices (Citations: 6)
+
+Jean-louis Roch, Gilles Villard
+
+...we establish that computing the jordan normal form of matrices over any commutative...
+
+Conference: Parallel Architectures and Languages Europe - PARLE , pp. 701-712, 1994</description></snippet><snippet id="FW14-e010-7023-02"><link cache="FW14-topics-docs/e010/7023_02.html" timestamp="2014-04-18 17:43:39">http://academic.research.microsoft.com/Publication/18655053/analysis-of-non-linear-dynamical-systems-by-the-normal-form-theory</link><title>Analysis of non-linear dynamical systems by the normal form theory</title><description>* Analysis of non-linear dynamical systems by the normal form theory (Citations: 27)
+
+L. Jezequel, C. H. Lamarque
+
+...a method is proposed for calculating the periodic solutions of non-linear mechanical systems with analytical non-linearities. the jordan normalization procedure for the case of...for hamiltonian systems are introduced; normal forms simplify the analysis of bifurcation...
+
+Journal: Journal of Sound and Vibration - J SOUND VIB , vol. 149, no. 3, pp. 429-459, 1991</description></snippet><snippet id="FW14-e010-7023-03"><link cache="FW14-topics-docs/e010/7023_03.html" timestamp="2014-04-18 17:44:38">http://academic.research.microsoft.com/Publication/5350178/a-new-transvectant-algorithm-for-nilpotent-normal-forms</link><title>A new transvectant algorithm for nilpotent normal forms</title><description>* A new transvectant algorithm for nilpotent normal forms (Citations: 1)
+
+James Murdock, Jan A. Sanders
+
+...an algorithm to determine the form of the normal form for a vector field with a nilpotent linear part, when the form of the normal form is known for each jordan block of the linear part...
+
+Journal: Journal of Differential Equations - J DIFFERENTIAL EQUATIONS , vol. 238, no. 1, pp. 234-256, 2007</description></snippet><snippet id="FW14-e010-7023-04"><link cache="FW14-topics-docs/e010/7023_04.html" timestamp="2014-04-18 17:45:50">http://academic.research.microsoft.com/Publication/12403827/differential-systems-with-fuchsian-linear-part-correction-and-linearization-normal-forms-and</link><title>Differential systems with Fuchsian linear part: Correction and linearization, normal forms and multiple orthogonal polynomials</title><description>* Differential systems with Fuchsian linear part: Correction and linearization, normal forms and multiple orthogonal polynomials
+
+Rodica D. Costin
+
+...becomes formally linearizable.more generally, normal forms are found.the corrections and the normal forms are found constructively. expansions in...
+
+Journal: Journal of Differential Equations - J DIFFERENTIAL EQUATIONS , vol. 247, no. 7, pp. 2074-2093, 2009</description></snippet><snippet id="FW14-e010-7023-05"><link cache="FW14-topics-docs/e010/7023_05.html" timestamp="2014-04-18 17:47:00">http://academic.research.microsoft.com/Publication/2102243/evidence-based-rules-and-learning-in-symmetric-normal-form-games</link><title>Evidence based rules and learning in symmetric normal-form games</title><description>* Evidence based rules and learning in symmetric normal-form games (Citations: 43)
+
+Dale O. Stahl
+
+...behavior and learning for symmetric normal-form games with unique symmetric nash...
+
+Journal: International Journal of Game Theory - INT J GAME THEORY , vol. 28, no. 1, pp. 111-130, 1999</description></snippet><snippet id="FW14-e010-7023-06"><link cache="FW14-topics-docs/e010/7023_06.html" timestamp="2014-04-18 17:48:26">http://academic.research.microsoft.com/Publication/2296269/convergent-multiple-timescales-reinforcement-learning-algorithms-in-normal-form-games</link><title>Convergent Multiple-Timescales Reinforcement Learning Algorithms in Normal Form Games</title><description>* Convergent Multiple-Timescales Reinforcement Learning Algorithms in Normal Form Games (Citations: 14)
+
+David S. Leslie, E. J. Collins
+
+...consider reinforcement learning algorithms in normal form games. using two-timescales stochastic...
+
+Published in 2002.</description></snippet><snippet id="FW14-e010-7023-07"><link cache="FW14-topics-docs/e010/7023_07.html" timestamp="2014-04-18 17:49:23">http://academic.research.microsoft.com/Publication/10029009/transformation-of-families-of-matrices-to-normal-forms-and-its-application-to-stability-theory</link><title>TRANSFORMATION OF FAMILIES OF MATRICES TO NORMAL FORMS AND ITS APPLICATION TO STABILITY THEORY</title><description>* TRANSFORMATION OF FAMILIES OF MATRICES TO NORMAL FORMS AND ITS APPLICATION TO STABILITY THEORY
+
+ALEXEI A. MAILYBAEVy
+
+...242) have found and listed normal forms of families of complex and...</description></snippet><snippet id="FW14-e010-7023-08"><link cache="FW14-topics-docs/e010/7023_08.html" timestamp="2014-04-18 17:50:11">http://academic.research.microsoft.com/Publication/622499/computing-the-normal-forms-of-matrices-depending-on-parameters</link><title>Computing the normal forms of matrices depending on parameters</title><description>* Computing the normal forms of matrices depending on parameters (Citations: 5)
+
+Guoting Chen, Equipe de Calcul, Formel et Algorithmique
+
+...exact computation of the frobenius, jordan and arnold's form of matrices depending holomorphically on...
+
+Conference: International Symposium on Symbolic and Algebraic Computation - ISSAC , pp. 242-249, 1989</description></snippet><snippet id="FW14-e010-7023-09"><link cache="FW14-topics-docs/e010/7023_09.html" timestamp="2014-04-18 17:50:52">http://academic.research.microsoft.com/Publication/813314/fast-parallel-algorithms-for-matrix-reduction-to-normal-forms</link><title>Fast Parallel Algorithms for Matrix Reduction to Normal Forms</title><description>* Fast Parallel Algorithms for Matrix Reduction to Normal Forms (Citations: 10)
+
+Gilles Villard
+
+...fast parallel algorithms to compute normal forms of matrices and the corresponding...a field extension for the jordan normal form, and transformations over the input field for the frobenius and the smith normal form are all in ?c 2...
+
+Journal: Applicable Algebra in Engineering, Communication and Computing - AAECC , vol. 8, no. 6, pp. 511-537, 1997</description></snippet><snippet id="FW14-e010-7023-10"><link cache="FW14-topics-docs/e010/7023_10.html" timestamp="2014-04-18 17:51:54">http://academic.research.microsoft.com/Publication/4373856/a-local-construction-of-the-smith-normal-form-of-a-matrix-polynomial</link><title>A local construction of the Smith normal form of a matrix polynomial</title><description>* A local construction of the Smith normal form of a matrix polynomial
+
+Jon Wilkening, Jia Yu
+
+...algorithm for computing a smith form with multipliers of a regular...it computes a local smith form for each irreducible factor in the determinant separately and then combines them into a global smith form, whereas other algorithms apply a...
+
+Journal: Computing Research Repository - CORR , vol. abs/0809.2, 2008</description></snippet></snippets></search_results>

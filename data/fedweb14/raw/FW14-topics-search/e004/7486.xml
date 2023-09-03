@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7486">board games teenagers</query><engine status="OK" timestamp="2014-04-20 21:22:20" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7486-01"><link cache="FW14-topics-docs/e004/7486_01.html" timestamp="2014-04-20 21:22:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.147.8709&amp;rank=1</link><title>Evolutionary Game Theory</title><description>Evolutionary Game Theory
+
+by Jörgen W. Weibull , 1995
+
+"... on the board.Testing game theory 7 A large number of laboratory experiments with more complex ultimatum ..."
+
+Abstract \- Cited by 642 (9 self) \- Add to MetaCart
+
+Abstract. Experimentalists frequently claim that human subjects in the laboratory violate &lt;em&gt;game&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7486-02"><link cache="FW14-topics-docs/e004/7486_02.html" timestamp="2014-04-20 21:25:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.368.2254&amp;rank=2</link><title>Some studies in machine learning using the game of Checkers</title><description>Some studies in machine learning using the game of Checkers
+
+by Arthur L. Samuel \- IBM JOURNAL OF RESEARCH AND DEVELOPMENT , 1959
+
+"... the Game of Checkers 537 INITIAL BOARD POSITION --- • .' ! .... .' j '. .\ ,; \\. . i . i ., '. 3 • • • 1 ..."
+
+Abstract \- Cited by 612 (0 self) \- Add to MetaCart
+
+Two machine-learning procedures have been investigated in some detail using the &lt;em&gt;game&lt;/em&gt; of checkers</description></snippet><snippet id="FW14-e004-7486-03"><link cache="FW14-topics-docs/e004/7486_03.html" timestamp="2014-04-20 21:25:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.135.717&amp;rank=3</link><title>Markov games as a framework for multi-agent reinforcement learning</title><description>Markov games as a framework for multi-agent reinforcement learning
+
+by Michael L. Littman \- IN PROCEEDINGS OF THE ELEVENTH INTERNATIONAL CONFERENCE ON MACHINE LEARNING , 1994
+
+"... ﻿Markov games as a framework for multi-agent reinforcement learning Michael L. Littman Brown ..."
+
+Abstract \- Cited by 500 (10 self) \- Add to MetaCart
+
+. The framework of Markov &lt;em&gt;games&lt;/em&gt; allows us to widen this view to include multiple adaptive agents with interacting</description></snippet><snippet id="FW14-e004-7486-04"><link cache="FW14-topics-docs/e004/7486_04.html" timestamp="2014-04-20 21:29:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.147.9644&amp;rank=4</link><title>The Evolution of Cooperation</title><description>The Evolution of Cooperation
+
+by Robert Axelrod, William D. Hamilton \- SCIENCE, NEW SERIES, VOL. 211, NO. 4489. (MAR. 27, 1981), PP. 1390-1396. , 1981
+
+"... . National Academy of Sciences, Materials Advisory Board, Repor1 of the Ad Hoc Committ~e on Principles i ..."
+
+Abstract \- Cited by 1759 (5 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7486-05"><link cache="FW14-topics-docs/e004/7486_05.html" timestamp="2014-04-20 21:33:50">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.132.7760&amp;rank=5</link><title>Learning to predict by the methods of temporal differences</title><description>Learning to predict by the methods of temporal differences
+
+by Richard S. Sutton \- MACHINE LEARNING , 1988
+
+"... of positions from a two-person board game. The \bad" position is known from long experience to lead 90 ..."
+
+Abstract \- Cited by 1226 (45 self) \- Add to MetaCart
+
+This article introduces a class of incremental learning procedures specialized for prediction – that is, for using past experience with an incompletely known system to predict its future behavior. Whereas conventional prediction-learning methods assign credit by means of the difference between predicted and actual outcomes, the new methods assign credit by means of the difference between temporally successive predictions. Although such temporal-difference methods have been used in Samuel's checker player, Holland's bucket brigade, and the author's Adaptive Heuristic Critic, they have remained poorly understood. Here we prove their convergence and optimality for special cases and relate them to supervised-learning methods. For most real-world prediction problems, temporal-difference methods require less memory and less peak computation than conventional methods and they produce more accurate predictions. We argue that most problems to which supervised learning is currently applied are really prediction problems of the sort to which temporal-difference methods can be applied to advantage.</description></snippet><snippet id="FW14-e004-7486-06"><link cache="FW14-topics-docs/e004/7486_06.html" timestamp="2014-04-20 21:35:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.117.6173&amp;rank=6</link><title>Learning to act using real-time dynamic programming</title><description>Learning to act using real-time dynamic programming
+
+by Andrew G. Barto, Steven J. Bradtke, Satinder P. Singh \- , 1993
+
+"... [61; 62] used to modify a heuristic evaluation function for the game of checkers. His method updated ..."
+
+Abstract \- Cited by 527 (18 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7486-07"><link cache="FW14-topics-docs/e004/7486_07.html" timestamp="2014-04-20 21:37:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.18.4669&amp;rank=7</link><title>Intelligence without reason</title><description>Intelligence without reason
+
+by Rodney A. Brooks \- COMPUTERS AND THOUGHT, IJCAI-91 , 1991
+
+"... and Hilare ([Giralt, Chatila and Vaisset 84]) inToulouse. All these systems used o board computers (and thus ..."
+
+Abstract \- Cited by 755 (9 self) \- Add to MetaCart
+
+Computers and Thought are the two categories that together define Artificial Intelligence as a discipline. It is generally accepted that work in Artificial Intelligence over the last thirty years has had a strong influence on aspects of computer architectures. In this paper we also make the converse claim; that the state of computer architecture has been a strong influence on our models of thought. The Von Neumann model of computation has lead Artificial Intelligence in particular directions. Intelligence in biological systems is completely different. Recent work in behavior-based Artificial Intelligence has produced new models of intelligence that are much closer in spirit to biological systems. The non-Von Neumann computational models they use share many characteristics with biological computation.</description></snippet><snippet id="FW14-e004-7486-08"><link cache="FW14-topics-docs/e004/7486_08.html" timestamp="2014-04-20 21:41:47">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.105.6398&amp;rank=8</link><title>Groupware: Some issues and experiences</title><description>Groupware: Some issues and experiences
+
+by C. A. Ellis, S. J. Gibbs, G.L. Rein \- COMMUNICATIONS OF THE ACM , 1991
+
+"... a video game, the user interacts solely with the computer. Even systems designed for multi- user ..."
+
+Abstract \- Cited by 691 (2 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7486-09"><link cache="FW14-topics-docs/e004/7486_09.html" timestamp="2014-04-20 21:43:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.19.6821&amp;rank=9</link><title>Bayes Factors</title><description>Bayes Factors
+
+by Robert E. Kass, Adrian E. Raftery , 1995
+
+"... , and Tversky, one of us (Kass) collected data on Larry Bird's game-by-game performance during the 1986 ..."
+
+Abstract \- Cited by 981 (70 self) \- Add to MetaCart
+
+In a 1935 paper, and in his book Theory of Probability, Jeffreys developed a methodology for quantifying the evidence in favor of a scientific theory. The centerpiece was a number, now called the Bayes factor, which is the posterior odds of the null hypothesis when the prior probability on the null is one-half. Although there has been much discussion of Bayesian hypothesis testing in the context of criticism of P -values, less attention has been given to the Bayes factor as a practical tool of applied statistics. In this paper we review and discuss the uses of Bayes factors in the context of five scientific applications in genetics, sports, ecology, sociology and psychology.</description></snippet><snippet id="FW14-e004-7486-10"><link cache="FW14-topics-docs/e004/7486_10.html" timestamp="2014-04-20 21:45:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DA357ACD550FF4959F6DB4F6B057BF32?doi=10.1.1.221.2247&amp;rank=10</link><title>Wireless sensor networks: a survey</title><description>Wireless sensor networks: a survey
+
+by I. F. Akyildiz, W. Su, Y. Sankarasubramaniam, E. Cayirci , 2002
+
+"... are fitted with an on-board processor. Instead of sending the raw data to the nodes responsible ..."
+
+Abstract \- Cited by 1135 (21 self) \- Add to MetaCart
+
+This paper describes the concept of sensor networks which has been made viable by the convergence of microelectro-mechanical systems technology, wireless communications and digital electronics. First, the sensing tasks and the potential sensor networks applications are explored, and a review of factors influencing the design of sensor networks is provided. Then, the communication architecture for sensor networks is outlined, and the algorithms and protocols developed for each layer in the literature are explored. Open research issues for the realization of sensor networks are</description></snippet></snippets></search_results>

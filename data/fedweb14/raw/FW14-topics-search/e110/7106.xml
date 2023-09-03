@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7106">active learning survey</query><engine status="OK" timestamp="2014-04-24 18:57:16" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7106-01"><link cache="FW14-topics-docs/e110/7106_01.html" timestamp="2014-04-24 18:58:13">https://news.ycombinator.com/item?id=2772420</link><title>RESUME_PARAG SATHE</title><description>RESUME_PARAG SATHE
+
+1 point
+
+by parag_sathe
+
+3 years ago
+
+1 comment Follow
+
+Parag Sunil Sathe 400 S. Oak St., Apt. # 102, Arlington, TX - 76010, USA. Cell: (205) - 534 4039 Email id- parag.sathe@mavs.uta.edu
+
+Objective-
+
+1)To enhance my technical and personal skills by joining a quality internship program which will help progress professionally and help organizational growth.
+
+2)Education-
+
+August 2012: M.S. in Electrical Engineering, The University of Texas at Arlington. Concentration area Embedded Systems, Current, GPA: 4.0/4.0.
+
+August 2010: B.S. in Electronics Engineering, University of Mumbai. Graduated in August 2010. Aggregate 69.67/100.
+
+3)Professional Capabilities-
+
+Languages: C, C++, HTML, JAVAScript,VHDL, Assembly (8085, 8086, 8051, PIC24FJGA002), Familarity with Verilog, Python. Software Tools and Packages: MATLAB, Simulink, MPLAB,IAR Embedded Work Bench,Labview, Dev C, OpenMP APIs, MULTISIM,MS Office, Quartus II, Express PCB, Windows Threads. Operating Systems: DOS, Windows,Linux, UNIX, Mac OS. good understanding of RTOS, Scheduling, Multicore programming. Protocols: SimpliciTI,TCP/IP,CAN, I2C,SPI,HDLC,ATM, IEEE 802.3/4/5 standard, Good Knowledge of AMPS,GSM,CDMA-2000,3G,LTE, OFDMA,Channel fading, Channel estimation.
+
+4)Projects-
+
+UNIVERSITY OF TEXAS AT ARLINGTON
+
+Working on eZ430-RF2500( msp430 embedded module) using SimpliciTI protocol, for development of wireless sensor monitoring system. End device captures the data from sensors, converts the analog data to digital using ADC10 module of msp430 and then sends it on the RF link with support of SimpliciTI protocol. The Access point receives the RF data, process it and displays it on to hyperterminal using serial port. Use Labview for data acquisation.
+
+Wireless powering of msp430 microcontroller for bio-implantable devices- wireless powering is acheived using electromegnatic induction principle up to distances of 8cm.
+
+Interrupt driven Bidirectional communication system using RS-485 protocol- Consists of two separate designs-a controller and peripheral node.Controller provides a serial port Through which commands can be entered from PC.Controller outputs parsed commands on a 4-wire RS-485 bus.The peripheral deciphers the asynchronous data stream to control o/p device.It will send Acknowledgement back to controller to indicate successful receipt of data. Microcontroller used-PIC24FJGA002, Softwares-MPLAB ICD, DEV C.
+
+High speed ESD protection circuits- A research project, discussed causes of ESD in integrated circuits, different methods to overcome the same problem with comparative analysis.
+
+Design of various IIR and FIR filters using MATLAB- Designed a low pass prototype elliptical filter then, Using designed filter obtained high pass, band pass, band stop and notch filters using different methods such as addition, subtraction and cascading. Designed a Type-1 FIR filter then, Design various filters using different windowing methods.
+
+Working on design of bootloader for PIC24FJGA002- Aim is to program PIC microcontroller without using IDE. Microcontroller will be programmed through serial, USB or either through wireless link. Softwares-C, windows C, Visual c++.
+
+Writing RTOS for PIC24FJGA002- Wrote a C and inline assembly code that implements preemptive RTOS with support for semaphores, yielding, sleep function and system timers, Prioritization was done to service high priority processes effectively, Task Control Block (TCB) was used to handle process stack, state, priority level etc.
+
+Position estimation of robots using ultrasonic pulses and co-ordination amongst robots using RF-link- Worked on RF communication team for data transmission between Base station and Robots, Base controls the robots by sending different commands on RF-link. Also worked on RTOS and integration team to complete working of project. Softwares-MPLAB ICD, X-CTU for RF Xbee module.
+
+Worked on Altera DE-2 FPGA board- Includes interfacing of Selcom Laser sensor to develop a Real Time Data Acquisition system. The project involves conversion of 16 bit synchronous data to 8-bit asynchronous data with start and stop bits in real time. Software- Quartus II 9.1 web Edition
+
+Literature survey on LTE SON and Beam switch co-ordination- Worked on SON features, Energy Saving, Inter Cell Interference Co-ordination (ICIC), Automatic Neighbor Relations(ANR).
+
+Simulation study of MIMO Techniques- Investigated the performance of uncoded spatial multiplexing in MIMO implying dual Polarized antenna. Software : MATLAB and Simulink.
+
+TATA POWER COMPANY LTD.
+
+Design of Power purchase model using 89C51 microcontroller- Designed a model which considers parameters such as power requirement, Power cost, transmission losses, Scheduling charges to determine a most efficient transmission path between source and destination to purchase Power.
+
+UNIVERSITY OF MUMBAI
+
+Infrared remote switch- Designed a PCB for infrared remote switch which is interfaced with 8086 processor kit Softwares-Eagle, 8086 ASM.
+
+Presented a paper on Smart grid in IEEE international conference at Bangalore, India(2010)- Used MATLAB and simulink to simulate small scale smart grid model and presented the analysis of simulation.
+
+Workshops and Lectures
+
+Attended Lectures on Blue Brain project, USB Technology by Ajay Bhatt, and Attended workshop on Robotics during Bachelors of Science degree, 2008-10. Awards / Achievements Cloud Computing won first Prize. Technical paper presentation competition in Datta Meghe COE during year 2008. Selected for final Round in IEEE technical paper presentation for paper on CDMA technology held at Datta Meghe COE in 2007.
+
+General Skills-
+
+Believer in team work. Good communication skills. Multitasking. Adapt quickly to situation.
+
+Languages-
+
+English: - Read, Write, Speak. Marathi: - Mother tongue, Hindi: - Read, Write, Speak.
+
+Interests- Listening music. Active sports like Cricket, Soccer and Badminton. I love traveling, meeting people, learning about different cultures / customs.
+
+Courses-
+
+Principles of Microprocessors(8085,8086) Basics of Microcontrollers(8051) Computer Organization and Architecture Embedded Systems and Real Time programming Embedded Microcontroller systems(PIC24FJGA02) Advanced Embedded Microcontroller Systems Basics of VLSI Digital VLSI Design
+
+Data communication and Networking Continuous Time Signals and Systems Discrete Time Signals and Systems Filter Theory Wireless communication Systems Image Processing Electronic Circuit Analysis and Design Analog Integrated Circuits Digital Communication
+
+*[3 years ago]: 2011-07-17T03:16:34.000Z</description><thumb cache="FW14-topics-docs/e110/7106_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2772420.png</thumb></snippet></snippets></search_results>

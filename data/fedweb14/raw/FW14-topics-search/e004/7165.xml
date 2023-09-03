@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7165">vice president residence</query><engine status="OK" timestamp="2014-05-21 16:42:11" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7165-01"><link cache="FW14-topics-docs/e004/7165_01.html" timestamp="2014-05-21 16:42:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.91.9907&amp;rank=1</link><title>Data Integration: A Theoretical Perspective</title><description>Data Integration: A Theoretical Perspective
+
+by Maurizio Lenzerini \- Symposium on Principles of Database Systems , 2002
+
+"... data residing at different sources, and providing the user with a unified view of these data ..."
+
+Abstract \- Cited by 720 (45 self) \- Add to MetaCart
+
+Data integration is the problem of combining data &lt;em&gt;residing&lt;/em&gt; at different sources, and providing</description></snippet><snippet id="FW14-e004-7165-02"><link cache="FW14-topics-docs/e004/7165_02.html" timestamp="2014-05-21 16:42:33">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.14.1729&amp;rank=2</link><title>Distributional Clustering Of English Words</title><description>Distributional Clustering Of English Words
+
+by Fernando Pereira, Naftali Tishby, Lillian Lee \- In Proceedings of the 31st Annual Meeting of the Association for Computational Linguistics , 1993
+
+"... :hairman 0.457] 0.474 I 0.489 I 0.5001 conductor vice-president editor director 0.699 j Istate ]1.279 I 0 ..."
+
+Abstract \- Cited by 549 (28 self) \- Add to MetaCart
+
+We describe and evaluate experimentally a method for clustering words according to their dis- tribution in particular syntactic contexts. Words are represented by the relative frequency distributions of contexts in which they appear, and relative entropy between those distributions is used as the similarity measure for clustering. Clusters are represented by average context distributions derived from the given words according to their probabilities of cluster membership. In many cases, the clusters can be thought of as encoding coarse sense distinctions. Deterministic annealing is used to find lowest distortion sets of clusters: as the an- nealing parameter increases, existing clusters become unstable and subdivide, yielding a hierarchi- cal "soft" clustering of the data. Clusters are used as the basis for class models of word coocurrence, and the models evaluated with respect to held-out test data.</description></snippet><snippet id="FW14-e004-7165-03"><link cache="FW14-topics-docs/e004/7165_03.html" timestamp="2014-05-21 16:42:54">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.360.9460&amp;rank=3</link><title>Scale and performance in a distributed file system</title><description>Scale and performance in a distributed file system
+
+by John H. Howard, Michael L. Kazar, Sherri G. Menees, A. Nichols, M. Satyanarayanan, Robert N. Sidebotham, Michael J. West \- ACM Transactions on Computer Systems , 1988
+
+"... , scalability, Venus, Vice, Volumes, whole file transfer 1\. INTRODUCTION Andrew is a distributed computing ..."
+
+Abstract \- Cited by 814 (41 self) \- Add to MetaCart
+
+The Andrew File System is a location-transparent distributed tile system that will eventually span more than 5000 workstations at Carnegie Mellon University. Large scale affects performance and complicates system operation. In this paper we present observations of a prototype implementation, motivate changes in the areas of cache validation, server process structure, name translation, and low-level storage representation, and quantitatively demonstrate Andrew’s ability to scale gracefully. We establish the importance of whole-file transfer and caching in Andrew by comparing its performance with that of Sun Microsystem’s NFS tile system. We also show how the aggregation of files into volumes improves the operability of the system.</description></snippet><snippet id="FW14-e004-7165-04"><link cache="FW14-topics-docs/e004/7165_04.html" timestamp="2014-05-21 16:43:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.10.2242&amp;rank=4</link><title>A Methodology for Agent-Oriented Analysis and Design</title><description>A Methodology for Agent-Oriented Analysis and Design
+
+by Michael Wooldridge , Nicholas R. Jennings, David Kinny , 1999
+
+"... typical company. The company has roles such as “president”, “vice president”, and so on. Note that in a ..."
+
+Abstract \- Cited by 630 (11 self) \- Add to MetaCart
+
+This paper presents a methodology for agent-oriented analysis and design. The methodology is general, in that it is applicable to a wide range of multi-agent systems, and comprehensive, in that it deals with both the macro-level (societal) and the micro-level (agent) aspects of systems. The methodology is founded on the view of a system as a computational organisation consisting of various interacting roles. We illustrate the methodology through a case study (an agent-based business process management system).</description></snippet><snippet id="FW14-e004-7165-05"><link cache="FW14-topics-docs/e004/7165_05.html" timestamp="2014-05-21 16:43:32">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.157.1576&amp;rank=5</link><title>Multiresolution grayscale and rotation invariant texture classification with local binary patterns</title><description>Multiresolution grayscale and rotation invariant texture classification with local binary patterns
+
+by Timo Ojala, Matti Pietikaè Inen, Senior Member, Topi Maèenpaè Aè \- IEEE Transactions on Pattern Analysis and Machine Intelligence
+
+"... are an interesting pair: Where spatial pattern is affected by rotation, contrast is not, and vice versa, where ..."
+
+Abstract \- Cited by 556 (31 self) \- Add to MetaCart
+
+AbstractÐThis paper presents a theoretically very simple, yet efficient, multiresolution approach to gray-scale and rotation invariant texture classification based on local binary patterns and nonparametric discrimination of sample and prototype distributions. The method is based on recognizing that certain local binary patterns, termed ªuniform,º are fundamental properties of local image texture and their occurrence histogram is proven to be a very powerful texture feature. We derive a generalized gray-scale and rotation invariant operator presentation that allows for detecting the ªuniformº patterns for any quantization of the angular space and for any spatial resolution and presents a method for combining multiple operators for multiresolution analysis. The proposed approach is very robust in terms of gray-scale variations since the operator is, by definition, invariant against any monotonic transformation of the gray scale. Another advantage is computational simplicity as the operator can be realized with a few operations in a small neighborhood and a lookup table. Excellent experimental results obtained in true problems of rotation invariance, where the classifier is trained at one particular rotation angle and tested with samples from other rotation angles, demonstrate that good discrimination can be achieved with the occurrence statistics of simple rotation invariant local binary patterns. These operators characterize the spatial configuration of local image texture and the performance can be further improved by combining them with rotation invariant variance measures that characterize the contrast of local image texture. The joint distributions of these orthogonal measures are shown to be very powerful tools for rotation invariant texture analysis.</description></snippet><snippet id="FW14-e004-7165-06"><link cache="FW14-topics-docs/e004/7165_06.html" timestamp="2014-05-21 16:43:54">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.132.4212&amp;rank=6</link><title>A Field Study of the Software Design Process for Large Systems</title><description>A Field Study of the Software Design Process for Large Systems
+
+by Bill Curtis, Herb Krasner, Neil Iscoe \- Communications of the ACM , 1988
+
+"... specific tasks. Individual Level Project managers and division vice presidents consis- tently commented ..."
+
+Abstract \- Cited by 507 (1 self) \- Add to MetaCart
+
+The problems of designing large software systems were studied through interviewing personnel from 17 large projects. A layered behavioral model is used to analyze how three lgf these problems-the thin spread of application domain knowledge, fluctuating and conflicting requirements, and communication bottlenecks and breakdowns-affected software productivity and quality through their impact on cognitive, social, and organizational processes.</description></snippet><snippet id="FW14-e004-7165-07"><link cache="FW14-topics-docs/e004/7165_07.html" timestamp="2014-05-21 16:44:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.194.8080&amp;rank=7</link><title>Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure</title><description>Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure
+
+by Michael C. Jensen, William H. Meckling , 1976
+
+"... of others in order to carry out his tasks (such as divisional vice presidents) and to the extent that he ..."
+
+Abstract \- Cited by 898 (5 self) \- Add to MetaCart
+
+This paper integrates elements from the theory of agency, the theory of property rights and the theory of finance to develop a theory of the ownership structure of the firm. We define the concept of agency costs, show its relationship to the ‘separation and control’ issue, investigate the nature of the agency costs generated by the existence of debt and outside equity, demonstrate who bears costs and why, and investigate the Pareto optimality of their existence. We also provide a new definition of the firm, and show how our analysis of the factors influencing the creation and issuance of debt and equity claims is a special case of the supply side of the completeness of markets problem.</description></snippet><snippet id="FW14-e004-7165-08"><link cache="FW14-topics-docs/e004/7165_08.html" timestamp="2014-05-21 16:44:34">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.206.1458&amp;rank=8</link><title>Metaphors We Live By</title><description>Metaphors We Live By
+
+by George Lakoff, Mark Johnson , 1980
+
+"... ’s my ace in the hole.He’s bluffing.The president is playing it close to his vest. Let’s up the ante ..."
+
+Abstract \- Cited by 1328 (6 self) \- Add to MetaCart
+
+1\. Make a list of some of the metaphors discussed by Lakoff and Johnson. Try inserting new words that convey a different meaning. For example, consider the expression, “I’d like to share some time with you ” rather than “spend some time with you.” 2. Make a list of “language asymmetries ” (see Part II, p. XX, and Reading 12 for definitions) and consider what underlying cultural values these asymmetries indicate. 3. Consider the use of the masculine he or man to refer to all people. Some people say that this “generic use ” is perfectly acceptable because the terms “imply ” women as well as men. Others argue that the term not only leaves out half the population but also perpetuates an image of women as “auxiliary”and men as “central.”Discuss this. 4. Discuss the cultural practice of women taking men’s names when they marry. What cultural values does this practice convey? 5. Keep track of all the “medicalized ” terms you hear for a few days (for example, erectile dysfunction, hyperkinesis). Try substituting more common terms and see if you think about the “problem ” differently. For example, clinically depressed versus tired and really burnt out. Do these problems seem more real or authentic with the use of some terms rather than others?</description></snippet><snippet id="FW14-e004-7165-09"><link cache="FW14-topics-docs/e004/7165_09.html" timestamp="2014-05-21 16:44:53">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.36.864&amp;rank=9</link><title>Crowds: Anonymity for Web Transactions</title><description>Crowds: Anonymity for Web Transactions
+
+by Michael K. Reiter, Aviel D. Rubin \- ACM Transactions on Information and System Security , 1997
+
+"... , president of the United States, 1963--69 The lack of privacy for transactions on the world ..."
+
+Abstract \- Cited by 659 (12 self) \- Add to MetaCart
+
+this paper we introduce a system called Crowds for protecting users' anonymity on the worldwide -web. Crowds, named for the notion of "blending into a crowd", operates by grouping users into a large and geographically diverse group (crowd) that collectively issues requests on behalf of its members. Web servers are unable to learn the true source of a request because it is equally likely to have originated from any member of the crowd, and even collaborating crowd members cannot distinguish the originator of a request from a member who is merely forwarding the request on behalf of another. We describe the design, implementation, security, performance, and scalability of our system. Our security analysis introduces degrees of anonymity as an important tool for describing and proving anonymity properties.</description></snippet><snippet id="FW14-e004-7165-10"><link cache="FW14-topics-docs/e004/7165_10.html" timestamp="2014-05-21 16:45:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9CFC91CA94E9D8BBA4E1DA766F437DF0?doi=10.1.1.134.6637&amp;rank=10</link><title>Virtual time</title><description>Virtual time
+
+by David R. Jefferson \- ACM Transactions on Programming Languages and Systems , 1985
+
+"... . For the same reasons that we can define equality in terms of “greater” and “less,” but not vice-versa, we can ..."
+
+Abstract \- Cited by 858 (7 self) \- Add to MetaCart
+
+Virtual time is a new paradigm for organizing and synchronizing distributed systems which can be applied to such problems as distributed discrete event simulation and distributed database concur-rency control. Virtual time provides a flexible abstraction of real time in much the same way that virtual memory provides an abstraction of real memory. It is implemented using the Time Warp mechanism, a synchronization protocol distinguished by its reliance on lookahead-rollback, and by its implementation of rollback via antimessages.</description></snippet></snippets></search_results>

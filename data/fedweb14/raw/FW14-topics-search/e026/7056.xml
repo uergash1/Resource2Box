@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7056">ROADM</query><engine status="OK" timestamp="2014-04-25 18:14:48" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7056-01"><link cache="FW14-topics-docs/e026/7056_01.html" timestamp="2014-04-25 18:14:49">http://sunlight.sunesys.com/2014/04/22/roadm-network-a-future-proof-telecommunications-highway/</link><title>ROADM Network - A Future-Proof Telecommunications Highway</title><description>ROADM Network - A Future-Proof Telecommunications Highway
+
+22 Apr 2014 by Jack Prilook on Sunlight sunlight.sunesys.com/2014/04/22/roadm-network-a-future-proof-telecommunications-highway/
+
+…  Center Transport Network.” The heart of which is the ROADM, or Reconfigurable Optical Add-Drop Multiplexer. ROADM is an all-optical switching element allowing for the user to remotely add …
+
+Topics: Managed Services, Technology Infrastructure, WAN, wide area network, network design, wdm, Lit Services, ROADM, network equipment</description></snippet><snippet id="FW14-e026-7056-02"><link cache="FW14-topics-docs/e026/7056_02.html" timestamp="2014-04-25 18:15:20">http://blog.infinera.com/2011/07/22/inventing-the-colorless-directionless-and-contentionless-roadm/</link><title>Inventing the Colorless, Directionless, and Contentionless ROADM</title><description>Inventing the Colorless, Directionless, and Contentionless ROADM
+
+22 Jul 2011 by infinerablog on Infinera blog.infinera.com/2011/07/22/inventing-the-colorless-directionless-and-contentionless-roadm/
+
+…  support on a fiber – a prediction that soon came true. A ROADM was designed to be able to add or drop one or more waves onto a fiber …  they ordered. This was difficult, obviously; this kind of ROADM limitation put a lot of pressure on traffic forecasting and reducing …
+
+Topics: Infinera ATN, Infinera DTN, Photonic Integrated Circuit, terabit</description></snippet><snippet id="FW14-e026-7056-03"><link cache="FW14-topics-docs/e026/7056_03.html" timestamp="2014-04-25 18:15:51">http://dkphotonics.wordpress.com/2013/07/21/application-of-optical-adddrop-multiplexer-cwdmdwdm-module/</link><title>Application of Optical Add/Drop Multiplexer CWDM/DWDM Module</title><description>Application of Optical Add/Drop Multiplexer CWDM/DWDM Module
+
+21 Jul 2013 by dkphotonics on DK Photonics dkphotonics.wordpress.com/2013/07/21/application-of-optical-adddrop-multiplexer-cwdmdwdm-module/
+
+…  optical drop multiplexer (Reconfigurable OADM, ROADM).Fixed Optical Drop Multiplexer (FOADM)FOADM to filter as the main …  function.Reconfigurable Optical Add/Drop Multiplexer (ROADM)ROADM can always be adjusted with the distribution network to add and drop …
+
+Topics: fiber patch cord, wdm, FWDM, CWDM, dwdm, OADM, FTTx, Optical fiber communication, optical multiplexer</description></snippet><snippet id="FW14-e026-7056-04"><link cache="FW14-topics-docs/e026/7056_04.html" timestamp="2014-04-25 18:16:38">http://fivebug532.wordpress.com/2013/12/20/cisco-15454-32-wss-cisco-15454-32-wss-wavelength-selective-switch-multiplexer-card-32-data-channels/</link><title>Cisco - 15454-32-wss= - Cisco 15454-32-wss= Wavelength Selective Switch Multiplexer Card - 32 Data Channels</title><description>Cisco - 15454-32-wss= - Cisco 15454-32-wss= Wavelength Selective Switch Multiplexer Card - 32 Data Channels
+
+20 Dec 2013 by xebaqyxuli on Fivebug fivebug532.wordpress.com/2013/12/20/cisco-15454-32-wss-cisco-15454-32-wss-wavelength-selective-switch-multiplexer-card-32-data-channels/
+
+…  Integrated Reconfigurable Optical Add/drop Multiplexing (roadm) Solution, Shown in Figure 1, For Delivering Any Wavelength to Any Location in a Metro or Regional Network. The Roadm Cards Are Part of The Cisco Ons 15454 Mstp Intelligent Dwdm Architecture …</description></snippet><snippet id="FW14-e026-7056-05"><link cache="FW14-topics-docs/e026/7056_05.html" timestamp="2014-04-25 18:17:27">http://ogmentum.com/2010/12/01/in-band-measurement-of-osnr/</link><title>In-Band Measurement of OSNR</title><description>In-Band Measurement of OSNR
+
+1 Dec 2010 by Sam Hickman on OgMentum ogmentum.com/2010/12/01/in-band-measurement-of-osnr/
+
+…  bandwidth is inferior to the effective bandwidth of the ROADM filter. The second technique is appropriate with very narrow filtering …
+
+Topics: OSA, Aragon, optical spectrum, 40G, dwdm, OSNR, Test &amp; Measurement</description></snippet><snippet id="FW14-e026-7056-06"><link cache="FW14-topics-docs/e026/7056_06.html" timestamp="2014-04-25 18:18:00">http://mpreath.wordpress.com/2011/05/05/cisco-ons-m6-chassis-install/</link><title>Cisco ONS M6 Chassis Install</title><description>Cisco ONS M6 Chassis Install
+
+5 May 2011 by Matt Reath on EXP:BITS:: mpreath.wordpress.com/2011/05/05/cisco-ons-m6-chassis-install/
+
+…  for management purposes.  It also makes the single-module ROADM (SMR) cards shine. With one 6 RU shelf you can provide 4-degrees of ROADM functionality.   The SMR cards combine amplification and ROADM …
+
+Topics: Networking 2, 15454, cisco, m12, M6, ONS</description></snippet><snippet id="FW14-e026-7056-07"><link cache="FW14-topics-docs/e026/7056_07.html" timestamp="2014-04-25 18:18:54">http://optixmitra.wordpress.com/2014/01/13/evolution-to-flexible-grid-wdm/</link><title>Evolution to flexible grid WDM</title><description>Evolution to flexible grid WDM
+
+13 Jan 2014 by optixmitra on Mapyourtech.com optixmitra.wordpress.com/2014/01/13/evolution-to-flexible-grid-wdm/
+
+…  the technology used to add and drop channels on a ROADM network is based on arrayed-waveguide-grating (AWG) mux/demux technology, …  for higher-speed 400G and 1T channels on their future ROADM networks, with the expectation that spectral efficiency will at least …
+
+Topics: Expanding Tech Horizon, collected from internet and some own contribution, http://www.lightwaveonline.com/articles/print/volume-30</description></snippet><snippet id="FW14-e026-7056-08"><link cache="FW14-topics-docs/e026/7056_08.html" timestamp="2014-04-25 18:19:48">http://blog.infinera.com/2014/03/04/automate-everything-the-next-phase-of-the-intelligent-transport-network/</link><title>Automate Everything: The Next Phase of the Intelligent Transport Network</title><description>Automate Everything: The Next Phase of the Intelligent Transport Network
+
+4 Mar 2014 by infinerablog on Infinera blog.infinera.com/2014/03/04/automate-everything-the-next-phase-of-the-intelligent-transport-network/
+
+…  is a term that means the switching characteristics of the ROADM will not get in the way of configuration changes that the network …  is trying to achieve.  In other words, a CDC ROADM that can route wavelengths or super-channels around the network can do so …
+
+Topics: Infinera DTN-X, Super Channel, OTN, Intelligent transport network, CDC ROADM</description></snippet><snippet id="FW14-e026-7056-09"><link cache="FW14-topics-docs/e026/7056_09.html" timestamp="2014-04-25 18:20:24">http://blog.infinera.com/2011/07/13/welcome-to-infinera%e2%80%99s-blog/</link><title>Welcome to Infinera’s Blog</title><description>Welcome to Infinera’s Blog
+
+13 Jul 2011 by infinerablog on Infinera blog.infinera.com/2011/07/13/welcome-to-infinera’s-blog/
+
+…  more efficiently and to develop a separate optical ROADM layer to enable the flexibility to switch wavelengths. Since it was …  to get to the OTN electrical switch, the idea behind the ROADM was to keep things optical as long as possible and provide only a coarse …
+
+Topics: Infinera ATN, Infinera DTN, Photonic Integrated Circuit, terabit, Infinera, photonic integrated circuit, terabit, mike capuano, pic</description></snippet><snippet id="FW14-e026-7056-10"><link cache="FW14-topics-docs/e026/7056_10.html" timestamp="2014-04-25 18:20:59">http://iirtransmissionseries.wordpress.com/2014/03/03/have-your-say-on-flexible-grid-roadm-deployments/</link><title>Have your say on Flexible Grid ROADM Deployments</title><description>Have your say on Flexible Grid ROADM Deployments
+
+3 Mar 2014 by shwetavaswani on IIR Telecoms Transmission Series iirtransmissionseries.wordpress.com/2014/03/03/have-your-say-on-flexible-grid-roadm-deployments/
+
+…  of optical networks? Do you have views on flexible grid ROADM deployments and functionality? What do you feel are the main challenges …  to add your views to the IIR and Ovum 2014 Flexible Grid ROADM Deployments survey.  The results from this survey; tailored specifically …
+
+Topics: IIRTransmission, Optical Networking</description></snippet></snippets></search_results>

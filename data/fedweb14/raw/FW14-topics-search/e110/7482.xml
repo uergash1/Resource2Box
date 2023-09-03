@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7482">popular twitter stars</query><engine status="OK" timestamp="2014-04-25 16:07:03" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7482-01"><link cache="FW14-topics-docs/e110/7482_01.html" timestamp="2014-04-25 16:07:34">https://news.ycombinator.com/item?id=618753</link><title>TwitterSpam</title><description>TwitterSpam
+
+15 points
+
+by axod
+
+5 years ago
+
+23 comments Follow
+
+There's been discussion before about spam on twitter, so here's a concrete example.
+
+It seems like people are just looking at the trending hashtags, and spamming, which then gets them into search results. How can twitter solve this? Any ideas?
+
+For example, I did a search for #media140 which is an event in London today. The whole page of results was all spam tweets from the same account, with popular search terms and hashtags in it, (And an affiliate/target link).
+
+eg http://twitter.com/Janet104807/statuses/1859946423
+
+also http://search.twitter.com/search?max_id=1859950510&amp;page=1&amp;q=www.goldencasinoflash.com
+
+Another point is this spam would artificially increase the "trending topics" - feedback loop.
+
+It seems like the search functionality could become useless pretty quickly if spamming isn't stopped in its tracks. It'd be very easy to write an app to create twitter accounts, find trending hashtags, popular keywords, then start sending out tweets with affiliate links. Go through web proxies to avoid any banning by IP. Do they already exist?
+
+Google solved this for website search with PageRank, and other algorithms to detect spam, how could twitter do a similar thing?
+
+Thoughts?
+
+*[5 years ago]: 2009-05-20T16:03:38.000Z</description><thumb cache="FW14-topics-docs/e110/7482_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/618753.png</thumb></snippet><snippet id="FW14-e110-7482-02"><link cache="FW14-topics-docs/e110/7482_02.html" timestamp="2014-04-25 16:07:57">https://news.ycombinator.com/item?id=2222522</link><title>How we fed ourselves for a year &amp; sold a startup...with only 300 lines of code</title><description>How we fed ourselves for a year &amp; sold a startup...with only 300 lines of code
+
+479 points
+
+by felixchan
+
+3 years ago
+
+103 comments Follow
+
+Hello Hacker News,
+
+I’ve been reading HN for a long time now and love the way the community shares thoughts with each other. I haven’t done anything extraordinary or extremely successful, but I want to chip in to the community with this experience that I find pretty interesting.
+
+A year ago, I moved to San Francisco from rural Missouri hoping to join the start-up world. At the same time, I met a friend, Zac, who also just moved to the bay area around that time but had left his job to pursue something more interesting. We decided to become partners and start hacking stuff together.
+
+Since we were new to the city and we didn’t know any one, we decided to build a mobile app that lets people use their phone to read the profiles of others nearby. It was supposed to help people “break the ice” and meet new people. This was our first startup. We coded the product in a week and pushed the product live.
+
+Once live, we got like 5 users, since no one really knew about it. To promote this product, we decided to target events, since we thought that events is where people would like to meet each other. We locked ourselves in a room and asked this question over and over: “What is something valuable we can provide to event organizers so that they can promote our product?”
+
+Zac finally came up with an idea. He proposed that we could build a kiosk where attendees can type in their name, and a name badge would instantly print. Then the attendees would be integrated into our mobile app as well. At first, it sounded insanely dumb (what would my mom think if I told her that I moved 2000 miles away from home to print paper name badges?), and I laughed really hard. But after thinking about it, it seemed “cool”, and we gave it a try.
+
+In a day of work, we wrote the software in 300 lines of code and tested it. We ordered a label printer from Dymo and hooked them up to a Dell Mini 10v netbook. After that was done, we contacted an event organizer, convinced him that our system wasn’t going to fail, and asked if we could print name badges for him.
+
+The event organizer let us try out our system, and that night turned out to be amazing. People thought it was the coolest thing ever to type their name in a laptop and instantly have a name badge print out. At the end of the night, we handed out lots of cards and got lots of people to try our mobile app. It was the first time in my life that there was “buzz” around something I created.
+
+We continued to hit events and print name badges. We bought more printers and lots and lots of labels. We bought a huge travel suitcase to hold everything, and we carried it everywhere to print name badges for events.
+
+The experience was amazing. Not only did we get a lot of people to try our mobile app, but all the attendees thought it was the “coolest” gadget ever. I guess we essentially “engineered” our way into these $600 technology events for free. Many event organizers gave us the front-seats sponsor booth, without charging us a dollar. Some gave us free advertising banners at their events. Most importantly, everyone walked around with our logo on their shirt. We shook all their hands as they walked into the door. Advertising can’t get any better than that. We quickly got our mobile app into the hands of our users, and talked to more than 500+ directly.
+
+Unfortunately, after a month passed, we realized that our initial mobile app wasn’t working. People didn’t want the product. They didn’t want to read profiles about people around them. The mobile app wasn’t useful.
+
+Here’s the weird thing about start-ups: things just happen. Although our mobile app failed miserably, our little name badge printing system became insanely popular. Event organizers were begging us to print badges for them every time they had an event. They were referring us to their friends, and we were hitting events literally every day with our name badge printer. To cater for each event, we forked our original software (which was completely hard coded and not well thought through) way too many times.
+
+Just to name a few, we hit: TechCrunch events, Smash Summit, SF Music Tech, Future/Money Tech, ISA, Twitter events, FailCon/FailChat, TEDxSoma. You can see some pictures here: http://imhello.posterous.com/ .
+
+Eventually, we got so many requests that we couldn’t go to all the events anymore. It was too much for us to handle. That’s when it finally hit us right on the forehead. This is what it’s like to build a product someone wants. Event organizers wanted to use our system. They’ll email you, call you, beg you, and tell their friends about you.
+
+Since we were too overbooked, we decided to charge and up our product. We added EventBrite integration, customization, and polished it up a little. For every event, we would make around $50-$300 dollars (depending on the size and labor).
+
+Soon, this little name badge printing software was now able to support me and my partner’s living expenses. And in the end, we sold the product to a small company. Although it was not an amazing multi-million dollar acquisition, it was an acquisition that gave us enough money to start another company.
+
+The lesson we learned is that something so tiny as a “name badge printing machine” may seem silly and pointless at first, but it led to opportunities you can’t first predict. In our case, it fed us and turned into a small acquisition. We made lots of friends and great people while we were attending these events. Even our $10 Logitech keyboard was touched by many great CEOs and celebrities who came through us to get their name badges. We got completely free promotion and direct advertising.
+
+I think that every startup has opportunities where they can be creative. Every startup can build something on the side and attach it to their product somehow. My advice is that if you find something “cool”, even if it’s small or trivial at first, take it for a spin before dropping it in the trash can. It might just spin into something that can help in the future.
+
+After selling the name badge printing software, we decided to go back and pivot on our initial mobile app. Our new company is called View. View is a mobile app that “tells you what you need to know, wherever you are.” We’re really excited about this app because it’s very useful to our daily life.
+
+We’re about to launch beta very soon. If you’d like to try it, go to http://view.io
+
+Make sure you click the link above instead of typing it through the browser, so we can know you were referred from Hacker News and can give priority access.
+
+Thanks for reading my story! 
+Felix
+
+P.S. View is not in the App Store yet, but if you’d like to try the iPhone app as a beta tester, shoot me an email and tell me your city/state in the subject line: felix@view.io. We only have a limited number of invitations left, so I can’t guarantee that everyone can try it.
+
+*[3 years ago]: 2011-02-15T18:32:37.000Z</description><thumb cache="FW14-topics-docs/e110/7482_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2222522.png</thumb></snippet><snippet id="FW14-e110-7482-03"><link cache="FW14-topics-docs/e110/7482_03.html" timestamp="2014-04-25 16:08:26">https://news.ycombinator.com/item?id=550351</link><title>YC Rejected: Please read.</title><description>YC Rejected: Please read.
+
+169 points
+
+by kyro
+
+5 years ago
+
+31 comments Follow
+
+In the coming hours, and days, HN will be seeing submission after submission regarding their YC application decisions. It happens every application period and can become quite annoying. As such, I will address most of the issues many of you will be submitting threads about.
+
+"Why did I get rejected?!??"
+
+I don't know, many of us don't either. Other than your idea possibly being a pile of garbage, none of us here know as to the exact reasons you got rejected. Sure, pg will, but I doubt he'll write up a critique of your app and post it publicly. If you want to know why you were rejected, email someone at yc to see if they're even willing to give you feedback.
+
+"Maybe we should start a YC-rejected group!!!"
+
+Go for it. Honestly, it's a big waste of time. Last year someone created RejectedByYC.com, but that seems to have vanished. I don't really know why you'd want to limit yourself to giving/receiving feedback and support for your project from other YC-rejected companies. The rest of us who got accepted or didn't apply aren't less willing to encourage/support/critique your efforts.
+
+"I got rejected, but I'm moving on!!!"
+
+Awesome, but really, even considering to discontinue a project based on your YC decision is foolish. Sure, the experience is great, you get a little cash to get you off the ground, but if your motivation was that dependent on the outcome of whether you'd be accepted to YC, you need to realize that there are much higher hurdles to be conquered ahead. Plus, we don't need to know you're moving on. Create something, ask for feedback, and we'll care.
+
+"MyStartup (YC reject '09) asking for feedback!!!"
+
+Don't label yourself as a YC reject. I don't know why people do this. I am no more interested in your startup whether accepted or rejected from YC. There are several YC companies I think are crap, and many rejects that I think are awesome. I guess what you're trying to get across by labeling yourself as a YC rejects is "PG thinks we're crap, but I'm out to prove him wrong!" That makes you seem bitter and unable to emotionally settle with your rejection. We are a community of startups and people interested in them and we need not to label ourselves into various camps. There are startups that are accepted into YC, and for those companies, they were each merely granted an opportunity. For every YC accepted company, there's another who has received angel investing sans incubator-type program, and another who has been hooked up with a client that could bring lots of business, and another that just took vc funding. Starting companies is about finding opportunities. And if YC isn't an opportunity that came your way, you have hundreds of other paths to pursue.
+
+I've said this before, but please realize that Digg, Facebook, Twitter, Google, YouTube, Myspace, eBay, Amazon, PayPal, and 99.999% of the most popular and/or highly valued acquired companies didn't go through YC, nor any other YC-like program.
+
+*[5 years ago]: 2009-04-07T04:18:30.000Z</description><thumb cache="FW14-topics-docs/e110/7482_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/550351.png</thumb></snippet><snippet id="FW14-e110-7482-04"><link cache="FW14-topics-docs/e110/7482_04.html" timestamp="2014-04-25 16:09:05">http://www.urshoutbox.com/bLmYAL/hacker-news</link><title>Show HN: New project for on-demand chat rooms</title><description>Show HN: New project for on-demand chat rooms (http://www.urshoutbox.com/bLmYAL/hacker-news)
+
+32 points
+
+by tdondich
+
+about 20 hours ago
+
+35 comments Follow
+
+I created a pet project to see if it is of use and interesting to people. The idea is on-demand real-time chat rooms for trending topics and for personal use. You can go to the main page at www.urshoutbox.com to create your own room then share it across your social networks/email, etc.
+
+I created a hacker news specific "shoutbox" at http://www.urshoutbox.com/bLmYAL/hacker-news . If nobody is in there, please be patient and (I hope) people will join soon to start talking.
+
+The idea is to have trending topics on facebook/twitter/etc and have chat rooms to get people discussing in real time. The idea came from looking at popular blogs and news sites which have comment sections where people are posting so quickly trying to have what appears to be almost real-time conversations in a limited way. This is meant to get those conversations in a more real-time appropriate environment.
+
+Think of it as irc but for today's clients. I'm surprised that there wasn't really similar options out there. Most of today's chat tools are either mobile only, require video, or limit the number of participants. If you know of competitors in this space and I'm just an idiot for not finding them, please let me know.
+
+I look forward to hearing people's thoughts.
+
+*[about 20 hours ago]: 2014-04-24T18:28:20.000Z</description><thumb cache="FW14-topics-docs/e110/7482_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/7641991.png</thumb></snippet><snippet id="FW14-e110-7482-05"><link cache="FW14-topics-docs/e110/7482_05.html" timestamp="2014-04-25 16:10:30">https://news.ycombinator.com/item?id=5117254</link><title>Looking for CoFounder / 2cents?</title><description>Looking for CoFounder / 2cents?
+
+5 points
+
+by wmandrell
+
+about a year ago
+
+15 comments Follow
+
+My name Will. I am 23. I live in LA. Going to school for marketing but also thinking about dropping out to join a startup or CREATE a startup. Im in the process of gathering advice. Im an aspiring entrepreneur! Not the "idea man". I dont have a get rich quick idea. Looking for someone who is willing to hear out my ideas and work with someone who believes in them or meet someone to tell me im a f*ing idiot. Anything works.
+
+So, read below to check out projects I've worked on in the past or are currently working on now.
+
+I am constantly thinking of ways to better the world and make certain things in life less complicated or constructive for the mass.
+
+Ive been passionately trying to start a business since I was 18...and failed or pivoted many times. This is the order in which they have originated from. I am still working on a few of them! Looking to hash them out more with other Entrepreneurs that believe in my vision or engineers that would like to assist in wire framing or designing beta sites/apps.
+
+1st idea - MealDealz: Dining deals. Coupons and discounts for all the popular restaurants and fast food places. Now there are many alike.
+
+2nd idea - MiServices: Directed toward younger individuals trying to make money on the side walking dogs or putting up christmas lights, etc but would like to be accredited through ratings. Something better than Craigslist but you're not licensed so you can't technically be on Angies list or Yelp.
+
+3rd idea - Readr: Discover and share books you love and start a book club online. Have authors start a book club for their new releases, or fans start one. Now alike Goodreads.
+
+4th idea - Betsy: make bets online and through our application with others on any topic from the Tech world, Entertainment, Sports, Politics, etc. Earn points, humblebrag and use the points to get cool rewards.
+
+5th idea - standUP: organize all the online campaigns into one place. Enlighten people on common issues and how to take action through either petitions to congress, sharing the message or supporting the cause, etc. Show all the trending topics currently going on: Occupy Wall Street, GunControl, Internet Control, Oil Spill, Education, War on Drugs, etc. Then the main objective would be to help people establish their standpoint on the issue by showing all the different points of views and how they could easily take action all in one simple organized application. The app would be like the One campaign app.
+
+Plus many other ideas! But these are the ones that I've either already worked on or are currently working on.
+
+I am fascinated with the concept of building businesses, the surprises with successful marketing, and the power of social media and how much impact it has on the world.
+
+I can assist in creating a business model. Assist in product design. Make Logo. Talk to potential customers, test design hypotheses. Figure out sales and marketing strategy, find beta users, warm up early adopters, performance tracking, online profiles, help create a blog. Research. Checking up on competitors and how they do business. Or help collectively create a meaningful mission statement explaining why we give this service/product.
+
+Any advice works. Contact me: wmandrell.iv@gmail.com
+
+https://twitter.com/WLMiv
+
+http://www.cofounderslab.com/will-mandrell
+
+*[about a year ago]: 2013-01-25T19:45:18.000Z</description><thumb cache="FW14-topics-docs/e110/7482_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/5117254.png</thumb></snippet></snippets></search_results>

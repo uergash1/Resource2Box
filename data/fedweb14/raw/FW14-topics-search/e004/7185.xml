@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7185">constitution of italy</query><engine status="OK" timestamp="2014-04-19 10:27:52" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7185-01"><link cache="FW14-topics-docs/e004/7185_01.html" timestamp="2014-04-19 10:28:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.337.3070&amp;rank=1</link><title>Why Do Some Countries Produce So Much More Output Than Others? Quarterly</title><description>Why Do Some Countries Produce So Much More Output Than Others? Quarterly
+
+by Robert E. Hall, Charles, I. Jones \- Journal of Economics , 1999
+
+"... too often constitute the chief vehicle of diversion in an economy. Across 127 countries we find a ..."
+
+Abstract \- Cited by 935 (15 self) \- Add to MetaCart
+
+Output per worker varies enormously across countries. Why? On an accounting basis our analysis shows that differences in physical capital and educational attainment can only partially explain the variation in output per worker—we find a large amount of variation in the level of the Solow residual across countries. At a deeper level, we document that the differences in capital accumulation, productivity, and therefore output per worker are driven by differences in institutions and government policies, which we call social infrastructure. We treat social infrastructure as endogenous, determined historically by location and other factors captured in part by language. I.</description></snippet><snippet id="FW14-e004-7185-02"><link cache="FW14-topics-docs/e004/7185_02.html" timestamp="2014-04-19 10:29:09">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.91.9907&amp;rank=2</link><title>Data Integration: A Theoretical Perspective</title><description>Data Integration: A Theoretical Perspective
+
+by Maurizio Lenzerini \- Symposium on Principles of Database Systems , 2002
+
+"... ­00198 Roma, Italy lenzerini@(email omitted); the global schema and the sources are established ..."
+
+Abstract \- Cited by 720 (45 self) \- Add to MetaCart
+
+Data integration is the problem of combining data residing at different sources, and providing the user with a unified view of these data. The problem of designing data integration systems is important in current real world applications, and is characterized by a number of issues that are interesting from a theoretical point of view. This document presents on overview of the material to be presented in a tutorial on data integration. The tutorial is focused on some of the theoretical issues that are relevant for data integration. Special attention will be devoted to the following aspects: modeling a data integration application, processing queries in data integration, dealing with inconsistent data sources, and reasoning on queries.</description></snippet><snippet id="FW14-e004-7185-03"><link cache="FW14-topics-docs/e004/7185_03.html" timestamp="2014-04-19 10:30:17">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.29.1776&amp;rank=3</link><title>Formal Ontology and Information Systems</title><description>Formal Ontology and Information Systems
+
+by Nicola Guarino , 1998
+
+"... . Proceedings of FOIS’98, Trento, Italy, 6-8 June 1998. Amsterdam, IOS Press, pp. 3-15. Formal Ontology ..."
+
+Abstract \- Cited by 594 (10 self) \- Add to MetaCart
+
+Research on ontology is becoming increasingly widespread in the computer science community, and its importance is being recognized in a multiplicity of research fields and application areas, including knowledge engineering, database design and integration, information retrieval and extraction. We shall use the generic term information systems, in its broadest sense, to collectively refer to these application perspectives. We argue in this paper that so-called ontologies present their own methodological and architectural peculiarities: on the methodological side, their main peculiarity is the adoption of a highly interdisciplinary approach, while on the architectural side the most interesting aspect is the centrality of the role they can play in an information system, leading to the perspective of ontology-driven information systems.</description></snippet><snippet id="FW14-e004-7185-04"><link cache="FW14-topics-docs/e004/7185_04.html" timestamp="2014-04-19 10:31:20">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.13.1596&amp;rank=4</link><title>SPINS: Security Protocols for Sensor Networks</title><description>SPINS: Security Protocols for Sensor Networks
+
+by Adrian Perrig, Robert Szewczyk, Victor Wen, David Culler, J. D. Tygar \- Wireless Networks , 2001
+
+"... to lists, requires prior specic permission and/or a fee. Mobile Computing and Networking 2001 Rome, Italy ..."
+
+Abstract \- Cited by 724 (31 self) \- Add to MetaCart
+
+As sensor networks edge closer towards wide-spread deployment, security issues become a central concern. So far, the main research focus has been on making sensor networks feasible and useful, and less emphasis was placed on security. We design a suite of security...</description></snippet><snippet id="FW14-e004-7185-05"><link cache="FW14-topics-docs/e004/7185_05.html" timestamp="2014-04-19 10:32:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.195.3690&amp;rank=5</link><title>Understanding Code Mobility</title><description>Understanding Code Mobility
+
+by Alfonso Fuggetta, Gian Pietro Picco, Giovanni Vigna \- IEEE COMPUTER SCIENCE PRESS , 1998
+
+"... .za Leonardo da Vinci, 32, I-20133, Italy. E-mail: ffuggetta,vignag@(email omitted);. G.P. Picco ..."
+
+Abstract \- Cited by 467 (33 self) \- Add to MetaCart
+
+The technologies, architectures, and methodologies traditionally used to develop distributed applications exhibit a variety of limitations and drawbacks when applied to large scale distributed settings (e.g., the Internet). In particular, they fail in providing the desired degree of configurability, scalability, and customizability. To address these issues, researchers are investigating a variety of innovative approaches. The most promising and intriguing ones are those based on the ability of moving code across the nodes of a network, exploiting the notion of mobile code. As an emerging research field, code mobility is generating a growing body of scientific literature and industrial developments. Nevertheless, the field is still characterized by the lack of a sound and comprehensive body of concepts and terms. As a consequence, it is rather difficult to understand, assess, and compare the existing approaches. In turn, this limits our ability to fully exploit them in practice, and to further promote the research work on mobile code. Indeed, a significant symptom of this situation is the lack of a commonly accepted and sound definition of the term "mobile code" itself. This paper presents a conceptual framework for understanding code mobility. The framework is centered around a classification that introduces three dimensions: technologies, design paradigms, and applications. The contribution of the paper is twofold. First, it provides a set of terms and concepts to understand and compare the approaches based on the notion of mobile code. Second, it introduces criteria and guidelines that support the developer in the identification of the classes of applications that can leverage off of mobile code, in the design of these applications, and, finally, in the selection of the most appropriate implementation technologies. The presentation of the classification is intertwined with a review of the state of the art in the field. Finally, the use of the classification is exemplified in a case study.</description></snippet><snippet id="FW14-e004-7185-06"><link cache="FW14-topics-docs/e004/7185_06.html" timestamp="2014-04-19 10:33:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.342.4203&amp;rank=6</link><title>The hierarchy problem and new dimensions at a millimeter, Phys</title><description>The hierarchy problem and new dimensions at a millimeter, Phys
+
+by Savas Dimopoulos, Gia Dvali \- Lett. B , 1998
+
+"... , Stanford, CA 94305, USA † ICTP, Trieste, 34100, Italy Abstract We propose a new framework for solving ..."
+
+Abstract \- Cited by 428 (3 self) \- Add to MetaCart
+
+We propose a new framework for solving the hierarchy problem which does not rely on either supersymmetry or technicolor. In this framework, the gravitational and gauge interactions become united at the weak scale, which we take as the only fundamental short distance scale in nature. The observed weakness of gravity on distances&gt; ∼ 1 mm is due to the existence of n ≥ 2 new compact spatial dimensions large compared to the weak scale. The Planck scale MPl ∼ G −1/2 N is not a fundamental scale; its enormity is simply a consequence of the large size of the new dimensions. While gravitons can freely propagate in the new dimensions, at sub-weak energies the Standard Model (SM) fields must be localized to a 4-dimensional manifold of weak</description></snippet><snippet id="FW14-e004-7185-07"><link cache="FW14-topics-docs/e004/7185_07.html" timestamp="2014-04-19 10:34:54">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.35.7747&amp;rank=7</link><title>Effective Erasure Codes for Reliable Computer Communication Protocols</title><description>Effective Erasure Codes for Reliable Computer Communication Protocols
+
+by Luigi Rizzo , 1997
+
+"... Ingegneria dell'Informazione, Universit`a di Pisa via Diotisalvi 2 -- 56126 Pisa (Italy) -- email: l ..."
+
+Abstract \- Cited by 412 (14 self) \- Add to MetaCart
+
+Reliable communication protocols require that all the intended recipients of a message receive the message intact. Automatic Repeat reQuest (ARQ) techniques are used in unicast protocols, but they do not scale well to multicast protocols with large groups of receivers, since segment losses tend to become uncorrelated thus greatly reducing the effectiveness of retransmissions. In such cases, Forward Error Correction (FEC) techniques can be used, consisting in the transmission of redundant packets (based on error correcting codes) to allow the receivers to recover from independent packet losses. Despite the widespread use of error correcting codes in many fields of information processing, and a general consensus on the usefulness of FEC techniques within some of the Internet protocols, very few actual implementations exist of the latter. This probably derives from the different types of applications, and from concerns related to the complexity of implementing such codes in software. To f...</description></snippet><snippet id="FW14-e004-7185-08"><link cache="FW14-topics-docs/e004/7185_08.html" timestamp="2014-04-19 10:36:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.26.5563&amp;rank=8</link><title>The Digital Michelangelo Project: 3D Scanning of Large Statues</title><description>The Digital Michelangelo Project: 3D Scanning of Large Statues
+
+by Marc Levoy, Szymon Rusinkiewicz, Brian Curless, Matt Ginzton, Jeremy Ginsberg, Kari Pulli, David Koller, Sean Anderson, Jonathan Shade, Lucas Pereira, James Davis, Duane Fulk , 2000
+
+"... , and students from Stanford University and the University of Washington spent the 1998-99 academic year in Italy ..."
+
+Abstract \- Cited by 400 (8 self) \- Add to MetaCart
+
+We describe a hardware and software system for digitizing the shape and color of large fragile objects under non-laboratory conditions. Our system employs laser triangulation rangefinders, laser time-of-flight rangefinders, digital still cameras, and a suite of software for acquiring, aligning, merging, and viewing scanned data. As a demonstration of this system, we digitized 10 statues by Michelangelo, including the well-known figure of David, two building interiors, and all 1,163 extant fragments of the Forma Urbis Romae, a giant marble map of ancient Rome. Our largest single dataset is of the David - 2 billion polygons and 7,000 color images. In this paper, we discuss the challenges we faced in building this system, the solutions we employed, and the lessons we learned. We focus in particular on the unusual design of our laser triangulation scanner and on the algorithms and software we developed for handling very large scanned models. CR Categories: I.2.10 [Artificial Intelligence]...</description></snippet><snippet id="FW14-e004-7185-09"><link cache="FW14-topics-docs/e004/7185_09.html" timestamp="2014-04-19 10:37:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.57.2969&amp;rank=9</link><title>Dummynet: A Simple Approach to the Evaluation of Network Protocols</title><description>Dummynet: A Simple Approach to the Evaluation of Network Protocols
+
+by Luigi Rizzo \- ACM Computer Communication Review , 1997
+
+"... Ingegneria dell'Informazione, Universit`a di Pisa via Diotisalvi 2 -- 56126 Pisa (Italy) email: l ..."
+
+Abstract \- Cited by 389 (6 self) \- Add to MetaCart
+
+Network protocols are usually tested in operational networks or in simulated environments. With the former approach it is not easy to set and control the various operational parameters such as bandwidth, delays, queue sizes. Simulators are easier to control, but they are often only an approximate model of the desired setting, especially for what regards the various traffic generators (both producers and consumers) and their interaction with the protocol itself. In this paper we show how a simple, yet flexible and accurate network simulator -- dummynet -- can be built with minimal modifications to an existing protocol stack, allowing experiments to be run on a standalone system. dummynet works by intercepting communications of the protocol layer under test and simulating the effects of finite queues, bandwidth limitations and communication delays. It runs in a fully operational system, hence allowing the use of real traffic generators and protocol implementations, while solving the prob...</description></snippet><snippet id="FW14-e004-7185-10"><link cache="FW14-topics-docs/e004/7185_10.html" timestamp="2014-04-19 10:38:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=2A8FA49FF7E77B06B8AB0BA3F2AEB168?doi=10.1.1.20.6212&amp;rank=10</link><title>A Transmission Control Scheme for Media Access in Sensor Networks</title><description>A Transmission Control Scheme for Media Access in Sensor Networks
+
+by Alec Woo, David E. Culler , 2001
+
+"... /01 Rome, Italy © 2001 ACM ISBN 1-58113-422-3/01/07…$5.OO 221 David E. Culler Computer Science Division ..."
+
+Abstract \- Cited by 377 (9 self) \- Add to MetaCart
+
+We study the problem of media access control in the novel regime of sensor networks, where unique application behavior and tight constraints in computation power, storage, energy resources, and radio technology have shaped this design space to be very different from that found in traditional mobile computing regime. Media access control in sensor networks must not only be energy efficient but should also allow fair bandwidth allocation to the infrastructure for all nodes in a multihop network. We propose an adaptive rate control mechanism aiming to support these two goals and find that such a scheme is most effective in achieving our fairness goal while being energy effcient for both low and high duty cycle of network traffic.</description></snippet></snippets></search_results>

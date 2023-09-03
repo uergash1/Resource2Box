@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7449">Asics GT 2000</query><engine status="OK" timestamp="2014-04-24 17:11:37" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7449-01"><link cache="FW14-topics-docs/e010/7449_01.html" timestamp="2014-04-24 17:11:38">http://academic.research.microsoft.com/Publication/1522416/a-novel-asic-design-approach-based-on-a-new-machine-paradigm</link><title>A novel ASIC design approach based on a new machine paradigm</title><description>* A novel ASIC design approach based on a new machine paradigm (Citations: 27)
+
+Reiner W. Hartenstein, Alexander G. Hirschbiel, Michael Riedmuller, Karin Schmidt, Michael Weber
+
+...implementation of cheap high-performance asics (application-specific integrated circuits) is...of up to more than 2000 have been obtained experimentally. the performance of asics obtained by this methodology is mostly competitive with asic designs obtained in the much...
+
+Journal: IEEE Journal of Solid-state Circuits - IEEE J SOLID-STATE CIRCUITS , vol. 26, no. 7, pp. 975-989, 1991</description></snippet><snippet id="FW14-e010-7449-02"><link cache="FW14-topics-docs/e010/7449_02.html" timestamp="2014-04-24 17:12:05">http://academic.research.microsoft.com/Publication/50186806/addressing-esd-for-microprocessors-and-asics-in-21st-century-technologies</link><title>Addressing ESD for microprocessors and ASICs in 21st century technologies</title><description>* Addressing ESD for microprocessors and ASICs in 21st century technologies (Citations: 3)
+
+Ajith Amerasekera
+
+...to esd for microprocessors and asics, and the different requirements and...
+
+Conference: Symposium on VLSI Circuits - VLSIC , 2000</description></snippet><snippet id="FW14-e010-7449-03"><link cache="FW14-topics-docs/e010/7449_03.html" timestamp="2014-04-24 17:12:44">http://academic.research.microsoft.com/Publication/47911432/epithelial-sodium-and-acid-sensing-ion-channels</link><title>Epithelial Sodium and Acid-Sensing Ion Channels</title><description>* Epithelial Sodium and Acid-Sensing Ion Channels
+
+Stephan Kellenberger
+
+...and acid-sensing ion channels (asics) are non-voltage-gated na+ channels that form their own subfamilies within the enac/degenerin ion channel family. asics are sensors of extracellular ph...ischaemic stroke. in sensory neurons, asics are involved in nociception and mechanosensation. enac and asic subunits share substantial sequence homology...</description></snippet><snippet id="FW14-e010-7449-04"><link cache="FW14-topics-docs/e010/7449_04.html" timestamp="2014-04-24 17:13:36">http://academic.research.microsoft.com/Publication/161606/an-energy-efficient-noise-tolerant-dynamic-circuit-technique</link><title>An energy-efficient noise-tolerant dynamic circuit technique</title><description>* An energy-efficient noise-tolerant dynamic circuit technique (Citations: 21)
+
+Lei Wang, Naresh R. Shanbhag
+
+...in this paper is an asic developed in 0.35-μm...
+
+Journal: IEEE Transactions on Circuits and Systems Ii: Analog and Digital Signal Processing , vol. 47, no. 11, pp. 1300-1306, 2000</description></snippet><snippet id="FW14-e010-7449-05"><link cache="FW14-topics-docs/e010/7449_05.html" timestamp="2014-04-24 17:14:13">http://academic.research.microsoft.com/Publication/27459046/a-double-face-bit-serial-architecture-for-the-1d-discrete-wavelet-transform</link><title>A “double-face” bit-serial architecture for the 1D discrete wavelet transform</title><description>* A “double-face” bit-serial architecture for the 1D discrete wavelet transform (Citations: 17)
+
+Francescomaria Marino
+
+Proposes a novel discrete wavelet transform (DWT) architecture which is fully scalable, flexible, and modular. This architecture is bit serial, and therefore, has low hardware complexity and low power requirement. Nevertheless, because of its particular structure, it operates on-the-fly (i.e., it does not require wait cycles between consecutive input samples). Moreover, a very small hardware overhead can ...
+
+Journal: IEEE Transactions on Circuits and Systems Ii: Analog and Digital Signal Processing , vol. 47, no. 1, pp. 65-71, 2000</description></snippet><snippet id="FW14-e010-7449-06"><link cache="FW14-topics-docs/e010/7449_06.html" timestamp="2014-04-24 17:14:47">http://academic.research.microsoft.com/Publication/6672300/psychophysical-and-neurobiological-evidence-that-the-oral-sensation-elicited-by-carbonated-water-is</link><title>Psychophysical and Neurobiological Evidence that the Oral Sensation Elicited by Carbonated Water is of Chemogenic Origin</title><description>* Psychophysical and Neurobiological Evidence that the Oral Sensation Elicited by Carbonated Water is of Chemogenic Origin (Citations: 23)
+
+Jean-Marc Dessirier, Christopher T. Simons, Mirela Iodi Carstens, Michael O'Mahony, E. Carstens
+
+The sensation produced by carbonated beverages has been attributed to chemical excitation of nociceptors in the oral cavity via the conversion of CO2 to carbonic acid in a reaction catalyzed by carbonic anhydrase. In separate studies, we tested if the carbonic anyhdrase blocker, acetazolamide, reduced either the intensity of sensation in humans or c-fos expression by trigeminal neurons in ...
+
+Journal: Chemical Senses - CHEM SENSES , vol. 25, no. 3, pp. 277-284, 2000</description></snippet><snippet id="FW14-e010-7449-07"><link cache="FW14-topics-docs/e010/7449_07.html" timestamp="2014-04-24 17:15:26">http://academic.research.microsoft.com/Publication/1873845/partitioning-conditional-data-flow-graphs-for-embedded-system-design</link><title>Partitioning Conditional Data Flow Graphs for Embedded System Design</title><description>* Partitioning Conditional Data Flow Graphs for Embedded System Design (Citations: 5)
+
+Michel Auguin, Luc Bianco, L. Capella, Emmanuel Gresset
+
+The complexity of embedded applications increases continuously. Integration advances provides a rising range of possibilities to implement a system on a chip. The designers are faced to the difficult challenge to select the right units to implement the application functionalities so that the silicon area is minimized and the time constraints of the application are met. This paper presents an ...
+
+Conference: Application-Specific Systems, Architectures, and Processors - ASAP , pp. 339-348, 2000</description></snippet><snippet id="FW14-e010-7449-08"><link cache="FW14-topics-docs/e010/7449_08.html" timestamp="2014-04-24 17:16:22">http://academic.research.microsoft.com/Publication/604769/static-scheduling-of-multi-domain-memories-for-functional-verification</link><title>Static scheduling of multi-domain memories for functional verification</title><description>* Static scheduling of multi-domain memories for functional verification (Citations: 2)
+
+Murali Kudlugi, Charles Selvidge, Russell Tessier
+
+...in order to ensure accurate asic behavior, both logic functions and memory resources must be successfully verified before fabrication. often, the functional verification of contemporary asic memory is complicated by the...
+
+Conference: International Conference on Computer Aided Design - ICCAD , pp. 2-9, 2001</description></snippet><snippet id="FW14-e010-7449-09"><link cache="FW14-topics-docs/e010/7449_09.html" timestamp="2014-04-24 17:17:24">http://academic.research.microsoft.com/Publication/51015952/an-increased-throughput-fpga-design-of-the-jpeg2000-binary-arithmetic-decoder</link><title>An Increased Throughput FPGA Design of the JPEG2000 Binary Arithmetic Decoder</title><description>* An Increased Throughput FPGA Design of the JPEG2000 Binary Arithmetic Decoder
+
+David Lucking, E. Balster
+
+...jpeg2000 standard in december of 2000. jpeg2000 adds many features to...in application specific integrated circuits (asics) or field programmable gate arrays...
+
+Conference: Digital Image Computing: Techniques and Applications - DICTA , 2010</description></snippet><snippet id="FW14-e010-7449-10"><link cache="FW14-topics-docs/e010/7449_10.html" timestamp="2014-04-24 17:18:07">http://academic.research.microsoft.com/Publication/223936/digital-signal-processors-for-multimedia-applications</link><title>Digital Signal Processors for Multimedia Applications</title><description>* Digital Signal Processors for Multimedia Applications
+
+Sergej Sawitzki, Rainer G. Spallek
+
+The expansion of the market for real-time signal processing ap- plications led to an increasing amount of cost-effective hi gh- performance DSP solutions. Regardless of the developments in the domain of general purpose microprocessors, the major- ity of the multimedia algorithms still requires special har dware to fulfil the time constraints. This paper analyzes differen t ap- proaches ...
+
+Published in 2000.</description></snippet></snippets></search_results>

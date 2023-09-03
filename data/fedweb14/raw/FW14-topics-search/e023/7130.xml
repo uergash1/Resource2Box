@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7130">l1 versus l2 regularization</query><engine status="OK" timestamp="2014-04-21 21:33:29" name="Google Blogs" id="FW14-e023"/><snippets><snippet id="FW14-e023-7130-01"><link cache="FW14-topics-docs/e023/7130_01.pdf" timestamp="2014-04-21 21:33:30">http://ai.stanford.edu/~ang/papers/icml04-l1l2.pdf</link><title>Feature selection, L1 vs. L2 regularization, and rotational ...</title><description>* Feature selection, L1 vs. L2 regularization, and rotational ...
+
+ai.stanford.edu/~ang/papers/icml04-l1l2.pdf
+
+by AY Ng - ‎Cited by 404 \- ‎Related articles
+
+A description for this result is not available because of this site's robots.txt – learn more.</description></snippet><snippet id="FW14-e023-7130-02"><link cache="FW14-topics-docs/e023/7130_02.pdf" timestamp="2014-04-21 21:36:13">http://cs.nyu.edu/~rostami/presentations/L1_vs_L2.pdf</link><title>L1 vs. L2 Regularization and feature selection.</title><description>* [PDF]L1 vs. L2 Regularization and feature selection.
+
+cs.nyu.edu/~rostami/presentations/L1_vs_L2.pdf‎
+
+* Cached
+* Similar
+
+New York University
+
+Loading...
+
+Main Topics. Covering Numbers. Definition. Convergence Bounds. L1 regularized logistic regression. L1 Regression Convergence Upper Bound. Rotational ...</description></snippet><snippet id="FW14-e023-7130-03"><link cache="FW14-topics-docs/e023/7130_03.html" timestamp="2014-04-21 21:38:35">http://www.quora.com/Machine-Learning/What-is-the-difference-between-L1-and-L2-regularization</link><title>What is the difference between L1 and L2 regularization?</title><description>* What is the difference between L1 and L2 regularization?
+
+www.quora.com/.../What-is-the-difference-between-L1-and-L2-re...‎
+
+* Similar
+
+Quora
+
+Loading...
+
+Sep 29, 2013 - Practically, I think the biggest reasons for regularization are 1) to avoid overfitting by not generating high coefficients for predictors that are sparse.</description></snippet><snippet id="FW14-e023-7130-04"><link cache="FW14-topics-docs/e023/7130_04.html" timestamp="2014-04-21 21:50:46">http://metaoptimize.com/qa/questions/5205/when-to-use-l1-regularization-and-when-l2</link><title>When to use L1 regularization and when L2 ... \- MetaOptimize</title><description>* When to use L1 regularization and when L2 ... \- MetaOptimize
+
+metaoptimize.com/qa/.../when-to-use-l1-regularization-and-when-l2‎
+
+* Cached
+
+As per Andrew Ng's Feature selection, l1 vs l2 regularization, and rotational invariance paper, expect l1 regularization be better than l2 regularization if you have ...</description></snippet><snippet id="FW14-e023-7130-05"><link cache="FW14-topics-docs/e023/7130_05.html" timestamp="2014-04-21 21:53:16">http://en.wikipedia.org/wiki/Regularization_(mathematics)</link><title>Regularization (mathematics) - Wikipedia, the free ...</title><description>* Regularization (mathematics) - Wikipedia, the free ...
+
+en.wikipedia.org/wiki/Regularization_(mathematics)‎
+
+* Cached
+* Similar
+
+Wikipedia
+
+Loading...
+
+Regularization, in mathematics and statistics and particularly in the fields of .... "Stochastic gradient descent training for l1-regularized log-linear models with ...</description></snippet><snippet id="FW14-e023-7130-06"><link cache="FW14-topics-docs/e023/7130_06.pdf" timestamp="2014-04-21 21:53:58">http://www.cs.berkeley.edu/~russell/classes/cs194/f11/lectures/CS194%20Fall%202011%20Lecture%2004.pdf</link><title>Machine learning methodology: Overfitting, regularization ...</title><description>* [PDF]Machine learning methodology: Overfitting, regularization ...
+
+www.cs.berkeley.edu/.../CS194%20Fal...‎
+
+* Cached
+* Similar
+
+University of California, Berkeley
+
+Loading...
+
+L2 regularization: complexity = sum of squares of weights. Combine with ... L2 Regularization Solution .... L1 regularization leads to many zero weights (sparsity).</description></snippet><snippet id="FW14-e023-7130-07"><link cache="FW14-topics-docs/e023/7130_07.html" timestamp="2014-04-21 21:56:06">http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/</link><title>Differences between L1 and L2 as Loss Function and ...</title><description>* Differences between L1 and L2 as Loss Function and ...
+
+www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regul...‎
+
+* Cached
+
+Dec 18, 2013 - ... of the mysterious L1 vs L2. Usually the two decisions are : 1) L1-norm vs L2-norm loss function; and 2) L1-regularization vs L2-regularization.</description></snippet><snippet id="FW14-e023-7130-08"><link cache="FW14-topics-docs/e023/7130_08.pdf" timestamp="2014-04-21 21:57:06">http://cseweb.ucsd.edu/~saul/teaching/cse291s07/L1norm.pdf</link><title>L1-norm Regularization Overview</title><description>* [PDF]L1-norm Regularization Overview
+
+cseweb.ucsd.edu/~saul/.../L1norm.pd...‎
+
+* Cached
+* Similar
+
+University of California, San Diego
+
+Loading...
+
+L2-Regularization. L1-Regularization. Proposed Algorithm basics. Summary ... the vector of unknowns, and v ∈ Rm is the noise and A ∈ Rmxn , we wish to find ...</description></snippet><snippet id="FW14-e023-7130-09"><link cache="FW14-topics-docs/e023/7130_09.pdf" timestamp="2014-04-21 21:58:44">http://cseweb.ucsd.edu/~elkan/254spring05/Hammon.pdf</link><title>Ng feature selection talk</title><description>* [PDF]Ng feature selection talk
+
+cseweb.ucsd.edu/~elkan/.../Hammon....‎
+
+* Cached
+* Similar
+
+University of California, San Diego
+
+Loading...
+
+by A Ng - ‎2005 - ‎Cited by 404 \- ‎Related articles
+
+1\. Feature selection, L1 vs. L2 regularization, and rotational invariance. Andrew Ng. ICML 2004. Presented by Paul Hammon. April 14, 2005. 2. Outline. 1.</description></snippet><snippet id="FW14-e023-7130-10"><link cache="FW14-topics-docs/e023/7130_10.html" timestamp="2014-04-21 22:00:48">http://stats.stackexchange.com/questions/4961/what-is-regularization-in-plain-english</link><title>What is regularization in plain english? - Cross Validated</title><description>* What is regularization in plain english? - Cross Validated
+
+stats.stackexchange.com/questions/.../what-is-regularization-in-plain-engl...‎
+
+* Cached
+* Similar
+
+Nov 27, 2010 - LASSO is another related method, but puts an L1 constraint on the size of ... For instance, on models with large coefficients (L2 regularization, ...</description></snippet></snippets></search_results>

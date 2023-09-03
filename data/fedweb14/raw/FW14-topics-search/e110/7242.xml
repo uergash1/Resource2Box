@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7242">hague convention</query><engine status="OK" timestamp="2014-04-25 03:11:50" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7242-01"><link cache="FW14-topics-docs/e110/7242_01.html" timestamp="2014-04-25 03:12:47">https://news.ycombinator.com/item?id=173580</link><title>Ask YC: How to avoid front-end clutter?</title><description>Ask YC: How to avoid front-end clutter?
+
+7 points
+
+by robertgaal
+
+6 years ago
+
+7 comments Follow
+
+I suppose most front-end developers/designers heard of this problem before: too much CSS and Javascript files and too much declarations in 'em. After a while it gets hard to find your way around all the classes in there and add or fix things. Next to that you might scratch certain server-side code and forget to update the client-side bits. We tried to fix this by creating a lot of different CSS/JS files but sometimes certain declarations span across different site sections and you end up looking for them in the wrong place anyway.
+
+How do you guys combat the mess you automatically make in the front-end? Do you use frameworks like Blueprint or perhaps SASS? I still haven't found any structure or convention that kind of forces me to do it DRY and neat, like for instance RoR has done for me. Maybe it's time to create a standard for this, or just to create some naming pattern to map front-end code to server-side? Or maybe that already exists?
+
+Any thoughts?
+
+(I hope I didn't explain this too vague, I'm trying hard not to)
+
+*[6 years ago]: 2008-04-25T15:08:02.000Z</description><thumb cache="FW14-topics-docs/e110/7242_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/173580.png</thumb></snippet><snippet id="FW14-e110-7242-02"><link cache="FW14-topics-docs/e110/7242_02.html" timestamp="2014-04-25 03:13:20">https://news.ycombinator.com/item?id=4985242</link><title>Ask HN: Visiting SF for the first time: Where to stay? What to do? Who to see?</title><description>Ask HN: Visiting SF for the first time: Where to stay? What to do? Who to see?
+
+37 points
+
+by buro9
+
+about a year ago
+
+25 comments Follow
+
+Looking for advice on getting the most out of the city from a startup perspective.
+
+My co-founder and I are coming from London as part of http://www.ldn2sfo.com/ . That aims to give us a whirlwind lowdown on how SV and SF operate, and a very high-level view of where a few startups and VCs are located.
+
+We'd love to get a somewhat deeper view and with a view to working our backsides off and growing our bootstrapped company into one that requires a US entity within a year, we want to get a good sense of how SF can be done bootstrapped or at least affordably (even from a London perspective the salaries, rent, etc look crazy high from here).
+
+At the very basic end there are just trip logistics: Recommend an AirBNB to use as a base, or a garage to sleep in, ideally owned by someone on HN and with a good internet connection (we work when we have moments spare).
+
+At the other end there's a more general: If you were coming to San Francisco and Silicon Valley for the first time and for a week or so and wanted to get the most out of it, what do you wish someone had told you?
+
+Basic goal: Figure out how SF/SV works from a startup perspective, build a network of contacts that might grow into friendships that could offer support in the future, and on the dream list would be to also build a few connects with VCs who might later become investors.
+
+So in the most vague Ask HN ever, what would you share with a UK startup coming to San Francisco?
+
+*[about a year ago]: 2012-12-30T09:31:46.000Z</description><thumb cache="FW14-topics-docs/e110/7242_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/4985242.png</thumb></snippet><snippet id="FW14-e110-7242-03"><link cache="FW14-topics-docs/e110/7242_03.html" timestamp="2014-04-25 03:13:53">https://news.ycombinator.com/item?id=2128650</link><title>Ask HN: What's next in *social* Internet?</title><description>Ask HN: What's next in *social* Internet?
+
+2 points
+
+by HilbertSpace
+
+3 years ago
+
+0 comment Follow
+
+Social media seems to be a hot topic but with a lot of tension from two aspects:
+
+(1) There is a lot of talk about developing and delivering more in social media. The more might be from things new in each of data sources, data manipulation techniques, Web sites, or companies. There might be more in just the content or in social search to find such content.
+
+(2) There is not much clarity about just how to have more in social media or just why to have it. For the "why", what users want it, and what would they do with it?
+
+Here are two examples of some of the recent talk about social media:
+
+First, here on HN is the thread:
+
+"Sergey Brin: We’ve Touched 1 Percent Of What Social Search Can Be (techcrunch.com)"
+
+at
+
+http://techcrunch.com/2011/01/20/sergey-brin-weve-touched-1-percent-of-what-social-search-can-be/
+
+Second, is the thread "Building Better Social Graphs" at Fred Wilsons blog A VC* at:
+
+http://www.avc.com/a_vc/2011/01/building-better-social-graphs.html#disqus_thread
+
+with a lot of relatively good relevant comments.
+
+So, let's dig in a little: We can start with being more clear about our terminology. There are three terms:
+
+(1) Social Graph:
+
+So, in applied math, the relevant definition of a graph is a collection of arcs and nodes with each node much like a geometric point and each arc a connection between two nodes (usually distinct but sometimes the same). An arc may be directed or not: A directed arc is drawn with an arrowhead and is regarded as a one-way street.
+
+In a social graph, each node is likely a person (or maybe the blog of a person) but might be a group of people. The people might be users of Facebook, Twitter, etc. or just people who don't use the Internet. Then an arc might represent friend on Facebook, a follower on Twitter, or some such.
+
+(2) Social Media:
+
+Examples would include Facebook, Twitter, etc., maybe even HN. Maybe a definition of social media would be some Web site where people interact.
+
+(3) Social Search:
+
+Given data from social graphs and/or social media, one could do searches of that data.
+
+To continue: There can be a problem with the concept of a social graph: Too commonly it is left unclear just what the arcs mean!
+
+So, consider a person's social graph: They may have an arc to each person (A) they went to high school with, (B) live on the same street as, (C) went to college with, (D) dated, (E) married, (F) worked at the same company as, (G) hired to plow snow from their driveway, (H) got their business card at a Consumer Electronics Show in Las Vegas, etc. So, the point of these examples is that there is enormous variety on what the arcs can mean.
+
+So, to make progress, maybe usually we should be more clear on what the arcs mean!
+
+Now to something more substantive:
+
+In Fred Wilson's thread "Building Better Social Graphs", there were two strikingly different themes:
+
+First, Wilson started the thread with a post where he wanted to be able to download each of his social graphs and then curate them himself.
+
+Second, in the comments, the theme was strong that given the data on the social graphs, we should have computer-based means to process the data for curation, etc. Curiously, the goal of this processing was Wilson's "Building Better Social Graphs" by stronger means than just Wilson's manual curation! That is, Wilson's title was stronger than Wilson's post, and the comments were closer to the title than the post was!
+
+So, from 40,000 feet up, it appears that many people have some vague, ill-defined, intuitive, poorly identified and articulated visions of making progress with social graphs. Each of the broad subject of social, Facebook, Twitter, and the Internet, is so big that we should take the visions, as crude as they are, seriously.
+
+So, there are a lot of people (e.g., 500+ million users of Facebook, etc.); each such person has one or more social graphs; somehow there should be some value in that data; we might process the data automatically to obtain some useful results; and the data might be good for doing related searching. Yes, for an ad supported Web site, the data might also be good for ad targeting!
+
+Again, we should not miss the likely importance: From higher than 40,000 feet up, for people, networking has long been very important. E.g., about 120 years ago, some wealthy families built some large, expensive houses in Newport, RI. Why? So, in the summers the wives could hold big parties, network, and have their daughters meet good (i.e., mostly just wealthy) husband candidates! Sometimes even the husbands would get on a private railroad car in Manhattan, ride up to Newport, and show up at the party for a few minutes before going upstairs to read a book or play poker with the other bored husbands! E.g., in careers, long a common remark has been, "It's not what you know but who you know.". Well, the Internet is the biggest network of them all; it can in effect reduce geographic distances to zero; it has the power of computers and software to process data, and it might become much more important than anything before in "who you know", etc.
+
+Descending a little from 40,000 feet, and thinking about what software we might write, we can identify three important issues:
+
+(1) Meaning.
+
+An arc in a graph from the definition in applied math has essentially no meaning in any sense social or even practical. So, if we are to make use of data from social graphs, etc., then we should make some progress, if only rough, on what the arcs, or other data, mean.
+
+(2) Purpose.
+
+We should identify the purpose of the software. That is, what will be the output of the software, and why will users like that output? Or, what do users want, or at least would like if they saw it, that such software might provide? What the heck is the darned purpose?
+
+We might start by articulating just what is the purpose of Facebook, Twitter, etc.! The original purpose of Facebook at Harvard was to get dates. For Twitter, maybe the purpose is to follow selected other people and, maybe, ingratiate oneself.
+
+(3) Techniques.
+
+Given the data, what data manipulation techniques will we have the software use to get the results good for the purposes?
+
+I raise one more point:
+
+The US has something over 300 million people. In some important respects, this number is not very large. E.g., it is easy enough for current computing and data base techniques to have, say, 1 million bytes on each person and still be able to store and process that data.
+
+So, it can appear that there is a chance that we could have a single, grand solution in the space of social graphs and social search. If so, then we will guess that the present efforts in social media are only tangential or indirect solutions for a central problem not yet identified, articulated, or solved and that a single, grand solution might be possible.
+
+So, consider roughly 1 million bytes on each person in the US. It turns out, although not discussed very openly, actually there are data bases that have a lot of data on nearly every adult in the US. So at least in principle, there is a lot of data now. Keeping this data restricted in walled gardens forever may be unreasonable.
+
+Here is a simple example: Just take the printed phone books, type in the data (or get a DVD from someone), and sort the data on state, city, and street address. Then, given a person and their street address, a simple data base query will yield the names and telephone numbers of all of that person's neighbors. In particular, such a telephone book can provide a case of a social graph for each person in the book.
+
+When this person makes a telephone call, the telephone records provide another social graph for this person. When this person uses a credit card, we get another social graph. Each merchant who accepts a credit card defines a social graph.
+
+Net, our society is awash in data for social graphs from sources much more general than Facebook, Twitter, etc.
+
+So, generally we can guess that we can approach asymptotically 1 million bytes of data on each person in the US where this data provides a fairly complete description of that person.
+
+So, we have potentially a grand answer to the issue what data.
+
+Then we can move on to what purposes? What will people what to do with this data?
+
+Okay, in some broad sense, many of the uses will be introductions. Or, "I see that you also bought a Golden Retriever puppy at the North Hills Mall Puppy Store and also have a son in the third grade at North Side Grade School." Uh, nearly anyone else could devise better purpose scenarios that that!
+
+So, for introductions, there already is an industry, that is, romantic matchmaking. So, introduction can be for more purposes than just romantic, and likely both the data and the processing techniques used could be quite similar.
+
+So, from 40,000 feet up, the purpose of social anything and of social search may be introductions that could be accomplished by starting with available data and processing it much as in current romantic matchmaking services.
+
+Yes, the introductions could be for many purposes -- hobbies, careers, looking for a supplier, customer, employer, employee, date, spouse, cello in a string quartet, etc.
+
+At times in the comments on the Fred Wilson thread, it appeared that one of the purposes was just the usual one of some women just wanting to meet with, get to know, and gossip with as many other people as possible, for no definite reason! That is, we have to accept that one of the purposes may be just to 'meet' people for no other definite purpose!
+
+So, where am I going wrong?
+
+What more is there to be said?
+
+Where can we be more clear on the data, purposes, processing, and future of social whatever via the Internet?
+
+*[3 years ago]: 2011-01-21T20:02:06.000Z</description><thumb cache="FW14-topics-docs/e110/7242_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2128650.png</thumb></snippet><snippet id="FW14-e110-7242-04"><link cache="FW14-topics-docs/e110/7242_04.html" timestamp="2014-04-25 03:14:14">https://news.ycombinator.com/item?id=4158975</link><title>Seabiscuit and "The money problem"</title><description>Seabiscuit and "The money problem"
+
+1 point
+
+by angelheaded
+
+2 years ago
+
+2 comments Follow
+
+Hello world!
+
+I'm not exactly sure the right way to approach this, I've never been much for doing things in an orthodox way, so I'll just be straightforward about it. I need to find an investor.
+
+I believe that I have all of the necessary ingredients to be successful at what I'm trying to accomplish, but I realize that I need others to believe in me to help me to achieve my potential; few people ever get there alone.
+
+I hear prominent figures say that they invest in the people more than the ideas and I wonder how true that is. Do you care more about me or my actual startup? In this case I think both are awesome, so maybe it's your lucky day (or mine).
+
+So, yes, I've got a startup. That's a lie, I've got two startups, but one is my baby. We'll get back to that later, for now I want to talk about who I am and why I am writing this.
+
+Maybe I suffer from the DunningKruger effect, but I think I might be just the right mix of crazy, creative, and calculated to accomplish something fairly impressive.
+
+I'm a developer / programmer / sysadmin / hacker with a pretty impressive skill set, but I also have an artistic sense and graphic design background. I'm also very well read in literature, science, and philosophy and am possessed by an insatiable thirst for knowledge and experience. I am equally exposed to the arts and sciences.
+
+I probably don't look very good on paper. In fact, I probably look pretty bad on paper. When I was slightly younger (and quite a bit more stupid) I would have conjured up some inspired sophistry to explain away my mistakes, or I would have tried to blame my lousy circumstances on someone else, but I'm past that kind of nonsense now. I'm old enough to know better. Not too old, though. I'm three years younger than Jack Dorsey and three years older than Mark Zuckerberg, so I think I'm sitting in a cultural sweet spot. I'm wise enough to accept that don't know everything, but experienced enough to trust myself when it counts. I'm confident in my judgment and abilities, but not to the point of arrogance and closed-mindedness. I've read that fools surround themselves with idiots so that they will feel superiority, but the clever surround themselves with the wise so that they gain wisdom. That's not a useless maxim if you ask me.
+
+Paul Graham said: "So who should start a startup? Someone who is a good hacker, between about 23 and 38, and who wants to solve the money problem in one shot instead of getting paid gradually over a conventional working life."
+
+That's me. Of course, there are a million people who fit that description. Who am I kidding? Probably a few million...
+
+So why me? Why am I worth someone's time and resources? Great question. Let's start at the beginning.
+
+As I led with, I probably don't look very good on paper. Based on what the "paper" trail says, I come off as a bad bet. I owe some personal debts, my credit isn't exactly superb, and there are a few other little complications I'll be happy to elaborate on if your curiosity can't contain itself by the time you finish reading this message in a bottle.
+
+Where were we? Oh yes, I'm a bad bet. Not a confidence inspiring statement, I'm aware, so let's fix that.
+
+Seabiscuit was a bad bet, too, and that's me... I'm Seabiscuit. One day I'm limping along looking pathetic and broken and you think I'll never walk again, much less race. Yet, here I am, running... fast.
+
+I've made some less-than-stellar choices in the past, but I've learned incredibly valuable lessons from those mistakes. They were always born out of emotion, confusion, or desperation; never out of malice, spite, or envy. They unexceptionally occurred whenever I was following my heart instead of my head, as I was always encouraged to do as a child. I've learned that I need to take more precise and calculated risks and follow my intuition rather than take wild risks and follow my desire. That's all very vague and ambiguous, I know, but it's important for me to convey that I am somewhat self-actualized in that regard. I'm at peace with where I stand and I am a forward-thinking person; it's an important characteristic of who I've become and who I intend to continue being.
+
+Most of my issues were always self-induced, such as quitting jobs that I couldn't stand even when it wasn't a financially stable thing to do, or spiraling out of control when a relationship would end and then relinquishing any shared assets, bank accounts, vehicle, etc, or running away from home as a teenager. I would always respond to situations without proper emotional intelligence, a skill I've acquired and begun to master in recent years. I've also developed an incredibly humanistic and empathetic side as my emotions have matured.
+
+My repeated and intentional detachment from material possessions coupled with my inability to submit to the complacency of "the norm" and a regular job has only fueled my creative and entrepreneurial spirits. I don't have a burning desire to fill my pockets with dollar bills, but a fire does rage inside to build a successful business and to, as Paul Graham put it, "solve the money problem". Which brings us to ambition and motivation...
+
+Why do I want financial flexibility? Why do I need money if I don't care about things? Why am I writing this? Why am I driven? How driven am I?
+
+Good questions.
+
+I want to enjoy my life. I want to help others. I want to do something with my life, something positive. I want to leave something in the world that wasn't here when I arrived. I want to contribute and make a difference. I want to do something that matters.
+
+I have a family (not a wife and kids or anything, but immediate family, parents, sisters, brother, nieces and nephews) who really need some help and breaks in their lives. I've done all I can to help them at every turn, given my parents money that I simply did not have, given up my rent to help them keep food on the table and pay heating bills, etc. I've supported them as much as I can when I've been thriving, but I've always been torn between keeping a job that destroys my soul just to provide some help vs. trying to succeed on a larger scale and making things easier in the long run rather than day-to-day. I won't go into the details of my various family concerns (health problems and bills, lack of economic opportunities, etc) but I have more than enough reasons to push myself to the limit. It consumes me that they are not taken care of and that they struggle the way that they do. I must help. I know now that what I need to do is live as close to the metal as I can for now and put off helping them as much as I can until I am financially secure. This means building my company and resolving my personal financial issues so that I can focus on my work without financial stress and distractions.
+
+I have a tremendous work ethic that I wish could be applied to something I really care about.
+
+I am tired of worrying about how I will survive and how I will make enough money to take care of everything and still find time to work on my businesses. I want to know that what I'm supposed to be focusing on is my business.
+
+My biggest downfall in pursuit of that goal has been that I've never really tried wholeheartedly at anything worth doing. I don't mean that I haven't put enormous amounts effort into things, because I've definitely done that (studying, learning, programming, art, music, reading, preparing myself, etc), but I've never before had something that I cared so much about that I actually wanted to (or have been able to) devote all of my time to making it grow and succeed. I've wanted to have something that I was that passionate about, but I always found myself busy working on someone else's project or at someone else's company, usually doing something that disagreed with my personal philosophies and tastes. I'd quickly burn out and become uninspired and leave behind the mind-killer to go dive into my own creative development (music, writing, code, etc). I've had ideas, companies, little startups here and there, but nothing I ever had the time and resources to really make succeed. I've never been able to find someone who can get as excited as I can about something and then believe enough in it to actually follow through and manifest the idea. I finally have that now. I need to be able to build upon my existing product and I need to be able to get good people involved.
+
+I very recently ended a 5-year relationship and for the first time have had an appropriate emotional response to the situation. I've focused on my work, my clients, my own companies, my networks and relationships and the outcome has been very positive. I am now completely free of being tied down to a particular place and I am no longer subject to normal relationship distractions. ALL OF MY TIME CAN FINALLY BE DEDICATED TO MY COMPANY AND I AM READY TO DO THAT. I CAN FOCUS COMPLETELY ON BUILDING A SUCCESSFUL BUSINESS AND AM VERY MOTIVATED TO DO SO! I have so much built up passion ready to let loose it is unreal. I am ready to pour myself into this.
+
+I have a myriad of clients that I consult and develop for (government and commercial), I am part of a great open source development team, I have two startups of my own, and was just offered the CTO and lead developer position at a funded startup that is building a mobile gaming platform. I want to work on my own projects, but some of the other opportunities are making it too lucrative not to consider them. If I go that route I will be falling right back into working on someone else's dream instead of mine. I don't want to do that again.
+
+I have been an entrepreneur for as long as I can remember. I started on my first paper route when I was 10 years old. I woke up at 3 a.m. every day before school and on the weekends to stuff and wrap over 200 newspapers to deliver all over the small midwestern town I grew up in. I delivered newspapers before and after school for 5 years, through all kinds of weather, reading the newspaper every day as I delivered it. I was responsible for purchasing newspapers from the publishers, collecting payments from my customers, and handling the financial balancing act. There was once a contest to sell newspaper subscriptions all over the area that I lived in. The winner was awarded a $200 gift certificate to the a mall in addition to being entered into the "Newspaper Carrier Of The Year" competition. I sold 200+ subscriptions all over the region and won the contest.
+
+In high school I started my first web company with two other students while I was already working at a web consulting firm as a developer after school and on the weekends and also at the technology services center for the school district I attended.
+
+After high school I moved to California and joined as the CTO of a startup hosting company that also gave me equity, but because of a bad business deal and trusting the wrong friend I didn't receive any financial payout when the company was sold. Lesson learned about people, business, money, and contracts.
+
+After that experience I bounced around a few companies, usually clashing with the people who ran the place because their goals never corresponded with mine. Most places I worked were stagnant and comfortable and inspired no ambition, drive, or loyalty. They were jobs. I am not a job person. They always lacked culture. I am a work person, just not a job person.
+
+I caused a little trouble in my 20s, learned a lot of life lessons, opened my eyes and ears and started to grow up.
+
+I've spent the last 3 and a half years building two companies, one on top of the other. One is a PAAS (Platform as a Service) and the other is a typical kind of startup (built on top of the PAAS), but it's the one I'm most excited about and have put the most effort into. It's fully developed far past prototype, has users, but is stealth-ish at the moment. I have an amazing network of people ready to help me and promote it and develop it further. I have a vision and high standards and want to do so much more with it than is already built but lack the resources. I keep seeing companies get ridiculous amounts of funding or being purchased for huge sums; I don't need anything close to those numbers! I don't know how some of these people can blow throughs o much money and have so little to show for it. It baffles me.
+
+So... here I am.
+
+I'd rather not spend my days making tedious changes to minutia at the request of clients and bosses. I'd rather do something interesting that inspires me to solves problems using creativity with a group of clever and awesome people.
+
+I consult nearly full-time right now and spend my other waking hours working on my open source projects and my own companies, often skipping sleep. I want to spend much more time on my own stuff, but that's simply not possible when I have to worry about my financial situation and do work for others.
+
+I don't want a mansion or a yacht, I just want to work on positive things, take care of my family, build more things, and make a difference.
+
+I have my finger on the pulse of culture, business, industry, art, society, and a lot of other things. I read Hacker News and read and watch everything I possibly can that might give me helpful insights.
+
+I keep seeing how being a risk taker with a mind of your own is a big plus for founders. Well, look no further. I saw what Peter Thiel said about "Founder as Victim, Founder as God".
+
+I'm passionate, motivated, capable, aware, insightful, open-minded and eager.
+
+I know the Silicon Valley names, I know who the big players are, who the go to guys are, but I'm not sure that's the game I want to play.
+
+I own 100% of one of my startups and 50% of the other (the more exciting one). The other founder (non-technical) is open to a buyout, although I don't have the resources to do that myself. They are also willing to stay involved under the right circumstances. I'd prefer to run things completely autonomously, but I'm flexible. The other founder is willing to let me make all creative, technical, and financial decisions; they only want their ownership for now (unless I can buy them out). The company is incorporated in Delaware and is in good standing and is set up as a California foreign corporation. The company name / domain name is trademarked and the concept and execution are quite good. We've been offered a somewhat reasonable investment a couple of times, but I wasn't happy with the conditions. I completely believe in the idea, the execution, and the possibility of its success, now it's time for me to find someone else who does too.
+
+Hopefully I will find someone who can appreciate that while I have a vision and a goal, I lack some of the more annoying pretenses. I don't feel entitled to anything.
+
+If you want to know the specifics of my companies and have an interest in possibly getting involved with me in some capacity (even just to give me advice or ask questions) then respond to me and I'll send you the details. You can email me privately at angelheaded@yahoo.com (I created an account just for this)
+
+I'll also send along a more detailed summary of my own skills and experience.
+
+I'm not looking for someone who wants to see what my companies are and then go talk about them on the internet or something just yet, I'm looking for someone serious to get involved and provide what I need to help me continue to build something real and substantial that we can both benefit from.
+
+For once in my life I would like to not have to worry so much about things that I care so little about.
+
+Bet on Seabiscuit, he's going to win this race. I do not give up.
+
+\----------
+
+"If"
+
+If you can keep your head when all about you
+
+Are losing theirs and blaming it on you,
+
+If you can trust yourself when all men doubt you,
+
+But make allowance for their doubting too;
+
+If you can wait and not be tired by waiting,
+
+Or being lied about, don't deal in lies,
+
+Or being hated, don't give way to hating,
+
+And yet don't look too good, nor talk too wise:
+
+If you can dream - and not make dreams your master;
+
+If you can think - and not make thoughts your aim;
+
+If you can meet with Triumph and Disaster
+
+And treat those two impostors just the same;
+
+If you can bear to hear the truth you've spoken
+
+Twisted by knaves to make a trap for fools,
+
+Or watch the things you gave your life to, broken,
+
+And stoop and build 'em up with worn-out tools:
+
+\--
+
+If you can make one heap of all your winnings
+
+And risk it on one turn of pitch-and-toss,
+
+And lose, and start again at your beginnings
+
+And never breathe a word about your loss;
+
+If you can force your heart and nerve and sinew
+
+To serve your turn long after they are gone,
+
+And so hold on when there is nothing in you
+
+Except the Will which says to them: 'Hold on!'
+
+\--
+
+If you can talk with crowds and keep your virtue,
+
+' Or walk with Kings - nor lose the common touch,
+
+if neither foes nor loving friends can hurt you,
+
+If all men count with you, but none too much;
+
+If you can fill the unforgiving minute
+
+With sixty seconds' worth of distance run,
+
+Yours is the Earth and everything that's in it,
+
+And - which is more - you'll be a Man, my son!
+
+*[2 years ago]: 2012-06-25T22:03:37.000Z</description><thumb cache="FW14-topics-docs/e110/7242_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/4158975.png</thumb></snippet><snippet id="FW14-e110-7242-05"><link cache="FW14-topics-docs/e110/7242_05.html" timestamp="2014-04-25 03:14:58">https://news.ycombinator.com/item?id=7616339</link><title>Ask HN: How does Twitter know who my family members are and why?</title><description>Ask HN: How does Twitter know who my family members are and why?
+
+1 point
+
+by anoncow
+
+5 days ago
+
+0 comment Follow
+
+Yesterday I signed up for a new account on twitter using a third party browser(no active logins,incognito mode) on my phone. I used a new unused Gmail email id and selected a very vague twitter handle.
+
+After completing signup the top two handles twitter recommended that I follow belonged to family members.
+
+I was using the internet connection at home, which seems to be the only possible common link. It seems twitter uses ip addresses to track users. The accuracy disturbs me because I am pretty sure my dynamic home ip address resets a few times a day. Or perhaps twitter uses some other factors too but I cannot think of any other common points. My user agent,cookies and email id couldn't have linked me to my family members. Any thoughts? I was using my phone and my cellular data was on but since wifi was on it is preferred. My cellular carrier's website identifies my phone number but I doubt it would share my phone number with third party websites like twitter.
+
+*[5 days ago]: 2014-04-20T09:28:51.000Z</description><thumb cache="FW14-topics-docs/e110/7242_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/7616339.png</thumb></snippet></snippets></search_results>

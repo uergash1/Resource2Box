@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7441">barcelona real madrid goal messi</query><engine status="OK" timestamp="2014-04-20 03:28:18" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7441-01"><link cache="FW14-topics-docs/e004/7441_01.html" timestamp="2014-04-20 03:28:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.217.3477&amp;rank=1</link><title>The C++ Programming Language</title><description>The C++ Programming Language
+
+by Bjarne Stroustrup , 1995
+
+"... ⎜ ⎜ Support for generic programming emerged late as an explicit goal. During most of the evolution of C++, I ..."
+
+Abstract \- Cited by 1492 (15 self) \- Add to MetaCart
+
+This overview of C++ presents the key design, programming, and language-technical concepts using examples to give the reader a feel for the language. C++ is a general-purpose programming language with a bias towards systems programming that supports efficient low-level computation, data abstraction, object-oriented programming, and generic programming. 1</description></snippet><snippet id="FW14-e004-7441-02"><link cache="FW14-topics-docs/e004/7441_02.html" timestamp="2014-04-20 03:29:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.31.1768&amp;rank=2</link><title>The PageRank Citation Ranking: Bringing Order to the Web</title><description>The PageRank Citation Ranking: Bringing Order to the Web
+
+by Lawrence Page, Sergey Brin, Rajeev Motwani, Terry Winograd \- Stanford InfoLab , 1999
+
+"... clicking on successive links at random. However, if a real Web surfer ever gets into a small loop of web ..."
+
+Abstract \- Cited by 2135 (2 self) \- Add to MetaCart
+
+The importance of a Web page is an inherently subjective matter, which depends on the readers interests, knowledge and attitudes. But there is still much that can be said objectively about the relative importance of Web pages. This paper describes PageRank, a method for rating Web pages objectively and mechanically, effectively measuring the human interest and attention devoted to them. We compare PageRank to an idealized random Web surfer. We show how to efficiently compute PageRank for large numbers of pages. And, we show how to apply PageRank to search and to user navigation.</description></snippet><snippet id="FW14-e004-7441-03"><link cache="FW14-topics-docs/e004/7441_03.html" timestamp="2014-04-20 03:32:13">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.32.8918&amp;rank=3</link><title>A Decision-Theoretic Generalization of on-Line Learning and an Application to Boosting</title><description>A Decision-Theoretic Generalization of on-Line Learning and an Application to Boosting
+
+by Yoav Freund, Robert E. Schapire , 1997
+
+"... an extension to regression problems in which the goal is to estimate a real-valued function. 2 The on ..."
+
+Abstract \- Cited by 2307 (59 self) \- Add to MetaCart
+
+In the first part of the paper we consider the problem of dynamically apportioning resources among a set of options in a worst-case on-line framework. The model we study can be interpreted as a broad, abstract extension of the well-studied on-line prediction model to a general decision-theoretic setting. We show that the multiplicative weightupdate rule of Littlestone and Warmuth [20] can be adapted to this model yielding bounds that are slightly weaker in some cases, but applicable to a considerably more general class of learning problems. We show how the resulting learning algorithm can be applied to a variety of problems, including gambling, multiple-outcome prediction, repeated games and prediction of points in R n . In the second part of the paper we apply the multiplicative weight-update technique to derive a new boosting algorithm. This boosting algorithm does not require any prior knowledge about the performance of the weak learning algorithm. We also study generalizations of...</description></snippet><snippet id="FW14-e004-7441-04"><link cache="FW14-topics-docs/e004/7441_04.html" timestamp="2014-04-20 03:33:46">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.68.1957&amp;rank=4</link><title>PDDL2.1: An extension to PDDL for expressing temporal planning domains</title><description>PDDL2.1: An extension to PDDL for expressing temporal planning domains
+
+by Maria Fox, Derek Long \- Journal of Artificial Intelligence Research , 2003
+
+"... on applications of planning to real domains of this nature for some time (Laborie &amp; Ghallab, 1995; Ghallab ..."
+
+Abstract \- Cited by 431 (33 self) \- Add to MetaCart
+
+In recent years research in the planning community has moved increasingly towards application of planners to realistic problems involving both time and many types of resources. For example, interest in planning demonstrated by the space research community has inspired work in observation scheduling, planetary rover exploration and spacecraft control domains. Other temporal and resource-intensive domains including logistics planning, plant control and manufacturing have also helped to focus the community on the modelling and reasoning issues that must be confronted to make planning technology meet the challenges of application. The International Planning Competitions have acted as an important motivating force behind the progress that has been made in planning since 1998. The third competition (held in 2002) set the planning community the challenge of handling time and numeric resources. This necessitated the development of a modelling language capable of expressing temporal and numeric properties of planning domains. In this paper we describe the language, pddl2.1, that was used in the competition. We describe the syntax of the language, its formal semantics and the validation of concurrent plans. We observe that pddl2.1 has considerable modelling power — exceeding the capabilities of current planning technology — and presents a number of important challenges to the research community.</description></snippet><snippet id="FW14-e004-7441-05"><link cache="FW14-topics-docs/e004/7441_05.html" timestamp="2014-04-20 03:35:45">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.14.2202&amp;rank=5</link><title>Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora</title><description>Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
+
+by Dekai Wu , 1997
+
+"... nonterminals for an ITG that do not match linguistic categories, sacrificing this to the goal of ensuring ..."
+
+Abstract \- Cited by 428 (27 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7441-06"><link cache="FW14-topics-docs/e004/7441_06.html" timestamp="2014-04-20 03:39:11">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.47.2696&amp;rank=6</link><title>Formal Methods: State of the Art and Future Directions</title><description>Formal Methods: State of the Art and Future Directions
+
+by Edmund M. Clarke, Jeannette M. Wing \- ACM Computing Surveys , 1996
+
+"... of money, time, or even human life. A major goal of software engineering is to enable developers ..."
+
+Abstract \- Cited by 356 (6 self) \- Add to MetaCart
+
+ing with credit is permitted. To copy otherwise, to republish, to post on servers, to redistribute to lists, or to use any component of this work in other works, requires prior specific permission and/or a fee. Permissions may be requested from Publications Dept, ACM Inc., 1515 Broadway, New York, NY 10036 USA, fax +1 (212) 869-0481, or permissions@acm.org. 2 \Delta E.M. Clarke and J.M. Wing About Programs---Mechanical verification, Specification techniques; F.4.1 [Mathematical Logic and Formal Languages]: Mathematical Logic---Mechanical theorem proving General Terms: Software engineering, formal methods, hardware verification Additional Key Words and Phrases: Software specification, model checking, theorem proving 1. INTRODUCTION Hardware and software systems will inevitably grow in scale and functionality. Because of this increase in complexity, the likelihood of subtle errors is much greater. Moreover, some of these errors may cause catastrophic loss of money, time, or even huma...</description></snippet><snippet id="FW14-e004-7441-07"><link cache="FW14-topics-docs/e004/7441_07.html" timestamp="2014-04-20 03:39:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.74.4855&amp;rank=7</link><title>Explanation-Based Learning: An Alternative View</title><description>Explanation-Based Learning: An Alternative View
+
+by Gerald Dejong, Raymond Mooney \- Machine Learning , 1986
+
+"... reduced version of goal regression to perform object generalization. They argue, quite correctly ..."
+
+Abstract \- Cited by 348 (19 self) \- Add to MetaCart
+
+Key words: machine learning, concept acquisition, explanation-based learning Abstract. In the last issue of this journal Mitchell, Keller, and Kedar-Cabelli presented a unifying framework for the explanation-based approach to machine learning. While it works well for a number of systems, the framework does not adequately capture certain aspects of the systems under development by the explanation-based learning group at Illinois. The primary inadequacies arise in the treatment of concept operationality, organization of knowledge into schemata, and learning from observation. This paper outlines six specific problems with the previously proposed framework and presents an alternative generalization method to perform explanation-based learning of new concepts.</description></snippet><snippet id="FW14-e004-7441-08"><link cache="FW14-topics-docs/e004/7441_08.html" timestamp="2014-04-20 03:42:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.31.9478&amp;rank=8</link><title>The Real-Time Specification for Java</title><description>The Real-Time Specification for Java
+
+by Greg Bollella, Ben Brosgol, Peter Dibble, Steve Furr, James Gosling, David Hardin, Mark Turnbull , 2000
+
+"... ﻿The Real-Time Specification for Java ™ The Real-Time Specification for Java ™ The Real ..."
+
+Abstract \- Cited by 235 (2 self) \- Add to MetaCart
+
+superclass for all monitor control policy objects. PRIORITYCEILINGEMULATION 87 6.1.1 Constructors public Monitor ontrt () 6.1.2 Methods public static void setMonitor Contr l(MonitorControl8 policy) Control the default monitor behavior for object monitors used by synchronized statements and methods in the system. The type of the policy object determines the type of behavior. Conforming implementations must support priority ceiling emulation and priority inheritance for fixed priority preemptive threads. Parameters: policy - The new monitor control policy. If null nothing happens. public static void setMonitor Contr l(java.lang.Object monitor MonitorControl 8 policy) Has the same effect as setMonitorControl(), except that the policy only affects the indicated object monitor. Parameters: monitor - The monitor for which the new policy will be in use. The policy will take effect on the first attempt to lock the monitor after the completion of this method. If null nothing wi...</description></snippet><snippet id="FW14-e004-7441-09"><link cache="FW14-topics-docs/e004/7441_09.html" timestamp="2014-04-20 03:43:43">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.204.5398&amp;rank=9</link><title>Barcelona</title><description>Barcelona
+
+by Jérôme Picault, Dimitre Kostadinov, Pablo Castells, Alejandro Jaimes , 2010
+
+"... 2010 Barcelona, Spain Jérôme Picault 1 , Dimitre Kostadinov 1 , Pablo Castells 2 , Alejandro Jaimes 3 1 ..."
+
+Abstract \- Add to MetaCart
+
+held at the</description></snippet><snippet id="FW14-e004-7441-10"><link cache="FW14-topics-docs/e004/7441_10.html" timestamp="2014-04-20 03:48:09">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=594216AF273C8214BD6958CEE1F9C6AE?doi=10.1.1.167.6393&amp;rank=10</link><title>Barcelona</title><description>Barcelona
+
+by Christian Callegari, Spain Short Bio , 2009
+
+"... Engineering University of Pisa ICIMP Conference 9, May 2009 Barcelona SpainShort Bio Post-Doctoral Fellow ..."
+
+Abstract \- Add to MetaCart
+
+a thesis on Network Firewalls M.S. degree in 2004 from the University of Pisa, discussing a thesis on Network Simulation PhD in 2008 from the University of Pisa, discussing a thesis on Network Anomaly Detection</description></snippet></snippets></search_results>

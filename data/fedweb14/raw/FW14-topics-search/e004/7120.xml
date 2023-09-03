@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7120">tortellini pasta salad</query><engine status="OK" timestamp="2014-05-21 14:24:05" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7120-01"><link cache="FW14-topics-docs/e004/7120_01.html" timestamp="2014-05-21 14:24:06">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.394.8165&amp;rank=1</link><title>THE WATER NEEDED TO HAVE ITALIANS EAT PASTA AND PIZZA M.M. ALDAYA*</title><description>THE WATER NEEDED TO HAVE ITALIANS EAT PASTA AND PIZZA M.M. ALDAYA*
+
+by A. Y. Hoekstra , 2009
+
+"... ﻿THE WATER NEEDED TO HAVE ITALIANS EAT PASTA AND PIZZA M.M. ALDAYA* A.Y. HOEKSTRA* MAY 2009 VALUE ..."
+
+Abstract \- Add to MetaCart
+
+2\. Method and data.................................................................................................................................................9 2.1 Water footprint of primary crops.................................................................................................................9</description></snippet><snippet id="FW14-e004-7120-02"><link cache="FW14-topics-docs/e004/7120_02.html" timestamp="2014-05-21 14:24:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.19.8412&amp;rank=2</link><title>An Unsupervised Approach to Prepositional Phrase Attachment using Contextually Similar Words</title><description>An Unsupervised Approach to Prepositional Phrase Attachment using Contextually Similar Words
+
+by Patrick Pantel, Dekang Lin , 2000
+
+"... .074, sprinkle 0.072, Toss 0.072, chew 0.072 SALAD soup 0.172, sandwich 0.169, sauce 0.152, pasta 0.149, dish 0 ..."
+
+Abstract \- Cited by 32 (1 self) \- Add to MetaCart
+
+Prepositional phrase attachment is a common source of ambiguity in natural language processing. We present an unsupervised corpus-based approach to prepositional phrase attachment that achieves similar performance to supervised methods. Unlike previous unsupervised approaches in which training data is obtained by heuristic extraction of unambiguous examples from a corpus, we use an iterative process to extract training data from an automatically parsed corpus.</description></snippet><snippet id="FW14-e004-7120-03"><link cache="FW14-topics-docs/e004/7120_03.html" timestamp="2014-05-21 14:24:59">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.32.7743&amp;rank=3</link><title>Next Generation Web Search: Setting Our Sites</title><description>Next Generation Web Search: Setting Our Sites
+
+by Marti A. Hearst \- IEEE DATA ENGINEERING BULLETIN , 2000
+
+"... Dish (799) Sauce (13) Bread (1) Condiments (2) Salad (64) Side (10) Breakfast (1) Hors d'Oeuvres (44 ..."
+
+Abstract \- Cited by 37 (2 self) \- Add to MetaCart
+
+The current state of web search is most successful at directing users to appropriate web sites. Once at the site, the user has a choice of following hyperlinks or using site search, but the latter is notoriously problematic. One solution is to develop specialized search interfaces that explicitly support the types of tasks users perform using the information specific to the site. A new way to support task-based site search is to dynamically present appropriate metadata that organizes the search results and suggests what to look at next, as a personalized intermixing of search and hypertext.</description></snippet><snippet id="FW14-e004-7120-04"><link cache="FW14-topics-docs/e004/7120_04.html" timestamp="2014-05-21 14:25:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.104.5075&amp;rank=4</link><title>Automating Creation of Hierarchical Faceted Metadata Structures</title><description>Automating Creation of Hierarchical Faceted Metadata Structures
+
+by Emilia Stoica, Marti A. Hearst \- In Procs. of the Human Language Technology Conference (NAACL HLT , 2007
+
+"... of dish type (salad, appetizer), ingredients such as fruits (apricot, apple), vegetables (broccoli ..."
+
+Abstract \- Cited by 28 (1 self) \- Add to MetaCart
+
+We describe Castanet, an algorithm for automatically generating hierarchical faceted metadata from textual descriptions of items, to be incorporated into browsing and navigation interfaces for large information collections. From an existing lexical database (such as WordNet), Castanet carves out a structure that reflects the contents of the target information collection; moderate manual modifications improve the outcome. The algorithm is simple yet effective: a study conducted with 34 information architects finds that Castanet achieves higher quality results than other automated category creation algorithms, and 85 % of the study participants said they would like to use the system for their work. 1</description></snippet><snippet id="FW14-e004-7120-05"><link cache="FW14-topics-docs/e004/7120_05.html" timestamp="2014-05-21 14:25:39">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.30.2484&amp;rank=5</link><title>Hiding a Semantic Hierarchy in a Markov Model</title><description>Hiding a Semantic Hierarchy in a Markov Model
+
+by Steven Abney, Marc Light \- In Proceedings of the Workshop on Unsupervised Learning in Natural Language Processing, ACL , 1999
+
+"... from meat 45 bucket 1 ice 2 tape 1 investment 1 soup 2 proportion 2 kitchen 1 fry 4 root 4 salad 2 top ..."
+
+Abstract \- Cited by 26 (0 self) \- Add to MetaCart
+
+We introduce a new model of selectional preference induction. Unlike previous approaches, we provide a stochastic generation model for the words that appear as arguments of a predicate. More speci- cally, we dene a hidden Markov model with the general shape of a given semantic class hierarchy. This model has a number of attractive features, among them that selectional preference can be seen as distributions over words. Initial results are promising. However, unsupervised parameter estimation has proven problematic. A central problem is word sense ambiguity in the training corpora. We describe attempts to modify the forward-backward algorithm, an EM algorithm, to handle such disambiguation. Although these attempts were unsuccessful at improving performance, we believe they give insight into the nature of the bottlenecks and into the behavior of the EM algorithm. 1 Introduction We describe here an approach to inducing selectional preferences from text corpora. In...</description></snippet><snippet id="FW14-e004-7120-06"><link cache="FW14-topics-docs/e004/7120_06.html" timestamp="2014-05-21 14:26:11">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.27.6418&amp;rank=6</link><title>Self-Organizing Maps, Vector Quantization, and Mixture Modeling</title><description>Self-Organizing Maps, Vector Quantization, and Mixture Modeling
+
+by Tom Heskes \- IEEE Transactions on Neural Networks , 2001
+
+"... rice pastas gravy Italian pastas fast food Indian items spices salt sugar sweets oils pickles sauces ..."
+
+Abstract \- Cited by 25 (0 self) \- Add to MetaCart
+
+|Self-organizing maps are popular algorithms for unsupervised learning and data visualization. Exploiting the link between vector quantization and mixture modeling, we derive EM algorithms for self-organizing maps with and without missing values. We compare self-organizing maps with the elastic-net approach and explain why the former is better suited for the visualization of high-dimensional data. Several extensions and improvements are discussed. As an illustration we apply a self-organizing map based on a multinomial distribution to market basket analysis. I. Introduction Self-organizing maps are popular tools for clustering and visualization of high-dimensional data [1], [2]. The wellknown Kohonen learning algorithm can be interpreted as a variant of vector quantization with additional lateral interactions [3], [4]. The addition of lateral interaction between units introduces a sense of topology, such that neighboring units represent inputs that are close together in input space [...</description></snippet><snippet id="FW14-e004-7120-07"><link cache="FW14-topics-docs/e004/7120_07.html" timestamp="2014-05-21 14:26:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.61.5347&amp;rank=7</link><title>Common Sense Based Joint Training of Human Activity Recognizers</title><description>Common Sense Based Joint Training of Human Activity Recognizers
+
+by Shiaokai Wang, William Pentney, Ana-Maria Popescu, Tanzeem Choudhury, Matthai Philipose \- In: Proceedings of the 20th International Joint Conference on Artificial Intelligence , 2007
+
+"... ” is in use as part of activity “making salad”, action “chop with a knife” is quite likely. We therefore call ..."
+
+Abstract \- Cited by 22 (2 self) \- Add to MetaCart
+
+Given sensors to detect object use, commonsense priors of object usage in activities can reduce the need for labeled data in learning activity models. It is often useful, however, to understand how an object is being used, i.e., the action performed on it. We show how to add personal sensor data (e.g., accelerometers) to obtain this detail, with little labeling and feature selection overhead. By synchronizing the personal sensor data with object-use data, it is possible to use easily specified commonsense models to minimize labeling overhead.</description></snippet><snippet id="FW14-e004-7120-08"><link cache="FW14-topics-docs/e004/7120_08.html" timestamp="2014-05-21 14:26:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.30.8037&amp;rank=8</link><title>Dietary recommendations and prevailing food and nutrient intakes in Germany</title><description>Dietary recommendations and prevailing food and nutrient intakes in Germany
+
+by Edelgard Hermann-kunz, Michael Thamm
+
+"... potatoes or, alternative to potatoes, 200–250 g rice or pasta. The minimal desired intake of fruit is 1 ..."
+
+Abstract \- Cited by 1 (0 self) \- Add to MetaCart
+
+of traditional eating habits: meat, gravy, potatoes and a small amount of vegetables or &lt;em&gt;salads&lt;/em&gt;. Changing</description></snippet><snippet id="FW14-e004-7120-09"><link cache="FW14-topics-docs/e004/7120_09.html" timestamp="2014-05-21 14:27:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.199.837&amp;rank=9</link><title>Valuing Internal vs. External Knowledge: Explaining the Preference for Outsiders</title><description>Valuing Internal vs. External Knowledge: Explaining the Preference for Outsiders
+
+by Tanya Menon, Jeffrey Pfeffer \- MANAGEMENT SCIENCE , 2003
+
+"... developed a more varied menu than traditional salad buffets, and had supplemented soups, salads, and pastas ..."
+
+Abstract \- Cited by 17 (0 self) \- Add to MetaCart
+
+This paper compares how managers value knowledge from internal and external sources. Although many theories account for favoritism toward insiders, we find that preferences for knowledge obtained from outsiders are also prevalent. Two complementary case studies and survey data from managers demonstrate the phenomenon of valuing external knowledge more highly than internal knowledge and reveal some mechanisms through which this process occurs. We found evidence that the preference for outsider knowledge is the result of managerial responses to 1) the contrasting status implications of learning from internal versus external competitors, and 2) the availability or scarcity of knowledge—internal knowledge is more readily available and hence subject to greater scrutiny, while external knowledge is more scarce, which makes it appear more special and unique. We conclude by considering some consequences of external knowledge preference for organizational functioning.</description></snippet><snippet id="FW14-e004-7120-10"><link cache="FW14-topics-docs/e004/7120_10.html" timestamp="2014-05-21 14:27:24">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5666DADE468D7798F578F619B84D88D3?doi=10.1.1.225.1208&amp;rank=10</link><title>Platemate: Crowdsourcing nutrition analysis from food photographs</title><description>Platemate: Crowdsourcing nutrition analysis from food photographs
+
+by Jon Noronha, Eric Hysen, Haoqi Zhang, Krzysztof Z. Gajos \- In UIST , 2011
+
+"... , and provides examples of sandwiches, salads, and pasta with vegetables as appropriate items. Similarity ..."
+
+Abstract \- Cited by 17 (7 self) \- Add to MetaCart
+
+We introduce PlateMate, a system that allows users to take photos of their meals and receive estimates of food intake and composition. Accurate awareness of this information can help people monitor their progress towards dieting goals, but current methods for food logging via self-reporting, expert observation, or algorithmic analysis are time-consuming, expensive, or inaccurate. PlateMate crowdsources nutritional analysis from photographs using Amazon Mechanical Turk, automatically coordinating untrained workers to estimate a meal’s calories, fat, carbohydrates, and protein. We present the Management framework for crowdsourcing complex tasks, which supports PlateMate’s nutrition analysis workflow. Results of our evaluations show that PlateMate is nearly as accurate as a trained dietitian and easier to use for most users than traditional self-reporting. ACM Classification: H5.2 [Information interfaces and presentation]:</description></snippet></snippets></search_results>

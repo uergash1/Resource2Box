@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7503">uki</query><engine status="OK" timestamp="2014-04-21 02:46:02" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7503-01"><link cache="FW14-topics-docs/e004/7503_01.html" timestamp="2014-04-21 02:46:03">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.61.9520&amp;rank=1</link><title>Scalable Recognition with a Vocabulary Tree</title><description>Scalable Recognition with a Vocabulary Tree
+
+by David Nistér, Henrik Stewénius \- IN CVPR , 2006
+
+"... for Visualization and Virtual Environments Department of Computer Science, University of Kentucky http://www.vis.uky ..."
+
+Abstract \- Cited by 623 (0 self) \- Add to MetaCart
+
+A recognition scheme that scales efficiently to a large number of objects is presented. The efficiency and quality is exhibited in a live demonstration that recognizes CD-covers from a database of 40000 images of popular music CD's. The scheme</description></snippet><snippet id="FW14-e004-7503-02"><link cache="FW14-topics-docs/e004/7503_02.html" timestamp="2014-04-21 02:47:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.135.9318&amp;rank=2</link><title>Near Shannon limit error-correcting coding and decoding</title><description>Near Shannon limit error-correcting coding and decoding
+
+by Claude Berrou, Alain Glavieux, Punya Thitimajshima , 1993
+
+"... to gli if Xk=dk and to g2i if Yk=dk. Equation (2) can be rewritten as K -1 dk = Z7;Uk-i tmd.2. (3) i ..."
+
+Abstract \- Cited by 1292 (4 self) \- Add to MetaCart
+
+Abstract- This paper deals with a new class of convolutional codes called Turbo-codes, whose performances in terms of Bit Error Rate (BER) are close to the SHANNON limit. The Turbo-Code encoder is built using a parallel concatenation of two Recursive Systematic Convolutional codes and the associated decoder, using a feedback decoding rule, is implemented as P pipelined identical elementary decoders. Consider a binary rate R=1/2 convolutional encoder with constraint length K and memory M=K-1. The input to the encoder at time k is a bit dk and the corresponding codeword</description></snippet><snippet id="FW14-e004-7503-03"><link cache="FW14-topics-docs/e004/7503_03.html" timestamp="2014-04-21 02:48:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.412.6372&amp;rank=3</link><title>The Viterbi algorithm</title><description>The Viterbi algorithm
+
+by G. David Forney \- Proceedings of the IEEE , 1973
+
+"... finite number of inputs, say, yk =f(Uk, * * . , Uk-y), and nk is a white Gaussian noise sequence ..."
+
+Abstract \- Cited by 742 (3 self) \- Add to MetaCart
+
+vol. 6, no. 8, pp. 211-220, 1951. [7] J. L. Anderson and J. W..Ryon, “Electromagnetic radiation in accelerated systems, ” Phys. Rev., vol. 181, pp. 1765-1775, 1969. [8] C. V. Heer, “Resonant frequencies of an electromagnetic cavity in an accelerated system of reference, ” Phys. Reu., vol. 134, pp. A799-A804, 1964. [9] T. C. Mo, “Theory of electrodynamics in media in noninertial frames and applications, ” J. Math. Phys., vol. 11, pp. 2589-2610, 1970.</description></snippet><snippet id="FW14-e004-7503-04"><link cache="FW14-topics-docs/e004/7503_04.html" timestamp="2014-04-21 02:49:18">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.308.8619&amp;rank=4</link><title>Some methods for classification and analysis of multivariate observations</title><description>Some methods for classification and analysis of multivariate observations
+
+by J. Macqueen \- In 5-th Berkeley Symposium on Mathematical Statistics and Probability , 1967
+
+"... the absolute continuity of p. Similarly, u(y) = (u1(y), u2(y), * * *, uk(y)) regarded as a mapping from M onto ..."
+
+Abstract \- Cited by 1843 (1 self) \- Add to MetaCart
+
+The main purpose of this paper is to describe a process for partitioning an N-dimensional population into k sets on the basis of a sample. The process, which is called 'k-means, ' appears to give partitions which are reasonably</description></snippet><snippet id="FW14-e004-7503-05"><link cache="FW14-topics-docs/e004/7503_05.html" timestamp="2014-04-21 02:51:31">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.65.7007&amp;rank=5</link><title>Iterative decoding of binary block and convolutional codes</title><description>Iterative decoding of binary block and convolutional codes
+
+by Joachim Hagenauer, Elke Offer, Lutz Papke \- IEEE Trans. Inform. Theory , 1996
+
+"... exp(iL~ (Uk)i)
+
+Abstract \- Cited by 455 (44 self) \- Add to MetaCart
+
+Abstract- Iterative decoding of two-dimensional systematic convolutional codes has been termed “turbo ” (de)coding. Using log-likelihood algebra, we show that any decoder can he used which accepts soft inputs-including a priori values-and delivers soft outputs that can he split into three terms: the soft channel and a priori inputs, and the extrinsic value. The extrinsic value is used as an a priori value for the next iteration. Decoding algorithms in the log-likelihood domain are given not only for convolutional codes hut also for any linear binary systematic block code. The iteration is controlled by a stop criterion derived from cross entropy, which results in a minimal number of iterations. Optimal and suboptimal decoders with reduced complexity are presented. Simulation results show that very simple component codes are sufficient, block codes are appropriate for high rates and convolutional codes for lower rates less than 213. Any combination of block and convolutional component codes is possible. Several interleaving techniques are described. At a bit error rate (BER) of lo- * the performance is slightly above or around the bounds given by the cutoff rate for reasonably simple block/convolutional component codes, interleaver sizes less than 1000 and for three to six iterations. Index Terms- Concatenated codes, product codes, iterative decoding, “soft-inlsoft-out ” decoder, “turbo ” (de)coding.
+
+hAlan.Mycroft@cl.cam.ac.uki
+
+by Programming Notions, Alan Mycroft \- ACM Computing Surveys , 1996
+
+"... , UK hAlan.Mycroft@(email omitted);.uki Programming notions can be expressed in many different paradigms ..."
+
+Abstract \- Add to MetaCart
+
+this paper is to expound an algebraic view of such integration. Work with related aims but differing starting points can be found in the "Action Semantics" approach [2] and the "Monads" view of feature composition (see e.g. [1]). Also relevant is work [3] on using complexity to compare semantic models. Integrating subprograms written in varying source languages S i ; i 2 f1; 2g intuitively represents writing in the union of these languages; actually what we mean is a target language expressive enough to express concepts from all the source languages. If the languages all had a single sort (syntactic category) then this could be the language generated by the union of the constructors of the source languages. More thought leads us to a target language T which has embeddings ` i : S i ! T . The ` i should be injective at the semantic level thus, given s i ; s
+
+The Zebrafish Mutants dre, uki, and lep Encode Negative Regulators of the Hedgehog Signaling
+
+by Marco J. Koudijs, Marjo J. Den Broeder, Astrid Keijser, Erno Wienholds, Saskia Houwing, Robert Geisler, Fredericus J. M. Van Eeden
+
+"... ﻿The Zebrafish Mutants dre, uki, and lep Encode Negative Regulators of the Hedgehog Signaling ..."
+
+Abstract \- Cited by 2 (0 self) \- Add to MetaCart
+
+increased PCNA expression. Morphologically both mutants resembled the dre (dreumes), &lt;em&gt;uki&lt;/em&gt; (ukkie), and lep
+
+Seales@cs.unc.edu Welch@cs.unc.edu Jaynes@cs.uky.edu
+
+by This Paper Explores
+
+"... @(email omitted); welch@(email omitted); jaynes@cs.uky.edu AbstractThis paper explores a new depth-recovery technique ..."
+
+Abstract \- Add to MetaCart
+
+This paper explores a new depth-recovery technique targeted for two environments: visualization on non-regular screen surfaces, and real-time depth recovery in an unknown scene. The algorithm is based on the computation of pre-warped images that are projected into the scene and re-imaged by synchronized cameras. The real-time control of the pre-warp and the type of imagery projected into the scene allows for a novel solution that recovers scene geometry and can be used in both visualization (projection of imagery onto screen surfaces) and computer vision environments
+
+Pajek - Program for Large Network Analysis
+
+by Vladimir Batagelj, Andrej Mrvar \- Connections , 1998
+
+"... ) - cores uki net bel lux fra ita den jap usa can bra arg ire swi spa por wge ege pol aus hun cze yug gre ..."
+
+Abstract \- Cited by 254 (11 self) \- Add to MetaCart
+
+Large networks, having thousands of vertices and lines, can be found in many different areas, e. g: genealogies, flow graphs of programs, molecule, computer networks, transportation networks, social networks, intra/inter organisational networks ... Many standard network algorithms are very time and space consuming and therefore unsuitable for analysis of such networks. In the article we present some approaches to analysis and visualisation of large networks implemented in program Pajek. Some typical examples are also given. 1 Introduction Pajek (Slovene word for Spider) is a program, for Windows (32 bit), for analysis of large networks. It is freely available, for noncommercial use, at its homepage: http://vlado.fmf.uni-lj.si/pub/networks/pajek/ Large networks can be found in many different areas. Usually they are produced automatically, using computers, from different data sources that are already available in computer readable form. For example: large genealogies (genea...
+
+), www.cs.uky.edu/∼cheng/PUBL/adaptive.pdf
+
+by Shuhua Lai \- CGI 2006, Lecture Notes in Computer Science , 2006
+
+"... Science, University of Kentucky, Lexington, Kentucky 40506-0046, {slai2|cheng}@cs.uky.edu Abstract. A new ..."
+
+Abstract \- Cited by 4 (4 self) \- Add to MetaCart
+
+Abstract. A new adaptive tessellation method for general Catmull-Clark subdivision surfaces is presented. Development of the new method is based on the observation that optimum adaptive tessellation for rendering purpose is a recursive error evaluation and globalization process. The adaptive tessellation process is done by generating an inscribing polyhedron to approximate the limit surface for each individual patch. The inscribing polyhedron is generated through an adaptive subdivision on the patch’s parameter space driven by a recursive error evaluation process. This approach generates less faces in the resulting approximating mesh while meeting the given precision requirement. The crack problem is avoided through globalization of new vertices generated in the adaptive subdivision process of the parameter space. No crack-detection or crack-elimination is needed in the adaptive tessellation process. Therefore, no mesh element splitting to eliminate cracks is necessary. The new adaptive tessellation method can precisely measure the error for every point of the limit surface. Hence, it has complete control of the accuracy of the tessellation result. 1</description></snippet><snippet id="FW14-e004-7503-06"><link cache="FW14-topics-docs/e004/7503_06.html" timestamp="2014-04-21 02:55:19">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.36.5375&amp;rank=6</link><title>hAlan.Mycroft@cl.cam.ac.uki</title><description>hAlan.Mycroft@cl.cam.ac.uki
+
+by Programming Notions, Alan Mycroft \- ACM Computing Surveys , 1996
+
+"... , UK hAlan.Mycroft@(email omitted);.uki Programming notions can be expressed in many different paradigms ..."
+
+Abstract \- Add to MetaCart
+
+this paper is to expound an algebraic view of such integration. Work with related aims but differing starting points can be found in the "Action Semantics" approach [2] and the "Monads" view of feature composition (see e.g. [1]). Also relevant is work [3] on using complexity to compare semantic models. Integrating subprograms written in varying source languages S i ; i 2 f1; 2g intuitively represents writing in the union of these languages; actually what we mean is a target language expressive enough to express concepts from all the source languages. If the languages all had a single sort (syntactic category) then this could be the language generated by the union of the constructors of the source languages. More thought leads us to a target language T which has embeddings ` i : S i ! T . The ` i should be injective at the semantic level thus, given s i ; s</description></snippet><snippet id="FW14-e004-7503-07"><link cache="FW14-topics-docs/e004/7503_07.html" timestamp="2014-04-21 02:59:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.280.7195&amp;rank=7</link><title>The Zebrafish Mutants dre, uki, and lep Encode Negative Regulators of the Hedgehog Signaling</title><description>The Zebrafish Mutants dre, uki, and lep Encode Negative Regulators of the Hedgehog Signaling
+
+by Marco J. Koudijs, Marjo J. Den Broeder, Astrid Keijser, Erno Wienholds, Saskia Houwing, Robert Geisler, Fredericus J. M. Van Eeden
+
+"... ﻿The Zebrafish Mutants dre, uki, and lep Encode Negative Regulators of the Hedgehog Signaling ..."
+
+Abstract \- Cited by 2 (0 self) \- Add to MetaCart
+
+increased PCNA expression. Morphologically both mutants resembled the dre (dreumes), &lt;em&gt;uki&lt;/em&gt; (ukkie), and lep</description></snippet><snippet id="FW14-e004-7503-08"><link cache="FW14-topics-docs/e004/7503_08.html" timestamp="2014-04-21 03:01:08">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.18.876&amp;rank=8</link><title>Seales@cs.unc.edu Welch@cs.unc.edu Jaynes@cs.uky.edu</title><description>Seales@cs.unc.edu Welch@cs.unc.edu Jaynes@cs.uky.edu
+
+by This Paper Explores
+
+"... @(email omitted); welch@(email omitted); jaynes@cs.uky.edu AbstractThis paper explores a new depth-recovery technique ..."
+
+Abstract \- Add to MetaCart
+
+This paper explores a new depth-recovery technique targeted for two environments: visualization on non-regular screen surfaces, and real-time depth recovery in an unknown scene. The algorithm is based on the computation of pre-warped images that are projected into the scene and re-imaged by synchronized cameras. The real-time control of the pre-warp and the type of imagery projected into the scene allows for a novel solution that recovers scene geometry and can be used in both visualization (projection of imagery onto screen surfaces) and computer vision environments</description></snippet><snippet id="FW14-e004-7503-09"><link cache="FW14-topics-docs/e004/7503_09.html" timestamp="2014-04-21 03:02:05">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.27.9156&amp;rank=9</link><title>Pajek - Program for Large Network Analysis</title><description>Pajek - Program for Large Network Analysis
+
+by Vladimir Batagelj, Andrej Mrvar \- Connections , 1998
+
+"... ) - cores uki net bel lux fra ita den jap usa can bra arg ire swi spa por wge ege pol aus hun cze yug gre ..."
+
+Abstract \- Cited by 254 (11 self) \- Add to MetaCart
+
+Large networks, having thousands of vertices and lines, can be found in many different areas, e. g: genealogies, flow graphs of programs, molecule, computer networks, transportation networks, social networks, intra/inter organisational networks ... Many standard network algorithms are very time and space consuming and therefore unsuitable for analysis of such networks. In the article we present some approaches to analysis and visualisation of large networks implemented in program Pajek. Some typical examples are also given. 1 Introduction Pajek (Slovene word for Spider) is a program, for Windows (32 bit), for analysis of large networks. It is freely available, for noncommercial use, at its homepage: http://vlado.fmf.uni-lj.si/pub/networks/pajek/ Large networks can be found in many different areas. Usually they are produced automatically, using computers, from different data sources that are already available in computer readable form. For example: large genealogies (genea...</description></snippet><snippet id="FW14-e004-7503-10"><link cache="FW14-topics-docs/e004/7503_10.html" timestamp="2014-04-21 03:02:36">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=9D018AA3CF354FE013D31B24523BEAF8?doi=10.1.1.94.3845&amp;rank=10</link><title>), www.cs.uky.edu/∼cheng/PUBL/adaptive.pdf</title><description>), www.cs.uky.edu/∼cheng/PUBL/adaptive.pdf
+
+by Shuhua Lai \- CGI 2006, Lecture Notes in Computer Science , 2006
+
+"... Science, University of Kentucky, Lexington, Kentucky 40506-0046, {slai2|cheng}@cs.uky.edu Abstract. A new ..."
+
+Abstract \- Cited by 4 (4 self) \- Add to MetaCart
+
+Abstract. A new adaptive tessellation method for general Catmull-Clark subdivision surfaces is presented. Development of the new method is based on the observation that optimum adaptive tessellation for rendering purpose is a recursive error evaluation and globalization process. The adaptive tessellation process is done by generating an inscribing polyhedron to approximate the limit surface for each individual patch. The inscribing polyhedron is generated through an adaptive subdivision on the patch’s parameter space driven by a recursive error evaluation process. This approach generates less faces in the resulting approximating mesh while meeting the given precision requirement. The crack problem is avoided through globalization of new vertices generated in the adaptive subdivision process of the parameter space. No crack-detection or crack-elimination is needed in the adaptive tessellation process. Therefore, no mesh element splitting to eliminate cracks is necessary. The new adaptive tessellation method can precisely measure the error for every point of the limit surface. Hence, it has complete control of the accuracy of the tessellation result. 1</description></snippet></snippets></search_results>

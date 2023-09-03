@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7024">reinforcement learning</query><engine status="OK" timestamp="2014-04-20 00:08:48" name="GitHub" id="FW14-e157"/><snippets><snippet id="FW14-e157-7024-01"><link cache="FW14-topics-docs/e157/7024_01.html" timestamp="2014-04-20 00:08:49">https://github.com/SarvagyaVaish/FlappyBirdRL</link><title>SarvagyaVaish/FlappyBirdRL</title><description>Flappy Bird hack using Reinforcement Learning
+
+Last updated February 18, 2014</description></snippet><snippet id="FW14-e157-7024-02"><link cache="FW14-topics-docs/e157/7024_02.html" timestamp="2014-04-20 00:11:10">https://github.com/nhelvig/reinforcement</link><title>nhelvig/reinforcement</title><description>Reinforcement Learning project for CS 188 (Machine Learning)
+
+Last updated March 07, 2014</description></snippet><snippet id="FW14-e157-7024-03"><link cache="FW14-topics-docs/e157/7024_03.html" timestamp="2014-04-20 00:15:10">https://github.com/danieljpark/reinforcement</link><title>danieljpark/reinforcement</title><description>Pacman project with reinforcement learning
+
+Last updated March 20, 2013</description></snippet><snippet id="FW14-e157-7024-04"><link cache="FW14-topics-docs/e157/7024_04.html" timestamp="2014-04-20 00:18:47">https://github.com/amw8/rlpark</link><title>amw8/rlpark</title><description>Reinforcement Learning and Robotics in Java
+
+Last updated November 18, 2011</description></snippet><snippet id="FW14-e157-7024-05"><link cache="FW14-topics-docs/e157/7024_05.html" timestamp="2014-04-20 00:20:26">https://github.com/Jesse-V/reinforcement-learning</link><title>Jesse-V/reinforcement-learning</title><description>Reinforcement learning via mouse-in-maze model
+
+Last updated December 07, 2013</description></snippet><snippet id="FW14-e157-7024-06"><link cache="FW14-topics-docs/e157/7024_06.html" timestamp="2014-04-20 00:20:56">https://github.com/joacar/reinforcement-learning</link><title>joacar/reinforcement-learning</title><description>Python implementation of reinforcement learning
+
+Last updated October 19, 2011</description></snippet><snippet id="FW14-e157-7024-07"><link cache="FW14-topics-docs/e157/7024_07.html" timestamp="2014-04-20 00:24:59">https://github.com/mDibyo/reinforcementLearning</link><title>mDibyo/reinforcementLearning</title><description>This is the third project of the Spring 2014 CS 188 (Introduction to Artificial Intelligence) class at UC Berkeley. It implements a pacman and a crawler robot which uses qlearning to learn from past experience based on values, and subsequently features, of different states.
+
+Last updated March 17, 2014</description></snippet><snippet id="FW14-e157-7024-08"><link cache="FW14-topics-docs/e157/7024_08.html" timestamp="2014-04-20 00:28:12">https://github.com/nileLivingston/reinforcementLearning</link><title>nileLivingston/reinforcementLearning</title><description>Last updated October 24, 2013</description></snippet><snippet id="FW14-e157-7024-09"><link cache="FW14-topics-docs/e157/7024_09.html" timestamp="2014-04-20 00:30:40">https://github.com/deeptigp/ReinforcementLearning</link><title>deeptigp/ReinforcementLearning</title><description>An assignment on guiding a robot to walk from one side of a maze to another using RL
+
+Last updated May 04, 2013</description></snippet><snippet id="FW14-e157-7024-10"><link cache="FW14-topics-docs/e157/7024_10.html" timestamp="2014-04-20 00:32:05">https://github.com/huiwq1990/ReinforcementLearning</link><title>huiwq1990/ReinforcementLearning</title><description>rl
+
+Last updated January 17, 2014</description></snippet></snippets></search_results>

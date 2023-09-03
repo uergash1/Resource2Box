@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7452">arizona game and fish homepage</query><engine status="OK" timestamp="2014-04-20 08:29:29" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7452-01"><link cache="FW14-topics-docs/e004/7452_01.html" timestamp="2014-04-20 08:29:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.141.2630&amp;rank=1</link><title>B.: Learning realistic human actions from movies</title><description>B.: Learning realistic human actions from movies
+
+by Ivan Laptev, Marcin Marszałek, Cordelia Schmid, Benjamin Rozenfeld, Inria Rennes, Irisa Inria Grenoble, Lear Ljk \- In: CVPR. (2008
+
+"... “American Beauty”, “Being John Malkovich”, “Big Fish”, “Casablanca”, “The Crying Game”, “Double Indemnity ..."
+
+Abstract \- Cited by 327 (23 self) \- Add to MetaCart
+
+The aim of this paper is to address recognition of natural human actions in diverse and realistic video settings. This challenging but important subject has mostly been ignored in the past due to several problems one of which is the lack of realistic and annotated video datasets. Our first contribution is to address this limitation and to investigate the use of movie scripts for automatic annotation of human actions in videos. We evaluate alternative methods for action retrieval from scripts and show benefits of a text-based classifier. Using the retrieved action samples for visual learning, we next turn to the problem of action classification in video. We present a new method for video classification that builds upon and extends several recent ideas including local space-time features, space-time pyramids and multichannel non-linear SVMs. The method is shown to improve state-of-the-art results on the standard KTH action dataset by achieving 91.8 % accuracy. Given the inherent problem of noisy labels in automatic annotation, we particularly investigate and show high tolerance of our method to annotation errors in the training set. We finally apply the method to learning and classifying challenging action classes in movies and show promising results. 1.</description></snippet><snippet id="FW14-e004-7452-02"><link cache="FW14-topics-docs/e004/7452_02.html" timestamp="2014-04-20 08:31:15">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.233.2036&amp;rank=2</link><title>The Mammals of the Huachuca Mountains, Southeastern Arizona</title><description>The Mammals of the Huachuca Mountains, Southeastern Arizona
+
+by U N Iver. Sity, Leland Shanor, Harvey I, H. Orin Halvorson, William R. Horsfall, Donald F, Hoffmeister, Woodrow W. Goodpaster
+
+"... . Jim Mahoney of the Weyburn Branch of the Fish and Game League. Mr. Mahoney 'phoned me reporting ..."
+
+Abstract \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7452-03"><link cache="FW14-topics-docs/e004/7452_03.html" timestamp="2014-04-20 08:34:03">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.298.8319&amp;rank=3</link><title>� Northern Limit of Range Major River Drainages:</title><description>� Northern Limit of Range Major River Drainages:
+
+by Dry Cimmaron River, Southern High Plains
+
+"... , Arizona (Minckley 1973, Miller and Fuiman 1987, Conner 1995) and some are held by Arizona Game and Fish ..."
+
+Abstract \- Add to MetaCart
+
+� Endemic to &lt;em&gt;Arizona&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7452-04"><link cache="FW14-topics-docs/e004/7452_04.html" timestamp="2014-04-20 08:35:51">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.201.3138&amp;rank=4</link><title>COMMON NAME: Arizona Giant Sand Treader Cricket</title><description>COMMON NAME: Arizona Giant Sand Treader Cricket
+
+by unknown authors
+
+"... ﻿ARIZONA GAME AND FISH DEPARTMENT HERITAGE DATA MANAGEMENT SYSTEM Invertebrate Abstract Element ..."
+
+Abstract \- Add to MetaCart
+
+, and &lt;em&gt;Arizona&lt;/em&gt;). Cohn (1992), believes that D. arizonensis may represent merely one population of a more</description></snippet><snippet id="FW14-e004-7452-05"><link cache="FW14-topics-docs/e004/7452_05.html" timestamp="2014-04-20 08:37:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.404.9129&amp;rank=5</link><title>Do Not Distribute Statewide Strategy for Restoring Arizona’s Forests: Arizona’s Forests � Statewide</title><description>Do Not Distribute Statewide Strategy for Restoring Arizona’s Forests: Arizona’s Forests � Statewide
+
+by Is Dominated, Ethan Aumack, Thomas D. Sisk, Bob Broscheid, Glen Buettner, Thomas Klabunde, Steve Campbell
+
+"... : • The Arizona Game and Fish Department should work with the Arizona Forest Health Council, federal agencies ..."
+
+Abstract \- Add to MetaCart
+
+in &lt;em&gt;Arizona&lt;/em&gt;, mapped on the facing page, are comprised of between one (e.g., Aspen, Ponderosa Pine) and 23 (e</description></snippet><snippet id="FW14-e004-7452-06"><link cache="FW14-topics-docs/e004/7452_06.html" timestamp="2014-04-20 08:40:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.22.3998&amp;rank=6</link><title>Nearest Neighbor and Reverse Nearest Neighbor Queries for Moving Objects</title><description>Nearest Neighbor and Reverse Nearest Neighbor Queries for Moving Objects
+
+by Rimantas Benetis, Christian S. Jensen, Gytis Karciauskas, Simonas Saltenis , 2001
+
+"... of Arizona, USA Richard T. Snodgrass (codirector), Dengfeng Gao, Vijay Khatri, Bongki Moon, Sudha Ram ..."
+
+Abstract \- Cited by 93 (6 self) \- Add to MetaCart
+
+With the proliferation of wireless communications and the rapid advances in technologies for tracking the positions of continuously moving objects, algorithms for efficiently answering queries about large numbers of moving objects increasingly are needed. One such query is the reverse nearest neighbor (RNN) query that returns the objects that have a query object as their closest object. While algorithms have been proposed that compute RNN queries for non-moving objects, there have been no proposals for answering RNN queries for continuously moving objects. Another such query is the nearest neighbor (NN) query, which has been studied extensively and in many contexts. Like the RNN query, the NN query has not been explored for moving query and data points. This paper proposes an algorithm for answering RNN queries for continuously moving points in the plane. As a part of the solution to this problem and as a separate contribution, an algorithm for answering NN queries for continuously moving points is also proposed. The results of performance experiments are reported.</description></snippet><snippet id="FW14-e004-7452-07"><link cache="FW14-topics-docs/e004/7452_07.html" timestamp="2014-04-20 08:43:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.390.5689&amp;rank=7</link><title>and Game Commission announces that, pursuant to appropriate sections of the Fish and Game</title><description>and Game Commission announces that, pursuant to appropriate sections of the Fish and Game
+
+by unknown authors
+
+"... and Game Commission announces that, pursuant to appropriate sections of the Fish and Game Code ..."
+
+Abstract \- Add to MetaCart
+
+Code and in accordance with appropriate sections of the Administrative Procedures Act, the &lt;em&gt;Fish&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7452-08"><link cache="FW14-topics-docs/e004/7452_08.html" timestamp="2014-04-20 08:46:59">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.1.5112&amp;rank=8</link><title>Indexing of Moving Objects for Location-Based Services</title><description>Indexing of Moving Objects for Location-Based Services
+
+by Simonas Saltenis, Christian S.Jensen, Christian S. Jensen, Christian S. Jensen (codirector, Michael H. Böhlen, Heidi Gregersen, Dieter Pfoser, Janne Skyt, Giedrius Slivinskas, Kristian Torp, Richard T. Snodgrass (codirector, Dengfeng Gao, Vijay Khatri, Bongki Moon, Sudha Ram, Michael D. Soo, Amazon. Com, Andreas Steiner Timeconsult , 2001
+
+"... , Kristian Torp University of Arizona, USA Richard T. Snodgrass (codirector), Dengfeng Gao, Vijay Khatri ..."
+
+Abstract \- Cited by 89 (15 self) \- Add to MetaCart
+
+With the continued proliferation of wireless networks, e.g., based on such evolving standards as WAP and Bluetooth, visionaries predict that the Internet will soon extend to billions of wireless devices, or objects. A substantial fraction of these will offer their changing positions to the (location-based) services, they either use or support. As a result, software technologies that enable the management of the positions of objects capable of continuous movement are in increasingly high demand. This paper assumes what we consider a realistic Internet-service scenario where objects that have not reported their position within a specified duration of time are expected to no longer be interested in, or of interest to, the service. In this scenario, the possibility of substantial quantities of "expiring" objects introduces a new kind of implicit update, which contributes to rendering the database highly dynamic. The paper presents an R-tree based technique for the indexing of the current positions of such objects. Extensive performance experiments explore the properties of the types of bounding regions that are candidates for being used in the internal entries of the index, and they show that, when compared to the approach where the objects are not assumed to expire, the new indexing technique can improve the search performance by as much as a factor of two or more without sacrificing update performance.</description></snippet><snippet id="FW14-e004-7452-09"><link cache="FW14-topics-docs/e004/7452_09.html" timestamp="2014-04-20 08:50:56">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.22.5250&amp;rank=9</link><title>Contracting For Property Rights</title><description>Contracting For Property Rights
+
+by By Gary Libecap , 1989
+
+"... University of Arizona Tucson, Arizona 85721 and National Bureau of Economic Research Cambridge, Massachusetts ..."
+
+Abstract \- Cited by 82 (5 self) \- Add to MetaCart
+
+Introduction. One of the major debts that economists, legal scholars, and other social scientists owe Ronald Coase is that his work drew attention to the institutional structure of production. 1 Through the late 1970s at least, the dominant neoclassical paradigm in economics focused on the behavior of firms in different market settings under the assumption that the underlying institutions were well-defined and operational. If they were not, market-like forces would generate pressures for institutional change; in other words, the market continually disciplined institutions so that they could not stray far from what would be considered optimal. Hence, institutions, as such, were neglected, deemed undeserving of serious scholarly concern. The wide exposure of Coase's work; his winning of the Nobel prize in economics in 1991; Douglass North's similar award in 1993; and the provocative questions raised by other scholars, such as Oliver Williamson, Harold Demsetz, a</description></snippet><snippet id="FW14-e004-7452-10"><link cache="FW14-topics-docs/e004/7452_10.html" timestamp="2014-04-20 08:52:08">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=22E3F54D87B40756CFEB5CC04B47B9EF?doi=10.1.1.352.9607&amp;rank=10</link><title>US Fish &amp; Wildlife Publications</title><description>US Fish &amp; Wildlife Publications
+
+by Us Fish, Wildlife Service, Paul I. Padding, Mary T. Moore, Kenneth D. Richkus, Elwood Martin, U. S. Fish, Wildlife Service, Sheri S. Williams, Paul I. Padding, Mary T. Moore, Kenneth D. Richkus, Elwood Martin, Sheri S. Williams, Howard L, Paul I. Padding, Mary T. Moore, Kenneth D. Richkus, Elwood M. Martin, S. Williams, Howard L. Spriggs, U. S. Fish, Wildlife Service , 2006
+
+"... ﻿University of Nebraska - Lincoln DigitalCommons@University of Nebraska - Lincoln US Fish ..."
+
+Abstract \- Add to MetaCart
+
+This Article is brought to you for free and open access by the US &lt;em&gt;Fish&lt;/em&gt; &amp; Wildlife Service</description></snippet></snippets></search_results>

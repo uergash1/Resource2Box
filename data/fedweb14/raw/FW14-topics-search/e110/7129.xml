@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7129">avg home edition</query><engine status="OK" timestamp="2014-04-24 20:08:00" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7129-01"><link cache="FW14-topics-docs/e110/7129_01.html" timestamp="2014-04-24 20:08:34">https://news.ycombinator.com/item?id=333538</link><title>Ask HN: free-personal/paid-commercial licensing model</title><description>Ask HN: free-personal/paid-commercial licensing model
+
+3 points
+
+by huhtenberg
+
+6 years ago
+
+14 comments Follow
+
+I'm considering adopting a licensing model that permits free personal use and requires purchasing a license for commercial use. Quick Google search brought up few examples:
+
+* http://www.jetbrains.com/idea/buy/buy.jsp - Java IDE
+
+* http://free.avg.com/download-avg-anti-virus-free-edition \- AVG Antivirus
+
+* https://secure.logmein.com/products/hamachi/licensing.asp - VPN service
+
+Berkeley DB is (sort of) of this variety and so is the Aladdin Ghostscript license. Are there any obviously notable examples out there ?
+
+Does anyone has any experience with this model ? From either side - as a licensor or a licensee.
+
+Thanks
+
+(edit) I though I'd elaborate on this a bit. First of all, the context is a standalone application. Its target audience is not dumb users, but the app is not very specialized either. It is equally useful to both the home users and IT professionals.
+
+Secondly, my take on the above model is this. It is viable because it appeals to the users who are
+
+* capable of paying (from the company budget)
+
+* generally feel obligated to pay (due to internal IT practices)
+
+* and who are easier to part with the money (as it's not their own)
+
+In case of home users neither of these three points holds. The only way to facilitate the payment is to appeal to their conscience (by nagging, by enforcing the restrictions via some sort of DRM mechanism, etc) - very .. err .. uncertain and effort-intensive endeavor compared to focusing on commercial users only.
+
+Also, giving away fully-functional version under some sort of a free license effectively counters the need for hacked "full version" and eliminates the need for the licensing enforcement provisions in the application. Former helps to maintain greater control over the installation base and latter makes for a cleaner and simpler application.
+
+*[6 years ago]: 2008-10-15T17:55:21.000Z</description><thumb cache="FW14-topics-docs/e110/7129_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/333538.png</thumb></snippet><snippet id="FW14-e110-7129-02"><link cache="FW14-topics-docs/e110/7129_02.html" timestamp="2014-04-24 20:09:57">http://www.akascope.com/2011/10/28/best-free-windows-7-software/</link><title>Best Free Windows 7 Softwares</title><description>Best Free Windows 7 Softwares (http://www.akascope.com/2011/10/28/best-free-windows-7-software/)
+
+1 point
+
+by shaktideen
+
+2 years ago
+
+0 comment Follow
+
+The most important software you need on a computer is an Anti-Virus. While the most popular options will require a fee, there are a few great free alternatives. Our pick is AVG Anti-Virus Free Edition because it will provide great access protection from viruses and malware. Overall, the software is beginner-friendly and will automatically update; this gives you the freedom to work daily on your home PC worry-free. Again, the best feature about AVG is that its free and can easily replace another anti-virus program.
+
+*[2 years ago]: 2011-10-31T10:42:34.000Z</description><thumb cache="FW14-topics-docs/e110/7129_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3176960.png</thumb></snippet></snippets></search_results>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7022">hermitian conjugate</query><engine status="OK" timestamp="2014-04-18 17:07:22" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7022-01"><link cache="FW14-topics-docs/e004/7022_01.html" timestamp="2014-04-18 17:07:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.244.6988&amp;rank=1</link><title>Hermitian conjugate measurement</title><description>Hermitian conjugate measurement
+
+by Hiroaki Terashima, Masahito Ueda , 709
+
+"... ﻿Hermitian conjugate measurement Hiroaki Terashima 1 and Masahito Ueda 2,3 arXiv:0709.1210v2 [quant ..."
+
+Abstract \- Add to MetaCart
+
+especially with an additional information gain using the &lt;em&gt;Hermitian&lt;/em&gt; &lt;em&gt;conjugate&lt;/em&gt; of the measurement operator. We</description></snippet><snippet id="FW14-e004-7022-02"><link cache="FW14-topics-docs/e004/7022_02.html" timestamp="2014-04-18 17:08:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.339.9898&amp;rank=2</link><title>Notions of determinant, spectrum, and Hermitian conjugation of Clifford algebra</title><description>Notions of determinant, spectrum, and Hermitian conjugation of Clifford algebra
+
+by unknown authors , 2008
+
+"... ﻿arXiv:math-ph/0307043v1 21 Jul 2003 Notions of determinant, spectrum, and Hermitian conjugation ..."
+
+Abstract \- Add to MetaCart
+
+We show how the matrix algebra notions of determinant, spectrum, and &lt;em&gt;Hermitian&lt;/em&gt; &lt;em&gt;conjugation&lt;/em&gt; transfer</description></snippet><snippet id="FW14-e004-7022-03"><link cache="FW14-topics-docs/e004/7022_03.html" timestamp="2014-04-18 17:10:08">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.112.4293&amp;rank=3</link><title>Space-time codes for high data rate wireless communication: Performance criterion and code construction</title><description>Space-time codes for high data rate wireless communication: Performance criterion and code construction
+
+by Vahid Tarokh, Nambi Seshadri, Senior Member, A. R. Calderbank \- IEEE Trans. Inform. Theory , 1998
+
+"... of and is given by where denotes the complex conjugate of . For any matrix , let denote the Hermitian (transpose ..."
+
+Abstract \- Cited by 1225 (25 self) \- Add to MetaCart
+
+Abstract — We consider the design of channel codes for improving the data rate and/or the reliability of communications over fading channels using multiple transmit antennas. Data is encoded by a channel code and the encoded data is split into � streams that are simultaneously transmitted using � transmit antennas. The received signal at each receive antenna is a linear superposition of the � transmitted signals perturbed by noise. We derive performance criteria for designing such codes under the assumption that the fading is slow and frequency nonselective. Performance is shown to be determined by matrices constructed from pairs of distinct code sequences. The minimum rank among these matrices quantifies the diversity gain, while the minimum determinant of these matrices quantifies the coding gain. The results are then extended to fast fading channels. The design criteria are used to design trellis codes for high data rate wireless communication. The encoding/decoding complexity of these codes is comparable to trellis codes employed in practice over Gaussian channels. The codes constructed here provide the best tradeoff between data rate, diversity advantage, and trellis complexity. Simulation results are provided for 4 and 8 PSK signal sets with data rates of 2 and 3 bits/symbol, demonstrating excellent performance that is within 2–3 dB of the outage capacity for these channels using only 64 state encoders.</description></snippet><snippet id="FW14-e004-7022-04"><link cache="FW14-topics-docs/e004/7022_04.html" timestamp="2014-04-18 17:11:28">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.321.1443&amp;rank=4</link><title>Greed is Good: Algorithmic Results for Sparse Approximation</title><description>Greed is Good: Algorithmic Results for Sparse Approximation
+
+by Joel A. Tropp , 2004
+
+"... , which is called the signal space. We use angle brackets to denote the usual Hermitian inner product ..."
+
+Abstract \- Cited by 534 (9 self) \- Add to MetaCart
+
+This article presents new results on using a greedy algorithm, orthogonal matching pursuit (OMP), to solve the sparse approximation problem over redundant dictionaries. It provides a sufficient condition under which both OMP and Donoho’s basis pursuit (BP) paradigm can recover the optimal representation of an exactly sparse signal. It leverages this theory to show that both OMP and BP succeed for every sparse input signal from a wide class of dictionaries. These quasi-incoherent dictionaries offer a natural generalization of incoherent dictionaries, and the cumulative coherence function is introduced to quantify the level of incoherence. This analysis unifies all the recent results on BP and extends them to OMP. Furthermore, the paper develops a sufficient condition under which OMP can identify atoms from an optimal approximation of a nonsparse signal. From there, it argues that OMP is an approximation algorithm for the sparse problem over a quasi-incoherent dictionary. That is, for every input signal, OMP calculates a sparse approximant whose error is only a small factor worse than the minimal error that can be attained with the same number of terms.</description></snippet><snippet id="FW14-e004-7022-05"><link cache="FW14-topics-docs/e004/7022_05.html" timestamp="2014-04-18 17:12:42">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.144.7852&amp;rank=5</link><title>Quantum complexity theory</title><description>Quantum complexity theory
+
+by Ethan Bernstein, Umesh Vazirani \- in Proc. 25th Annual ACM Symposium on Theory of Computing, ACM , 1993
+
+"... or Hermitian conjugate of U. If a linear operator in an inner product space has an adjoint, it is unique ..."
+
+Abstract \- Cited by 482 (5 self) \- Add to MetaCart
+
+Abstract. In this paper we study quantum computation from a complexity theoretic viewpoint. Our first result is the existence of an efficient universal quantum Turing machine in Deutsch’s model of a quantum Turing machine (QTM) [Proc. Roy. Soc. London Ser. A, 400 (1985), pp. 97–117]. This construction is substantially more complicated than the corresponding construction for classical Turing machines (TMs); in fact, even simple primitives such as looping, branching, and composition are not straightforward in the context of quantum Turing machines. We establish how these familiar primitives can be implemented and introduce some new, purely quantum mechanical primitives, such as changing the computational basis and carrying out an arbitrary unitary transformation of polynomially bounded dimension. We also consider the precision to which the transition amplitudes of a quantum Turing machine need to be specified. We prove that O(log T) bits of precision suffice to support a T step computation. This justifies the claim that the quantum Turing machine model should be regarded as a discrete model of computation and not an analog one. We give the first formal evidence that quantum Turing machines violate the modern (complexity theoretic) formulation of the Church–Turing thesis. We show the existence of a problem, relative to an oracle, that can be solved in polynomial time on a quantum Turing machine, but requires superpolynomial time on a bounded-error probabilistic Turing machine, and thus not in the class BPP. The class BQP of languages that are efficiently decidable (with small error-probability) on a quantum Turing machine satisfies BPP ⊆ BQP ⊆ P ♯P. Therefore, there is no possibility of giving a mathematical proof that quantum Turing machines are more powerful than classical probabilistic Turing machines (in the unrelativized setting) unless there is a major breakthrough in complexity theory.</description></snippet><snippet id="FW14-e004-7022-06"><link cache="FW14-topics-docs/e004/7022_06.html" timestamp="2014-04-18 17:14:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.17.5421&amp;rank=6</link><title>An Extended Set of Fortran Basic Linear Algebra Subprograms</title><description>An Extended Set of Fortran Basic Linear Algebra Subprograms
+
+by Jack J. Dongarra, Jeremy Du Croz, Sven Hammarling, Richard J. Hanson \- ACM TRANSACTIONS ON MATHEMATICAL SOFTWARE , 1986
+
+"... Hermitian matrix. T T _ _T +H, andH4-(xxf + oyx + H, c) Solution of triangular equations of the form -1-T ..."
+
+Abstract \- Cited by 450 (71 self) \- Add to MetaCart
+
+This paper describes an extension to the set of Basic Linear Algebra Subprograms. The extensions are targeted at matrix-vector operations which should provide for efficient and portable implementations of algorithms for high performance computers.</description></snippet><snippet id="FW14-e004-7022-07"><link cache="FW14-topics-docs/e004/7022_07.html" timestamp="2014-04-18 17:15:15">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.48.7502&amp;rank=7</link><title>Directional Statistics and Shape Analysis</title><description>Directional Statistics and Shape Analysis
+
+by K. V. Mardia , 1995
+
+"... ); :k k= 1 (3.4) where denotes the complex conjugate transpose of . The Procrustes solution ..."
+
+Abstract \- Cited by 453 (15 self) \- Add to MetaCart
+
+There have been various developments in shape analysis in the last decade. We describe here some relationships of shape analysis with directional statistics. For shape, rotations are to be integrated out or to be optimized over whilst they are the basis for directional statistics. However, various concepts are connected. In particular, certain distributions of directional statistics have emerged in shape analysis, such a distribution is Complex Bingham Distribution. This paper first gives some background to shape analysis and then it goes on to directional distributions and their applications to shape analysis. Note that the idea of using tangent space for analysis is common to both manifold as well. 1 Introduction Consider shapes of configurations of points in Euclidean space. There are various contexts in which k labelled points (or "landmarks") x 1 ; :::; x k in IR m are given and interest is in the shape of (x 1 ; :::; x k ). Example 1 The microscopic fossil Globorotalia truncat...</description></snippet><snippet id="FW14-e004-7022-08"><link cache="FW14-topics-docs/e004/7022_08.html" timestamp="2014-04-18 17:16:40">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.56.335&amp;rank=8</link><title>QMR: a Quasi-Minimal Residual Method for Non-Hermitian Linear Systems</title><description>QMR: a Quasi-Minimal Residual Method for Non-Hermitian Linear Systems
+
+by Roland W. Freund, Noël M. Nachtigal , 1991
+
+"... differential equations. For Hermitian positive definite coefficient matrices A, the classical conjugate ..."
+
+Abstract \- Cited by 334 (26 self) \- Add to MetaCart
+
+... In this paper, we present a novel BCG-like approach, the quasi-minimal residual (QMR) method, which overcomes the problems of BCG. An implementation of QMR based on a look-ahead version of the nonsymmetric Lanczos algorithm is proposed. It is shown how BCG iterates can be recovered stably from the QMR process. Some further properties of the QMR approach are given and an error bound is presented. Finally, numerical experiments are reported.</description></snippet><snippet id="FW14-e004-7022-09"><link cache="FW14-topics-docs/e004/7022_09.html" timestamp="2014-04-18 17:17:51">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.240.9577&amp;rank=9</link><title>Hermitian</title><description>Hermitian
+
+by Vinay Deolalikar , 2000
+
+"... of function fields and generalization of the Hermitian function field Vinay Deolalikar 1 Dedicated to the late ..."
+
+Abstract \- Add to MetaCart
+
+splitting rational places in extensions of function fields and generalization of the</description></snippet><snippet id="FW14-e004-7022-10"><link cache="FW14-topics-docs/e004/7022_10.html" timestamp="2014-04-18 17:19:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=0AFFC7F677DD1377CCB14B7BCFE737FB?doi=10.1.1.266.2118&amp;rank=10</link><title>A new maximally supersymmetric background of IIB superstring theory</title><description>A new maximally supersymmetric background of IIB superstring theory
+
+by Matthias Blau, Christopher Hull \- JHEP , 2002
+
+"... = 1, . . .,9 are symmetric and hence hermitian. In this basis, the charge conjugation matrix C is Γ 0 ..."
+
+Abstract \- Cited by 369 (23 self) \- Add to MetaCart
+
+Abstract. We present a maximally supersymmetric IIB string background. The geometry is that of a conformally flat lorentzian symmetric space G/K with solvable G, with a homogeneous fiveform flux. We give the explicit supergravity solution, compute the isometries, the 32 Killing spinors, and the symmetry superalgebra, and then discuss T-duality and the relation to M-theory. Contents</description></snippet></snippets></search_results>

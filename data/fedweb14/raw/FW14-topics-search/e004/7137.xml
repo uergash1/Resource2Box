@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7137">Cat movies</query><engine status="OK" timestamp="2014-05-21 15:13:47" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7137-01"><link cache="FW14-topics-docs/e004/7137_01.html" timestamp="2014-05-21 15:13:52">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.23.967&amp;rank=1</link><title>A Query Language and Optimization Techniques for Unstructured Data</title><description>A Query Language and Optimization Techniques for Unstructured Data
+
+by Peter Buneman, Susan Davidson, Gerd Hillebrand, Dan Suciu , 1996
+
+"... language. 505 Entry Entry Entry Movie Movie TV Show Title Cast Director Title Cast Director Title Cast ..."
+
+Abstract \- Cited by 380 (35 self) \- Add to MetaCart
+
+A new kind of data model has recently emerged in which the database is not constrained by a conventional schema. Systems like ACeDB, which has become very popular with biologists, and the recent Tsimmis proposal for data integration organize data in tree-like structures whose components can be used equally well to represent sets and tuples. Such structures allow great flexibility in data representation What query language is appropriate for such structures? Here we propose a simple language UnQL for querying data organized as a rooted, edge-labeled graph. In this model, relational data may be represented as fixed-depth trees, and on such trees UnQL is equivalent to the relational algebra. The novelty of UnQL consists in its programming constructs for arbitrarily deep data and for cyclic structures. While strictly more powerful than query languages with path expressions like XSQL, UnQL can still be efficiently evaluated. We describe new optimization techniques for the deep or "vertical" dimension of UnQL queries. Furthermore, we show that known optimization techniques for operators on flat relations apply to the "horizontal" dimension of UnQL.</description></snippet><snippet id="FW14-e004-7137-02"><link cache="FW14-topics-docs/e004/7137_02.html" timestamp="2014-05-21 15:14:10">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.13.2424&amp;rank=2</link><title>Mining the Peanut Gallery: Opinion Extraction and Semantic Classification of Product Reviews</title><description>Mining the Peanut Gallery: Opinion Extraction and Semantic Classification of Product Reviews
+
+by Kushal Dave, Steve Lawrence, David M. Pennock , 2003
+
+"... of product (such as MP3 player or movie pages), sites for newspapers and magazines that may feature reviews ..."
+
+Abstract \- Cited by 281 (0 self) \- Add to MetaCart
+
+The web contains a wealth of product reviews, but sifting through them is a daunting task. Ideally, an opinion mining tool would process a set of search results for a given item, generating a list of product attributes (quality, features, etc.) and aggregating opinions about each of them (poor, mixed, good). We begin by identifying the unique properties of this problem and develop a method for automatically distinguishing between positive and negative reviews. Our classifier draws on information retrieval techniques for feature extraction and scoring, and the results for various metrics and heuristics vary depending on the testing situation. The best methods work as well as or better than traditional machine learning. When operating on individual sentences collected from web searches, performance is limited due to noise and ambiguity. But in the context of a complete web-based tool and aided by a simple method for grouping sentences into attributes, the results are qualitatively quite useful.</description></snippet><snippet id="FW14-e004-7137-03"><link cache="FW14-topics-docs/e004/7137_03.html" timestamp="2014-05-21 15:14:29">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.395.2631&amp;rank=3</link><title>Meetings Movies</title><description>Meetings Movies
+
+by Boulder Public Library, Library Website , 2013
+
+"... &amp; Seminars Concerts &amp; Performances Crafts &amp; Activities Exhibits Kids &amp; Family Meetings Movies Outreach ..."
+
+Abstract \- Add to MetaCart
+
+At the April 18 public meeting, findings from the visioning meetings will be reported along with a visual translation of how the community’s dreams could be manifested at the Main Boulder Public Library. Attendees are provided an opportunity to prioritize and elaborate on the translation and vision. Free childcare is available during the meeting. For more information, visit our project website. Information</description></snippet><snippet id="FW14-e004-7137-04"><link cache="FW14-topics-docs/e004/7137_04.html" timestamp="2014-05-21 15:14:47">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.31.9478&amp;rank=4</link><title>The Real-Time Specification for Java</title><description>The Real-Time Specification for Java
+
+by Greg Bollella, Ben Brosgol, Peter Dibble, Steve Furr, James Gosling, David Hardin, Mark Turnbull , 2000
+
+"... was that James had gone back to California to attend the movie with his wife, who had purchased tickets weeks ..."
+
+Abstract \- Cited by 235 (2 self) \- Add to MetaCart
+
+superclass for all monitor control policy objects. PRIORITYCEILINGEMULATION 87 6.1.1 Constructors public Monitor ontrt () 6.1.2 Methods public static void setMonitor Contr l(MonitorControl8 policy) Control the default monitor behavior for object monitors used by synchronized statements and methods in the system. The type of the policy object determines the type of behavior. Conforming implementations must support priority ceiling emulation and priority inheritance for fixed priority preemptive threads. Parameters: policy - The new monitor control policy. If null nothing happens. public static void setMonitor Contr l(java.lang.Object monitor MonitorControl 8 policy) Has the same effect as setMonitorControl(), except that the policy only affects the indicated object monitor. Parameters: monitor - The monitor for which the new policy will be in use. The policy will take effect on the first attempt to lock the monitor after the completion of this method. If null nothing wi...</description></snippet><snippet id="FW14-e004-7137-05"><link cache="FW14-topics-docs/e004/7137_05.html" timestamp="2014-05-21 15:15:06">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.73.8091&amp;rank=5</link><title>Social Network Sites: A Definition A History of Social Network Sites Previous Scholarship</title><description>Social Network Sites: A Definition A History of Social Network Sites Previous Scholarship
+
+by Nicole B. Ellison
+
+"... ) and cats (Catster), although their owners must manage their profiles. While SNSs are often designed ..."
+
+Abstract \- Cited by 220 (6 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7137-06"><link cache="FW14-topics-docs/e004/7137_06.html" timestamp="2014-05-21 15:15:27">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.39.2552&amp;rank=6</link><title>Recommender Systems in E-Commerce</title><description>Recommender Systems in E-Commerce
+
+by J. Ben Schafer, Joseph Konstan, John Riedl , 1999
+
+"... .com Match Maker: Moviefinder.com’s Match Maker (www.moviefinder.com) allows customers to locate movies ..."
+
+Abstract \- Cited by 195 (8 self) \- Add to MetaCart
+
+Recommender systems are changing from novelties used by a few E-commerce sites, to serious business tools that are re-shaping the world of E-commerce. Many of the largest commerce Web sites are already using recommender systems to help their customers find products to purchase. A recommender system learns from a customer and recommends products that she will find most valuable from among the available products. In this paper we present an explanation of how recommender systems help E-commerce sites increase sales, and analyze six sites that use recommender systems including several sites that use more than one recommender system. Based on the examples, we create a taxonomy of recommender systems, including the interfaces they present to customers, the technologies used to create the recommendations, and the inputs they need from customers. We conclude with ideas for new applications of recommender systems to E-commerce. Keywords Electronic commerce, recommender systems,...</description></snippet><snippet id="FW14-e004-7137-07"><link cache="FW14-topics-docs/e004/7137_07.html" timestamp="2014-05-21 15:15:47">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.113.9883&amp;rank=7</link><title>Predicting movie sales from blogger sentiment</title><description>Predicting movie sales from blogger sentiment
+
+by Gilad Mishne \- In AAAI 2006 Spring Symposium on Computational Approaches to Analysing Weblogs (AAAI-CAAW , 2006
+
+"... ﻿Predicting Movie Sales from Blogger Sentiment Gilad Mishne Informatics Institute, University ..."
+
+Abstract \- Cited by 40 (1 self) \- Add to MetaCart
+
+to weblog data results in better correlation than volume only, in the domain of &lt;em&gt;movies&lt;/em&gt;. Our main finding</description></snippet><snippet id="FW14-e004-7137-08"><link cache="FW14-topics-docs/e004/7137_08.html" timestamp="2014-05-21 15:15:57">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.31.157&amp;rank=8</link><title>An Adaptive Query Execution System for Data Integration</title><description>An Adaptive Query Execution System for Data Integration
+
+by Zachary Ives, Daniela Florescu, Inria Roquencourt, Marc Friedman, Alon Levy, Daniel Weld , 1999
+
+"... Info Source Data Src. Cat. Figure 2: Architecture of the Tukwila information integration system. ffl ..."
+
+Abstract \- Cited by 185 (19 self) \- Add to MetaCart
+
+Query processing in data integration occurs over networkbound, autonomous data sources. This requires extensions to traditional optimization and execution techniques for three reasons: there is an absence of quality statistics about the data, data transfer rates are unpredictable and bursty, and slow or unavailable data sources can often be replaced by overlapping or mirrored sources. This paper presents the Tukwila data integration system, designed to support adaptivity at its core using a two-pronged approach. Interleaved planning and execution with partial optimization allows Tukwila to quickly recover from decisions based on inaccurate estimates. During execution, Tukwila uses adaptive query operators such as the double pipelined hash join, which produces answers quickly, and the dynamic collector, which robustly and efficiently computes unions across overlapping data sources. We demonstrate that the Tukwila architecture extends previous innovations in adaptive execution (such as...</description></snippet><snippet id="FW14-e004-7137-09"><link cache="FW14-topics-docs/e004/7137_09.html" timestamp="2014-05-21 15:16:12">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.62.2980&amp;rank=9</link><title>Generating query substitutions</title><description>Generating query substitutions
+
+by Rosie Jones, Benjamin Rey, Omid Madani \- In WWW , 2006
+
+"... the query “cat cancer”, but all documents in the collection ∗ This work was carried out while this author ..."
+
+Abstract \- Cited by 182 (5 self) \- Add to MetaCart
+
+We introduce the notion of query substitution, that is, generating a new query to replace a user’s original search query. Our technique uses modifications based on typical substitutions web searchers make to their queries. In this way the new query is strongly related to the original query, containing terms closely related to all of the original terms. This contrasts with query expansion through pseudo-relevance feedback, which is costly and can lead to query drift. This also contrasts with query relaxation through boolean or TFIDF retrieval, which reduces the specificity of the query. We define a scale for evaluating query substitution, and show that our method performs well at generating new queries related to the original queries. We build a model for selecting between candidates, by using a number of features relating the query-candidate pair, and by fitting the model to human judgments of relevance of query suggestions. This further improves the quality of the candidates generated. Experiments show that our techniques significantly increase coverage and effectiveness in the setting of sponsored search.</description></snippet><snippet id="FW14-e004-7137-10"><link cache="FW14-topics-docs/e004/7137_10.html" timestamp="2014-05-21 15:16:31">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=3B83EBF989A364F1CD0892A4A0F88574?doi=10.1.1.103.9744&amp;rank=10</link><title>Using Encyclopedic Knowledge for Named Entity Disambiguation</title><description>Using Encyclopedic Knowledge for Named Entity Disambiguation
+
+by Razvan Bunescu \- In EACL , 2006
+
+"... movie) may share the same name in the query. As an example, the £Work done during a summer internship ..."
+
+Abstract \- Cited by 145 (1 self) \- Add to MetaCart
+
+We present a new method for detecting and disambiguating named entities in open domain text. A disambiguation SVM kernel is trained to exploit the high coverage and rich structure of the knowledge encoded in an online encyclopedia. The resulting model significantly outperforms a less informed baseline.</description></snippet></snippets></search_results>

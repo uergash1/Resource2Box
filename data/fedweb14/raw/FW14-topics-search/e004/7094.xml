@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7094">calculate inertia sphere</query><engine status="OK" timestamp="2014-04-19 04:34:39" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7094-01"><link cache="FW14-topics-docs/e004/7094_01.html" timestamp="2014-04-19 04:34:46">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.267.7052&amp;rank=1</link><title>The large N limit of superconformal field theories and supergravity</title><description>The large N limit of superconformal field theories and supergravity
+
+by Juan Maldacena , 1998
+
+"... of AntideSitter spacetimes, spheres and other compact manifolds. This is shown by taking some branes ..."
+
+Abstract \- Cited by 3532 (21 self) \- Add to MetaCart
+
+in their Hilbert space a sector describing supergravity on the product of AntideSitter spacetimes, &lt;em&gt;spheres&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7094-02"><link cache="FW14-topics-docs/e004/7094_02.html" timestamp="2014-04-19 04:35:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.139.1120&amp;rank=2</link><title>View Interpolation for Image Synthesis</title><description>View Interpolation for Image Synthesis
+
+by Shenchang Eric Chen, et al.
+
+"... to accelerate the calculation of computer graphic images since the dawn of visual simulation. Texture mapping ..."
+
+Abstract \- Cited by 523 (0 self) \- Add to MetaCart
+
+Image-space simplifications have been used to accelerate the &lt;em&gt;calculation&lt;/em&gt; of computer graphic images</description></snippet><snippet id="FW14-e004-7094-03"><link cache="FW14-topics-docs/e004/7094_03.html" timestamp="2014-04-19 04:36:59">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.185.1651&amp;rank=3</link><title>Determining Optical Flow</title><description>Determining Optical Flow
+
+by Berthold K. P. Horn, Brian G. Schunck \- ARTIFICIAL INTELLIGENCE , 1981
+
+"... moving object may give rise to a constant brightness pattern. Consider, for example, a uniform sphere ..."
+
+Abstract \- Cited by 1727 (7 self) \- Add to MetaCart
+
+Optical flow cannot be computed locally, since only one independent measurement is available from the image sequence at a point, while the flow velocity has two components. A second constraint is needed. A method for finding the optical flow pattern is presented which assumes that the apparent velocity of the brightness pattern varies smoothly almost everywhere in the image. An iterative implementation is shown which successfully computes the optical flow for a number of synthetic image sequences. The algorithm is robust in that it can handle image sequences that are quantized rather coarsely in space and time. It is also insensitive to quantization of brightness levels and additive noise. Examples are included where the assumption of smoothness is violated at singular points or along lines in the image.</description></snippet><snippet id="FW14-e004-7094-04"><link cache="FW14-topics-docs/e004/7094_04.html" timestamp="2014-04-19 04:38:11">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.16.4036&amp;rank=4</link><title>Support Vector Machine Active Learning with Applications to Text Classification</title><description>Support Vector Machine Active Learning with Applications to Text Classification
+
+by Simon Tong , Daphne Koller \- JOURNAL OF MACHINE LEARNING RESEARCH , 2001
+
+"... to the camera. (b) An SVM classifier in a version space. The dark embedded sphere is the largest radius sphere ..."
+
+Abstract \- Cited by 502 (4 self) \- Add to MetaCart
+
+Support vector machines have met with significant success in numerous real-world learning tasks. However, like most machine learning algorithms, they are generally applied using a randomly selected training set classified in advance. In many settings, we also have the option of using pool-based active learning. Instead of using a randomly selected training set, the learner has access to a pool of unlabeled instances and can request the labels for some number of them. We introduce a new algorithm for performing active learning with support vector machines, i.e., an algorithm for choosing which instances to request next. We provide a theoretical motivation for the algorithm using the notion of a version space. We present experimental results showing that employing our active learning method can significantly reduce the need for labeled training instances in both the standard inductive and transductive settings.</description></snippet><snippet id="FW14-e004-7094-05"><link cache="FW14-topics-docs/e004/7094_05.html" timestamp="2014-04-19 04:39:15">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.363.5528&amp;rank=5</link><title>Free-form deformation of solid geometric models</title><description>Free-form deformation of solid geometric models
+
+by Thomas W. Sederberg, Scott R. Parry T \- In Proc. SIGGRAPH 86
+
+"... investigation of modeling directly with volumes bounded by implicit or algebraic surfaces. Calculating curves ..."
+
+Abstract \- Cited by 579 (1 self) \- Add to MetaCart
+
+A technique is presented for deforming solid geometric models in a free-form manner. The technique can be used with any solid modeling system, such as CSG or B-rep. It can deform surface primitives of any type or degree: planes, quadrics, parametric surface patches, or implicitly defined surfaces, for example. The deformation can be applied either globally or locally. Local deformations can be imposed with any desired degree of derivative continuity. It is also possible to deform a solid model in such a way that its volume is preserved. The scheme is based on trivariate Bernstein polynomials, and provides the designer with an intuitive appreciation for its effects.</description></snippet><snippet id="FW14-e004-7094-06"><link cache="FW14-topics-docs/e004/7094_06.html" timestamp="2014-04-19 04:40:24">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.63.1402&amp;rank=6</link><title>The rendering equation</title><description>The rendering equation
+
+by James T. Kajiya \- Computer Graphics , 1986
+
+"... The solid angle subtended by a surface element dx is the fractional area of a sphere of radius r taken up ..."
+
+Abstract \- Cited by 708 (0 self) \- Add to MetaCart
+
+ABSTRACT. We present an integral equation which generallzes a variety of known rendering algorithms. In the course of discussing a monte carlo solution we also present a new form of variance reduction, called Hierarchical sampling and give a number of elaborations shows that it may be an efficient new technique for a wide variety of monte carlo procedures. The resulting renderlng algorithm extends the range of optical phenomena which can be effectively simulated.</description></snippet><snippet id="FW14-e004-7094-07"><link cache="FW14-topics-docs/e004/7094_07.html" timestamp="2014-04-19 04:41:16">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.382.6329&amp;rank=7</link><title>Large N field theories, string theory and gravity</title><description>Large N field theories, string theory and gravity
+
+by Ofer Aharony, Steven S. Gubser, Juan Maldacena, Hirosi Ooguri, Yaron Oz , 2001
+
+"... of Chiral-Chiral Primaries . . . . . . . . . . . . . . . 162 5.3.4 Calculation of the Elliptic Genus ..."
+
+Abstract \- Cited by 934 (41 self) \- Add to MetaCart
+
+We review the holographic correspondence between field theories and string/M theory, focusing on the relation between compactifications of string/M theory on Anti-de Sitter spaces and conformal field theories. We review the background for this correspondence and discuss its motivations and the evidence for its correctness. We describe the main results that have been derived from the correspondence in the regime that the field theory is approximated by classical or semiclassical gravity. We focus on the case of the N = 4 supersymmetric gauge theory in four dimensions, but we discuss also field theories in other dimensions, conformal and non-conformal, with or without supersymmetry, and in particular the relation to QCD. We also discuss some implications for black hole physics.</description></snippet><snippet id="FW14-e004-7094-08"><link cache="FW14-topics-docs/e004/7094_08.html" timestamp="2014-04-19 04:42:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.269.1583&amp;rank=8</link><title>Gauge Fields and Strings</title><description>Gauge Fields and Strings
+
+by A. M. Polyakov, Joseph Henry Laboratories , 1987
+
+"... S and the second to the sphere. A simple 13calculation gives the equations d 10 − 2 − R1 − R2 = 0 (1 − 2 p )R1 10 ..."
+
+Abstract \- Cited by 516 (2 self) \- Add to MetaCart
+
+theory as a universal language</description></snippet><snippet id="FW14-e004-7094-09"><link cache="FW14-topics-docs/e004/7094_09.html" timestamp="2014-04-19 04:43:27">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.186.82&amp;rank=9</link><title>The Lumigraph</title><description>The Lumigraph
+
+by Steven J. Gortler, Radek Grzeszczuk, Richard Szeliski, Michael F. Cohen \- In Proceedings of SIGGRAPH 96 , 1996
+
+"... ] describes a gantry for moving a camera along a sphere surrounding a luminaire of interest. The captured ..."
+
+Abstract \- Cited by 847 (39 self) \- Add to MetaCart
+
+This paper discusses a new method for capturing the complete appearanceof both synthetic and real world objects and scenes, representing this information, and then using this representation to render images of the object from new camera positions. Unlike the shape capture process traditionally used in computer vision and the rendering process traditionally used in computer graphics, our approach does not rely on geometric representations. Instead we sample and reconstruct a 4D function, which we call a Lumigraph. The Lumigraph is a subset of the complete plenoptic function that describes the flow of light at all positions in all directions. With the Lumigraph, new images of the object can be generated very quickly, independent of the geometric or illumination complexity of the scene or object. The paper discusses a complete working system including the capture of samples, the construction of the Lumigraph, and the subsequent rendering of images from this new representation. 1</description></snippet><snippet id="FW14-e004-7094-10"><link cache="FW14-topics-docs/e004/7094_10.html" timestamp="2014-04-19 04:44:45">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=6BABB7AA64F393E9B472D0A617B70BC8?doi=10.1.1.136.8630&amp;rank=10</link><title>Surround-screen projection-based virtual reality: The design and implementation of the CAVE</title><description>Surround-screen projection-based virtual reality: The design and implementation of the CAVE
+
+by Carolina Cruz-neira, Daniel J. Sandin, Thomas A. Defanti , 1993
+
+"... , projection on a sphere is outside the real-time capability of the ordinary high-end workstation. And, real ..."
+
+Abstract \- Cited by 523 (20 self) \- Add to MetaCart
+
+Abstract Several common systems satisfy some but not all of the VR This paper describes the CAVE (CAVE Automatic Virtual Environment) virtual reality/scientific visualization system in detail and demonstrates that projection technology applied to virtual-reality goals achieves a system that matches the quality of workstation screens in terms of resolution, color, and flicker-free stereo. In addition, this format helps reduce the effect of common tracking and system latency errors. The off-axis perspective projection techniques we use are shown to be simple and straightforward. Our techniques for doing multi-screen stereo vision are enumerated, and design barriers, past and current, are described. Advantages and disadvantages of the projection paradigm are discussed, with an analysis of the effect of tracking noise and delay on the user. Successive refinement, a necessary tool for scientific visualization, is developed in the virtual reality context. The use of the CAVE as a one-to-many presentation</description></snippet></snippets></search_results>

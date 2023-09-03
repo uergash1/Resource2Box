@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7152">haskell hash string</query><engine status="OK" timestamp="2014-04-26 03:30:09" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7152-01"><link cache="FW14-topics-docs/e026/7152_01.html" timestamp="2014-04-26 03:30:10">http://programmingpraxis.com/contents/</link><title>Contents</title><description>Contents
+
+31 Oct 2009 by programmingpraxis on Programming Praxis programmingpraxis.com/contents/
+
+…  Posting Source Code Language Resources Awk · Haskell · Lua · Python · Scheme Standard Prelude …  comprehensions · pattern matchingmatrices · hash tables · input/output · strings · sortinghigher-order …</description></snippet><snippet id="FW14-e026-7152-02"><link cache="FW14-topics-docs/e026/7152_02.html" timestamp="2014-04-26 03:30:39">http://archhaskell.wordpress.com/2009/01/11/arch-haskell-news-jan-11-2009/</link><title>Arch Haskell News: Jan 11 2009</title><description>Arch Haskell News: Jan 11 2009
+
+11 Jan 2009 by archhaskell on Arch Linux and Haskell archhaskell.wordpress.com/2009/01/11/arch-haskell-news-jan-11-2009/
+
+…  regular update of Haskell in Arch Linux. Welcome to the first Arch Haskell News of …  "Create a unique hash value for a type." haskell-panda-2008.12.16: "A simple static …  "LHC Haskell Compiler" haskell-compact-string-0.3.1: "Fast, packed and strict strings with Unicode support, based …
+
+Topics: Weekly News, Database, language, System, Network, Games, compiler</description></snippet><snippet id="FW14-e026-7152-03"><link cache="FW14-topics-docs/e026/7152_03.html" timestamp="2014-04-26 03:31:10">http://therealadam.com/2009/04/23/the-non-existent-tension-between-fp-and-oop/</link><title>The non-existent tension between FP and OOP</title><description>The non-existent tension between FP and OOP
+
+23 Apr 2009 by Adam Keys on The Real Adam therealadam.com/2009/04/23/the-non-existent-tension-between-fp-and-oop/
+
+…  doesn’t carry its weight. Just put the data in a hash map (or a list if you don’t need the bits "labeled") and …  "pocket Dean Wampler" when I was first learning Haskell and trying to reconcile idiomatic Haskell with what I've become so …
+
+Topics: Code, curated, programming_languages</description></snippet><snippet id="FW14-e026-7152-04"><link cache="FW14-topics-docs/e026/7152_04.html" timestamp="2014-04-26 03:31:42">http://speely.wordpress.com/2011/01/30/why-i-use-ios7crypt/</link><title>Why I Use IOS7Crypt</title><description>Why I Use IOS7Crypt
+
+30 Jan 2011 by mcandre on Speely speely.wordpress.com/2011/01/30/why-i-use-ios7crypt/
+
+…  arguments. It either encrypts a password and displays the hash or decrypts a hash and displays the password. The algorithm for …  others offer challenges: Try generating a random number in Haskell, which eschews side effects. Or parsing command line options in Common …
+
+Topics: Programming, Tutorial, World, hello, ios7crypt</description></snippet><snippet id="FW14-e026-7152-05"><link cache="FW14-topics-docs/e026/7152_05.html" timestamp="2014-04-26 03:32:07">http://donsbot.wordpress.com/2006/12/16/programming-haskell/</link><title>Programming Haskell</title><description>Programming Haskell
+
+16 Dec 2006 by Don Stewart on Control.Monad.Writer donsbot.wordpress.com/2006/12/16/programming-haskell/
+
+…  about time we got some job done in Haskell, eh? Now, one of my favourite programming books as an undergraduate was …  in the program. As "G'day, world!" is a string, so must phrase be a string. There are a bunch of basic types of values …  programming. Whenever you'd use some kind of hash in an imperative language, you can replace it with a Map in Haskell. Like …
+
+Topics: IO</description></snippet><snippet id="FW14-e026-7152-06"><link cache="FW14-topics-docs/e026/7152_06.html" timestamp="2014-04-26 03:32:50">http://wensveen.wordpress.com/2010/03/01/currying-in-csharp/</link><title>Currying in C#</title><description>Currying in C#
+
+1 Mar 2010 by wensveen on Wensveen's Blog wensveen.wordpress.com/2010/03/01/currying-in-csharp/
+
+…  functional languages like Haskell, F#, Scala, etc. support currying out of the box. In other languages …  a time: [sourcecode language="csharp"] int hash; var hashOfFour = new Func(HashOfFourStrings).Curry(); // each call …  new Func(HashOfFourStrings).Curry(); //yields a Func&lt;string, Func&lt;string, int&gt;&gt; var hashOfOneTwoCurry = hashCurry("a …</description></snippet><snippet id="FW14-e026-7152-07"><link cache="FW14-topics-docs/e026/7152_07.html" timestamp="2014-04-26 03:33:19">http://archhaskell.wordpress.com/2009/05/02/arch-haskell-news-may-2-2009/</link><title>Arch Haskell News: May 2 2009</title><description>Arch Haskell News: May 2 2009
+
+2 May 2009 by Don Stewart on Arch Linux and Haskell archhaskell.wordpress.com/2009/05/02/arch-haskell-news-may-2-2009/
+
+…  now has 1250 (+87) Haskell packages, of which 1052 (+45) have been natively packaged for Arch in …  to access state in transformers State monad haskell-data-hash-0.1.0.0: Combinators for building fast hashing …  Validating an email address string against RFC 5322 haskell-hgettext-0.1.10: Bindings to libintl.h …
+
+Topics: Weekly News, Web, Database, xml, language, text, Control?, System, Network, Games, Math, Devel, Testing, concurrency, Data, sound, Music, Crypto, Graphics</description></snippet><snippet id="FW14-e026-7152-08"><link cache="FW14-topics-docs/e026/7152_08.html" timestamp="2014-04-26 03:33:48">http://donsbot.wordpress.com/2009/09/27/fast-mutable-collections-for-haskell-more-benchmarks/</link><title>Fast mutable collections for Haskell: more benchmarks</title><description>Fast mutable collections for Haskell: more benchmarks
+
+27 Sep 2009 by Don Stewart on Control.Monad.Writer donsbot.wordpress.com/2009/09/27/fast-mutable-collections-for-haskell-more-benchmarks/
+
+…  bindings to the (in)famous judy arrays library, allowing Haskell keys and values to be stored in fast, mutable maps and hash structures. You can currently index via words (i.e. you have to hash keys …
+
+Topics: Hackathon, Performance, Design</description></snippet><snippet id="FW14-e026-7152-09"><link cache="FW14-topics-docs/e026/7152_09.html" timestamp="2014-04-26 03:34:26">http://sidewords.wordpress.com/2009/08/30/pl-sucks/</link><title>PL sucks</title><description>PL sucks
+
+30 Aug 2009 by sidewords on Side words sidewords.wordpress.com/2009/08/30/pl-sucks/
+
+…  I can't have an int as value or key in a hash table?! ...meh ...let's create a container object for the millions of integers I have to use! Haskell: instead of  …
+
+Topics: Programming languages</description></snippet><snippet id="FW14-e026-7152-10"><link cache="FW14-topics-docs/e026/7152_10.html" timestamp="2014-04-26 03:34:49">http://posterousklevstul.wordpress.com/2011/03/23/haskell-ghc-7-0-2-on-centos-5-5/</link><title>Haskell GHC 7.0.2 on CentOS 5.5</title><description>Haskell GHC 7.0.2 on CentOS 5.5
+
+23 Mar 2011 by klevstul on Posterous Klevstul posterousklevstul.wordpress.com/2011/03/23/haskell-ghc-7-0-2-on-centos-5-5/
+
+…  I've spent some time installing Haskell with GHC (Glasgow Haskell Compiler) version 7.0.2 on a CentOS 5.5. I …  mk/build.mknano mk/build.mkUncommented (removed the first hash ‘#’ character) the line:#BuildFlavour = quickAnd change the …
+
+Topics: Programming</description></snippet></snippets></search_results>

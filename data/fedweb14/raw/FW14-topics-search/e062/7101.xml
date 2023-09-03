@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7101">innodb versus myisam</query><engine status="OK" timestamp="2014-04-25 09:51:58" name="Baidu" id="FW14-e062"/><snippets><snippet id="FW14-e062-7101-01"><link cache="FW14-topics-docs/e062/7101_01.html" timestamp="2014-04-25 09:52:33">http://stackoverflow.com/questions/20148/myisam-versus-innodb</link><title>mysql - MyISAM versus InnoDB \- Stack Overflow</title><description>mysql - MyISAM versus InnoDB \- Stack Overflow
+
+I've read a bunch of stuff on the web about the differences between MyISAM and InnoDB, and MyISAM seems like the obvious choice to me for the ...
+
+stackoverflow.com/que... 2008-08-21
+
+ - 百度快照 - 评价
+
+查看更多关于“mysql MyISAM versus InnoDB Stack Overflow”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7101-02"><link cache="FW14-topics-docs/e062/7101_02.html" timestamp="2014-04-25 09:53:17">http://database.51cto.com/art/200905/124370.htm</link><title>InnoDB还是MyISAM 再谈MySQL存储引擎的选择 - 51CTO.COM</title><description>InnoDB还是MyISAM 再谈MySQL存储引擎的选择 - 51CTO.COM
+
+2009年5月19日 - 作为MySQL数据库的两种主要的存储引擎,MyISAM和Innodb各有长处,本文的作者探讨了MyISAM不只适合小型项目,它的稳定性、扩展性和高可用性让作者对它情...
+
+database.51cto.com/ar... 2009-05-19
+
+ - 百度快照 - 评价
+
+查看更多关于“InnoDB还是MyISAM”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7101-03"><link cache="FW14-topics-docs/e062/7101_03.html" timestamp="2014-04-25 09:54:32">http://www.php100.com/html/webkaifa/database/Mysql/2011/0326/7789.html</link><title>MyISAM InnoDB 区别</title><description>MyISAM InnoDB 区别
+
+MyISAM 和 InnoDB 讲解 InnoDB和MyISAM是许多人在使用MySQL时最常用的两个表类型,这两个表类型各有优劣,视具体应用而定。基本的差别为:MyISAM类型不支持事务...
+
+www.php100.com/html/w... 2011-03-26
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7101-04"><link cache="FW14-topics-docs/e062/7101_04.html" timestamp="2014-04-25 09:55:32">http://www.ccvita.com/409.html</link><title>MyISAM和InnoDB的一些记录 - 平凡的世界</title><description>MyISAM和InnoDB的一些记录 - 平凡的世界
+
+innodb_buffer_pool_size - 这对Innodb表来说非常重要。Innodb相比MyISAM表对缓冲更为敏感。MyISAM可以在默认的 key_buffer_size 设置下运行的可以,然而Innodb...
+
+www.ccvita.com/4...html 2009-09-05
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7101-05"><link cache="FW14-topics-docs/e062/7101_05.html" timestamp="2014-04-25 09:56:33">http://www.cnblogs.com/vicenteforever/articles/1613119.html</link><title>InnoDB与Myisam的六大区别 - 14的路 - 博客园</title><description>InnoDB与Myisam的六大区别 - 14的路 - 博客园
+
+MyISAM InnoDB 构成上的区别: 每个MyISAM在磁盘上存储成三个文件。第一个文件的名字以表的名字开始,扩展名指出文件类型。 .frm文件存储表定义。 数据文件的扩展...
+
+www.cnblogs.com/vicen... 2009-11-29
+
+ - 百度快照 - 评价</description></snippet><snippet id="FW14-e062-7101-06"><link cache="FW14-topics-docs/e062/7101_06.html" timestamp="2014-04-25 09:57:09">http://www.oschina.net/question/17_4248</link><title>MyISAM和Innodb比较 - 开源中国社区</title><description>MyISAM和Innodb比较 - 开源中国社区
+
+浅谈MySQL存储引擎 InnoDB和MyISAM 以及行锁注意事项 2010-02-21 18:21 MyISAM 是MySQL中默认的存储引擎,一般来说不是有太多人关心这个东西。决定使用什么样的...
+
+www.oschina.net/quest... 2010-04-12
+
+ - 百度快照 - 评价
+
+查看更多关于“MyISAM和Innodb比较”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7101-07"><link cache="FW14-topics-docs/e062/7101_07.html" timestamp="2014-04-25 09:57:56">http://blog.sina.com.cn/s/blog_4b81125f0100cui5.html</link><title>InnoDB和MyISAM的区别_Scoffied_新浪博客</title><description>InnoDB和MyISAM的区别_Scoffied_新浪博客
+
+InnoDB 还把数据和索引存放在表空间里面,可能包含好几个文件,这和 MyISAM 表完全不同,在 MyISAM 中,表被存放在单独的文件中,InnoDB 表的大小只受限于操作系统...
+
+blog.sina.com.cn/s/bl... 2009-03-24
+
+ - 百度快照 - 评价
+
+查看更多关于“InnoDB和MyISAM的区别”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7101-08"><link cache="FW14-topics-docs/e062/7101_08.html" timestamp="2014-04-25 09:58:27">http://www.2cto.com/database/201203/122112.html</link><title>InnoDB和MyISAM区别 - mysql数据库栏目 - 红黑联盟</title><description>InnoDB和MyISAM区别 - mysql数据库栏目 - 红黑联盟
+
+To determine whether your server supports InnoDB use the SHOW ENGINES statement. Before MySQL 5.5.5, MyISAM is the default storage engine. (The ...
+
+www.2cto.com/database... 2012-03-06
+
+ - 百度快照 - 评价
+
+查看更多关于“InnoDB和MyISAM区别”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7101-09"><link cache="FW14-topics-docs/e062/7101_09.html" timestamp="2014-04-25 09:59:23">http://coffeelet.blog.163.com/blog/static/135157453201009808112/</link><title>(翻译)MySQL: Performance benchmark MyISAM versus InnoDB \- ...</title><description>(翻译)MySQL: Performance benchmark MyISAM versus InnoDB \- ...
+
+(翻译)MySQL: Performance benchmark MyISAM versus InnoDB,Coffeelet的网易博客,除了逻辑,还有什么可以留恋,Red Hat Certified Engineer
+
+blog.163.com/coffeele... 2010-01-09
+
+ - 百度快照 - 评价
+
+查看更多关于“Performance benchmark MyISAM versus InnoDB”的内容 &gt;&gt;</description></snippet><snippet id="FW14-e062-7101-10"><link cache="FW14-topics-docs/e062/7101_10.html" timestamp="2014-04-25 10:00:09">http://murray2081.iteye.com/blog/1040177</link><title>InnoDB和MyISAM区别总结 - - ITeye技术网站</title><description>InnoDB和MyISAM区别总结 - - ITeye技术网站
+
+InnoDB和MyISAM是许多人在使用MySQL时最常用的两个表类型,这两个表类型各有... MyISAM:这个是默认类型,它是基于传统的ISAM类型,ISAM是Indexed Sequential ...
+
+murray2081.iteye.com/... 2011-05-11
+
+ - 百度快照 - 评价
+
+查看更多关于“InnoDB和MyISAM区别总结”的内容 &gt;&gt;</description></snippet></snippets></search_results>

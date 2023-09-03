@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7490">convert wav mp3</query><engine status="OK" timestamp="2014-04-21 21:31:02" name="GitHub" id="FW14-e157"/><snippets><snippet id="FW14-e157-7490-01"><link cache="FW14-topics-docs/e157/7490_01.html" timestamp="2014-04-21 21:31:03">https://github.com/moonflash/WAV-MP3---paperclip-processor</link><title>moonflash/WAV-MP3\---paperclip-processor</title><description>Simple WAV-MP3 gem/paperclip processor. Converts uploaded wav files to mp3 using lame
+
+Last updated May 05, 2011</description></snippet><snippet id="FW14-e157-7490-02"><link cache="FW14-topics-docs/e157/7490_02.html" timestamp="2014-04-21 21:32:57">https://github.com/pacso/paperclip-wav-mp3</link><title>pacso/paperclip-wav-mp3</title><description>Paperclip processor to convert .wav files to .mp3 using ffmpeg
+
+Last updated February 19, 2014</description></snippet><snippet id="FW14-e157-7490-03"><link cache="FW14-topics-docs/e157/7490_03.html" timestamp="2014-04-21 21:33:38">https://github.com/ohrobot/MP3-Batch</link><title>ohrobot/MP3-Batch</title><description>[Ruby] Batch convert all WAV files stored in a folder to MP3
+
+Last updated October 31, 2010</description></snippet><snippet id="FW14-e157-7490-04"><link cache="FW14-topics-docs/e157/7490_04.html" timestamp="2014-04-21 21:36:50">https://github.com/jphellemons/ConvertMp3ToWav</link><title>jphellemons/ConvertMp3ToWav</title><description>This console app converts mp3's to wav format
+
+Last updated February 28, 2014</description></snippet><snippet id="FW14-e157-7490-05"><link cache="FW14-topics-docs/e157/7490_05.html" timestamp="2014-04-21 21:37:49">https://github.com/Pescolly/Mass-MP3-Encoder</link><title>Pescolly/Mass-MP3-Encoder</title><description>Goes thru directory and converts any .wav files to .mp3 using LAME.
+
+Last updated December 30, 2013</description></snippet><snippet id="FW14-e157-7490-06"><link cache="FW14-topics-docs/e157/7490_06.html" timestamp="2014-04-21 21:39:32">https://github.com/rchrd2/wav2mp3</link><title>rchrd2/wav2mp3</title><description>Helper to convert wav to mp3 using ffmpeg.
+
+Last updated February 07, 2013</description></snippet><snippet id="FW14-e157-7490-07"><link cache="FW14-topics-docs/e157/7490_07.html" timestamp="2014-04-21 21:43:07">https://github.com/chris-magic/mp3_2_wav</link><title>chris-magic/mp3_2_wav</title><description>convert mp3 file to wav file use ffmpeg library
+
+Last updated February 19, 2013</description></snippet><snippet id="FW14-e157-7490-08"><link cache="FW14-topics-docs/e157/7490_08.html" timestamp="2014-04-21 21:45:10">https://github.com/tjwudi/Mp32Wav</link><title>tjwudi/Mp32Wav</title><description>convert mp3 audio file to wav audio file
+
+Last updated January 25, 2014</description></snippet><snippet id="FW14-e157-7490-09"><link cache="FW14-topics-docs/e157/7490_09.html" timestamp="2014-04-21 21:48:21">https://github.com/yk0011/WAVEConverter</link><title>yk0011/WAVEConverter</title><description>Convert ".cue", ".wav" and ".log" files into ".mp3" and store them on ".zip"
+
+Last updated October 14, 2013</description></snippet><snippet id="FW14-e157-7490-10"><link cache="FW14-topics-docs/e157/7490_10.html" timestamp="2014-04-21 21:49:10">https://github.com/FrontSide/oggconv</link><title>FrontSide/oggconv</title><description>Converts OGG Audio Files into MP3 or WAV
+
+Last updated April 20, 2014</description></snippet></snippets></search_results>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7474">php convert special symbols to html</query><engine status="OK" timestamp="2014-04-24 19:50:59" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7474-01"><link cache="FW14-topics-docs/e010/7474_01.html" timestamp="2014-04-24 19:51:01">http://academic.research.microsoft.com/Publication/61401480/decision-procedures-for-composition-and-equivalence-of-symbolic-finite-state-transducers</link><title>Decision Procedures for Composition and Equivalence of Symbolic Finite State Transducers</title><description>* Decision Procedures for Composition and Equivalence of Symbolic Finite State Transducers
+
+Margus Veanes, David Molnar, Benjamin Livshits
+
+...for a large class of symbolic finite transducers, namely the class of single-valued transducers. our algorithms give rise to a complete decidable algebra of symbolic transducers. unlike previous work, we...smt) solvers. we show how to decide single-valuedness, which means that symbolic finite transducers arising from practice can be checked to see if our algorithms apply...
+
+Published in 2011.</description></snippet><snippet id="FW14-e010-7474-02"><link cache="FW14-topics-docs/e010/7474_02.html" timestamp="2014-04-24 19:51:57">http://academic.research.microsoft.com/Publication/26736044/a-symbolic-approach-for-automatic-generation-of-the-equations-of-motion-of-multibody-systems</link><title>A Symbolic Approach for Automatic Generation of the Equations of Motion of Multibody Systems</title><description>* A Symbolic Approach for Automatic Generation of the Equations of Motion of Multibody Systems (Citations: 11)
+
+R. Lot, M. Da Lio
+
+...a brief review of existing symbolic multibody systems is given, and advantages and disadvantages of symbolic approaches compared with numerical ones are discussed. then, a set of methods for symbolic modeling of multibody systems is...
+
+Journal: Multibody System Dynamics - MULTIBODY SYST DYN , vol. 12, no. 2, pp. 147-172, 2004</description></snippet><snippet id="FW14-e010-7474-03"><link cache="FW14-topics-docs/e010/7474_03.html" timestamp="2014-04-24 19:53:13">http://academic.research.microsoft.com/Publication/56909591/symbolic-finite-state-transducers-algorithms-and-applications</link><title>Symbolic finite state transducers: algorithms and applications</title><description>* Symbolic finite state transducers: algorithms and applications (Citations: 1)
+
+Margus Veanes, Pieter Hooimeijer, Benjamin Livshits, David Molnar, Nikolaj Bjorner
+
+...software engineering, from regular expressions to specification languages. we extend these classic objects with symbolic alphabets represented as parametric theories...counterexamples in the case two symbolic finite transducers are not equivalent. the algorithms give rise to a complete decidable algebra of symbolic transducers. unlike previous work, we...
+
+Journal: Sigplan Notices - SIGPLAN , pp. 137-150, 2012</description></snippet><snippet id="FW14-e010-7474-04"><link cache="FW14-topics-docs/e010/7474_04.html" timestamp="2014-04-24 19:53:47">http://academic.research.microsoft.com/Publication/2390306/automatic-generation-of-simulation-based-web-courses-and-model-documentation</link><title>Automatic Generation of Simulation-Based Web Courses and Model Documentation</title><description>* Automatic Generation of Simulation-Based Web Courses and Model Documentation (Citations: 4)
+
+Manuel Alfonseca, Juan de Lara
+
+...the appear-ance of the html page where the simulation model is going to be included. the language incorporates constructions to synchronize multimedia elements with the...models, in the form of html pages, using information in the symbol table and special comments included in the model...
+
+Published in 2000.</description></snippet><snippet id="FW14-e010-7474-05"><link cache="FW14-topics-docs/e010/7474_05.html" timestamp="2014-04-24 19:54:24">http://academic.research.microsoft.com/Publication/666221/learning-to-attach-semantic-metadata-to-web-services</link><title>Learning to Attach Semantic Metadata to Web Services</title><description>* Learning to Attach Semantic Metadata to Web Services (Citations: 66)
+
+Andreas Heß, Nicholas Kushmerick
+
+...variety of machine learning techniques to semi- automatically create such metadata...well as assigning semantic labels to the form's fields. these techniques are important as legacy html interfaces are migrated to web services. second, we describe...
+
+Conference: International Semantic Web Conference - ISWC , pp. 258-273, 2003</description></snippet><snippet id="FW14-e010-7474-06"><link cache="FW14-topics-docs/e010/7474_06.html" timestamp="2014-04-24 19:54:57">http://academic.research.microsoft.com/Publication/61402081/data-parallel-string-manipulating-programs</link><title>Data-Parallel String-Manipulating Programs</title><description>* Data-Parallel String-Manipulating Programs
+
+Margus Veanes, David Molnar, Todd Mytkowicz, Benjamin Livshits
+
+...applications ranging from malware detection to graphics to web security sanitization depend on...pipeline maps a bek program to an intermediate format consisting of symbolic finite state transducers, which extend classical transducers with symbolic predicates. we present a novel...
+
+Published in 2012.</description></snippet><snippet id="FW14-e010-7474-07"><link>http://academic.research.microsoft.com/Publication/5644586/finding-bugs-in-web-applications-using-dynamic-test-generation-and-explicit-state-model-checking</link><title>Finding Bugs in Web Applications Using Dynamic Test Generation and Explicit-State Model Checking</title><description>* Finding Bugs in Web Applications Using Dynamic Test Generation and Explicit-State Model Checking (Citations: 10)
+
+Shay Artzi, Adam Kiezun, Julian Dolby, Frank Tip, Amit M. Paradkar, Michael D. Ernst
+
+...utilizes both combined concrete and symbolic execution and explicit-state model...validates that the output conforms to the html specification. this paper presents apollo...
+
+Journal: IEEE Transactions on Software Engineering - TSE , vol. 36, no. 4, pp. 474-494, 2010</description></snippet><snippet id="FW14-e010-7474-08"><link cache="FW14-topics-docs/e010/7474_08.html" timestamp="2014-04-24 19:57:04">http://academic.research.microsoft.com/Publication/1744296/symmetric-indefinite-systems-for-interior-point-methods</link><title>Symmetric indefinite systems for interior point methods</title><description>* Symmetric indefinite systems for interior point methods (Citations: 68)
+
+Robert J. Vanderbei, Tamra J. Carpenter
+
+...format=htmlnonpaginated&amp;src=w785858t060348g8_html\10107_2005_article_bf01581257_tex2gifie1...also present a procedure for converting nonseparable quadratic programs to separable ones which yields computational...
+
+Journal: Mathematical Programming , vol. 58, no. 1-3, pp. 1-32, 1993</description></snippet><snippet id="FW14-e010-7474-09"><link cache="FW14-topics-docs/e010/7474_09.html" timestamp="2014-04-24 19:57:42">http://academic.research.microsoft.com/Publication/4719174/automatic-creation-of-sql-injection-and-cross-site-scripting-attacks</link><title>Automatic creation of SQL Injection and cross-site scripting attacks</title><description>* Automatic creation of SQL Injection and cross-site scripting attacks (Citations: 24)
+
+Adam Kiezun, Philip J. Guo, Karthick Jayaraman, Michael D. Ernst
+
+...the attacker crafts the input to the application to access or modify user data...corrupt a database so as to cause subsequent users to execute malicious code. this paper...
+
+Conference: International Conference on Software Engineering - ICSE , pp. 199-209, 2009</description></snippet><snippet id="FW14-e010-7474-10"><link cache="FW14-topics-docs/e010/7474_10.html" timestamp="2014-04-24 19:58:47">http://academic.research.microsoft.com/Publication/114236/a-new-factorization-technique-of-the-matrix-mask-of-univariate-renable-functions</link><title>A new factorization technique of the matrix mask of univariate renable functions</title><description>* A new factorization technique of the matrix mask of univariate renable functions (Citations: 9)
+
+Gerlind Plonka, Amos Ron, Fachbereich Mathematik
+
+...is the introduction of a special factorization algorithm of renable vectors...conditions and, in particular, apply to whose shifts are not stable, as well as to renable vectors which are not...
+
+Published in 1998.</description></snippet></snippets></search_results>

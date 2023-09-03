@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7051">dinosaur names</query><engine status="OK" timestamp="2014-04-18 21:47:21" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7051-01"><link cache="FW14-topics-docs/e004/7051_01.html" timestamp="2014-04-18 21:47:24">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.12.1680&amp;rank=1</link><title>Intelligence Without Representation</title><description>Intelligence Without Representation
+
+by Rodney Brooks \- Artificial Intelligence , 1991
+
+"... , followed by dinosaurs at 330 and mammals at 250 million years ago. The first primates appeared 120 million ..."
+
+Abstract \- Cited by 1359 (10 self) \- Add to MetaCart
+
+Artificial intelligence research has foundered on the issue of representation. When intelligence is approached in an incremental manner, with strict reliance on interfacing to the real world through perception and action, reliance on representation disappears. In this paper we outline our approach to incrementally building complete intelligent Creatures. The fundamental decomposition of the intelligent system is not into independent information processing units which must interface with each other via representations. Instead, the intelligent system is decomposed into independent and parallel activity producers which all interface directly to the world through perception and action, rather than interface to each other particularly much. The notions of central and peripheral systems evaporateeverything is both central and peripheral. Based on these principles we have built a very successful series of mobile robots which operate without supervision as Creatures in standard office environ...</description></snippet><snippet id="FW14-e004-7051-02"><link cache="FW14-topics-docs/e004/7051_02.html" timestamp="2014-04-18 21:48:27">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.19.3770&amp;rank=2</link><title>The TSIMMIS Project: Integration of Heterogeneous Information Sources</title><description>The TSIMMIS Project: Integration of Heterogeneous Information Sources
+
+by Sudarshan Chawathe, Hector Garcia-Molina, Joachim Hammer, Kelly Ireland, Yannis Papakonstantinou, Jeffrey Ullman, Jennifer Widom
+
+"... . Department of Computer Science Stanford University Stanford, CA 94305-2140 last-name@(email omitted); The goal ..."
+
+Abstract \- Cited by 475 (17 self) \- Add to MetaCart
+
+The goal of the Tsimmis Project is to develop tools that facilitate the rapid integration of heterogeneous information sources that may include both structured and unstructured data. This paper gives an overview of the project, describing components that extract properties from unstructured objects, that translate information into a common object model, that combine information from several sources, that allow browsing of information, and that manage constraints across heterogeneous sites. Tsimmis is a joint project between Stanford and the IBM Almaden Research Center.</description></snippet><snippet id="FW14-e004-7051-03"><link cache="FW14-topics-docs/e004/7051_03.html" timestamp="2014-04-18 21:49:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.86.7067&amp;rank=3</link><title>Portholes: Supporting Awareness in a Distributed Work Group</title><description>Portholes: Supporting Awareness in a Distributed Work Group
+
+by Paul Dourish, Sara Bly , 1992
+
+"... for that image (name, phone number, etc.) and a set of action buttons. In pvc, these actions are E ..."
+
+Abstract \- Cited by 466 (5 self) \- Add to MetaCart
+
+We are investigating ways in which media space technologies can support distributed work groups through access to information that supports general awareness. Awareness involves knowing who is “around”, what activities are occurring, who is talking with whom; it provides a view of one another in the daily work environments. Awareness may lead to informal interactions, spontaneous connections, and the development of shared cultures—all important aspects of maintaining working relationships which are denied to groups distributed across multiple sites. The Portholes project, at Rank Xerox EuroPARC in</description></snippet><snippet id="FW14-e004-7051-04"><link cache="FW14-topics-docs/e004/7051_04.html" timestamp="2014-04-18 21:50:29">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.110.6657&amp;rank=4</link><title>Elephants don't play chess</title><description>Elephants don't play chess
+
+by Rodney A. Brooks \- Robotics and Autonomous Systems , 1990
+
+"... to revealing the secrets of the holy grail of AI, namely general purpose human level intelligence equivalence ..."
+
+Abstract \- Cited by 314 (4 self) \- Add to MetaCart
+
+Engineering and Computer Science at M.I.T. and a member of the Artificial Intelligence Laboratory where he leads the mobile robot group. He has authored two books, numerous scientific papers, and is the editor of the International Journal of Computer Vision. There is an alternative route to Artificial Intelligence that diverges from the directions pursued under that banner for the last thirty some years. The traditional approach has emphasized the abstract manipulation of symbols, whose grounding, in physical reality has. rarely been achieved. We explore a research methodology which emphasizes ongoing physical interaction with the environment as the primary source of constraint on the design of intelligent systems. We show how this methodology has recently had significant successes on a par with the most successful classical efforts. We outline plausible future work along these lines which can lead to vastly more ambitious systems. 1.</description></snippet><snippet id="FW14-e004-7051-05"><link cache="FW14-topics-docs/e004/7051_05.html" timestamp="2014-04-18 21:51:40">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.19.4632&amp;rank=5</link><title>Least Squares Conformal Maps for Automatic Texture Atlas Generation</title><description>Least Squares Conformal Maps for Automatic Texture Atlas Generation
+
+by Bruno Lévy, Sylvain Petitjean, Nicolas Ray, Jérôme Maillot , 2002
+
+"... and another one named conformality, and have expressed both in terms of Dirichlet energy. Haker et al. [8 ..."
+
+Abstract \- Cited by 246 (6 self) \- Add to MetaCart
+
+A Texture Atlas is an efficient color representation for 3D Paint Systems. The model to be textured is decomposed into charts homeomorphic to discs, each chart is parameterized, and the unfolded charts are packed in texture space. Existing texture atlas methods for triangulated surfaces suffer from several limitations, requiring them to generate a large number of small charts with simple borders. The discontinuities between the charts cause artifacts, and make it difficult to paint large areas with regular patterns.</description></snippet><snippet id="FW14-e004-7051-06"><link cache="FW14-topics-docs/e004/7051_06.html" timestamp="2014-04-18 21:52:49">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.165.8260&amp;rank=6</link><title>Did Man Live With Dinosaurs?</title><description>Did Man Live With Dinosaurs?
+
+by Brooke Lodien
+
+"... ﻿Brooke Lodien Did Man Live With Dinosaurs? Even though many evolutionists will tell you ..."
+
+Abstract \- Add to MetaCart
+
+Even though many evolutionists will tell you that people and &lt;em&gt;dinosaurs&lt;/em&gt; never lived together</description></snippet><snippet id="FW14-e004-7051-07"><link cache="FW14-topics-docs/e004/7051_07.html" timestamp="2014-04-18 21:54:02">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.89.7699&amp;rank=7</link><title>Dinosaur Input Device</title><description>Dinosaur Input Device
+
+by Brian Knep, Craig Hayes \- In Proc. of Conference on Human Factors in Computing Systems (CHI’95 , 1995
+
+"... ﻿Brian Knep Industrial Light and Magic San Rafael, CA Dinosaur Input Device ∗ Craig Hayes Tippett ..."
+
+Abstract \- Cited by 6 (0 self) \- Add to MetaCart
+
+We present a system for animating an articulate figure using a physical skeleton, or armature, connected to a workstation. The skeleton is covered with sensors that monitor the orientations of the joints and send this information to the computer via custom-built hardware. The system is precise, fast, compact, and easy to use. It lets traditional stop-motion animators produce animation on a computer without requiring them to learn complex software. The working environment is very similar to the traditional environment but without the nuisances of lights, a camera, and delicate foam-latex skin. The resulting animation lacks the artifacts of stop-motion animation, the pops and jerkiness, and yet retains the intentional subtleties and hard stops that computer animation often lacks.</description></snippet><snippet id="FW14-e004-7051-08"><link cache="FW14-topics-docs/e004/7051_08.html" timestamp="2014-04-18 21:55:11">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.369.3948&amp;rank=8</link><title>”The Story of Dinosaur Evolution”</title><description>”The Story of Dinosaur Evolution”
+
+by Jeffrey Scott Coker, Jimmie D. Agnew
+
+"... , become familiar with the names of 3 groups of dinosaurs: ornithischians (“bird-hipped croppers ..."
+
+Abstract \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7051-09"><link cache="FW14-topics-docs/e004/7051_09.html" timestamp="2014-04-18 21:56:19">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.136.6240&amp;rank=9</link><title>Dinosaurs and the Connecticut Valley</title><description>Dinosaurs and the Connecticut Valley
+
+by Katherine Mortensen, Daniel Scollan
+
+"... , later named Dinosaur State Park for science. To date, nearly 2000 reptile tracks embedded in ancient ..."
+
+Abstract \- Add to MetaCart
+
+Fossils of &lt;em&gt;dinosaur&lt;/em&gt; tracks have provided scientists with useful information for understanding</description></snippet><snippet id="FW14-e004-7051-10"><link cache="FW14-topics-docs/e004/7051_10.html" timestamp="2014-04-18 21:57:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=5983D70B7FEBC4F04C238098000A1626?doi=10.1.1.294.30&amp;rank=10</link><title>North American sauropodomorph dinosaurs,</title><description>North American sauropodomorph dinosaurs,
+
+by Timothy B. Rowe, Hans-dieter Sues, Robert R. Reisz , 2010
+
+"... Dispersal and diversity in the earliest North American sauropodomorph dinosaurs, with a description of a new ..."
+
+Abstract \- Add to MetaCart
+
+doi:10.1098/rspb.2010.1867</description></snippet></snippets></search_results>

@@ -1,0 +1,150 @@
+engineID	name	URL	Vertical	VerticalID
+FW14-e001	arXiv.org	http://arxiv.org	Academic	FW14-v004
+FW14-e002	CCSB	http://liinwww.ira.uka.de	Academic	FW14-v004
+FW14-e003	CERN Documents	http://cdsweb.cern.ch	Academic	FW14-v004
+FW14-e004	CiteSeerX	http://citeseerx.ist.psu.edu	Academic	FW14-v004
+FW14-e005	CiteULike	http://www.citeulike.org	Academic	FW14-v004
+FW14-e007	eScholarship	http://escholarship.org	Academic	FW14-v004
+FW14-e008	KFUPM ePrints	http://eprints.kfupm.edu.sa	Academic	FW14-v004
+FW14-e009	MPRA	http://mpra.ub.uni-muenchen.de	Academic	FW14-v004
+FW14-e010	MS Academic	http://academic.research.microsoft.com	Academic	FW14-v004
+FW14-e011	Nature	http://www.nature.com	Academic	FW14-v004
+FW14-e012	Organic Eprints	http://orgprints.org	Academic	FW14-v004
+FW14-e013	SpringerLink	http://www.springerlink.com	Academic	FW14-v004
+FW14-e014	U. Twente	http://doc.utwente.nl	Academic	FW14-v004
+FW14-e015	UAB Digital	http://ddd.uab.cat	Academic	FW14-v004
+FW14-e016	UQ eSpace	http://espace.library.uq.edu.au	Academic	FW14-v004
+FW14-e017	PubMed	http://pubmed.gov	Academic	FW14-v004
+FW14-e018	LastFM	http://www.last.fm/	Audio	FW14-v022
+FW14-e019	LYRICSnMUSIC	http://www.lyricsnmusic.com/	Audio	FW14-v022
+FW14-e020	Comedy Central	http://www.comedycentral.com/	Video	FW14-v002
+FW14-e021	Dailymotion	http://www.dailymotion.com/	Video	FW14-v002
+FW14-e022	YouTube	http://www.youtube.com	Video	FW14-v002
+FW14-e023	Google Blogs	http://www.google.com/blogsearch	Blogs	FW14-v018
+FW14-e024	LinkedIn Blog	http://blog.linkedin.com	Blogs	FW14-v018
+FW14-e025	Tumblr	http://www.tumblr.com	Blogs	FW14-v018
+FW14-e026	WordPress	http://en.search.wordpress.com	Blogs	FW14-v018
+FW14-e028	Goodreads	http://www.goodreads.com/	Books	FW14-v015
+FW14-e029	Google Books	http://books.google.com	Books	FW14-v015
+FW14-e030	NCSU Library	http://www.lib.ncsu.edu	Academic	FW14-v004
+FW14-e032	IMDb	http://www.imdb.com	Encyclopedia	FW14-v006
+FW14-e033	Wikibooks	http://en.wikibooks.org	Encyclopedia	FW14-v006
+FW14-e034	Wikipedia	http://en.wikipedia.org	Encyclopedia	FW14-v006
+FW14-e036	Wikispecies	http://species.wikimedia.org	Encyclopedia	FW14-v006
+FW14-e037	Wiktionary	http://en.wiktionary.org	Encyclopedia	FW14-v006
+FW14-e038	E! Online	http://www.eonline.com	Entertainment	FW14-v020
+FW14-e039	Entertainment Weekly	http://www.ew.com/	Entertainment	FW14-v020
+FW14-e041	TMZ	http://www.tmz.com/	Entertainment	FW14-v020
+FW14-e043	Addicting games	http://www.addictinggames.com/	Games	FW14-v017
+FW14-e044	Amorgames	http://armorgames.com/	Games	FW14-v017
+FW14-e045	Crazy monkey games	http://www.crazymonkeygames.com/	Games	FW14-v017
+FW14-e047	GameNode	http://www.gamenode.com	Games	FW14-v017
+FW14-e048	Games.com	http://games.com	Games	FW14-v017
+FW14-e049	Miniclip	http://www.miniclip.com/games/en/	Games	FW14-v017
+FW14-e050	About.com	http://www.about.com/	Encyclopedia	FW14-v006
+FW14-e052	Ask	http://www.ask.com	General	FW14-v001
+FW14-e055	CMU ClueWeb	http://lemurproject.org/clueweb09/	General	FW14-v001
+FW14-e057	Gigablast	http://www.gigablast.com	General	FW14-v001
+FW14-e062	Baidu	http://www.baidu.com	General	FW14-v001
+FW14-e063	Centers for Disease Control and Prevention	http://www.cdc.gov/	Health	FW14-v010
+FW14-e064	Family Practice notebook	http://www.fpnotebook.com/	Health	FW14-v010
+FW14-e065	Health Finder	http://www.healthfinder.gov/	Health	FW14-v010
+FW14-e066	HealthCentral	http://www.healthcentral.com/	Health	FW14-v010
+FW14-e067	HealthLine	http://www.healthline.com/	Health	FW14-v010
+FW14-e068	Healthlinks.net	http://www.healthlinks.net/	Health	FW14-v010
+FW14-e070	Mayo Clinic	http://www.mayoclinic.org/	Health	FW14-v010
+FW14-e071	MedicineNet	http://www.medicinenet.com/	Health	FW14-v010
+FW14-e072	MedlinePlus	http://www.nlm.nih.gov/medlineplus/	Health	FW14-v010
+FW14-e075	University of Iowa hospitals and clinics	http://www.uihealthcare.org/	Health	FW14-v010
+FW14-e076	WebMD	http://www.webmd.com/	Health	FW14-v010
+FW14-e077	Glassdoor	http://www.glassdoor.com/	Jobs	FW14-v003
+FW14-e078	Jobsite	http://www.jobsite.co.uk	Jobs	FW14-v003
+FW14-e079	LinkedIn Jobs	http://www.linkedin.com	Jobs	FW14-v003
+FW14-e080	Simply Hired	http://www.simplyhired.com	Jobs	FW14-v003
+FW14-e081	USAJobs	http://www.usajobs.gov	Jobs	FW14-v003
+FW14-e082	Comedy Central Jokes.com	http://www.jokes.com/	Jokes	FW14-v019
+FW14-e083	Kickass jokes	http://kickasshumor.com/search/	Jokes	FW14-v019
+FW14-e085	Cartoon Network	http://www.cartoonnetwork.com/	Kids	FW14-v011
+FW14-e086	Disney Family	http://family.go.com	Kids	FW14-v011
+FW14-e087	Factmonster	http://www.factmonster.com/	Kids	FW14-v011
+FW14-e088	Kidrex	http://www.kidrex.org/	Kids	FW14-v011
+FW14-e089	KidsClicks!	http://kidsclick.org/	Kids	FW14-v011
+FW14-e090	Nick jr	http://www.nickjr.com/	Kids	FW14-v011
+FW14-e092	OER Commons	http://www.oercommons.org	Encyclopedia	FW14-v006
+FW14-e093	Quintura Kids	http://affiliates.quintura.com/mainkids/	Kids	FW14-v011
+FW14-e095	Foursquare	https://foursquare.com/	Local	FW14-v024
+FW14-e098	BBC	http://www.bbc.co.uk	News	FW14-v013
+FW14-e100	Chronicling America	http://chroniclingamerica.loc.gov/	News	FW14-v013
+FW14-e101	CNN	http://www.cnn.com	News	FW14-v013
+FW14-e102	Forbes	http://www.forbes.com/search/	News	FW14-v013
+FW14-e104	JSOnline	http://www.jsonline.com/	News	FW14-v013
+FW14-e106	Slate	http://www.slate.com	News	FW14-v013
+FW14-e108	The Street	http://www.thestreet.com/	News	FW14-v013
+FW14-e109	Washington post	http://www.washingtonpost.com/	News	FW14-v013
+FW14-e110	HNSearch	http://www.hnsearch.com/	Shopping	FW14-v008
+FW14-e111	Slashdot	http://slashdot.org	News	FW14-v013
+FW14-e112	The Register	http://search.theregister.co.uk	News	FW14-v013
+FW14-e113	DeviantArt	http://browse.deviantart.com	Photo/Pictures	FW14-v005
+FW14-e114	Flickr	http://www.flickr.com	Photo/Pictures	FW14-v005
+FW14-e115	Fotolia	http://www.fotolia.com	Photo/Pictures	FW14-v005
+FW14-e117	Getty Images	http://www.gettyimages.com	Photo/Pictures	FW14-v005
+FW14-e118	IconFinder	http://www.iconfinder.com/	Photo/Pictures	FW14-v005
+FW14-e119	NYPL Gallery	http://digitalgallery.nypl.org	Photo/Pictures	FW14-v005
+FW14-e120	OpenClipArt	http://openclipart.org	Photo/Pictures	FW14-v005
+FW14-e121	Photobucket	http://photobucket.com	Photo/Pictures	FW14-v005
+FW14-e122	Picasa	http://picasaweb.google.com/lh/explore	Photo/Pictures	FW14-v005
+FW14-e123	Picsearch	http://www.picsearch.com/	Photo/Pictures	FW14-v005
+FW14-e124	Wikimedia	http://commons.wikimedia.org	Photo/Pictures	FW14-v005
+FW14-e126	Funny or Die	http://www.funnyordie.com	Video	FW14-v002
+FW14-e127	4Shared	http://search.4shared.com	General	FW14-v001
+FW14-e128	AllExperts	http://www.allexperts.com/	Q&A	FW14-v021
+FW14-e129	Answers.com	http://wiki.answers.com	Q&A	FW14-v021
+FW14-e130	Chacha	http://www.chacha.com/	Q&A	FW14-v021
+FW14-e131	StackOverflow	http://stackoverflow.com	Q&A	FW14-v021
+FW14-e132	Yahoo Answers	http://answers.yahoo.com	Q&A	FW14-v021
+FW14-e133	MetaOptimize	http://metaoptimize.com/qa/	Q&A	FW14-v021
+FW14-e134	HowStuffWorks	http://www.howstuffworks.com/	Encyclopedia	FW14-v006
+FW14-e135	AllRecipes	http://allrecipes.com	Recipes	FW14-v012
+FW14-e136	Cooking.com	http://www.cooking.com/recipes-and-more	Recipes	FW14-v012
+FW14-e137	Food Network	http://www.foodnetwork.com/	Recipes	FW14-v012
+FW14-e138	Food.com	http://www.food.com/	Recipes	FW14-v012
+FW14-e139	Meals.com	http://www.meals.com/	Recipes	FW14-v012
+FW14-e140	Amazon	http://www.amazon.com	Shopping	FW14-v008
+FW14-e141	ASOS	http://www.asos.com/	Shopping	FW14-v008
+FW14-e142	Craigslist	http://www.craigslist.org/	Shopping	FW14-v008
+FW14-e143	eBay	http://www.ebay.com	Shopping	FW14-v008
+FW14-e144	Overstock	http://www.overstock.com/	Shopping	FW14-v008
+FW14-e145	Powell's	http://www.powells.com	Shopping	FW14-v008
+FW14-e146	Pronto	http://www.pronto.com/	Shopping	FW14-v008
+FW14-e147	Target	http://www.target.com/	Shopping	FW14-v008
+FW14-e148	Yahoo! Shopping	http://shopping.yahoo.com/	Shopping	FW14-v008
+FW14-e152	Myspace	http://api.myspace.com	Social	FW14-v014
+FW14-e153	Reddit	http://www.reddit.com/	Social	FW14-v014
+FW14-e154	Tweepz	http://tweepz.com	Social	FW14-v014
+FW14-e156	Cnet	http://download.cnet.com	Software	FW14-v023
+FW14-e157	GitHub	http://github.com/search	Software	FW14-v023
+FW14-e158	SourceForge	http://sourceforge.net	Software	FW14-v023
+FW14-e159	bleacher report	http://bleacherreport.com/	Sports	FW14-v016
+FW14-e160	ESPN	http://search.espn.go.com	Sports	FW14-v016
+FW14-e161	Fox Sports	http://multimedia.foxsports.com	Sports	FW14-v016
+FW14-e163	NHL	http://www.nhl.com/	Sports	FW14-v016
+FW14-e164	SB nation	http://www.sbnation.com/	Sports	FW14-v016
+FW14-e165	Sporting news	http://aol.sportingnews.com/	Sports	FW14-v016
+FW14-e166	WWE	http://www.wwe.com/	Sports	FW14-v016
+FW14-e167	Ars Technica	http://arstechnica.com/	Tech	FW14-v009
+FW14-e168	CNET	http://www.cnet.com/	Tech	FW14-v009
+FW14-e169	Technet	http://social.technet.microsoft.com	Tech	FW14-v009
+FW14-e170	Technorati	http://www.technorati.com	Tech	FW14-v009
+FW14-e171	TechRepublic	http://www.techrepublic.com	Tech	FW14-v009
+FW14-e172	TripAdvisor	http://www.tripadvisor.com/	Travel	FW14-v007
+FW14-e173	Wiki Travel	http://wikitravel.org/en/Main_Page	Travel	FW14-v007
+FW14-e174	5min.com	http://www.5min.com	Video	FW14-v002
+FW14-e175	AOL Video	http://www.aol.com	General	FW14-v001
+FW14-e176	Google Videos	http://www.google.com/videohp	Video	FW14-v002
+FW14-e178	MeFeedia	http://www.mefeedia.com	Video	FW14-v002
+FW14-e179	Metacafe	http://www.metacafe.com	Video	FW14-v002
+FW14-e181	National geographic	http://www.nationalgeographic.com/	General	FW14-v001
+FW14-e182	Veoh	http://www.veoh.com/	Video	FW14-v002
+FW14-e184	Vimeo	http://vimeo.com	Video	FW14-v002
+FW14-e185	Yahoo Screen	http://screen.yahoo.com	Video	FW14-v002
+FW14-e200	BigWeb	no url	General	FW14-v001

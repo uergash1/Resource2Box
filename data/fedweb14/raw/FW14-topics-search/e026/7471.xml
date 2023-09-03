@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7471">php foreach</query><engine status="OK" timestamp="2014-04-26 23:40:34" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7471-01"><link cache="FW14-topics-docs/e026/7471_01.html" timestamp="2014-04-26 23:40:34">http://phpplugin.wordpress.com/2013/09/14/associative-array-example-in-php/</link><title>Associative Array Example in PHP</title><description>Associative Array Example in PHP
+
+14 Sep 2013 by deepakbestu on phpplugin phpplugin.wordpress.com/2013/09/14/associative-array-example-in-php/
+
+An Associative Array Example in PHP &lt;?php $a=array("Ram"=&gt;40000,"Shyam"=&gt;20000,"Mohan"=&gt;15000); foreach($a as $b) { echo "Salary is:".$b."&lt;br/&gt;"; } …</description></snippet><snippet id="FW14-e026-7471-02"><link cache="FW14-topics-docs/e026/7471_02.html" timestamp="2014-04-26 23:40:48">http://phpplugin.wordpress.com/associative-array/</link><title>Associative Array</title><description>Associative Array
+
+14 Sep 2013 by deepakbestu on phpplugin phpplugin.wordpress.com/associative-array/
+
+An Associative Array Example in PHP &lt;?php $a=array("Ram"=&gt;40000,"Shyam"=&gt;20000,"Mohan"=&gt;15000); foreach($a as $b) { echo "Salary is:".$b."&lt;br/&gt;"; } …</description></snippet><snippet id="FW14-e026-7471-03"><link cache="FW14-topics-docs/e026/7471_03.html" timestamp="2014-04-26 23:41:00">http://hromnik.wordpress.com/2013/01/17/php-wtf-foreach-loop/</link><title>PHP WTF foreach loop</title><description>PHP WTF foreach loop
+
+17 Jan 2013 by Thomas Elfoslav Hromník on Welcome to Elfoslav's blog! hromnik.wordpress.com/2013/01/17/php-wtf-foreach-loop/
+
+…  have worked with PHP for a few years but recently i found a big WTF factor for me as a former Java developer. Foreach loop in PHP has not its own scope! It means this: &lt;?php $name = …
+
+Topics: php, WTF</description></snippet><snippet id="FW14-e026-7471-04"><link cache="FW14-topics-docs/e026/7471_04.html" timestamp="2014-04-26 23:41:15">http://notes.smarterware.org/2006/12/17/php-foreach-loops-pass-arrays-by-value/</link><title>PHP foreach loops pass arrays by value</title><description>PHP foreach loops pass arrays by value
+
+17 Dec 2006 by gina on Notes on Code notes.smarterware.org/2006/12/17/php-foreach-loops-pass-arrays-by-value/
+
+…  nearly lost my mind debugging a problem with some PHP I'd written awhile back that wasn't working as I'd expected …  incompatibility. Turns out that PHP passes arrays into foreach loops by value, which means that any changes you make to that array …
+
+Topics: Code snippets, php</description></snippet><snippet id="FW14-e026-7471-05"><link cache="FW14-topics-docs/e026/7471_05.html" timestamp="2014-04-26 23:41:32">http://magesam.wordpress.com/2012/12/19/magento-hide-tab-if-contents-does-not-exists/</link><title>Magento Hide Tab If Contents Does not Exists.</title><description>Magento Hide Tab If Contents Does not Exists.
+
+19 Dec 2012 by magesam on MAGESAM magesam.wordpress.com/2012/12/19/magento-hide-tab-if-contents-does-not-exists/
+
+…  id="product-tabs"&gt; &lt;?php foreach ($this-&gt;getTabs() as $_index =&gt; $_tab): ?&gt; &lt;?php if($this-&gt;getChildHtml($_tab['alias']) &amp;&amp; …
+
+Topics: magento</description></snippet><snippet id="FW14-e026-7471-06"><link cache="FW14-topics-docs/e026/7471_06.html" timestamp="2014-04-26 23:41:50">http://vijisblog.wordpress.com/programs/php-programs/string-handling/</link><title>STRING HANDLING</title><description>STRING HANDLING
+
+29 Mar 2012 by nviji on vijisblog vijisblog.wordpress.com/programs/php-programs/string-handling/
+
+PHP PROGRAMS FOR STRING HANDLING &lt;html&gt; &lt;body&gt; &lt;h1&gt;&lt;font …  string functions&lt;/h1&gt;&lt;/font&gt; &lt;?php echo"The text string is php is … e[1]="vanilla"; $ice[2]="strawberry"; foreach($ice as $value) { echo "$value &lt;br&gt;"; } extract($ice …</description></snippet><snippet id="FW14-e026-7471-07"><link cache="FW14-topics-docs/e026/7471_07.html" timestamp="2014-04-26 23:42:07">http://amirshakya.wordpress.com/2012/07/08/magento-hide-category-if-product-is-not-available/</link><title>Magento hide category if product is not available.</title><description>Magento hide category if product is not available.
+
+8 Jul 2012 by amirshakya on Mero Blog amirshakya.wordpress.com/2012/07/08/magento-hide-category-if-product-is-not-available/
+
+…  of the top.phtml file should look like below. &lt;?php $_menu = $this-&gt;renderCategoriesMenuHtml(0,'level-top') ?&gt; &lt;?php if($_menu): ?&gt; &lt;div&gt;     &lt;ul id="nav"&gt;     …  $excludeCat = array(); ?&gt; &lt;?php foreach ($this-&gt;getStoreCategories() as $_category): ?&gt;     &lt;?php …
+
+Topics: magento</description></snippet><snippet id="FW14-e026-7471-08"><link cache="FW14-topics-docs/e026/7471_08.html" timestamp="2014-04-26 23:42:27">http://magentojack.wordpress.com/2011/07/14/filter-product-by-attribute-with-cascading-dropdown-by-ajax-in-magento/</link><title>Filter Product By Attribute With Cascading Dropdown By Ajax In Magento</title><description>Filter Product By Attribute With Cascading Dropdown By Ajax In Magento
+
+14 Jul 2011 by magentojack on magentojack magentojack.wordpress.com/2011/07/14/filter-product-by-attribute-with-cascading-dropdown-by-ajax-in-magento/
+
+…  cur="&lt;?php echo $current_page = …  toggleVisibility(str) { var test = "&lt;?php echo $_GET[boilermodel][0]; ?&gt;" username="visible"; if …  Manufacturer...&lt;/option&gt; &lt;?php foreach ($attributeOptions as $options) { ?&gt; &lt;option …
+
+Topics: magento</description></snippet><snippet id="FW14-e026-7471-09"><link cache="FW14-topics-docs/e026/7471_09.html" timestamp="2014-04-26 23:42:54">http://phptraininginmumbai.wordpress.com/2012/12/20/what-is-foreach-loop-in-php/</link><title>What is foreach loop in PHP?</title><description>What is foreach loop in PHP?
+
+20 Dec 2012 by jigarpandya761 on PHP Training in Mumbai phptraininginmumbai.wordpress.com/2012/12/20/what-is-foreach-loop-in-php/
+
+PHP is full equipped language with good number of inbuilt function and properties. Since PHP is with 3 types of array like , Numeric array , Associative Array and Mixed Array. To get data from array foreach loop can be used which is specially designed to retrieve records from …
+
+Topics: php interview question, php Array, foreach loop in php</description></snippet><snippet id="FW14-e026-7471-10"><link cache="FW14-topics-docs/e026/7471_10.html" timestamp="2014-04-26 23:43:08">http://magesam.wordpress.com/2013/04/26/magento-get-root-leval-category-and-product/</link><title>Magento get root leval category and product</title><description>Magento get root leval category and product
+
+26 Apr 2013 by magesam on MAGESAM magesam.wordpress.com/2013/04/26/magento-get-root-leval-category-and-product/
+
+&lt;?php $obj = new Mage_Catalog_Block_Navigation(); $helper = $this-&gt;helper( …  style='float:left;'&gt; &lt;?php foreach ($store_cats as $cat){ // echo $cat-&gt;getId(); $category = …
+
+Topics: magento</description></snippet></snippets></search_results>

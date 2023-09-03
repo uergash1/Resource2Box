@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7042">bmw c1</query><engine status="OK" timestamp="2014-04-18 20:02:22" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7042-01"><link cache="FW14-topics-docs/e010/7042_01.html" timestamp="2014-04-18 20:02:25">http://academic.research.microsoft.com/Publication/6030640/automobile-car-and-bmw-horizontal-and-hierarchical-approach-in-social-tagging-systems</link><title>Automobile, car and BMW: horizontal and hierarchical approach in social tagging systems</title><description>* Automobile, car and BMW: horizontal and hierarchical approach in social tagging systems (Citations: 2)
+
+Tom Chao Zhou, Irwin King
+
+Social tagging systems have recently emerged as an effective way for users to annotate and organize large collections of resources on the Web. Moreover, they also facilitate an efficient sharing of vast amounts of resources among different users. In this paper, we analyze tags' usage pattern in real world data sets and find that among tags representing the same concept, ...
+
+Conference: International Conference on Information and Knowledge Management - CIKM , pp. 25-32, 2009</description></snippet><snippet id="FW14-e010-7042-02"><link cache="FW14-topics-docs/e010/7042_02.html" timestamp="2014-04-18 20:03:26">http://academic.research.microsoft.com/Publication/12549405/a-temperley-lieb-analogue-for-the-bmw-algebra</link><title>A Temperley–Lieb Analogue for the BMW Algebra</title><description>* A Temperley–Lieb Analogue for the BMW Algebra (Citations: 3)
+
+G. I. Lehrer, R. B. Zhang
+
+The Temperley–Lieb algebra may be thought of as a quotient of the Hecke algebra of type A, acting on tensor space as the commutant of the usual action of quantum \mathfraks\mathfrakl2{\mathfrak{s}\mathfrak{l}}_{2} on (\mathbbC(q)2)Ä&lt;/font &gt;n{(\mathbb{C}{(q)}^{2})}^{\otimes n} . We define and study a quotient of ...
+
+Published in 2008.</description></snippet><snippet id="FW14-e010-7042-03"><link cache="FW14-topics-docs/e010/7042_03.html" timestamp="2014-04-18 20:04:30">http://academic.research.microsoft.com/Publication/1815696/metric-cotype</link><title>Metric cotype</title><description>* Metric cotype (Citations: 26)
+
+Manor Mendel, Assaf Naor
+
+We introduce the notion of cotype of a metric space, and prove that for Banach spaces it coincides with the classical notion of Rademacher co- type. This yields a concrete version of Ribe's theorem, settling a long standing open problem in the nonlinear theory of Banach spaces. We apply our results to several problems in metric geometry. Namely, we ...
+
+Conference: ACM-SIAM Symposium on Discrete Algorithms - SODA , pp. 79-88, 2006</description></snippet><snippet id="FW14-e010-7042-04"><link cache="FW14-topics-docs/e010/7042_04.html" timestamp="2014-04-18 20:05:28">http://academic.research.microsoft.com/Publication/4235358/efficient-chosen-ciphertext-secure-public-key-encryption-under-the-computational-diffie-hellman</link><title>Efficient Chosen Ciphertext Secure Public Key Encryption under the Computational Diffie-Hellman Assumption</title><description>* Efficient Chosen Ciphertext Secure Public Key Encryption under the Computational Diffie-Hellman Assumption (Citations: 23)
+
+Goichiro Hanaoka, Kaoru Kurosawa
+
+Recently Cash, Kiltz, and Shoup (20) showed a variant of the Cramer-Shoup (CS) public key encryption (PKE) scheme (21) whose chosen-ciphertext (CCA) security relies on the com- putational Die-Hellman (CDH) assumption. The cost for this high security is that the size of ciphertexts is much longer than the CS scheme. In this paper, we show how to ...
+
+Conference: International Conference on the Theory and Application of Cryptology and Information Security - ASIACRYPT , pp. 308-325, 2008</description></snippet><snippet id="FW14-e010-7042-05"><link cache="FW14-topics-docs/e010/7042_05.html" timestamp="2014-04-18 20:06:33">http://academic.research.microsoft.com/Publication/5528324/an-inverse-dynamical-problem-for-connected-beams</link><title>An inverse dynamical problem for connected beams</title><description>* An inverse dynamical problem for connected beams (Citations: 8)
+
+A. MORASSI, G. NAKAMURA, M. SINI
+
+This paper deals with a dynamical inverse problem for a composite beam formed by two connected beams. The vibrations of the composite beam are governed by a differential system where a coupling takes place between longitudinal and bending motions. In this paper, we neglect bending motions and we only deal with the longitudinal motions. These motions are governed by a ...
+
+Journal: European Journal of Applied Mathematics - EUR J APPL MATH , vol. 16, no. 1, pp. 83-109, 2005</description></snippet><snippet id="FW14-e010-7042-06"><link cache="FW14-topics-docs/e010/7042_06.html" timestamp="2014-04-18 20:07:30">http://academic.research.microsoft.com/Publication/5183666/asymptotic-behavior-for-a-viscous-hamilton-jacobi-equation-with-critical-exponent</link><title>Asymptotic behavior for a viscous Hamilton-Jacobi equation with critical exponent</title><description>* Asymptotic behavior for a viscous Hamilton-Jacobi equation with critical exponent (Citations: 5)
+
+Thierry Gallay, Philippe Laurencot
+
+The large time behavior of non-negative solutions to the viscous Hamilton-Jacobi equation $u_t - \Delta u + |\nabla u|^q = 0$ in the whole space $R^N$ is investigated for the critical exponent $q = (N+2)/(N+1)$. Convergence towards a rescaled self-similar solution of the linear heat equation is shown, the rescaling factor being $(\log(t))^{-(N+1)}$. The ...
+
+Journal: Indiana University Mathematics Journal - INDIANA UNIV MATH J , vol. 56, no. 1, pp. 459-480, 2007</description></snippet><snippet id="FW14-e010-7042-07"><link cache="FW14-topics-docs/e010/7042_07.html" timestamp="2014-04-18 20:08:29">http://academic.research.microsoft.com/Publication/6054411/efficient-traceable-signatures-in-the-standard-model</link><title>Efficient Traceable Signatures in the Standard Model</title><description>* Efficient Traceable Signatures in the Standard Model (Citations: 4)
+
+Benoît Libert, Moti Yung
+
+Traceable signatures (TS), suggested by Kiayias, Tsiounis and Yung, extend group signatures to address various basic traceability issues beyond merely identifying the anonymous signer of a rogue signature. Namely, they enable the efficient tracing of all signatures produced by a misbehaving party without opening the identity of other parties. They also allow users to provably claim ownership of a previously ...
+
+Conference: Pairing-Based Cryptography - Pairing , pp. 187-205, 2009</description></snippet><snippet id="FW14-e010-7042-08"><link cache="FW14-topics-docs/e010/7042_08.html" timestamp="2014-04-18 20:09:42">http://academic.research.microsoft.com/Publication/2355896/time-periodic-solutions-of-nonlinear-wave-equations</link><title>Time Periodic Solutions Of Nonlinear Wave Equations</title><description>* Time Periodic Solutions Of Nonlinear Wave Equations (Citations: 2)
+
+Randall Pyke
+
+Abstract: We study time periodic and time almost periodic solutions of the nonlinear wave equationf(#) = 0.We prove that if # is a 2#/# -periodic solution then #f # (0). In addition, we show that there is a strictly positive number# such that e(0, 2#/#)). In the second chapter we derive integral identities satisfied by almost ...
+
+Published in 1996.</description></snippet><snippet id="FW14-e010-7042-09"><link cache="FW14-topics-docs/e010/7042_09.html" timestamp="2014-04-18 20:10:54">http://academic.research.microsoft.com/Publication/12454280/principal-subspaces-of-higher-level-standard-s-l-3-modules</link><title>Principal subspaces of higher-level standard s l ( 3 ) ̂ -modules</title><description>* Principal subspaces of higher-level standard s l ( 3 ) ̂ -modules (Citations: 4)
+
+Corina Calinescu
+
+We use the theory of vertex operator algebras and intertwining operators to obtain systems of q-difference equations satisfied by the graded dimensions of the principal subspaces of certain level k standard modules for sl(3)̂. As a consequence we establish new formulas for the graded dimensions of the principal subspaces corresponding to the highest weights iΛ1+(k−i)Λ2, ...
+
+Journal: Journal of Pure and Applied Algebra - J PURE APPL ALG , vol. 210, no. 2, pp. 559-575, 2007</description></snippet><snippet id="FW14-e010-7042-10"><link cache="FW14-topics-docs/e010/7042_10.html" timestamp="2014-04-18 20:12:13">http://academic.research.microsoft.com/Publication/12517723/poincare-normal-and-renormalized-forms</link><title>Poincare' normal and renormalized forms</title><description>* Poincare' normal and renormalized forms (Citations: 1)
+
+Giuseppe Gaeta
+
+We briefly review the main aspects of (Poincar\'e-Dulac) normal forms; we have a look at the non-uniqueness problem, and discuss one of the proposed ways to ``further reduce'' the normal forms. We also mention some convergence results.
+
+Published in 2001.</description></snippet></snippets></search_results>

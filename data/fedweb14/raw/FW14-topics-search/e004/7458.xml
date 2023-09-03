@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7458">rice recipe</query><engine status="OK" timestamp="2014-04-20 10:33:25" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7458-01"><link cache="FW14-topics-docs/e004/7458_01.html" timestamp="2014-04-20 10:33:26">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.109.6332&amp;rank=1</link><title>Grouplens: Applying collaborative filtering to usenet news</title><description>Grouplens: Applying collaborative filtering to usenet news
+
+by Joseph A. Konstan, Bradley N. Miller, David Maltz, Jonathan L. Herlocker, Lee R. Gordon, John Riedl, High Volume \- Communications of the ACM , 1997
+
+"... .: Restaurant: rec.humor rec.food.recipes rec.arts.movies.current-films comp.lang.c++ comp.lang.java comp ..."
+
+Abstract \- Cited by 590 (15 self) \- Add to MetaCart
+
+a collaborative filtering system for Usenet news—a high-volume, high-turnover discussion list service on the Internet. Usenet newsgroups—the individual discussion lists—may carry hundreds of messages each day. While in theory the newsgroup organization allows readers to select the content that most interests them, in practice most newsgroups carry a wide enough spread of messages to make most individuals consider Usenet news to be a high noise information resource. Furthermore, each user values a different set of messages. Both taste and prior knowledge are major factors in evaluating news articles. For example, readers of the rec.humor newsgroup, a group designed for jokes and other humorous postings, value articles based on whether they perceive them to be funny. Readers of technical groups, such as comp.lang.c� � value articles based</description></snippet><snippet id="FW14-e004-7458-02"><link cache="FW14-topics-docs/e004/7458_02.html" timestamp="2014-04-20 10:37:07">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.87.3586&amp;rank=2</link><title>Handbook of Genetic Algorithms</title><description>Handbook of Genetic Algorithms
+
+by L. D. Davis, Melanie Mitchell \- Van Nostrand Reinhold , 1991
+
+"... &amp; Feldman, 1992) and in the ecology literature (e.g., Koza, Rice, &amp; Roughgarden, 1992). The Handbook ..."
+
+Abstract \- Cited by 1164 (0 self) \- Add to MetaCart
+
+Mimicking biological evolution and harnessing its power for adaptation are problems that have intrigued computer scientists for at least four decades. Genetic algorithms (GAs), invented by John Holland in the 1960s, are the most widely used approaches to computational evolution. In his book Adaptation in Natural and Artificial Systems (Holland, 1992, also reviewed in this issue), Holland presented GAs in a general theoretical framework for adaptation in nature. Holland’s motivation was largely scientific — he was attempting to understand and link diverse types of natural phenomena—but he also proposed potential engineering applications of GAs. Since the publication of Holland’s book, the field of GAs has grown into a significant sub-area of artificial intelligence and machine learning. Nowadays one can find several international conferences each year as well as a number of journals devoted to GAs and other “evolutionary computation ” approaches. Research on GAs has spread from computer science to engineering and, more recently, to fields such as molecular biology, immunology, economics, and physics. One result of this growth in interest has been a division of the field of GAs into several subspecies. One major division is between research on GAs as engineering tools and research</description></snippet><snippet id="FW14-e004-7458-03"><link cache="FW14-topics-docs/e004/7458_03.html" timestamp="2014-04-20 10:41:31">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.103.7069&amp;rank=3</link><title>A software framework for matchmaking based on semantic web technology</title><description>A software framework for matchmaking based on semantic web technology
+
+by Lei Li, Ian Horrocks , 2003
+
+"... documentation for distributed systems and serve as a recipe for automating the details involved in application ..."
+
+Abstract \- Cited by 292 (5 self) \- Add to MetaCart
+
+An important objective of the Semantic Web is to make Electronic Commerce interactions more flexible and automated. To achieve this, standardisation of ontologies, message content and message protocols will be necessary. In this paper we investigate how Semantic and Web Services technologies can be used to support service advertisement and discovery in ecommerce. In particular, we describe the design and implementation of a service matchmaking prototype which uses a DAML-S based ontology and a Description Logic reasoner to compare ontology based service descriptions. By representing the semantics of service descriptions, the matchmaker enables the behaviour of an intelligent agent to approach more closely that of a human user trying to locate suitable web services. We also present the results of initial experiments testing the performance of this prototype implementation in a realistic agent based e-commerce scenario.</description></snippet><snippet id="FW14-e004-7458-04"><link cache="FW14-topics-docs/e004/7458_04.html" timestamp="2014-04-20 10:45:35">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.421.3486&amp;rank=4</link><title>Recipe recommendation using ingredient networks</title><description>Recipe recommendation using ingredient networks
+
+by Chun-yuen Teng, Yu-ru Lin, Lada A. Adamic
+
+"... ﻿Recipe recommendation using ingredient networks Chun-Yuen Teng School of Information University ..."
+
+Abstract \- Add to MetaCart
+
+The recording and sharing of cooking &lt;em&gt;recipes&lt;/em&gt;, a human activity dating back thousands of years</description></snippet><snippet id="FW14-e004-7458-05"><link cache="FW14-topics-docs/e004/7458_05.html" timestamp="2014-04-20 10:48:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.379.8745&amp;rank=5</link><title>ADIFOR -- Generating Derivative Codes from Fortran Programs</title><description>ADIFOR -- Generating Derivative Codes from Fortran Programs
+
+by Christian Bischof , Alan Carle , George Corliss , Andreas Griewank , Paul Hovland , 1992
+
+"... , Rice University, P.O.Box 1892, Houston, TX 77251. x appeared in Scienti c Programming, 1(1), pp. 1 ..."
+
+Abstract \- Cited by 149 (55 self) \- Add to MetaCart
+
+The numerical methods employed in the solution of many scientific computing problems require the computation of derivatives of a function f: Rn! Rm. Both the accuracy and the computational requirements of the derivative computation are usually of critical importance for the robustness and speed of the numerical solution. ADIFOR (Automatic Differentiation In FORtran) is a source transformation tool that accepts Fortran 77 code for the computation of a function and writes portable Fortran 77 code for the computation of the derivatives. In contrast to previous approaches, ADIFOR views automatic differentiation as a source transformation problem. ADIFOR employs the data analysis capabilities of the ParaScope Parallel Programming Environment, which enable us to handle arbitrary Fortran 77 codes and to exploit the computational context in the computation of derivatives. Experimental results show that ADIFOR can handle real-life codes and that ADIFOR-generated codes are competitive with divided-difference approximations of derivatives. In addition, studies suggest that the source transformation approach to automatic differentation may improve the time to compute derivatives by orders of magnitude.</description></snippet><snippet id="FW14-e004-7458-06"><link cache="FW14-topics-docs/e004/7458_06.html" timestamp="2014-04-20 10:49:44">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.183.7854&amp;rank=6</link><title>Modifying a Recipe to be Healthier The USDA Dietary Guidelines for Americans</title><description>Modifying a Recipe to be Healthier The USDA Dietary Guidelines for Americans
+
+by unknown authors
+
+"... Recipe to be Healthier The USDA Dietary Guidelines for Americans emphasizes we need to reduce the amount ..."
+
+Abstract \- Add to MetaCart
+
+and increase our consumption of fiber. When buying food we can check the label, but when using a &lt;em&gt;recipe&lt;/em&gt; we may</description></snippet><snippet id="FW14-e004-7458-07"><link cache="FW14-topics-docs/e004/7458_07.html" timestamp="2014-04-20 10:52:39">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.352.5764&amp;rank=7</link><title>Stock No: 13612 $29.95 Recipes of Our Ancestors</title><description>Stock No: 13612 $29.95 Recipes of Our Ancestors
+
+by Minnesota Genealogical Society
+
+"... with 100 prize-winning recipes that will delight your taste buds and keep you laughing while waiting ..."
+
+Abstract \- Add to MetaCart
+
+that will delight your taste buds and keep you laughing while waiting for the timer to sound. Marjorie knows a thing or two about baking: she's won over a thousand blue ribbons. Now she's ready to pass along her secrets. 240 pages, hard cover.</description></snippet><snippet id="FW14-e004-7458-08"><link cache="FW14-topics-docs/e004/7458_08.html" timestamp="2014-04-20 10:54:12">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.232.641&amp;rank=8</link><title>A Case-Based Reasoning System for Recommending Cooking Recipes</title><description>A Case-Based Reasoning System for Recommending Cooking Recipes
+
+by Pedro Javier Herrera, Gonzalo Pajares, María Guijarro
+
+"... ﻿A Case-Based Reasoning System for Recommending Cooking Recipes Pedro Javier Herrera Department ..."
+
+Abstract \- Add to MetaCart
+
+Case-Based Reasoning (CBR) is a successful paradigm within Artificial Intelligence (AI) of solving real-world problems based on precedent examples and problems (Aamodt &amp; Plaza, 1994; Kolodner, 1993; Leake, 1996). Instead of relying solely on general knowledge of the problem domain, or making associations in the course of relations between descriptions of the problem and conclusions, this paradigm is capable of using specific</description></snippet><snippet id="FW14-e004-7458-09"><link cache="FW14-topics-docs/e004/7458_09.html" timestamp="2014-04-20 10:56:35">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.58.7557&amp;rank=9</link><title>Microreboot - A Technique for Cheap Recovery</title><description>Microreboot - A Technique for Cheap Recovery
+
+by George Candea, George C, Shinichi Kawamoto, Yuichi Fujiki, Armando Fox, Greg Friedman, O Fox , 2004
+
+"... or by parts and recover quickly every time. The high-level recipe for building such systems is to structure ..."
+
+Abstract \- Cited by 119 (2 self) \- Add to MetaCart
+
+A significant fraction of software failures in large-scale Internet systems are cured by rebooting, even when the exact failure causes are unknown. However, rebooting can be expensive, causing nontrivial service disruption or downtime even when clusters and failover are employed. In this work we separate process recovery from data recovery to enable microrebooting -- a fine-grain technique for surgically recovering faulty application components, without disturbing the rest of the application.</description></snippet><snippet id="FW14-e004-7458-10"><link cache="FW14-topics-docs/e004/7458_10.html" timestamp="2014-04-20 10:59:48">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=36BC94A58AA3785572AB2A47DF8E6442?doi=10.1.1.130.4995&amp;rank=10</link><title>DrScheme: A programming environment for Scheme</title><description>DrScheme: A programming environment for Scheme
+
+by Robert Bruce Findler, John Clements, Cormac Flanagan, Matthew Flatt, Shriram Krishnamurthi, Paul Steckler, Matthias Felleisen \- Journal of Functional Programming , 2002
+
+"... Krishnamurthi ¶ , Paul Steckler † , and Matthias Felleisen † Department of Computer Science Rice University ..."
+
+Abstract \- Cited by 116 (49 self) \- Add to MetaCart
+
+DrScheme is a programming environment for Scheme. It fully integrates a graphicsenriched editor, a parser for multiple variants of Scheme, a functional read-eval-print loop, and an algebraic printer. The environment is especially useful for students, because it has a tower of syntactically restricted variants of Scheme that are designed to catch typical student mistakes and explain them in terms the students understand. The environment is also useful for professional programmers, due to its sophisticated programming tools, such as the static debugger, and its advanced language features, such as units and mixins. Beyond the ordinary programming environment tools, DrScheme provides an algebraic stepper, a context-sensitive syntax checker, and a static debugger. The stepper reduces Scheme programs to values, according to the reduction semantics of Scheme. It is useful for explaining the semantics of linguistic facilities and for studying the behavior of small programs. The syntax checker annotates programs with font and color changes based on the syntactic structure of the program. On demand, it draws arrows that point from bound to binding occurrences of identifiers. It also supports α-renaming. Finally, the static debugger provides a type inference system that explains specific inferences in terms of a value-flow graph, selectively overlaid on the program text.</description></snippet></snippets></search_results>

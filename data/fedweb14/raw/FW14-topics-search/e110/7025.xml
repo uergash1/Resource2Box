@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7025">M/G/1 queue</query><engine status="OK" timestamp="2014-04-24 15:29:21" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7025-01"><link cache="FW14-topics-docs/e110/7025_01.html" timestamp="2014-04-24 15:30:11">https://news.ycombinator.com/item?id=144024</link><title>Ask YC: Have you ever used an embedded web server C library?</title><description>Ask YC: Have you ever used an embedded web server C library?
+
+2 points
+
+by gcv
+
+6 years ago
+
+2 comments Follow
+
+I'm planning to write a small, light daemon. It'll essentially maintain an event queue for my app. It must be (1) very fast, (2) capable of dealing with a few TB of data, and (3) gracefully recover from total machine failure. I've been thinking about using Berkeley DB as the data store for its replication features. That way, I could bring up a few of instances of this daemon, and use one active master with the rest available as hot replicas and read-only copies of the queue.
+
+The Berkeley DB APIs for, e.g., Python, lag behind the C, C++, and Java versions because Oracle doesn't officially support them. I thoroughly dislike both C++ and Java, and I'm actually quite comfortable with C, so I figured I'd just write all the storage code in C.
+
+Clients for this queue should communicate to it over some cross-platform messaging system. I expect Python and Java code to want to talk to it, for example. HTTP seems to be a convenient way for the queue to accept requests. (Any other cross-platform messaging mechanism out there? I've heard of spread, but it seems a little heavy for what I need, and I don't know how cross-platform it is.)
+
+I found two reasonable-seeming libraries which implement embedded HTTP servers in C: libmicrohttpd (http://gnunet.org/libmicrohttpd/, available in the Debian distribution), and shttpd (http://shttpd.sourceforge.net/, available in MacPorts). I also found something called LibHTTPD (http://www.hughes.com.au/products/libhttpd/), but it looks like a semi-abandoned commercial project and doesn't seem to support multithreaded listening anyway.
+
+Question: has anyone here used these libraries? Any war stories? Any other packages I should look into?
+
+*[6 years ago]: 2008-03-23T17:08:46.000Z</description><thumb cache="FW14-topics-docs/e110/7025_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/144024.png</thumb></snippet></snippets></search_results>

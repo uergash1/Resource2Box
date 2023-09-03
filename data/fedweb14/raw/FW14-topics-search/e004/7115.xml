@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7115">pittsburgh steelers news</query><engine status="OK" timestamp="2014-04-19 08:17:14" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7115-01"><link cache="FW14-topics-docs/e004/7115_01.html" timestamp="2014-04-19 08:17:16">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.1.5684&amp;rank=1</link><title>Text Classification from Labeled and Unlabeled Documents using EM</title><description>Text Classification from Labeled and Unlabeled Documents using EM
+
+by Kamal Nigam, Andrew Kachites Mccallum, Sebastian Thrun, Tom Mitchell \- Machine Learning , 1999
+
+"... MITCHELL y tom.mitchell@(email omitted); y School of Computer Science, Carnegie Mellon University, Pittsburgh ..."
+
+Abstract \- Cited by 803 (17 self) \- Add to MetaCart
+
+. This paper shows that the accuracy of learned text classifiers can be improved by augmenting a small number of labeled training documents with a large pool of unlabeled documents. This is important because in many text classification problems obtaining training labels is expensive, while large quantities of unlabeled documents are readily available. We introduce an algorithm for learning from labeled and unlabeled documents based on the combination of Expectation-Maximization (EM) and a naive Bayes classifier. The algorithm first trains a classifier using the available labeled documents, and probabilistically labels the unlabeled documents. It then trains a new classifier using the labels for all the documents, and iterates to convergence. This basic EM procedure works well when the data conform to the generative assumptions of the model. However these assumptions are often violated in practice, and poor performance can result. We present two extensions to the algorithm that improve ...</description></snippet><snippet id="FW14-e004-7115-02"><link cache="FW14-topics-docs/e004/7115_02.html" timestamp="2014-04-19 08:18:29">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.46.1529&amp;rank=2</link><title>A comparison of event models for Naive Bayes text classification</title><description>A comparison of event models for Naive Bayes text classification
+
+by Andrew McCallum, Kamal Nigam , 1998
+
+"... @(email omitted); Kamal Nigam y knigam@(email omitted); z Just Research 4616 Henry Street Pittsburgh, PA 15213 y School ..."
+
+Abstract \- Cited by 753 (26 self) \- Add to MetaCart
+
+Recent work in text classification has used two different first-order probabilistic models for classification, both of which make the naive Bayes assumption. Some use a multi-variate Bernoulli model, that is, a Bayesian Network with no dependencies between words and binary word features (e.g. Larkey and Croft 1996; Koller and Sahami 1997). Others use a multinomial model, that is, a uni-gram language model with integer word counts (e.g. Lewis and Gale 1994; Mitchell 1997). This paper aims to clarify the confusion by describing the differences and details of these two models, and by empirically comparing their classification performance on five text corpora. We find that the multi-variate Bernoulli performs well with small vocabulary sizes, but that the multinomial performs usually performs even better at larger vocabulary sizes---providing on average a 27% reduction in error over the multi-variate Bernoulli model at any vocabulary size.</description></snippet><snippet id="FW14-e004-7115-03"><link cache="FW14-topics-docs/e004/7115_03.html" timestamp="2014-04-19 08:19:22">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.32.9956&amp;rank=3</link><title>A Comparative Study on Feature Selection in Text Categorization</title><description>A Comparative Study on Feature Selection in Text Categorization
+
+by Yiming Yang, Jan O. Pedersen , 1997
+
+"... Science Carnegie Mellon University Pittsburgh, PA 15213-3702, USA yiming@(email omitted); Jan O. Pedersen ..."
+
+Abstract \- Cited by 947 (13 self) \- Add to MetaCart
+
+This paper is a comparative study of feature selection methods in statistical learning of text categorization. The focus is on aggressive dimensionality reduction. Five methods were evaluated, including term selection based on document frequency (DF), information gain (IG), mutual information (MI), a Ø 2 -test (CHI), and term strength (TS). We found IG and CHI most effective in our experiments. Using IG thresholding with a knearest neighbor classifier on the Reuters corpus, removal of up to 98% removal of unique terms actually yielded an improved classification accuracy (measured by average precision) . DF thresholding performed similarly. Indeed we found strong correlations between the DF, IG and CHI values of a term. This suggests that DF thresholding, the simplest method with the lowest cost in computation, can be reliably used instead of IG or CHI when the computation of these measures are too expensive. TS compares favorably with the other methods with up to 50% vocabulary redu...</description></snippet><snippet id="FW14-e004-7115-04"><link cache="FW14-topics-docs/e004/7115_04.html" timestamp="2014-04-19 08:20:35">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.11.9519&amp;rank=4</link><title>A Re-Examination of Text Categorization Methods</title><description>A Re-Examination of Text Categorization Methods
+
+by Yiming Yang, Xin Liu , 1999
+
+"... .00 Yiming Yang and Xin Liu School of Computer Science Carnegie Mellon University Pittsburgh, PA 15213 ..."
+
+Abstract \- Cited by 634 (19 self) \- Add to MetaCart
+
+This paper reports a controlled study with statistical significance tests on five text categorization methods: the Support Vector Machines (SVM), a k-Nearest Neighbor (kNN) classifier, a neural network (NNet) approach, the Linear Leastsquares Fit (LLSF) mapping and a NaiveBayes (NB) classifier. We focus on the robustness of these methods in dealing with a skewed category distribution, and their performance as function of the training-set category frequency. Our results show that SVM, kNN and LLSF significantly outperform NNet and NB when the number of positive training instances per category are small (less than ten), and that all the methods perform comparably when the categories are sufficiently common (over 300 instances).</description></snippet><snippet id="FW14-e004-7115-05"><link cache="FW14-topics-docs/e004/7115_05.html" timestamp="2014-04-19 08:21:44">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.22.6286&amp;rank=5</link><title>NewsWeeder: Learning to Filter Netnews</title><description>NewsWeeder: Learning to Filter Netnews
+
+by Ken Lang \- in Proceedings of the 12th International Machine Learning Conference (ML95 , 1995
+
+"... NewsWeeder: Learning to Filter Netnews (To appear in ML 95) Ken Lang School of Computer Science ..."
+
+Abstract \- Cited by 435 (0 self) \- Add to MetaCart
+
+for the creation and maintenance of a user profile, which describes the user's interests. &lt;em&gt;News&lt;/em&gt;Weeder is a netnews</description></snippet><snippet id="FW14-e004-7115-06"><link cache="FW14-topics-docs/e004/7115_06.html" timestamp="2014-04-19 08:22:41">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.109.2516&amp;rank=6</link><title>An evaluation of statistical approaches to text categorization</title><description>An evaluation of statistical approaches to text categorization
+
+by Yiming Yang \- Journal of Information Retrieval , 1999
+
+"... @(email omitted); School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213-3702, USA Received October ..."
+
+Abstract \- Cited by 489 (21 self) \- Add to MetaCart
+
+Abstract. This paper focuses on a comparative evaluation of a wide-range of text categorization methods, including previously published results on the Reuters corpus and new results of additional experiments. A controlled study using three classifiers, kNN, LLSF and WORD, was conducted to examine the impact of configuration variations in five versions of Reuters on the observed performance of classifiers. Analysis and empirical evidence suggest that the evaluation results on some versions of Reuters were significantly affected by the inclusion of a large portion of unlabelled documents, mading those results difficult to interpret and leading to considerable confusions in the literature. Using the results evaluated on the other versions of Reuters which exclude the unlabelled documents, the performance of twelve methods are compared directly or indirectly. For indirect compararions, kNN, LLSF and WORD were used as baselines, since they were evaluated on all versions of Reuters that exclude the unlabelled documents. As a global observation, kNN, LLSF and a neural network method had the best performance; except for a Naive Bayes approach, the other learning algorithms also performed relatively well.</description></snippet><snippet id="FW14-e004-7115-07"><link cache="FW14-topics-docs/e004/7115_07.html" timestamp="2014-04-19 08:23:59">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.116.2034&amp;rank=7</link><title>Maximum entropy markov models for information extraction and segmentation</title><description>Maximum entropy markov models for information extraction and segmentation
+
+by Andrew Mccallum, Dayne Freitag , 2000
+
+"... @(email omitted); Dayne Freitag DAYNE@(email omitted); Just Research, 4616 Henry Street, Pittsburgh, PA 15213 USA Fernando ..."
+
+Abstract \- Cited by 439 (18 self) \- Add to MetaCart
+
+Hidden Markov models (HMMs) are a powerful probabilistic tool for modeling sequential data, and have been applied with success to many text-related tasks, such as part-of-speech tagging, text segmentation and information extraction. In these cases, the observations are usually modeled as multinomial distributions over a discrete vocabulary, and the HMM parameters are set to maximize the likelihood of the observations. This paper presents a new Markovian sequence model, closely related to HMMs, that allows observations to be represented as arbitrary overlapping features (such as word, capitalization, formatting, part-of-speech), and defines the conditional probability of state sequences given observation sequences. It does this by using the maximum entropy framework to fit a set of exponential models that represent the probability of a state given an observation and the previous state. We present positive experimental results on the segmentation of FAQ’s. 1.</description></snippet><snippet id="FW14-e004-7115-08"><link cache="FW14-topics-docs/e004/7115_08.html" timestamp="2014-04-19 08:25:06">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.133.6957&amp;rank=8</link><title>RCV1: A new benchmark collection for text categorization research</title><description>RCV1: A new benchmark collection for text categorization research
+
+by David D. Lewis, Yiming Yang, Tony G. Rose, Fan Li, G. Dietterich, Fan Li \- Journal of Machine Learning Research , 2004
+
+"... 3612D, LTI 5000 Forbes Avenue Pittsburgh, PA 15213, USA Tony G. Rose TGR@(email omitted); Cancer Research ..."
+
+Abstract \- Cited by 430 (10 self) \- Add to MetaCart
+
+Reuters Corpus Volume I (RCV1) is an archive of over 800,000 manually categorized newswire stories recently made available by Reuters, Ltd. for research purposes. Use of this data for research on text categorization requires a detailed understanding of the real world constraints under which the data was produced. Drawing on interviews with Reuters personnel and access to Reuters documentation, we describe the coding policy and quality control procedures used in producing the RCV1 data, the intended semantics of the hierarchical category taxonomies, and the corrections necessary to remove errorful data. We refer to the original data as RCV1-v1, and the corrected data as RCV1-v2. We benchmark several widely used supervised learning methods on RCV1-v2, illustrating the collection’s properties, suggesting new directions for research, and providing baseline results for future studies. We make available detailed, per-category experimental results, as well as</description></snippet><snippet id="FW14-e004-7115-09"><link cache="FW14-topics-docs/e004/7115_09.html" timestamp="2014-04-19 08:26:14">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.126.670&amp;rank=9</link><title>Semantic matching of web services capabilities</title><description>Semantic matching of web services capabilities
+
+by Massimo Paolucci, Takahiro Kawamura, Terry R. Payne, Katia Sycara , 2002
+
+"... . Payne1, Katia Sycara1 1 Carnegie Mellon University Pittsburgh, PA, USA fpaolucci, takahiro, terryp ..."
+
+Abstract \- Cited by 412 (20 self) \- Add to MetaCart
+
+Abstract. The Web is moving from being a collection of pages toward a collection of services that interoperate through the Internet. The first step toward this interoperation is the location of other services that can help toward the solution of a problem. In this paper we claim that location of web services should be based on the semantic match between a declarative description of the service being sought, and a description of the service being offered. Furthermore, we claim that this match is outside the representation capabilities of registries such as UDDI and languages such as WSDL. We propose a solution based on DAML-S, a DAML-based language for service description, and we show how service capabilities are presented in the Profile section of a DAML-S description and how a semantic match between advertisements and requests is performed. 1 Introduction Web services provide a new model of the Web in which sites exchange dynamic information on demand. This change is especially important for the e-business community, because it provides an opportunity to conduct business faster and more efficiently. Indeed, the opportunity to manage supply chains dynamically to achieve the greatest advantage on the market is expected to create great value added and increase productivity. On the other hand, automatic management of supply chain opens new challenges: first, web services should locate other services that provide a solution to their problems, second, services should interoperate to compose complex services. In this paper we concentrate on the first problem: the location of web services on the basis of the capabilities that they provide. The solution of this problem requires a language to express the capabilities of services, and the specification of a matching algorithm between service advertisements and service requests that recognizes when a request matches an advertisement. We adopt DAML-S as service description language because it provides a semantically based view of of web services which spans from the abstract description of the capabilities of</description></snippet><snippet id="FW14-e004-7115-10"><link cache="FW14-topics-docs/e004/7115_10.html" timestamp="2014-04-19 08:27:25">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DB16DB99BC93D3B838C54C0F773287B2?doi=10.1.1.33.3380&amp;rank=10</link><title>Statistical Language Modeling Using The Cmu-Cambridge Toolkit</title><description>Statistical Language Modeling Using The Cmu-Cambridge Toolkit
+
+by Philip Clarkson, Ronald Rosenfeld , 1997
+
+"... Science, Carnegie Mellon University 5000 Forbes Avenue, Pittsburgh, PA 15213, USA. will contain only a ..."
+
+Abstract \- Cited by 316 (3 self) \- Add to MetaCart
+
+The CMU Statistical Language Modeling toolkit was released in 1994 in order to facilitate the construction and testing of bigram and trigram language models. It is currently in use in over 40 academic, government and industrial laboratories in over 12 countries. This paper presents a new version of the toolkit. We outline the conventional language modeling technology, as implemented in the toolkit, and describe the extra efficiency and functionality that the new toolkit provides as compared to previous software for this task. Finally,we give an example of the use of the toolkit in constructing and testing a simple language model.</description></snippet></snippets></search_results>

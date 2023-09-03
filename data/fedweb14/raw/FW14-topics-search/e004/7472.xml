@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7472">python re tutorial</query><engine status="OK" timestamp="2014-04-20 16:05:41" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7472-01"><link cache="FW14-topics-docs/e004/7472_01.html" timestamp="2014-04-20 16:05:45">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.54.2876&amp;rank=1</link><title>A Tutorial on Visual Servo Control</title><description>A Tutorial on Visual Servo Control
+
+by Seth Hutchinson, Greg Hager, Peter Corke \- IEEE Transactions on Robotics and Automation , 1996
+
+"... A Tutorial on Visual Servo Control Seth Hutchinson Department of Electrical and Computer ..."
+
+Abstract \- Cited by 593 (19 self) \- Add to MetaCart
+
+This paper provides a &lt;em&gt;tutorial&lt;/em&gt; introduction to visual servo control of robotic manipulators. Since</description></snippet><snippet id="FW14-e004-7472-02"><link cache="FW14-topics-docs/e004/7472_02.html" timestamp="2014-04-20 16:06:55">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.112.8434&amp;rank=2</link><title>A tutorial on learning with Bayesian networks</title><description>A tutorial on learning with Bayesian networks
+
+by David Heckerman \- LEARNING IN GRAPHICAL MODELS , 1995
+
+"... at ftp://ftp.research.microsoft.com /pub/dtg/david/tutorial.ps. Abstract ABayesian network is a graphical ..."
+
+Abstract \- Cited by 849 (4 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7472-03"><link cache="FW14-topics-docs/e004/7472_03.html" timestamp="2014-04-20 16:09:03">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.117.3731&amp;rank=3</link><title>A tutorial on support vector machines for pattern recognition</title><description>A tutorial on support vector machines for pattern recognition
+
+by Christopher J. C. Burges \- Data Mining and Knowledge Discovery , 1998
+
+"... ﻿, , 1{43 () c Kluwer Academic Publishers, Boston. Manufactured in The Netherlands. A Tutorial ..."
+
+Abstract \- Cited by 2272 (11 self) \- Add to MetaCart
+
+The &lt;em&gt;tutorial&lt;/em&gt; starts with an overview of the concepts of VC dimension and structural risk</description></snippet><snippet id="FW14-e004-7472-04"><link cache="FW14-topics-docs/e004/7472_04.html" timestamp="2014-04-20 16:11:21">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.117.1144&amp;rank=4</link><title>A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking</title><description>A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking
+
+by M. Sanjeev Arulampalam, Simon Maskell, Neil Gordon \- IEEE TRANSACTIONS ON SIGNAL PROCESSING , 2002
+
+"... ﻿174 IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 50, NO. 2, FEBRUARY 2002 A Tutorial on Particle ..."
+
+Abstract \- Cited by 1137 (2 self) \- Add to MetaCart
+
+Increasingly, for many application areas, it is becoming important to include elements of nonlinearity and non-Gaussianity in order to model accurately the underlying dynamics of a physical system. Moreover, it is typically crucial to process data on-line as it arrives, both from the point of view of storage costs as well as for rapid adaptation to changing signal characteristics. In this paper, we review both optimal and suboptimal Bayesian algorithms for nonlinear/non-Gaussian tracking problems, with a focus on particle filters. Particle filters are sequential Monte Carlo methods based on point mass (or “particle”) representations of probability densities, which can be applied to any state-space model and which generalize the traditional Kalman filtering methods. Several variants of the particle filter such as SIR, ASIR, and RPF are introduced within a generic framework of the sequential importance sampling (SIS) algorithm. These are discussed and compared with the standard EKF through an illustrative example.</description></snippet><snippet id="FW14-e004-7472-05"><link cache="FW14-topics-docs/e004/7472_05.html" timestamp="2014-04-20 16:13:01">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.119.4856&amp;rank=5</link><title>A gentle tutorial on the EM algorithm and its application to parameter estimation for gaussian</title><description>A gentle tutorial on the EM algorithm and its application to parameter estimation for gaussian
+
+by Jeff A. Bilmes , 1997
+
+"... Gentle Tutorial of the EM Algorithm and its Application to Parameter Estimation for Gaussian Mixture ..."
+
+Abstract \- Cited by 471 (4 self) \- Add to MetaCart
+
+We describe the maximum-likelihood parameter estimation problem and how the Expectation-form of the EM algorithm as it is often given in the literature. We then develop the EM parameter estimation procedure for two applications: 1) finding the parameters of a mixture of Gaussian densities, and 2) finding the parameters of a hidden Markov model (HMM) (i.e., the Baum-Welch algorithm) for both discrete and Gaussian mixture observation models. We derive the update equations in fairly explicit detail but we do not prove any convergence properties. We try to emphasize intuition rather than mathematical rigor. ii 1 Maximum-likelihood Recall the definition of the maximum-likelihood estimation problem. We have a density function ¢¡¤£¦ ¥ §© ¨ that is governed by the set of parameters § (e.g.,   might be a set of Gaussians and § could be the means and covariances). We also have a data set of size � , supposedly drawn from this distribution, i.e., ���� � £�������������£��© �. That is, we assume that these data vectors are independent and</description></snippet><snippet id="FW14-e004-7472-06"><link cache="FW14-topics-docs/e004/7472_06.html" timestamp="2014-04-20 16:16:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.29.5742&amp;rank=6</link><title>Lattice-Based Access Control Models</title><description>Lattice-Based Access Control Models
+
+by Ravi S. Sandhu , 1993
+
+"... @(email omitted); voice: 703-993-1659 fax: 703-993-1638 Abstract The objective of this article is to give a tutorial ..."
+
+Abstract \- Cited by 1080 (47 self) \- Add to MetaCart
+
+The objective of this article is to give a &lt;em&gt;tutorial&lt;/em&gt; on lattice-based access control models</description></snippet><snippet id="FW14-e004-7472-07"><link cache="FW14-topics-docs/e004/7472_07.html" timestamp="2014-04-20 16:20:09">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.210.3789&amp;rank=7</link><title>An introduction to hidden Markov models</title><description>An introduction to hidden Markov models
+
+by L. R. Rabiner, B. H. Juang \- IEEE ASSp Magazine , 1986
+
+"... the method, leading to awide,range of applications of these models. It is the purpose of this tutorial paper ..."
+
+Abstract \- Cited by 830 (2 self) \- Add to MetaCart
+
+The basic theory of Markov chains has been known to</description></snippet><snippet id="FW14-e004-7472-08"><link cache="FW14-topics-docs/e004/7472_08.html" timestamp="2014-04-20 16:21:47">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.167.3624&amp;rank=8</link><title>Induction of Decision Trees</title><description>Induction of Decision Trees
+
+by J. R. Quinlan \- Mach. Learn , 1986
+
+"... must be able to examine and re-examine all of them at many stages during learning. Other well ..."
+
+Abstract \- Cited by 3335 (4 self) \- Add to MetaCart
+
+systems Abstract. The technology for building knowledge-based systems by inductive inference from examples has been demonstrated successfully in several practical applications. This paper summarizes an approach to synthesizing decision trees that has been used in a variety of systems, and it describes one such system, ID3, in detail. Results from recent studies show ways in which the methodology can be modified to deal with information that is noisy and/or incomplete. A reported shortcoming of the basic algorithm is discussed and two means of overcoming it are compared. The paper concludes with illustrations of current research directions. 1.</description></snippet><snippet id="FW14-e004-7472-09"><link cache="FW14-topics-docs/e004/7472_09.html" timestamp="2014-04-20 16:23:18">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.12.3161&amp;rank=9</link><title>Optimizing Search Engines using Clickthrough Data</title><description>Optimizing Search Engines using Clickthrough Data
+
+by Thorsten Joachims , 2002
+
+"... major search engines re\- Permission to make digital or hard copies of all or part of this work ..."
+
+Abstract \- Cited by 834 (22 self) \- Add to MetaCart
+
+This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data. Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below. While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts. This makes them difficult and expensive to apply. The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking. Such clickthrough data is available in abundance and can be recorded at very low cost. Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions. From a theoretical perspective, this method is shown to be well-founded in a risk minimization framework. Furthermore, it is shown to be feasible even for large sets of queries and features. The theoretical results are verified in a controlled experiment. It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples.</description></snippet><snippet id="FW14-e004-7472-10"><link cache="FW14-topics-docs/e004/7472_10.html" timestamp="2014-04-20 16:25:16">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=8A9B6C54BCE08CE152E1FC9A82B645D2?doi=10.1.1.130.4453&amp;rank=10</link><title>Using Bayesian networks to analyze expression data</title><description>Using Bayesian networks to analyze expression data
+
+by Nir Friedman, Michal Linial, Iftach Nachman \- Journal of Computational Biology , 2000
+
+"... enormous amounts of data, which clearly re� ect many aspects of the underlying biological processes ..."
+
+Abstract \- Cited by 731 (16 self) \- Add to MetaCart
+
+DNA hybridization arrays simultaneously measure the expression level for thousands of genes. These measurements provide a “snapshot ” of transcription levels within the cell. A major challenge in computational biology is to uncover, from such measurements, gene/protein interactions and key biological features of cellular systems. In this paper, we propose a new framework for discovering interactions between genes based on multiple expression measurements. This framework builds on the use of Bayesian networks for representing statistical dependencies. A Bayesian network is a graph-based model of joint multivariate probability distributions that captures properties of conditional independence between variables. Such models are attractive for their ability to describe complex stochastic processes and because they provide a clear methodology for learning from (noisy) observations. We start by showing how Bayesian networks can describe interactions between genes. We then describe a method for recovering gene interactions from microarray data using tools for learning Bayesian networks. Finally, we demonstrate this method on the S. cerevisiae cell-cycle measurements of Spellman et al. (1998). Key words: gene expression, microarrays, Bayesian methods. 1.</description></snippet></snippets></search_results>

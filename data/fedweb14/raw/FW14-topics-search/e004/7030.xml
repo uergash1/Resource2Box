@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7030">Lyrics Bangarang</query><engine status="OK" timestamp="2014-04-18 18:26:20" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7030-01"><link cache="FW14-topics-docs/e004/7030_01.html" timestamp="2014-04-18 18:26:23">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=41C27935C1A8387770518281189C3685?doi=10.1.1.353.1471&amp;rank=1</link><title>By</title><description>By
+
+by Jordan V. Hawkins , 2013
+
+"... thoughtful lyrics. o Chorus: Also known as a refrain, a chorus is a song section that is typically ..."
+
+Abstract \- Add to MetaCart
+
+Prior research in the field of Music Information Retrieval has yielded techniques for extracting musical information from digital audio, and made it possible to analyze human music production computationally. I hypothesize that a computer can be programmed to produce output similar to that of a musical artist on two production tasks performed by disk jockeys. The first, “mixing, ” aims to create seamless transitions between songs in a playlist. The second, “mashup ” creation, aims to overlay multiple similar tracks to create a new combined song. To automate these tasks, I first created example sets of my own mixes and mashups, and looked for patterns and relationships in the audio analysis data from the public music analysis API provided by The Echo Nest, Inc. I used my findings to write Python scripts that automatically perform the mixing or mashing tasks on any input audio files. The software was udged by a sample of individuals for its ability to produce output similar to that of a human DJ. Preliminary results support the claim that automatic music production processes can be convincing, but also show how programs perform poorly when processing unexpected input, suggesting that tasks are most easily replicated within specific, predefined artistic styles. 2</description></snippet></snippets></search_results>

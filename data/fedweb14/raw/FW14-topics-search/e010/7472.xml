@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7472">python re tutorial</query><engine status="OK" timestamp="2014-04-24 19:29:23" name="MS Academic" id="FW14-e010"/><snippets><snippet id="FW14-e010-7472-01"><link cache="FW14-topics-docs/e010/7472_01.html" timestamp="2014-04-24 19:29:24">http://academic.research.microsoft.com/Publication/66134/python-tutorial-release-2-1-1</link><title>Python Tutorial Release 2. 1.1</title><description>* Python Tutorial Release 2. 1.1 (Citations: 5)
+
+Guido Van Rossum, Fred L. Drake
+
+python is an easy to learn...approach to object-oriented programming. python's elegant syntax and dynamic...
+
+Published in 2001.</description></snippet><snippet id="FW14-e010-7472-02"><link cache="FW14-topics-docs/e010/7472_02.html" timestamp="2014-04-24 19:29:54">http://academic.research.microsoft.com/Publication/10333288/unix-and-python-tutorial-for-20-180</link><title>Unix and Python tutorial for 20.180</title><description>* Unix and Python tutorial for 20.180
+
+Sabrina L. Spencer, Laura B. Sontag</description></snippet><snippet id="FW14-e010-7472-03"><link cache="FW14-topics-docs/e010/7472_03.html" timestamp="2014-04-24 19:31:05">http://academic.research.microsoft.com/Publication/871253/and-now-for-something-completely-familiar-a-python-tutorial</link><title>And now for something completely familiar: a Python tutorial</title><description>* And now for something completely familiar: a Python tutorial
+
+Robert R. Lewis
+
+...of application areas.in this tutorial, we will study the feature set of python with special emphasis on its...a fairly mechanical process, making python an excellent prototyping and even specification language. python is open-source and freely...
+
+Journal: Journal of Computing Sciences in Colleges - JCSC , 2001</description></snippet><snippet id="FW14-e010-7472-04"><link cache="FW14-topics-docs/e010/7472_04.html" timestamp="2014-04-24 19:31:52">http://academic.research.microsoft.com/Publication/59768516/python-tutorial</link><title>Python tutorial</title><description>* Python tutorial
+
+Rossum van G
+
+...modula-3 and icon. the python interpreter is easily extended with new functions and data types implemented in c. python is also suitable as an...concepts and features of the python language and system. it helps to have a python interpreter handy for hands-on...
+
+Published in 1995.</description></snippet><snippet id="FW14-e010-7472-05"><link cache="FW14-topics-docs/e010/7472_05.html" timestamp="2014-04-24 19:32:17">http://academic.research.microsoft.com/Publication/59768518/python-library-reference</link><title>Python library reference</title><description>* Python library reference
+
+Rossum van G
+
+...would otherwise be inaccessible to python programmers, as well as modules written in python that provide standardized solutions for...assumes basic knowledge about the python language. for an informal introduction to python, see the python tutorial; the python reference manual remains the highest...
+
+Published in 1995.</description></snippet><snippet id="FW14-e010-7472-06"><link cache="FW14-topics-docs/e010/7472_06.html" timestamp="2014-04-24 19:33:12">http://academic.research.microsoft.com/Publication/59765682/extending-and-embedding-the-python-interpreter</link><title>Extending and embedding the Python interpreter</title><description>* Extending and embedding the Python interpreter
+
+Rossum van G
+
+...document assumes basic knowledge about python. for an informal introduction to the language, see the python tutorial. the python reference manual gives a more formal definition of the language. the python library reference documents the existing object types, functions and modules (both built-in and written in python) that give the language its...
+
+Journal: Journal of Computational Physics - J COMPUT PHYS , 1995</description></snippet><snippet id="FW14-e010-7472-07"><link cache="FW14-topics-docs/e010/7472_07.html" timestamp="2014-04-24 19:35:10">http://academic.research.microsoft.com/Publication/59768517/python-reference-manual</link><title>Python reference manual</title><description>* Python reference manual (Citations: 1)
+
+Rossum van G
+
+...modula-3 and icon. the python interpreter is easily extended with new functions and data types implemented in c. python is also suitable as an...modules are described in the python library reference. for an informal introduction to the language, see the python tutorial....
+
+Published in 1995.</description></snippet><snippet id="FW14-e010-7472-08"><link cache="FW14-topics-docs/e010/7472_08.html" timestamp="2014-04-24 19:36:17">http://academic.research.microsoft.com/Publication/59768507/x-python-reference-manual</link><title>X Python reference manual</title><description>* X Python reference manual
+
+K. S. Mullender
+
+...the x windows extension to python. it assumes basic knowledge about the python language and access to the...to the language, see the python tutorial. the python reference manual gives a more...
+
+Published in 1995.</description></snippet><snippet id="FW14-e010-7472-09"><link cache="FW14-topics-docs/e010/7472_09.html" timestamp="2014-04-24 19:37:26">http://academic.research.microsoft.com/Publication/10598743/interoperable-python-zsi-wsdl-soap-web-services-tutorial</link><title>Interoperable Python ZSI WSDL/SOAP Web Services tutorial</title><description>* Interoperable Python ZSI WSDL/SOAP Web Services tutorial
+
+Holger Joukl</description></snippet><snippet id="FW14-e010-7472-10"><link cache="FW14-topics-docs/e010/7472_10.html" timestamp="2014-04-24 19:38:15">http://academic.research.microsoft.com/Publication/14413274/teaching-object-oriented-programming-in-python</link><title>Teaching object-oriented programming in python</title><description>* Teaching object-oriented programming in python
+
+Michael H. Goldwasser, David Letscher
+
+python's use in education has...built-in classes. in this tutorial, we share our experiences using python in the context of an...
+
+Journal: ACM Sigcse Bulletin , vol. 39, no. 3, pp. 365-366, 2007</description></snippet></snippets></search_results>

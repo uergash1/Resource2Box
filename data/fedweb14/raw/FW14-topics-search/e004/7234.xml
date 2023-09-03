@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7234">347 ford engines</query><engine status="OK" timestamp="2014-05-21 19:39:56" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7234-01"><link cache="FW14-topics-docs/e004/7234_01.html" timestamp="2014-05-21 19:39:58">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.98.5736&amp;rank=1</link><title>ad hoc on-demand distance vector (aodv) routing</title><description>ad hoc on-demand distance vector (aodv) routing
+
+by Samir R. Das , 2003
+
+"... This document is a submission by the Mobile Ad Hoc Networking Working Group of the Internet Engineering Task ..."
+
+Abstract \- Cited by 712 (9 self) \- Add to MetaCart
+
+Group of the Internet &lt;em&gt;Engineering&lt;/em&gt; Task Force (IETF). Comments should be submitted to the manet</description></snippet><snippet id="FW14-e004-7234-02"><link cache="FW14-topics-docs/e004/7234_02.html" timestamp="2014-05-21 19:40:16">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.120.4505&amp;rank=2</link><title>Data cube: A relational aggregation operator generalizing group-by, cross-tab, and sub-totals</title><description>Data cube: A relational aggregation operator generalizing group-by, cross-tab, and sub-totals
+
+by Jim Gray, Adam Bosworth, Andrew Layman, Don Reichart, Hamid Pirahesh , 1996
+
+"... -tabulation, subtotals, roll-up and drill-down. This paper examines how a relational engine can support efficient ..."
+
+Abstract \- Cited by 693 (7 self) \- Add to MetaCart
+
+Abstract. Data analysis applications typically aggregate data across many dimensions looking for anomalies or unusual patterns. The SQL aggregate functions and the GROUP BY operator produce zero-dimensional or one-dimensional aggregates. Applications need the N-dimensional generalization of these operators. This paper defines that operator, called the data cube or simply cube. The cube operator generalizes the histogram, crosstabulation, roll-up, drill-down, and sub-total constructs found in most report writers. The novelty is that cubes are relations. Consequently, the cube operator can be imbedded in more complex non-procedural data analysis programs. The cube operator treats each of the N aggregation attributes as a dimension of N-space. The aggregate of a particular set of attribute values is a point in this space. The set of points forms an N-dimensional cube. Super-aggregates are computed by aggregating the N-cube to lower dimensional spaces. This paper (1) explains the cube and roll-up operators, (2) shows how they fit in SQL, (3) explains how users can define new aggregate functions for cubes, and (4) discusses efficient techniques to compute the cube. Many of these features are being added to the SQL Standard.</description></snippet><snippet id="FW14-e004-7234-03"><link cache="FW14-topics-docs/e004/7234_03.html" timestamp="2014-05-21 19:40:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.111.5804&amp;rank=3</link><title>Introduction to Algorithms, second edition</title><description>Introduction to Algorithms, second edition
+
+by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein \- BOOK , 2001
+
+"... Engineering and Computer Science Department at the Massachusetts Institute of Technology. It was edited ..."
+
+Abstract \- Cited by 707 (3 self) \- Add to MetaCart
+
+This part will get you started in thinking about designing and analyzing algorithms. It is intended to be a gentle introduction to how we specify algorithms, some of the design strategies we will use throughout this book, and many of the fundamental ideas used in algorithm analysis. Later parts of this book will build upon this base. Chapter 1 is an overview of algorithms and their place in modern computing systems. This chapter defines what an algorithm is and lists some examples. It also makes a case that algorithms are a technology, just as are fast hardware, graphical user interfaces, object-oriented systems, and networks. In Chapter 2, we see our first algorithms, which solve the problem of sorting a sequence of n numbers. They are written in a pseudocode which, although not directly translatable to any conventional programming language, conveys the structure of the algorithm clearly enough that a competent programmer can implement it in the language of his choice. The sorting algorithms we examine are insertion sort, which uses an incremental approach, and merge sort, which uses a recursive technique known as “divide and conquer.” Although the time each requires increases with the value of n, the rate of increase differs between the two algorithms. We determine these running times in Chapter 2, and we develop a useful notation to express them. Chapter 3 precisely defines this notation, which we call asymptotic notation. It starts by defining several asymptotic notations, which we use for bounding algorithm running times from above and/or below. The rest of Chapter 3 is primarily a presentation of mathematical notation. Its purpose is more to ensure that your use of notation matches that in this book than to teach you new mathematical concepts.</description></snippet><snippet id="FW14-e004-7234-04"><link cache="FW14-topics-docs/e004/7234_04.html" timestamp="2014-05-21 19:40:53">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.134.5136&amp;rank=4</link><title>End-to-End Routing Behavior in the Internet</title><description>End-to-End Routing Behavior in the Internet
+
+by Vern Paxson , 1996
+
+"... engineered providers; that instabilities and updates exhibit 30-second and 60-second periodicities; and that ..."
+
+Abstract \- Cited by 577 (14 self) \- Add to MetaCart
+
+The large-scale behavior of routing in the Internet has gone virtually without any formal study, the exceptions being Chinoy's analysis of the dynamics of Internet routing information [Ch93], and recent work, similar in spirit, by Labovitz, Malan and Jahanian [LMJ97]. We report on an analysis of 40,000 end-to-end route measurements conducted using repeated “traceroutes ” between 37 Internet sites. We analyze the routing behavior for pathological conditions, routing stability, and routing symmetry. For pathologies, we characterize the prevalence of routing loops, erroneous routing, infrastructure failures, and temporary outages. We find that the likelihood of encountering a major routing pathology more than doubled between the end of 1994 and the end of 1995, rising from 1.5 % to 3.3%. For routing stability, we define two separate types of stability, “prevalence, ” meaning the overall likelihood that a particular route is encountered, and “persistence, ” the likelihood that a route remains unchanged over a long period of time. We find that Internet paths are heavily dominated by a single prevalent route, but that the time periods over which routes persist show wide variation, ranging from seconds up to days. About 2/3's of the Internet paths had routes persisting for either days or weeks. For routing symmetry, we look at the likelihood that a path through the Internet visits at least one different city in the two directions. At the end of 1995, this was the case half the time, and at least one different autonomous system was visited 30 % of the time.</description></snippet><snippet id="FW14-e004-7234-05"><link cache="FW14-topics-docs/e004/7234_05.html" timestamp="2014-05-21 19:41:15">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.10.4428&amp;rank=5</link><title>A Review of Current Routing Protocols for Ad-Hoc Mobile Wireless Networks</title><description>A Review of Current Routing Protocols for Ad-Hoc Mobile Wireless Networks
+
+by Elizabeth M. Royer, Chai-Keong Toh
+
+"... . of Electrical &amp; Computer Engineering University of California, Santa Barbara eroyer@(email omitted); Abstract ..."
+
+Abstract \- Cited by 959 (2 self) \- Add to MetaCart
+
+An ad-hoc mobile network is a collection of mobile nodes that are dynamically and arbitrarily located in such a manner that the interconnections between nodes are capable of changing on a continual basis. In order to facilitate communication within the network, a routing protocol is used to discover routes between nodes. The primary goal of such an ad-hoc network routing protocol is correct and efficient route establishment between a pair of nodes so that messages may be delivered in a timely manner. Route construction should be done with a minimum of overhead and bandwidth consumption. This paper examines routing protocols for ad-hoc networks and evaluates these protocols based on a given set of parameters. The paper provides an overview of eight different protocols by presenting their characteristics and functionality, and then provides a comparison and discussion of their respective merits and drawbacks.</description></snippet><snippet id="FW14-e004-7234-06"><link cache="FW14-topics-docs/e004/7234_06.html" timestamp="2014-05-21 19:41:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.99.2838&amp;rank=6</link><title>Handbook of Applied Cryptography</title><description>Handbook of Applied Cryptography
+
+by Alfred J. Menezes, Paul C. Van Oorschot, Scott A. Vanstone, R. L. Rivest , 1997
+
+"... Engineering and Computer Science Massachusetts Institute of Technology June 1996 Preface This book is intended ..."
+
+Abstract \- Cited by 2453 (30 self) \- Add to MetaCart
+
+As we draw near to closing out the twentieth century, we see quite clearly that the information-processing and telecommunications revolutions now underway will continue vigorously into the twenty-first. We interact and transact by directing flocks of digital packets towards each other through cyberspace, carrying love notes, digital cash, and secret corporate documents. Our personal and economic lives rely more and more on our ability to let such ethereal carrier pigeons mediate at a distance what we used to do with face-to-face meetings, paper documents, and a firm handshake. Unfortunately, the technical wizardry enabling remote collaborations is founded on broadcasting everything as sequences of zeros and ones that one's own dog wouldn't recognize. What is to distinguish a digital dollar when it is as easily reproducible as the spoken word? How do we converse privately when every syllable is bounced off a satellite and smeared over an entire continent? How should a bank know that it really is Bill Gates requesting from his laptop in Fiji a transfer of $10,000,000,000 to another bank? Fortunately, the magical mathematics of cryptography can help. Cryptography provides techniques for keeping information secret, for determining that information</description></snippet><snippet id="FW14-e004-7234-07"><link cache="FW14-topics-docs/e004/7234_07.html" timestamp="2014-05-21 19:41:58">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.169.3957&amp;rank=7</link><title>A Mathematical Introduction to Robotic Manipulation</title><description>A Mathematical Introduction to Robotic Manipulation
+
+by Richard M. Murray, Zexiang Li, S. Shankar Sastry , 1994
+
+"... . . . . . . . . . . . . . . . . . . . . . . . . . . . 346 6 Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . 347 7 Exercises ..."
+
+Abstract \- Cited by 638 (47 self) \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7234-08"><link cache="FW14-topics-docs/e004/7234_08.html" timestamp="2014-05-21 19:42:19">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.18.2720&amp;rank=8</link><title>Data Clustering: A Review</title><description>Data Clustering: A Review
+
+by A K Jain, M N Murty, P. J. Flynn \- ACM COMPUTING SURVEYS , 1999
+
+"... , Indian Institute of Science, Bangalore, 560 012, India; P. Flynn, Department of Electrical Engineering ..."
+
+Abstract \- Cited by 1284 (13 self) \- Add to MetaCart
+
+Clustering is the unsupervised classification of patterns (observations, data items, or feature vectors) into groups (clusters). The clustering problem has been addressed in many contexts and by researchers in many disciplines; this reflects its broad appeal and usefulness as one of the steps in exploratory data analysis. However, clustering is a difficult problem combinatorially, and differences in assumptions and contexts in different communities has made the transfer of useful generic concepts and methodologies slow to occur. This paper presents an overview of pattern clustering methods from a statistical pattern recognition perspective, with a goal of providing useful advice and references to fundamental concepts accessible to the broad community of clustering practitioners. We present a taxonomy of clustering techniques, and identify cross-cutting themes and recent advances. We also describe some important applications of clustering algorithms such as image segmentation, object recognition, and information retrieval.</description></snippet><snippet id="FW14-e004-7234-09"><link cache="FW14-topics-docs/e004/7234_09.html" timestamp="2014-05-21 19:42:43">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.13.8133&amp;rank=9</link><title>Wireless Ad Hoc Networks</title><description>Wireless Ad Hoc Networks
+
+by Zygmunt J. Haas, Jing Deng, Ben Liang, Panagiotis Papadimitratos, S. Sajama , 2002
+
+"... , Panagiotis Papadimitratos, and S. Sajama Cornell University School of Electrical and Computer Engineering 323 ..."
+
+Abstract \- Cited by 789 (12 self) \- Add to MetaCart
+
+A mobile ad hoc network is a relatively new term for an old technology - a network that does not rely on pre-existing infrastructure. Roots of this technology could be traced back to the early 1970s with the DARPA PRNet and the SURAN projects. The new twitch is the application of this technology in the non-military communication environments. Additionally, the research community has also recently addressed some extended features of this technology, such as multicasting and security. Also numerous new solutions to the "old" problems of routing and medium access control have been proposed. This survey attempts to summarize the state-ofthe -art of the ad hoc networking technology in four areas: routing, medium access control, multicasting, and security. Where possible, comparison between the proposed protocols is also discussed.</description></snippet><snippet id="FW14-e004-7234-10"><link cache="FW14-topics-docs/e004/7234_10.html" timestamp="2014-05-21 19:42:59">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=DDD49E12AD66808EB09B8A06785D9933?doi=10.1.1.10.7470&amp;rank=10</link><title>Accurate Unlexicalized Parsing</title><description>Accurate Unlexicalized Parsing
+
+by Dan Klein, Christopher D. Manning \- IN PROCEEDINGS OF THE 41ST ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS , 2003
+
+"... that lexical dependencies were a key tool for resolving ambiguities such as PP attachments (Ford et al., 1982 ..."
+
+Abstract \- Cited by 683 (60 self) \- Add to MetaCart
+
+We demonstrate that an unlexicalized PCFG can parse much more accurately than previously shown, by making use of simple, linguistically motivated state splits, which break down false independence assumptions latent in a vanilla treebank grammar. Indeed, its</description></snippet></snippets></search_results>

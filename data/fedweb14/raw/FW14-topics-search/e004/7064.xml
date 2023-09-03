@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7064">Korea weather</query><engine status="OK" timestamp="2014-04-19 00:13:57" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7064-01"><link cache="FW14-topics-docs/e004/7064_01.html" timestamp="2014-04-19 00:14:01">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.59.6027&amp;rank=1</link><title>Probabilistic Routing in Intermittently Connected Networks</title><description>Probabilistic Routing in Intermittently Connected Networks
+
+by Anders Lindgren, Avri Doria, Olov Schelen \- SIGMOBILE Mobile Computing and Communication Review , 2004
+
+"... -350, Korea avri@(email omitted); Abstract. In this paper, we address the problem of routing in intermittently ..."
+
+Abstract \- Cited by 405 (5 self) \- Add to MetaCart
+
+In this paper, we address the problem of routing in intermittently connected networks. In such networks there is no guarantee that a fully connected path between source and destination exists at any time, rendering traditional routing protocols unable to deliver messages between hosts. There does, however, exist a number of scenarios where connectivity is intermittent, but where the possibility of communication still is desirable. Thus, there is a need for a way to route through networks with these properties. We propose PROPHET, a probabilistic routing protocol for intermittently connected networks and compare it to the earlier presented Epidemic Routing protocol through simulations. We show that PROPHET is able to deliver more messages than Epidemic Routing with a lower communication overhead.</description></snippet><snippet id="FW14-e004-7064-02"><link cache="FW14-topics-docs/e004/7064_02.html" timestamp="2014-04-19 00:14:58">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.143.5284&amp;rank=2</link><title>Korea</title><description>Korea
+
+by Jihwan Woo, Kilho Son, Teng Li, Gwansung Kim, In So Kweon
+
+"... of Electrical Engineering, KAIST 373-1 Guseong-dong, Yuseong-gu, Daejeon, Korea {jhwoo, khson, tengli, iskweon ..."
+
+Abstract \- Cited by 3 (0 self) \- Add to MetaCart
+
+Most vision-based UAV (Unmanned Aerial Vehicle) navigation algorithms extract manmade features such as buildings or roads, which are well structured in urban terrain, using the CCD camera. But in the mountain area, extracting, matching or tracking features is more difficult than doing the tasks in the urban terrain. And a CCD camera cannot carry out the computer vision algorithm that is required for the UAV navigation in the night or under dark situation. In this paper, we introduce a new approach for vision based UAV localization method. In our proposed system an UAV uses only DEM (Digital Elevation Map), IR (Infra-Red) image sequences and an altimeter. It can estimate its position and orientation with hypothesis and verification paradigm.. 1</description></snippet><snippet id="FW14-e004-7064-03"><link cache="FW14-topics-docs/e004/7064_03.html" timestamp="2014-04-19 00:15:53">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.257.9382&amp;rank=3</link><title>KOREA</title><description>KOREA
+
+by Myong-keun Eor
+
+"... ﻿KOREA Myong-Keun Eor, Research Fellow Center for Agricultural Policy, Korea Rural Economic ..."
+
+Abstract \- Add to MetaCart
+
+percent and is expected to slow down to 4.9 percent in 2005. Higher oil prices have weakened incentives for investments, which has led to lower estimations of the growth rate in 2004. In spite of sluggish domestic demand, exports increased sufficiently and supported the growth of the Korean economy in 2004. The trade surplus has been maintained since 1998. Exports are also anticipated to remain high even in 2005. The CPI was anticipated to rise by 3.3 percent in 2004, but is expected to stabilize at less than 1 percent in 2005. Foreign exchange reserves still recorded more than US$150 billion as of November 2003. The exchange rate is forecast to stabilize at around 1,150 Won per US dollars as long as there were no impacts from North Korean variables and China shock in 2004 and 2005. Food prices surged by 4.4 percent in 2003. The main reason for rising food prices was the decline in the domestic supply of fruits,</description></snippet><snippet id="FW14-e004-7064-04"><link cache="FW14-topics-docs/e004/7064_04.html" timestamp="2014-04-19 00:16:44">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.28.9531&amp;rank=4</link><title>Efficient Algorithms for Mining Outliers from Large Data Sets</title><description>Efficient Algorithms for Mining Outliers from Large Data Sets
+
+by Sridhar Ramaswamy, Rajeev Rastogi, Kyuseok Shim, Aitrc
+
+"... @(email omitted); Kyuseok Shim KAIST y and AITrc z Taejon, KOREA shim@(email omitted); Abstract In this paper, we ..."
+
+Abstract \- Cited by 218 (1 self) \- Add to MetaCart
+
+In this paper, we propose a novel formulation for distance-based outliers that is based on the distance of a point from its k th nearest neighbor. We rank each point on the basis of its distance to its k th nearest neighbor and declare the top n points in this ranking to be outliers. In addition to developing relatively straightforward solutions to finding such outliers based on the classical nestedloop join and index join algorithms, we develop a highly efficient partition-based algorithm for mining outliers. This algorithm first partitions the input data set into disjoint subsets, and then prunes entire partitions as soon as it is determined that they cannot contain outliers. This results in substantial savings in computation. We present the results of an extensive experimental study on real-life and synthetic data sets. The results from a real-life NBA database highlight and reveal several expected and unexpected aspects of the database. The results from a study on synthetic data sets demonstrate that the partition-based algorithm scales well with respect to both data set size and data set dimensionality. 1</description></snippet><snippet id="FW14-e004-7064-05"><link cache="FW14-topics-docs/e004/7064_05.html" timestamp="2014-04-19 00:17:41">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.23.9800&amp;rank=5</link><title>Searching The Web: The Public and Their Queries</title><description>Searching The Web: The Public and Their Queries
+
+by Amanda Spink, Deitmar Wolfram, Bernard Jansen, B. J. Jansen, Tefko Saracevic , 2001
+
+"... Division) Seoul, 140-022 Korea. Email: jansenb@usfk.korea.army.mil Tefko Saracevic School of Communication ..."
+
+Abstract \- Cited by 216 (7 self) \- Add to MetaCart
+
+In studying actual Web searching by the public at large, we analyzed over one million Web queries by users of the Excite search engine. We found that most people use few search terms, few modified queries, view few Web pages, and rarely use advanced search features. A small number of search terms are used with high frequency, and a great many terms are unique; the language of Web queries is distinctive. Queries about recreation and entertainment rank highest. Findings are compared to data from two other large studies of Web queries. This study provides an insight into the public practices and choices in Web searching.</description></snippet><snippet id="FW14-e004-7064-06"><link cache="FW14-topics-docs/e004/7064_06.html" timestamp="2014-04-19 00:18:34">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.410.9100&amp;rank=6</link><title>Incheon, Korea</title><description>Incheon, Korea
+
+by Sara Harkness, Charles M. Super, Ughetta Moscardino, Jong-hay Rha, Marjolijn Blom, Caroline Johnston, Mary A. Sutherland, On-kang Hyun, Giovanna Axia, Jesús Palacios, Blanca Huitrón
+
+"... of Child Development and Guidance Hannam University Daejeon, Korea Marjolijn Blom Department of Educational ..."
+
+Abstract \- Add to MetaCart
+
+, &lt;em&gt;Korea&lt;/em&gt;, the Netherlands, Spain, and the United States). Transcriptions of the hour-long home interviews</description></snippet><snippet id="FW14-e004-7064-07"><link cache="FW14-topics-docs/e004/7064_07.html" timestamp="2014-04-19 00:19:34">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.198.911&amp;rank=7</link><title>Abteilung Korea</title><description>Abteilung Korea
+
+by President Prof, Dr. Werner Sasse, Vice-president Prof Alex, Re Guillemoz, Universität Hamburg, Centre Corée, Secretary Dr, Antonetta L. Bruno, Treasurer Prof, Dr. Eckart Dege, Universitá La Sapienza, Universität Kiel, Piazzale Aldo Moro, Dr. Koen, De Ceuster
+
+"... /CNRS Abteilung Korea Maison d’Asie D-20146 Hamburg 22 avenue du Président Wilson GERMANY F-75116 Paris or5a007 ..."
+
+Abstract \- Add to MetaCart
+
+Abstract not found</description></snippet><snippet id="FW14-e004-7064-08"><link cache="FW14-topics-docs/e004/7064_08.html" timestamp="2014-04-19 00:20:40">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.380.2300&amp;rank=8</link><title>Seoul, Korea</title><description>Seoul, Korea
+
+by D. David Moyer, D. David Moyer
+
+"... Department of Transportation University of Wisconsin Madison, Wisconsin, USA U.S.-Korea Seminar on Geographic ..."
+
+Abstract \- Add to MetaCart
+
+Geographic information systems (GIS) have developed rapidly in recent years for many uses and users. Our experience in the United States of America is that GIS for Transportation (GIS-T) systems have become one of the standard tools which many State departments of transportation, as well as Federal transportation agencies, rely. In the last two or three years, Intelligent Vehicle Highway</description></snippet><snippet id="FW14-e004-7064-09"><link cache="FW14-topics-docs/e004/7064_09.html" timestamp="2014-04-19 00:21:53">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.406.5708&amp;rank=9</link><title>● Weather Deviation</title><description>● Weather Deviation
+
+by Info Ads-b, Operations Outside, Volcanic Ash, Solar Storms, Flight Planning
+
+"... ● Contingency References ● Volcanic Ash and Solar Storms ● Weather Deviation ● Flight Planning Pacific EMPHASIS ..."
+
+Abstract \- Add to MetaCart
+
+This resource document consolidates U.S. and International guidance for U.S. operators. Please direct questions</description></snippet><snippet id="FW14-e004-7064-10"><link cache="FW14-topics-docs/e004/7064_10.html" timestamp="2014-04-19 00:22:52">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=26CF6F9FD7C904C1361DADE790D0B0B9?doi=10.1.1.195.9512&amp;rank=10</link><title>VENTURE CAPITAL POLICIES IN KOREA</title><description>VENTURE CAPITAL POLICIES IN KOREA
+
+by English Text Only, Günseli Baygan, English Text Only, Günseli Baygan
+
+"... share of GDP. Korea weathered the severe financial crisis of 1997-98 to face the challenge of reducing ..."
+
+Abstract \- Add to MetaCart
+
+Document complet disponible sur OLIS dans son format d'origine</description></snippet></snippets></search_results>

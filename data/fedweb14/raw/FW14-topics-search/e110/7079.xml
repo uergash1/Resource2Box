@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7079">a-team theme music</query><engine status="OK" timestamp="2014-04-24 17:44:08" name="HNSearch" id="FW14-e110"/><snippets><snippet id="FW14-e110-7079-01"><link cache="FW14-topics-docs/e110/7079_01.html" timestamp="2014-04-24 17:44:45">https://news.ycombinator.com/item?id=2499308</link><title>Taking a Chance - Free startup idea</title><description>Taking a Chance - Free startup idea
+
+1 point
+
+by mw63214
+
+3 years ago
+
+2 comments Follow
+
+I wrote this up in a text file a while back, I have a bunch of other ideas, but no time and lack the experience to do many of them. So I thought I would throw one up on HN in the event someone sees some value in it.
+
+\---------
+
+MDW 
+Dec 3rd, 2010
+
+Idea-in-a-sentence: “We are going to put the human element of life between the 0's and 1's of the cold digital music wasteland.” or “Experiences, Memories, Personal Connections, and Passion are all uniquely human. Streaming the ciphered bits of 0's and 1's of a song is uniquely digital. We want to change that.”
+
+makes songs take on character/personality of vinyl records
+
+songs get more "seasoned" as you play them more
+
+how? - analyze large sample of vinyl vs. mp3/flac
+
+analyze variation, rate of change, identify at least 20 variables between digital and vinyl and how they change over time using as much user context as possible(does temp. affect sound? Does virtual/physical record player change not only sound when played, but also change future characteristics of audio? Etc..)
+
+overall strategy: bring soul/personality(one advantage of vinyl) to digital(convenience of play, storage, etc..)
+
+logo/brand ideas: representation of character/soul/personality/interactiveness in a sea of binary
+
+overall concepts: put emotion in an emotionless medium; to humanize digital; warm(human, dynamic) the cold(digital, static)
+
+monetization questions: 
+how? 
+where is the value? 
+\- is the value in the ability to have a (DDM)dynamic digital medium taking traits from (DAM)dynamic analog medium in vinyl, or is the value in the curation/storage/market-making services of company for the converted DDM?
+
+would people pay for service, if so, when? 
+\- after songs take on a warm, analog feel, or before file conversion based on expectations?
+
+what are expectations?(quantify acceptable level of Δ(DDM/DAM))
+
+how to create enduring value after Δ(DDM/DAM) approaches 0 acceptably?(in other words, once the song is seasoned to acceptable level, and continued use yields less and less noticeable results, how do you still generate revenue?)
+
+\- market-making?
+
+only part of value can come from audio features, other features must be just as important in order to be a platform, not a widget.
+
+In staying with theme of value synergy between digital(cold, mp3, flac, convenient, experiences do not follow the medium, they follow the user) and analog(warm, vinyl, record sleeve signed by artist, human connection, experiences travel with physical medium), we can further add value by storing experiences of one user and being a market maker for others to consumer that value.
+
+\- for static digital medium(mp3's, flac, etc..) now: what the user does with it, how it's played, what shows they went to, who they met, pictures of events and people, and other experiences do not follow the file, they stay with the user(not creating value)
+
+\- for dynamic digital medium we want to make: what user does with it, how many times it's played, where it's traveled, who they've met, pictures from shows and events, signatures, etc.. still stay in users memory, but also follow the file\t (creating a sort of provenance &gt; value &gt; $$$).
+
+metrics: 
+?
+
+feature ideas:
+
+Live Show&gt;Hotspot&gt;Signed Album: allow artists to set up “hotspots”(50 yard radius?) at shows that will virtually add text/drawings/photos/content controlled by artist to album cover/inside sleep/etc.. of DDM of people with the app.
+
+Streamlined integration with mobile/tablet/big screen. Users won't be able to fully realize value of album art, signatures, pictures from shows, etc... on a small screen(mobile). This makes the multi-screen integration a very important factor. Should files be cloud based and then streamed?(easier, but limited by bandwidth and connection reliability) Or should the program use a more local approach that connects directly between devices?(harder, could run into compatibility issues and may make development more costly and delayed)
+
+Goals: 
+Meet with people who would enjoy using website/app 
+Put a rough draft of dream team together, keep in contact with them, consult with them often 
+Further hash out idea with potential team members and others input. Create mockup videos of how it would be used(think iPhone commercials) and concept in action. 
+Can it work? Proof of concept (toughest goal?) 
+How Much will it cost? 
+Secure legal counsel, find best way for company structure(start as LLC, but plan for c-corp?) Make sure a dynamic digital medium doesn't infringe on any copyright issue. Identify any foreseeable legal issues. 
+Create logo/brand identity 
+Hire team 
+Create beta website/app. Usable, but minimal upfront development costs 
+Pitch idea to record stores, ask for feedback, input from employees. Show how website/app could increase their market share and increase their profits. Somehow get small investments from large number of record stores without giving equity. Hard, but the key may be to get their point of view on how it could help them. They may be a large future userbase and advocate, offer future discounts, exclusive rights to at least 3 points of integration into program? Something like that. 
+Identify robust set of static(non changing) variables to analyze between digital audio and vinyl audio 
+Identify robust set of dynamic(changing) variables of vinyl and how various use affects these variables. 
+Normalize staticΔ(digital/vinyl) – (make audio file consistently sound like brand new vinyl) 
+Normalize dynamicΔ(digital/vinyl) – (make audio file consistently sound like seasoned old vinyl) 
+Fill the gap! Connect how vinyl changes over time/use to digital, and apply in between normalized staticΔ and normalized dynamicΔ. 
+Release beta to vinyl enthusiasts, audiophiles, record store employees etc.. free, but with feedback tool included
+
+*[3 years ago]: 2011-04-29T22:53:54.000Z</description><thumb cache="FW14-topics-docs/e110/7079_01_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2499308.png</thumb></snippet><snippet id="FW14-e110-7079-02"><link cache="FW14-topics-docs/e110/7079_02.html" timestamp="2014-04-24 17:45:16">http://blog.programmableweb.com/2011/06/19/31-new-apis-my-opera-aculab-cloud-real-time-group-chat/</link><title>31 New APIs: My Opera, Aculab Cloud, Real-Time Group Chat</title><description>31 New APIs: My Opera, Aculab Cloud, Real-Time Group Chat (http://blog.programmableweb.com/2011/06/19/31-new-apis-my-opera-aculab-cloud-real-time-group-chat/)
+
+1 point
+
+by tk1
+
+3 years ago
+
+0 comment Follow
+
+1st post. Thoughts this might be helpful to some.
+
+31 New APIs: My Opera, Aculab Cloud, Real-Time Group Chat Wendell Santos, June 19th, 2011Comments(3) This week we had 31 new APIs added to our API directory including a cloud based telephony service, online video conferencing service, real-time group chat application, local deals aggregation service, crowd-sourced copy editing service, music industry data tracking service and twitter picture search. Below is more details on each of these new APIs.
+
+Aculab Cloud API: Telephony service Aculab Cloud enables users to add telephony and automated voice to their applications. Users can write applications to manage interactions and call logic including transfers calls, plays messages, adds calls together in a conference and more. The RESTful API provides programmatic access to the Cloud Filestore, whereby a suitable program may download, upload, delete or rename media files.
+
+AuraLink API: Auralink offers high definition video conferencing as an on-line service. Auralinks Integration API allows developers to create web based video conferencing tools that provide: on-demand translation services remote legal deposition tools speak-to-the-expert technical support personalized coaching and instruction scheduled and ad hoc sales meetings talk-to-the-physician health care kiosks Full documentation of the API is not publicly available.
+
+BC Wireless API: The WaveCaster API is the backend of British Columbia Wireless Network Societys (BCWNS) CommunityInformaticsSystem. The API provides various levels of functionality for the community informatics system including: Website User Interface Functions for consistent HTML objects. XMLRPC and SOAP remote functions Interfaces to third party informatic systems including Industry Canada, Google, CEONet, etc. Interfaces to the BCWNS AAA6 identity management system. Interfaces to the BCWNS Communication Networks including MSN, IRC, Web Groups and related communication networks. Community Network Management and Awareness The API uses XMLRPC and SOAP protocols with responses formatted in XML.
+
+Bullhorn Staffing API: Bullhorn is a technology company that provides end to end solutions for staffing and recruiting agencies.The Bullhorn API provides programmatic access to data in the Bullhorn system. With it developers can integrate the system with related applications. The API offers a number of functionalities including: resume parsing, candidate lookup, add jobs, retrieve files and more. The API uses SOAP protocol and responses are formatted in XML.
+
+Convore API: Convore is a site for chatting with groups of people in real-time. Users can create a group, invite their friends, and start chatting about anything. Convore tracks what users miss while they are away so that they can catch up in the conversations. The Convore API provides access to the functionality of the application. Users can interact with accounts, groups, topics and more. The API uses RESTful calls and resposnes are formatted in JSON.
+
+Dealinium API: Dealinium.com is an entertainment shopping site that offers local deals on a daily basis. The API lets users retrieve information from the site such as the deal of the day in a given city, a single deal and a list of posts for a single deal. The API uses RESTful calls and responses are formatted in XML, JSON and RSS.
+
+dlvr.it API: dlvr.it provides bloggers, publishers and brands a way to syndicate content through their social channels. The API provides functionality such a listing routes and accounts as well as posting to accounts and creating short urls. The API uses RESTful calls and responses are formatted in XML and JSON.
+
+Editz API: Formerly called gooseGrade, Editz is a crowd-sourced copy editing solution. When users join, their readers can find and send copy editing suggestions to them. Editz has been built to be a retroactive editing tool. It will work on any webpage with HTML text, The Editz API allows developers to use Editzs database of corrections to create innovative applications using Editz data. With the API users can read corrections, get grades, and change their corrections status. The API uses RESTful calls and responses are formatted in XML and JSON.
+
+Empire 2.0 Tech Talk API: The New York State Office of the CIO announced a technology initiative themed Empire 2.0 which targets social networking, participation and collaboration as part of an overall theme of transparency and open government. The Empire 2.0 site is a platform for users to submit, discuss and refine ideas regarding policy, specific technology or project suggestions, state-wide or agency-specific feedback. The Empire 2.0 Tech Talk API provides methods for obtaining data from the site for use in mashups and other consumable formats. The API uses JavaScript protocol and responses are formatted in JSON.
+
+Happenstand API: Happenstand is a website featuring Bay Area arts events. The API allows developers to retrieve lists of events, venues and person data from the site. The lists can be sorted by start date, end date, proximity and details. Users can also perform keyword searchs of the data. The API uses RESTful calls and responses are formatted in XML and JSON.
+
+HNSearch API: HNSearch is a search engine for Hacker News. HNSearch provides search functionality for the Hacker News community site. The HNSearch API enables developers to access HN data programatically via simple HTTP requests. All responses are formatted in JSON.
+
+Interpair API: Interpair is a cloud-based device pairing service. By using a dynamically generated PIN code, two clients can exchange pairing information. To send pairing information one client posts information via an interpair.net URL parameter, and receives a numeric code in return. The other client then retrieves the information using the code.
+
+Invoicera API: Invoicera is an online billing and invoicing software designed for simplicity and convenience while still providing the best invoicing features, including time tracking, invoicing and recurring invoicing, expense tracking, multiple language and currency support, and multiple payment options. Invoicera also provides an XML API for developers to use to integrate Invoicera services into other applications.
+
+LodgeIt! API: LodgeIt is a pastebin for programming code. It allows users to upload, share and comment on code samples. LodgeIt currently supports two APIs, XMLRPC and JSON. The API allows users to retrieve information on pastes such as supported languages, lists of the most recent pastes, associated stylesheets and more.
+
+Lymbix Sentiment Analysis API: Lymbix provides sentiment analysis services for any form of text-based communication. The service looks for the tone in messages such as emails and tweets. With the API, developers can integrate the Lymbix service into their own applications. The API can provide sentiment analysis across single or multiple articles and also on a line by line basis within the articles. It uses RESTful calls and responses are formatted in JSON.
+
+Musicmetric API: Musicmetric tracks and indexes data for 600,000 artists and over 10 million individual releases in real time. The API provides direct access to much of the data that is collected by the site. For artist based data Musicmetric guarantees data coverage for the top 1,000 artists. The service provides fan activity data over time on social networks, sentiment analysis for music-related text and demographics on fans. The API uses RESTful calls and responses are formatted in JSON.
+
+My Opera API: My Opera is the support community for the Opera Web browser. With a free account users have access to photo albums, blogs, groups and forums. My Opera provides two APIs that can be used for blogging and embedding content. Users can embed photos and other My Opera content like avatars from external sites with the API. It uses RESTful calls and responses are formatted in XML and JSON.
+
+NextBio API: NextBio is the developer of a global discovery platform for life sciences data. Research data from diverse experiments can be imported, integrated with public data, and explored within relevant biological and clinical context. Researchers can mine this data in real-time. NextBio provides a set of APIs enabling organizations to import, analyze, and export data. A RESTful search API lets developers integrate NextBio search results with their applications. The Secure Bulk Import of Data can be used for importing large amounts of data into NextBio in an automated manner. Full documentation is not publicly available.
+
+Pen.io API: Pen.io is a fast and simple solution for creating basic text-based web pages. Users can use the Pen.io tags to embed videos and images into their pages without having to use HTML tags (although some HTML tags are supported). Pen.io also has a RESTful API that includes the same functionality as the web based service, with the additional ability to have Pen.io act as a private key store; a page with private set will only be available through the API with authentication.
+
+PLoS Search API: PLoS is a non-profit organization of scientists and physicians with the goal of making the worlds scientific and medical literature a freely available public resource. The PLoS Search API gives developers access to data from the PLos archive of scientific articles that can be integrated into applications for the web, desktop or mobile devices. It allows PLoS content to be queried using any of the fields in the PLoS Search engine. The API uses JavaScript protocol.
+
+RPM Software API: RPM Software develops and delivers enterprise class commission and channel management solutions for the telecommunications industry. The API is used to integrate RPM with other systems. With the API developers can pull information on users, accounts, customers and more. The API uses RESTful calls and responses are formatted in JSON.
+
+Safe2pee API: Safe2pee is a resource where people can find the locations of gender free bathrooms. It provides a RESTful API that lets users query the site data and integrate it with their apps. Users can also use the API to upload new locations. Responses are formatted in JSON.
+
+SemanticWire API: Semantic Wire is a news reader and aggregator that extracts semantic metadata from articles. It is meant to provide access to machine readable news content. The service monitors thousands of news sources, industry publications and corporate press releases and the metadata that is extracted includes entities, facts, events, categories and more in near real time. This data is made available through the API which can then be integrated with news analytics monitoring applications, decision making and predictive models, dashboards and more. The API uses RESTful calls and responses are formatted in XML, JSON and RSS.
+
+Soocial API: Soocial is a system that connects a users various address books. Users can sync their address books and store them in one place. The API lets developers access their contacts information programmatically and integrate it into third party applications. The API uses RESTful calls and responses are formatted in XML and JSON.
+
+ThingSpeak API: The ThingSpeak API allows you to build Internet of Things applications. Use the API to create cloud applications that interact with sensors and controls from anything that supports the HTTP protocol. The ThingSpeak API is able to interface with devices from Arduino and ioBridge, iPhone and Android mobile devices, home automation systems, robots, thermostats, industrial controls, etc. ThingSpeak also supports integration with external web services such as Twitter, Prowl, Twilio, and WeatherBug, and Foursquare, by using the ThingHTTP app. In addition to the free hosted API, the ThingSpeak API is open source and available on GitHub for download on private servers.
+
+ThingSpeak Charts API: ThingSpeak is a platform for users to share information about their networked devices. Users can post real time information about their devices to ThingSpeak through channels. The Charts API allows users to create an instant visualization of their data. The chart displays properly in all browsers and mobile devices. The chart can also show dynamic data by loading new data automatically. The API uses RESTful calls and responses are formatted in XML, JSON and CSV.
+
+Tweet Press API: Tweet Press is a free blogging service that lets users post updates longer than 140 characters to Twitter, organize them on their own personal blog by topic, and gather all replies and comments in one place. The Tweet Press REST API allows users to create a new Tweet Press Posting, and corresponding Tweet, using HTTP requests. The API uses HTTP POST calls and responses are formatted in XML.
+
+Twicsy API: Twicsy is a Twitter pics search engine. Users can browse and search for Twitter pics as well as upload and post their own. The Twicsy API offers an interface for developers to gain access to Twicsys services. Developers can use the API to add Twitter pics into their apps. Currently the API offers the following features: browse a list of pics tweets by a user (sorted by date), search all Twitter pics (sort by relevance or date, searches limited to the past 30 days of tweeting, view tweets/users of a pic, JSONP callbacks of all the above functionality. The API uses RESTful calls and responses are formatted in JSON.
+
+UniteU Retail API: UniteU Technologies is an e-commerce provider. Its Retail API provides an open integration path for merchants and 3rd developers to connect to the UniteU Connected Commerce platform. The Retail API enables the integration of back-office and retail management systems with UniteU. It can be used to add on to any of the existing retail management and POS integrations that UniteU offers as off-the-shelf solutions along with providing custom integration paths for systems not currently available as off-the-shelf solutions from UniteU. UniteUs Retail API supports the following data: Catalog (products, departments, variants, searchable attributes, update inventory, cross promotions, site maps) Asset Management (images, multimedia, PDFs) Reviews and Ratings Content Shoppers Shopping Cart (wish-lists, ship-to/bill-to info, comments) Checkout (shipping rates, taxes, promotions, payment options, secure purchase, gift wrap options) Orders Full documentation is not publicly available.
+
+WareNet CheckWare API: WareNet is a distributed B2B platform that provides technical information about various kinds of hardware products. WareNet supports asynchronous communication between business partners. Technical information could contain CPU frequency, products physical dimensions, power consumption &amp; etc. The WareNet Java API provides an ability to communicate directly with WareNet. Using WareNet API, it is possible to: Find technical information about products Receive notifications about new products With the WareNet API, developers can create: Internet shops targeted on selling and delivering products. All technical information about content is centralized and handled by WareNet. News sites which provide a product feed for consumers. Systems that check a products compatibility and compare products by their characteristics. Modules for CAD platforms which are able to auto invent and construct robots. *Fill augmented realities with live objects.
+
+ZooProperty API: Zoo Property is a real estate property listing management system for Web designers and Software developers giving users the ability to choose who designs and manages their website. The API lets users access an XML data feed for all the properties, office details and team member information for a real estate office. Users can also make RESTful calls to obtain property attributes, property detail attributes, primary and secondary contact attributes, images, brochures and floorplans. Responses are formatted in XML and JSON.
+
+*[3 years ago]: 2011-06-20T14:36:37.000Z</description><thumb cache="FW14-topics-docs/e110/7079_02_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2674321.png</thumb></snippet><snippet id="FW14-e110-7079-03"><link cache="FW14-topics-docs/e110/7079_03.html" timestamp="2014-04-24 17:46:14">https://news.ycombinator.com/item?id=7398968</link><title>What to do if you're just semi-technical?</title><description>What to do if you're just semi-technical?
+
+81 points
+
+by samelawrence
+
+about a month ago
+
+85 comments Follow
+
+Everyone tells me this is a blessing, but it feels like a curse.
+
+I enjoy writing code and the world of software, but I'm by no means an accomplished or brilliant developer. I can hack my way around some HTML/CSS and JavaScript, but I couldn't deploy anything more than a single-page application.
+
+I also enjoy music, acting, singing... but I don't think I was born for the world of the arts. I want to make a real impact through technology, and the things I care about are problems that can probably only be solved with computers and money.
+
+Georgia Tech pushed me to be so specialized that I quickly changed my original major (Chemical and Biomolecular Engineering... I was a chemistry whiz in high school) to International Affairs, but even there I didn't find happiness, so I eventually dropped out of school.
+
+I've had some jobs I enjoy, but none of them that really thrilled me. My favorite job was probably the year I worked at Apple retail in college, because I got to explain technology to people and change their lives in some small way.
+
+I've done sales, support, and now work on a QA team, but none of these things feel like my passion, my joy. These are just jobs, with no semblance of a career path. I have ideas and goals of starting a company, but am unable to build everything myself, and lack the financial resources to hire anyone to help me.
+
+My brain bridges the gap that our culture has between highly technical people (developers) and those who need to understand the outcomes and requirements (everyone else)... but I lack a college degree or any kind of real experience in product management.
+
+I'm 25 and I feel fucked. Has anyone else been in this situation, and what did you do to get out? Did you go more technical or less technical over time? I feel torn between what feel like different paths, and wish I could integrate both sides into my work.
+
+Relevant: http://imgur.com/WeMCypL
+
+*[about a month ago]: 2014-03-14T14:37:03.000Z</description><thumb cache="FW14-topics-docs/e110/7079_03_thumb.png">https://drcs9k8uelb9s.cloudfront.net/7398968.png</thumb></snippet><snippet id="FW14-e110-7079-04"><link cache="FW14-topics-docs/e110/7079_04.html" timestamp="2014-04-24 17:46:57">https://news.ycombinator.com/item?id=3869288</link><title>Tell HN: Steal my ideas #2</title><description>Tell HN: Steal my ideas #2
+
+21 points
+
+by pbj
+
+2 years ago
+
+14 comments Follow
+
+A while back I submitted a thread with ideas that I had but likely would never use. It got a decent response so I'm back with more free ideas for you to steal. Again I apologize if some of these already exist. If you've got your own, why not share them below?
+
+Idea #1) Kickstarter in a box
+
+It seems like every day I see a new story or blog post about X new product that was funded on Kickstarter. But what do the projects that get funded have in common? Usually they tend to have high quality videos, great photos of their prototypes, good rewards, clear and effective copy, etc.
+
+However, the people with neat projects may not know much about video production, they aren't photographers, they may not have a website for their product, they may not be great writers, may not know marketing, etc. So the idea is to have a consulting firm that would offer a full service Kickstarter package. You'd get the creator with a great product a website, a high quality video, good donor incentives, great copy, high quality photographs, help marketing etc. In exchange you could take a % of their funding if successful, just like Kickstarter does.
+
+Idea #2) A YC/Techstars consulting firm
+
+The basic idea is that they'd obviously be a prior team or group of individuals that participated in YC/TS who would help hopeful applicants refine their applications, prepare pitches, interview practice, investment advice, etc.
+
+Idea #3) Freelancer deals
+
+The basic gist is that the site would sell the services of freelance designers, developers, writers, marketers, etc, Groupon style. Say you're a good designer but you're looking for work. You normally charge $60/hr. You could offer a special to this site to do 2 hours of work for X people for $20 instead. This would probably be enough time to make a decent logo/layout for someone. Although the designer may be doing work for far below their normal rate, their portfolio would be featured to everyone visiting the site. In addition they'd have the chance of recurring work at their normal rate from anyone who bought their deal. This also gives the buyer a chance to try someone temporarily at a minimal expense before making a bigger commitment.
+
+Idea #4) Teach me
+
+One on one live video music/gaming/etc lessons. Education related startups seem to be a really hot market right now so maybe some of these already exist. The basic idea is that you'd pick a niche and have a site of professionals in that niche. Say musicians for example. You'd be able to pick a guitar player that you like the style of and the site would allow you to take live streaming video lessons for $X/hr. The instructor would be able to give you immediate and instant feedback, etc. You could do this for a lot of industries I'd imagine.
+
+Idea #5) Codecademy for investing
+
+Many people are somewhat clueless about investing and saving for retirement. This site could help teach you on a basic khan academy level about the fundamentals of investing, guide you on the right types of investments for you based on info you provide, help you sort the different packages by various investment firms, etc.
+
+*[2 years ago]: 2012-04-20T18:57:49.000Z</description><thumb cache="FW14-topics-docs/e110/7079_04_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3869288.png</thumb></snippet><snippet id="FW14-e110-7079-05"><link cache="FW14-topics-docs/e110/7079_05.html" timestamp="2014-04-24 17:47:38">https://news.ycombinator.com/item?id=105557</link><title>Anywhere.FM acquired by imeem</title><description>Anywhere.FM acquired by imeem
+
+72 points
+
+by iamwil
+
+6 years ago
+
+27 comments Follow
+
+We are very excited to announce that Anywhere.FM has been acquired by imeem (http://www.imeem.com), the leading social media network.
+
+Since our launch last August, Anywhere.FM has been dedicated to making it easy to upload, play, and share your music wherever you go. We have listened to our users and worked hard to provide them with the best music playback experience available on the Internet. The millions of tracks that our users have uploaded to Anywhere.FM over the last 6 months prove to us that we have been successful in achieving this goal.
+
+Today's announcement broadens the scope of Anywhere.FM's ambitions, bringing us together with imeem, a social networking site with a media-centric approach to connecting consumers. With imeem, users can enjoy, recommend and discover not only music, but film, video, TV programming and art, and connect with people who share similar tastes.
+
+Anywhere.FM will continue to exist as a standalone site for our users to enjoy. At the same time, we will bring many of the innovations of Anywhere.FM to the imeem community as well as the broader internet community in the near future. We'll also keep on innovating on the Anywhere.FM website. We have some interesting ideas on how to best leverage imeem's audience and media content to further enrich the Anywhere.FM experience.
+
+We hope you are as excited as we are about this acquisition. We have lots in store for you - we'll be sure to keep you posted in the coming months as we unveil our exciting plans.
+
+Feel free to share your ideas and feedback with us at feedback@anywhere.fm.
+
+Sincerely,
+
+Anson, Lux, and Sachin The Anywhere.FM Team
+
+http://www.anywhere.fm
+
+*[6 years ago]: 2008-01-28T14:33:56.000Z</description><thumb cache="FW14-topics-docs/e110/7079_05_thumb.png">https://drcs9k8uelb9s.cloudfront.net/105557.png</thumb></snippet><snippet id="FW14-e110-7079-06"><link cache="FW14-topics-docs/e110/7079_06.html" timestamp="2014-04-24 17:48:27">https://news.ycombinator.com/item?id=3773593</link><title>Ask HN: Help? Breaking into the App Store top 100.</title><description>Ask HN: Help? Breaking into the App Store top 100.
+
+18 points
+
+by alanfalcon
+
+2 years ago
+
+14 comments Follow
+
+I thought I would never do this. But here I am so I'm just going to get it out there.
+
+Last year I had a baby and quit my awesome job as a graphic designer for the Blizzard web team largely because I wasn't making enough money to keep living in Southern California if my wife was going to be able to stay at home with our newborn. We moved to Las Vegas and now live with my wife's father. I spent most of the past year starting Falcon Empire and making my first iPhone game, Beat Boxes, which I finally released late last year.
+
+Of course, nobody noticed.
+
+Despite what you're reading here, I'm terrible at self promotion. In desperation and ready to give up on my dream and go apply for a job at McDonald's for a while, I started giving my game away for free. I figured that way at least some people would get to play it and I won't simply have wasted the last year of my life. I thought maybe a couple hundred people would find it and download it. Well, things have gone a little differently. And now I have a chance for things to go very differently, and I need all the help I can get, and that's the only reason I'm here now.
+
+I know I'm essentially a nobody here, but I'm begging you to help me become somebody.
+
+I'm asking for three huge favors.
+
+First, please upvote this post.
+
+Second, if you have an iPhone or iPad or iPod Touch or even if you just have iTunes downloaded on your computer, please download my game, Beat Boxes, for free.
+
+There's no catch or anything, there aren't even ads in the game or in-app purchases. It's completely free, and hopefully also kind of fun. But even if you do nothing but download it and never play it and delete it right away, I think that would still help me so much.
+
+Lastly, and this is asking a lot more, I know, please help me spread the word. Even if all you do is post, "check out this game by this one guy," on Twitter or Facebook and include the link to the game (in the comments, below), that would be a HUGE help.
+
+You see, I thought I'd get a couple hundred downloads but it turns out that I'm getting many thousands of downloads. I'm getting enough downloads that I actually just barely poked into the top 100 free games on the App Store, which to me is a very big deal. I'm freaking out a little bit about it. But I also know that this is my one chance to get Beat Boxes noticed by a wider audience, and maybe even Apple itself if I'm extremely lucky. And I'm going to do what I can and what I have to in order to try to help make a little luck.
+
+Right now I've obviously made negative money on the game between all the license fees I've paid and the music I commissioned, and that's completely ignoring the year I spent not having a paycheck. But if I can break into the top 50 or maybe even top 10 free games with Beat Boxes, then maybe I'll have momentum. When the promotion ends and Beat Boxes isn't free anymore, maybe people will actually drop 99 cents my way to play it if they hear about it from a friend who tried it and liked it. Maybe I can put off applying at McDonald's for another month while I try to finish up my next game, a game that I've been too depressed to put any work into for the past several weeks. I won't know unless I do everything I can to try to help myself, and that means coming here with this completely self-serving post and begging you. I don't want to do it, but I had to try.
+
+Thanks, and if nothing else then please wish me luck. I'll gladly and happily do follow up posts about numbers and graphs and lessons and I'll answer any and all questions you guys have. You can e-mail me at alan@falconempire.com or post them here (though I have pretty strict noprocrast settings that I'm too afraid to disable so it could take a bit for me to have a chance to answer here). If you want to see any follow-up posts, check out my blog at syncingdreams.com - I'm going to head over and write up a post there right now.
+
+*[2 years ago]: 2012-03-29T23:07:39.000Z</description><thumb cache="FW14-topics-docs/e110/7079_06_thumb.png">https://drcs9k8uelb9s.cloudfront.net/3773593.png</thumb></snippet><snippet id="FW14-e110-7079-07"><link cache="FW14-topics-docs/e110/7079_07.html" timestamp="2014-04-24 17:49:06">https://news.ycombinator.com/item?id=2783629</link><title>Howto pick an idea if you can't see the trend?</title><description>Howto pick an idea if you can't see the trend?
+
+4 points
+
+by X4
+
+3 years ago
+
+1 comment Follow
+
+Hi!
+
+I somehow cannot understand the trends, altough I checked following sites and utilized Twitter stats/trends.
+
+* http://www.google.com/trends
+
+* http://www.trendsresearch.com
+
+* http://www.worldtrendsresearch.com/major-trends.php
+
+Here is a general list of ideas that I'd like to pick 2 to 3 from the topics to create a project that is mashing them up in a Ruby On Rails project. It's important to choose only key features of each topic and merge them into one idea.
+
+I don't see the problem that people seem to have according to trends, so I cannot solve it.
+
+Can you please help me with that? I'm searching for a project idea.
+
+Here's a list of Project Ideas I found in the net.
+
+==================================================
+
+1\. Business Performance Reporting
+
+2\. Case Management for Government Agencies
+
+3\. Classroom Management
+
+4\. Clinical Trial Initiation and Management
+
+5\. Competitive Analysis Web Site
+
+6\. Discussion Forum website
+
+7\. Disputed Invoice Management
+
+8\. Employee Training Scheduling and Materials
+
+9\. Equity Research Management
+
+10\. Integrated Marketing Campaign Tracking
+
+11\. Manufacturing Process Managements
+
+12\. Product and Marketing Requirements Planning
+
+13\. Request for Proposal Software
+
+14\. Sports League Management
+
+15\. Absence Request and Vacation Schedule Management
+
+16\. Budgeting and Tracking Multiple Projects
+
+17\. Bug Database Management
+
+18\. Call Center Management Software
+
+19\. Change Request Management
+
+20\. Compliance Process Support Site
+
+21\. Contacts Management Software
+
+22\. Document Library and Review
+
+23\. Event Planning and Management
+
+24\. Expense Reimbursement and Approval
+
+25\. Help Desk and Ticket Management
+
+26\. Inventory Tracking
+
+27\. I T Team Workspace
+
+29\. Job Requisition and Interview Management
+
+28\. Knowledge Base
+
+29\. Lending Library
+
+30\. Physical Asset Tracking and Management
+
+31\. Project Tracking Workspace
+
+32\. Shopping Cart
+
+33\. Knowledge Base 34 Lending Library
+
+35\. Physical Asset Tracking and Management
+
+36\. Project Tracking Workspace
+
+37\. Room and Equipment Reservations
+
+38\. Sales Lead Pipeline
+
+39\. Yellow Pages &amp; Business Directory
+
+40\. Time &amp; Billing
+
+41\. Class Room Management
+
+42\. Expense Report Database
+
+43\. Sales Contact Management Database
+
+44\. Inventory Management Database
+
+45\. Issue Database
+
+46\. Event Management Database
+
+47\. Service Call Management Database
+
+48\. Accounting Ledger Database
+
+49\. Asset Tracking Database
+
+50\. Cycle Factory Works Management
+
+51\. Sales Corporation Management
+
+52\. Business Directory
+
+53\. Education Directory
+
+54\. Dental Clinic Management
+
+55\. Fund Raising Management
+
+56\. Clinic/ Health Management
+
+57\. Cable Management System
+
+58\. Survey Creation and Analytics
+
+59\. Museum Management System
+
+60\. Multi-Level Marketing System
+
+61\. Learning Management System
+
+62\. Knowledge Management System
+
+63\. Missing Person Site
+
+64\. Disaster Management Site
+
+65\. Job Management Site
+
+66\. Financial Portfolio Management
+
+67\. Market Research Management
+
+68\. Order Management System
+
+69\. Point of Sale
+
+70\. Advertisement /Banner Management and Analytics
+
+71\. Export Management System
+
+72\. Invoice Management
+
+73\. Recruitment Management System
+
+74\. Articles / Blog / Wiki Web site
+
+75\. Online Planner
+
+76\. Mock Tests and Examination Management
+
+77\. Examination System
+
+78\. Practice Test Management.
+
+79\. Asset Management System
+
+80\. Travel Agency System.
+
+81\. Placement Management System.
+
+82\. Polls Management
+
+83\. Customer Management
+
+84\. Project Management System.
+
+85\. Network Marketing System
+
+86\. Yoga Health Care Management
+
+87\. Personal Finance Management System
+
+88\. Real Estate Management System
+
+89\. Stock Mutual Funds Management
+
+90\. Careers and Employment Management System
+
+91\. Music Albums Management System
+
+92\. Classified Ads Managements
+
+93\. Property Management System
+
+94\. Sales &amp; Retail Management
+
+95\. Dating Site
+
+96\. Hotel Management System
+
+97\. Search Engine
+
+98\. Online News Paper Site
+
+99\. Image Gallery 100. Staffing and Human Capital Management
+
+101\. Address Book
+
+102\. Inventory Management System
+
+103\. Newspaper Classifieds
+
+104\. Hostel Management 105Music , Lyrics Website .
+
+106\. Wildlife Safari Trip Management
+
+107\. Wildlife Sanctuary Management
+
+108\. Wild life Flora and Fauna Statistics Management
+
+109\. Animal Hospital Management
+
+110\. Zoo Management System
+
+111\. Agro-Forestry Management System
+
+112\. Bus Depot Management System
+
+113\. Even t Management System
+
+114\. Clinical Research Management System
+
+115\. Food Technology Management System
+
+116\. Circus Management System
+
+117\. ResortManagement System
+
+118\. Bugs/IssuesManagement System
+
+119\. Life /MotorInsurance Management System
+
+120\. Exam Scheduler
+
+121\. Ad CampaignManagement System
+
+123\. Internet Banking Management System
+
+124\. Ad Agency Management System
+
+125\. Vechical Traffic Management System
+
+126\. Web Traffic Analytics Management System
+
+127\. Solid Waste Management System
+
+128\. Peer-To Peer File Sharing System
+
+129\. Chat Application
+
+130\. Crisis Management System
+
+131\. Disaster Management System
+
+132\. Document Management System
+
+133\. Security Threats Evolution Software
+
+134\. Digital Rights Management System
+
+135\. Games ,Single , Multi-Player
+
+136\. Content /Document Management System
+
+137\. Archaeological Survey Management System
+
+138\. Market Research Management System
+
+139\. Crime Management System
+
+140\. Jail/Prisonmanagement System
+
+141\. Telephone Traffic Monitoring Management System
+
+142\. School Drop Out Statistics and Analytics System
+
+143\. Lost &amp; Found Management System
+
+144\. Online Tutorials Management System
+
+145\. Bulk Sms Application
+
+146\. Criminal Records management System
+
+147\. Email Campaign Management System
+
+148\. Political Campaign Management System
+
+149\. Skill Competence and Mapping Application
+
+150\. Ontology based Web Crawler (source: http://goo.gl/Du3ow)
+
+Thanks in Advance Hackers and Heroes!
+
+*[3 years ago]: 2011-07-19T23:51:07.000Z</description><thumb cache="FW14-topics-docs/e110/7079_07_thumb.png">https://drcs9k8uelb9s.cloudfront.net/2783629.png</thumb></snippet><snippet id="FW14-e110-7079-08"><link cache="FW14-topics-docs/e110/7079_08.html" timestamp="2014-04-24 17:50:12">https://news.ycombinator.com/item?id=1984115</link><title>Ask HN: Would Apple reject this app?</title><description>Ask HN: Would Apple reject this app?
+
+3 points
+
+by EGreg
+
+3 years ago
+
+1 comment Follow
+
+Here is a chat I had in #iphonedev on freenode. I am torn between making an app better for 90% of my users (as confirmed by actual user testing) and following Apple's Human Interface Guidelines to the letter.
+
+What are the chances it will get rejected? See below.
+
+&lt;EGreg_&gt; hey guys
+&lt;EGreg_&gt; would apple reject my app for using a tab-bar instead of a toolbar
+&lt;EGreg_&gt; http://grab.by/7NnH
+&lt;EGreg_&gt; in my user testing, fully 90% of the users had no idea what the buttons did
+* _rush_ has quit (Ping timeout: 245 seconds)
+&lt;EGreg_&gt; so I am trying to delight my users but am afraid that Apple will reject the app for using a component in a "non standard way"
+&lt;KucukMubasir&gt; EGreg_: have you read HIGs ?
+&lt;EGreg_&gt; yes
+&lt;KucukMubasir&gt; if you don't violate it, why should it be rejected
+&lt;EGreg_&gt; it violates apple's HIG
+&lt;EGreg_&gt; but in real world testing, the version I just linked to: http://grab.by/7NnH is understood right away byt he users, whereas the version that follows HIG draws blank stares from 90% of users, and of them 50% are unable to complete "select all" without assistance
+&lt;EGreg_&gt; what to do?
+&lt;ilteris&gt; drunkn718: actually if you look at the examples you there's a session object which takes care of the authorization. it's in the samples
+&lt;EGreg_&gt; http://grab.by/7No1
+&lt;KucukMubasir&gt; EGreg_: I have no idea; but if it violoates...
+&lt;KucukMubasir&gt; toolbar buttons don't stay as selected unlike tabbar ones, right?
+&lt;EGreg_&gt; in order to follow HIG I have to make my app LESS understandable by 90% of people
+&lt;EGreg_&gt; as comfirmed empirically in user acceptance testing
+&lt;EGreg_&gt; tabbar buttons don't have to stay selected
+&lt;Codhisattva&gt; the problem isn't tabbar vs toolbar
+&lt;Codhisattva&gt; the problem is select all doesn't belong down there at all
+&lt;EGreg_&gt; where does it belong, then?
+&lt;EGreg_&gt; if not right underneath the checkmarks
+&lt;KucukMubasir&gt; EGreg_: why don't you put it to the top?
+&lt;EGreg_&gt; and where would it appear, exactly?
+&lt;EGreg_&gt; the top is already taken up by the search bar
+&lt;jer&gt; EGreg_, add a segmented control to the toolbar, move one of the buttons (i.e., the right + button) into the segmented control
+&lt;Codhisattva&gt; I doubt select all is even all that useful
+&lt;EGreg_&gt; oh, so now we are talknig about taking out the select all option, all because of the inability of app developers to put captions on their icons
+&lt;Codhisattva&gt; :)
+&lt;EGreg_&gt; codhisattva: sure, why not let the user manually select 100 contacts :)
+&lt;EGreg_&gt; If you are suggesting somehow completely rearranging the interface, taking out the Select All button, taking out the +, and so on, in order to satisfy some misguided insistence that icons MUST NOT have captions, I would ask, why not simply add captions to the icons?
+&lt;BleuLlama&gt; if users are confused by your toolbar icons, you need better toolbar icons.
+&lt;jer&gt; if your tabbar doesn't have captions on its icons, you have a UX problem
+&lt;Codhisattva&gt; EGreg_: if by "confused" you mean "they had to try it to find out what it was" then sure. *Icons* are almost always like that.
+&lt;EGreg_&gt; Once again, the factor that changes users perception *IS* adding captions underneath icons.
+&lt;EGreg_&gt; Codhisattva: users should not have to try something in order to understand its function
+&lt;jer&gt; EGreg_, you are going about this entirely the wrong way
+&lt;Codhisattva&gt; EGreg_: and that is the crux of your problem
+&lt;jer&gt; you're trying to patch your UI in a way that conforms with what your users want given this particular UI
+&lt;Codhisattva&gt; EGreg_: that is *exactly* the wrong frame of mind for a UI developer
+&lt;EGreg_&gt; Codhissatva: a UI developer must pay attention to ACTUAL user testing and ACTUAL user use. Not a crystal ball
+&lt;jer&gt; EGreg_, right, and when something isn't working how you want and you won't get it through review, you try other UIs and resubmit to your team of users
+&lt;Codhisattva&gt; the primary reason why icons have meaning to users is experimentation
+&lt;EGreg_&gt; ACTUAL user testing reveals with a HUGE statistical significance margin, that the problem is lack of captions under icons.
+&lt;EGreg_&gt; So tehrefore I ask, can I put captions under icons?
+&lt;jer&gt; on the tabbar?
+&lt;jer&gt; you have them already
+&lt;EGreg_&gt; I am forced to use a tabbar because the toolbar does not support icons+captions
+&lt;EGreg_&gt; All I am asking is
+&lt;EGreg_&gt; Will apple reject the app for the sole reason that it uses a tabbar when it "should have" used a toolbar (and thus made 90% of users confused)
+&lt;EGreg_&gt; That seems preposterousto me and I am just wondering whether apple would do it
+&lt;Codhisattva&gt; EGreg_: let us know how that works out
+&lt;EGreg_&gt; I'm asking YOU
+&lt;BleuLlama&gt; regardless, users (and apple) have an expectation that a (Tab bar|other element) does one thing and your app ueses it dfferently, then it causes issues.
+&lt;BleuLlama&gt; apple has defined certain elements to be used in certain ways. past that, it's your job to use visual cues as to what the user can do. If it's unclear, then you need different visual cues (icons, eg)
+&lt;EGreg_&gt; I presume it is "Apple is King and we cannot use empirical reality to serve as a basis for our decisions. If empirical reality says that an interface change will hurt the experience for 90% of users, we must IGNORE it because Apple's HG is sacred."
+* pLk has quit (Quit: pwned!)
+&lt;BleuLlama&gt; EGreg_: pretty much
+&lt;jer&gt; LOL
+&lt;jer&gt; you're funny
+&lt;EGreg_&gt; crap, that's what I thought :(
+&lt;BleuLlama&gt; Apple defined it, we go along with it. If you have issues, submit a radar to apple, and they might change it
+&lt;EGreg_&gt; radar?
+&lt;BleuLlama&gt; the joys of closed platform development, and agreeing to their terms when joining.
+&lt;BleuLlama&gt; radar. bug/issue report, feature requests, etc.
+&lt;EGreg_&gt; I just don't understand this particular policy of not putting captions underneath icons
+&lt;EGreg_&gt; no matter how clear an icon is, it is not clear to a first time user
+&lt;EGreg_&gt; imagine if all your macos menus were icons :)
+&lt;EGreg_&gt; and you had to just "try them out" to know what they did!!
+&lt;BleuLlama&gt; i'd love it if they were.
+&lt;jer&gt; i'd prefer if they were
+&lt;jer&gt; xcode's menu takes up a ton of screen real estate
+* EGreg_ now knows what is meant by apple minions
+&lt;EGreg_&gt; lol
+&lt;jer&gt; of course, tbh i still to this day prefer the NeXTSTEP app menus, vertical not horizontal
+&lt;EGreg_&gt; sure, you should have the OPTION of removing the captions
+&lt;BleuLlama&gt; apple has good designers, they'd come up with good icons that describe what they did well.
+&lt;BleuLlama&gt; and if not, i'd read the info/readme/help and know
+&lt;EGreg_&gt; bleullama: okay but I am trying to draw attention to the actual problem.
+&lt;EGreg_&gt; No matter what icon is used for "select all", it is not clear unless it says "select all"
+&lt;EGreg_&gt; This has been VERIFIED. By actual TESTS.
+&lt;EGreg_&gt; We tried a circle with a checkmark, a square witha checkmark, a checkmark
+&lt;wiliz__&gt; EGreg_: what does this screen do? sends email/sms to all selected contacts?
+&lt;EGreg_&gt; argh this is just so frustrating. For apple to reject my app because it implements an interface change that helps most users (not in their imagination) go from WTF to OH COOL
+&lt;EGreg_&gt; wiliz__ YEP easy to understand right? :)
+* cying has quit (Quit: cying)
+&lt;EGreg_&gt; even though there are only 2 fake contacts on it
+&lt;jer&gt; EGreg_, so plead your case to apple, file a radar, and cross your fingers and toes
+&lt;EGreg_&gt; what's "filing a radar"?
+* esses (~esses@94.166.161.120) has joined #iphonedev
+&lt;wiliz__&gt; EGreg_: why not first create the email and then select the contacts? that is how mail app works
+&lt;EGreg_&gt; jer: let me also point out that there are dozens of more horrible non standard apps in the apple store. I doubt they would reject this actually
+&lt;BleuLlama&gt; EGreg_: check out the photos app. it lets you select multiple items. Mail.app does multiple item selection as well.
+&lt;jer&gt; EGreg_, if there were only dozens i'd be surprised
+&lt;EGreg_&gt; wiliz__ because apple does not let any such functionality be developed by 3rd party apps
+* Modius has quit (Ping timeout: 264 seconds)
+&lt;EGreg_&gt; jer: so then what am I worried about
+&lt;EGreg_&gt; 99% of this app is HIG compliant
+&lt;EGreg_&gt; i'm just worried about the 1% :) most apps have like 20% lol
+&lt;EGreg_&gt; http://www.lehigh.edu/~sol0/TabBarGradient.jpg
+&lt;BleuLlama&gt; EGreg_: try this. move that tab bar to the top. and resubmit.
+* flyman_ has quit (Quit: This computer has gone to sleep)
+&lt;BleuLlama&gt; er. that "Tab bar"
+&lt;BleuLlama&gt; since it's not really used as a tab bar
+&lt;BleuLlama&gt; ;)
+&lt;BleuLlama&gt; yes, screen placement is important.
+&lt;EGreg_&gt; hmm interesting ide moving it to the top
+&lt;EGreg_&gt; it goes against the actual use of the app though (select users, then do something)
+&lt;wiliz__&gt; EGreg_: i don't know, as a list? i just got the impression that "send the selected items as an email/sms"
+&lt;BleuLlama&gt; users expect controls for the current view to be at the top
+&lt;EGreg_&gt; but I like it
+&lt;BleuLlama&gt; and different view selectors at the bottom
+&lt;EGreg_&gt; nice idea
+&lt;EGreg_&gt; wbleu ios toolbars are always on the bottom
+&lt;EGreg_&gt; eg in photo app
+&lt;jer&gt; ios toolbars are not always on the bottom
+&lt;EGreg_&gt; they aren't?
+&lt;jer&gt; no
+&lt;EGreg_&gt; show me an apple app where they are not
+&lt;jer&gt; photos
+&lt;jer&gt; there's two
+&lt;jer&gt; bottom and top
+&lt;EGreg_&gt; i see no toolbar at top
+&lt;EGreg_&gt; where do you see it
+&lt;EGreg_&gt; the top one is a navigation bar
+&lt;BleuLlama&gt; music playback now playing has a tool bar thing that appears under the nav bar
+&lt;EGreg_&gt; jer: the toolbars are always on the bottom in apple apps, agree?
+&lt;jer&gt; EGreg_, do not agree
+&lt;EGreg_&gt; You see! Your suggestion violates HIG:
+&lt;EGreg_&gt; Appearance and Behavior
+&lt;EGreg_&gt; On iPhone, a toolbar always appears at the bottom edge of a screen or view, but on iPad it can also appear at the top edge.
+&lt;BleuLlama&gt; guess i'm on igonre now.
+&lt;EGreg_&gt; See what I mean? Slavishly sticking to the HIG we are probably all violating it.
+* BleuLlama is off to do something else.
+&lt;EGreg_&gt; bluellama no I hear you :)
+&lt;jer&gt; EGreg_, open up photos, pick a photo, any photo. tap on it once. you see all the 5 icons at the bottom, that's on a toolbar, and at the top you see another toolbar
+&lt;EGreg_&gt; I am just a little frustrated because I am trying to keep close to the HIG and everyone's acting so high and mighty "NO, Don't put readable captions on icons!" and then it turns out EVERYONE is violating the HIG in some other way :)
+&lt;EGreg_&gt; jer: Appearance and Behavior
+&lt;EGreg_&gt; On iPhone, a toolbar always appears at the bottom edge of a screen or view, but on iPad it can also appear at the top edge.
+&lt;EGreg_&gt; on the top is a NAVIGATION bar, not a toolbar
+&lt;esses&gt; bye
+&lt;BleuLlama&gt; i don't put toolbars at the top. just suggested it as a way to sneak your misused tab bar in as a toolbar
+&lt;jer&gt; EGreg_, nonsense... i have one iphone app with only one toolbar, it lives at the top because i pop an ad up from the bottom and it looks better this way
+&lt;jer&gt; it's on the store
+&lt;EGreg_&gt; well then you have violated HIG blatantly and got in the store :)
+&lt;EGreg_&gt; which is cool by me
+&lt;jer&gt; so what?
+&lt;EGreg_&gt; EXACTLY! So what!
+&lt;jer&gt; the HIG does not prohibit placing a toolbar at the top
+&lt;jer&gt; read it
+&lt;jer&gt; =]
+&lt;BleuLlama&gt; apple is MUCH more concerned about misuing a widget with expected behavior than placement of that widget.
+&lt;jer&gt; BleuLlama, right
+&lt;nissefant&gt; Example a scrollbar that is 70% a scrollbar
+&lt;EGreg_&gt; I just quoted to you how it prohibits it:
+&lt;EGreg_&gt; Appearance and Behavior
+&lt;EGreg_&gt; On iPhone, a toolbar always appears at the bottom edge of a screen or view, but on iPad it can also appear at the top edge.
+&lt;EGreg_&gt; three times
+&lt;jer&gt; i'm not seeing "Apperance and Behaviour" here: http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/Introduction/Introduction.html
+&lt;jer&gt; so link me to the subitem
+
+Anyway we go round and round but no one really knows anything about Apple's process. My guess is, with all the other bad apps, I should be fine with a toolbar that has CAPTIONS under the icons, right?
+
+*[3 years ago]: 2010-12-08T18:59:32.000Z</description><thumb cache="FW14-topics-docs/e110/7079_08_thumb.png">https://drcs9k8uelb9s.cloudfront.net/1984115.png</thumb></snippet><snippet id="FW14-e110-7079-09"><link cache="FW14-topics-docs/e110/7079_09.html" timestamp="2014-04-24 17:51:28">https://www.kickstarter.com/projects/1977265610/foobar2000-mobile</link><title>Foobar2000 for iOS and Android on Kickstarter</title><description>Foobar2000 for iOS and Android on Kickstarter (https://www.kickstarter.com/projects/1977265610/foobar2000-mobile)
+
+1 point
+
+by kwanbis
+
+11 days ago
+
+0 comment Follow
+
+Peter Pawlowski, the developer of the highly praised foobar2000 music player, is looking for funding on kickstarter. If it reaches the $100.000 funding goal, a version of foobar2000, for iOS and Android would be developed.
+
+But he is not alone. Joining the foobar2000 mobile team is Steve Elkins, founder of dBpoweramp, which started out as an audio player with a number of world firsts, such as first player to add star ratings to an audio library, first player to have smart playlists aka Genius playlists.
+
+The third developer to join the team is Chris Moeller. Chris has been Influential in a number of projects over the years, including a number of console emulators, and most notably, has made a sizable contribution to foobar2000 PC.
+
+Foobar2000 mobile will be built from the ground up specifically for mobile devices, giving the opportunity to adapt specifically to the strengths of the mobile platform. There are even plans, if successful, to implement it for Windows Mobile.
+
+So, go ahead and pledge.
+
+*[11 days ago]: 2014-04-13T16:23:43.000Z</description><thumb cache="FW14-topics-docs/e110/7079_09_thumb.png">https://drcs9k8uelb9s.cloudfront.net/7581774.png</thumb></snippet></snippets></search_results>

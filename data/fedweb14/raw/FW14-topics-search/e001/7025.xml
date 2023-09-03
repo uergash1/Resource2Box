@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7025">M/G/1 queue</query><engine status="OK" timestamp="2014-04-11 23:53:43" name="arXiv.org" id="FW14-e001"/><snippets><snippet id="FW14-e001-7025-01"><link cache="FW14-topics-docs/e001/7025_01.html" timestamp="2014-04-11 23:53:46">http://arxiv.org/abs/1402.7248</link><title>Title: Perfect Simulation of $M/G/c$ Queues</title><description>Title: Perfect Simulation of $M/G/c$ Queues
+
+Authors: Stephen B. Connor, Wilfrid S. Kendall
+
+Comments: 23 pages, 4 figures
+
+Subjects: Probability (math.PR); Performance (cs.PF)</description></snippet><snippet id="FW14-e001-7025-02"><link cache="FW14-topics-docs/e001/7025_02.html" timestamp="2014-04-11 23:54:34">http://arxiv.org/abs/1401.5548</link><title>Title: On Bayesian inference for the M/G/1 queue with efficient MCMC sampling</title><description>Title: On Bayesian inference for the M/G/1 queue with efficient MCMC sampling
+
+Authors: Alexander Y. Shestopaloff, Radford M. Neal
+
+Subjects: Computation (stat.CO)</description></snippet><snippet id="FW14-e001-7025-03"><link cache="FW14-topics-docs/e001/7025_03.html" timestamp="2014-04-11 23:55:11">http://arxiv.org/abs/1401.3580</link><title>Title: Bits Through Bufferless Queues</title><description>Title: Bits Through Bufferless Queues
+
+Authors: Mehrnaz Tavan, Roy D. Yates, Waheed U. Bajwa
+
+Comments: 8 pages, 3 figures, accepted in 51st Annual Allerton Conference on Communication, Control, and Computing, University of Illinois, Monticello, Illinois, Oct 2-4, 2013
+
+Subjects: Information Theory (cs.IT)</description></snippet><snippet id="FW14-e001-7025-04"><link cache="FW14-topics-docs/e001/7025_04.html" timestamp="2014-04-11 23:55:36">http://arxiv.org/abs/1312.0539</link><title>Title: Loss systems in a random environment</title><description>Title: Loss systems in a random environment
+
+Authors: Ruslan Krenzler, Hans Daduna
+
+Subjects: Probability (math.PR); Optimization and Control (math.OC)</description></snippet><snippet id="FW14-e001-7025-05"><link cache="FW14-topics-docs/e001/7025_05.html" timestamp="2014-04-11 23:56:13">http://arxiv.org/abs/1311.0069</link><title>Title: The Second Order Terms of the Variance Curves for Some Queueing Output Processes</title><description>Title: The Second Order Terms of the Variance Curves for Some Queueing Output Processes
+
+Authors: Sophie Hautphenne, Yoav Kerner, Yoni Nazarathy, Peter Taylor
+
+Subjects: Probability (math.PR)</description></snippet><snippet id="FW14-e001-7025-06"><link cache="FW14-topics-docs/e001/7025_06.html" timestamp="2014-04-11 23:56:43">http://arxiv.org/abs/1307.6947</link><title>Title: Buffer-overflows: joint limit laws of undershoots and overshoots of reflected processes</title><description>Title: Buffer-overflows: joint limit laws of undershoots and overshoots of reflected processes
+
+Authors: Aleksandar Mijatović, Martijn Pistorius
+
+Comments: 11 pages, no figures
+
+Subjects: Probability (math.PR)</description></snippet><snippet id="FW14-e001-7025-07"><link cache="FW14-topics-docs/e001/7025_07.html" timestamp="2014-04-11 23:57:30">http://arxiv.org/abs/1303.0038</link><title>Title: Approximately Optimal Scheduling of an M/G/1 Queue with Heavy Tails</title><description>Title: Approximately Optimal Scheduling of an M/G/1 Queue with Heavy Tails
+
+Authors: Vijay Kamble, Jean Walrand
+
+Subjects: Probability (math.PR); Performance (cs.PF)</description></snippet><snippet id="FW14-e001-7025-08"><link cache="FW14-topics-docs/e001/7025_08.html" timestamp="2014-04-11 23:58:05">http://arxiv.org/abs/1301.4362</link><title>Title: Random Fluid Limit of an Overloaded Polling Model</title><description>Title: Random Fluid Limit of an Overloaded Polling Model
+
+Authors: Maria Frolkova, Sergey Foss, Bert Zwart
+
+Comments: 36 pages, 2 pictures
+
+Subjects: Probability (math.PR)</description></snippet><snippet id="FW14-e001-7025-09"><link cache="FW14-topics-docs/e001/7025_09.html" timestamp="2014-04-11 23:58:39">http://arxiv.org/abs/1210.2611</link><title>Title: On matrix exponential approximations of the infimum of a spectrally negative Levy process</title><description>Title: On matrix exponential approximations of the infimum of a spectrally negative Levy process
+
+Authors: Florin Avram (LMA), Andras Horvath (LMA), M. R. Pistorius (LMA)
+
+Comments: 40 pages
+
+Subjects: Probability (math.PR)</description></snippet><snippet id="FW14-e001-7025-10"><link cache="FW14-topics-docs/e001/7025_10.html" timestamp="2014-04-11 23:59:16">http://arxiv.org/abs/1209.5604</link><title>Title: Tail Probabilities in Queueing Processes</title><description>Title: Tail Probabilities in Queueing Processes
+
+Authors: Quan-Lin Li
+
+Comments: Randomized load balancing; supermarket model; work stealing model; QBD Process; Markov chain of GI/M/1 type; Markov chain of M/G/1 type
+
+Subjects: Probability (math.PR); Networking and Internet Architecture (cs.NI)</description></snippet></snippets></search_results>

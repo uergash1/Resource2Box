@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7122">horse dog pics</query><engine status="OK" timestamp="2014-05-21 14:30:15" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7122-01"><link cache="FW14-topics-docs/e004/7122_01.html" timestamp="2014-05-21 14:30:17">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.156.686&amp;rank=1</link><title>A discriminatively trained, multiscale, deformable part model</title><description>A discriminatively trained, multiscale, deformable part model
+
+by Pedro Felzenszwalb, David Mcallester, Deva Ramanan \- In IEEE Conference on Computer Vision and Pattern Recognition (CVPR-2008 , 2008
+
+"... cow table dog horse mbike person plant sheep sofa train tv Our rank 3 1 2 1 1 2 2 4 1 1 1 4 2 2 1 1 2 ..."
+
+Abstract \- Cited by 325 (9 self) \- Add to MetaCart
+
+This paper describes a discriminatively trained, multiscale, deformable part model for object detection. Our system achieves a two-fold improvement in average precision over the best performance in the 2006 PASCAL person detection challenge. It also outperforms the best results in the 2007 challenge in ten out of twenty categories. The system relies heavily on deformable parts. While deformable part models have become quite popular, their value had not been demonstrated on difficult benchmarks such as the PASCAL challenge. Our system also relies heavily on new methods for discriminative training. We combine a margin-sensitive approach for data mining hard negative examples with a formalism we call latent SVM. A latent SVM, like a hidden CRF, leads to a non-convex training problem. However, a latent SVM is semi-convex and the training problem becomes convex once latent information is specified for the positive examples. We believe that our training methods will eventually make possible the effective use of more latent information such as hierarchical (grammar) models and models involving latent three dimensional pose. 1.</description></snippet><snippet id="FW14-e004-7122-02"><link cache="FW14-topics-docs/e004/7122_02.html" timestamp="2014-05-21 14:30:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.155.1729&amp;rank=2</link><title>Imagenet: A large-scale hierarchical image database</title><description>Imagenet: A large-scale hierarchical image database
+
+by Jia Deng, Wei Dong, Richard Socher, Li-jia Li, Kai Li, Li Fei-fei \- In CVPR , 2009
+
+"... The categories are bat, bear, camel, chimp, dog, elk, giraffe, goat, gorilla, greyhound, horse, killer ..."
+
+Abstract \- Cited by 283 (10 self) \- Add to MetaCart
+
+The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called “ImageNet”, a largescale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond. 1.</description></snippet><snippet id="FW14-e004-7122-03"><link cache="FW14-topics-docs/e004/7122_03.html" timestamp="2014-05-21 14:30:42">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.211.5829&amp;rank=3</link><title>A standardized set of 260 pictures: Norms for name agreement, image agreement, familiarity, and visual complexity</title><description>A standardized set of 260 pictures: Norms for name agreement, image agreement, familiarity, and visual complexity
+
+by Joan Gay Snodgrass, Mary V \- Journal of Experimental Psychology: Human Learning and Memory , 1980
+
+"... *Cannon Tor \\*al *Cat *Clock Clown *Dog Doll *Drum t*Duck Football t*Glove *Gun "Hammer *Hat *Horse f ..."
+
+Abstract \- Cited by 262 (0 self) \- Add to MetaCart
+
+In this article we present a standardized set of 260 pictures for use in experiments investigating differences and similarities in the processing of pictures and words. The pictures are black-and-white line drawings executed according to a set of rules that provide consistency of pictorial representation. The pictures have been standardized on four variables of central relevance to memory and cognitive processing: name agreement, image agreement, familiarity, and visual complexity. The intercorrelations among the four measures were low, suggesting that the) ' are indices of different attributes of the pictures. The concepts were selected to provide exemplars from several widely studied semantic categories. Sources of naming variance, and mean familiarity and complexity of the exemplars, differed significantly across the set of categories investigated. The potential significance of each of the normative variables to a number of semantic and episodic memory tasks is discussed. Investigators studying aspects of verbal processes have long had access to extensive normative data on various objective and subjective dimensions of their verbal materials. Brown (1976) recently compiled a catalog of scaled verbal materials that included 172 studies providing such information. For the set of verbal materials most comparable to the present set of pictures—English nouns—such dimensions include objective measures of frequency of occurrence and subjective measures of familiarity, age of acquisition, concreteness, imagery, meaningfulness, and emotionality. In contrast, normative data on characteristics of pictorial representations of concrete</description></snippet><snippet id="FW14-e004-7122-04"><link cache="FW14-topics-docs/e004/7122_04.html" timestamp="2014-05-21 14:30:55">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.108.9375&amp;rank=4</link><title>The Bayesian image retrieval system, PicHunter: Theory, implementation, and psychophysical</title><description>The Bayesian image retrieval system, PicHunter: Theory, implementation, and psychophysical
+
+by Ingemar J. Cox, Matt L. Miller, Thomas P. Minka, Thomas V. Papathomas, Peter N. Yianilos \- IEEE TRANSACTIONS ON IMAGE PROCESSING , 2000
+
+"... System, PicHunter: Theory, Implementation, and Psychophysical Experiments Ingemar J. Cox, Senior Member ..."
+
+Abstract \- Cited by 181 (2 self) \- Add to MetaCart
+
+This paper presents the theory, design principles, implementation, and performance results of &lt;em&gt;Pic&lt;/em&gt;</description></snippet><snippet id="FW14-e004-7122-05"><link cache="FW14-topics-docs/e004/7122_05.html" timestamp="2014-05-21 14:31:21">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.111.7540&amp;rank=5</link><title>A search engine for 3d models</title><description>A search engine for 3d models
+
+by Thomas Funkhouser, Patrick Min, Misha Kazhdan, Joyce Chen, Alex Halderman, David Dobkin, David Jacobs \- ACM Transactions on Graphics , 2003
+
+"... of multimedia data. For example, suppose you want to obtain an image of a horse for a Powerpoint presentation. A ..."
+
+Abstract \- Cited by 228 (21 self) \- Add to MetaCart
+
+As the number of 3D models available on the Web grows, there is an increasing need for a search engine to help people find them. Unfortunately, traditional text-based search techniques are not always effective for 3D data. In this paper, we investigate new shape-based search methods. The key challenges are to develop query methods simple enough for novice users and matching algorithms robust enough to work for arbitrary polygonal models. We present a web-based search engine system that supports queries based on 3D sketches, 2D sketches, 3D</description></snippet><snippet id="FW14-e004-7122-06"><link cache="FW14-topics-docs/e004/7122_06.html" timestamp="2014-05-21 14:31:36">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.4.3270&amp;rank=6</link><title>The Princeton Shape Benchmark</title><description>The Princeton Shape Benchmark
+
+by Philip Shilane, Patrick Min, Michael Kazhdan, Thomas Funkhouser \- In Shape Modeling International , 2004
+
+"... animal/quadruped/pig 4 animal/quadruped/dog 7 animal/underwater creature/dolphin 5 animal/quadruped/horse ..."
+
+Abstract \- Cited by 208 (9 self) \- Add to MetaCart
+
+In recent years, many shape representations and geometric algorithms have been proposed for matching 3D shapes. Usually, each algorithm is tested on a different (small) database of 3D models, and thus no direct comparison is available for competing methods.</description></snippet><snippet id="FW14-e004-7122-07"><link cache="FW14-topics-docs/e004/7122_07.html" timestamp="2014-05-21 14:31:54">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.167.6629&amp;rank=7</link><title>The PASCAL Visual Object Classes (VOC) challenge</title><description>The PASCAL Visual Object Classes (VOC) challenge
+
+by Mark Everingham, Luc Van Gool, C. K. I. Williams, J. Winn, Andrew Zisserman , 2009
+
+"... : aeroplane, bird, bicycle, boat, bottle, bus, car, cat, chair, cow, dining table, dog, horse, motorbike ..."
+
+Abstract \- Cited by 205 (13 self) \- Add to MetaCart
+
+... is a benchmark in visual object category recognition and detection, providing the vision and machine learning communities with a standard dataset of images and annotation, and standard evaluation procedures. Organised annually from 2005 to present, the challenge and its associated dataset has become accepted as the benchmark for object detection. This paper describes the dataset and evaluation procedure. We review the state-of-the-art in evaluated methods for both classification and detection, analyse whether the methods are statistically different, what they are learning from the images (e.g. the object or its context), and what the methods find easy or confuse. The paper concludes with lessons learnt in the three year history of the challenge, and proposes directions for future improvement and extension.</description></snippet><snippet id="FW14-e004-7122-08"><link cache="FW14-topics-docs/e004/7122_08.html" timestamp="2014-05-21 14:32:21">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.50.3873&amp;rank=8</link><title>Shock Graphs and Shape Matching</title><description>Shock Graphs and Shape Matching
+
+by Kaleem Siddiqi, Ali Shokoufandeh, Sven J. Dickinson, Steven W. Zucker , 1998
+
+"... , such as a dog, before realizing it is either a Siberian Husky or that it is "Loki", a particular Siberian ..."
+
+Abstract \- Cited by 203 (32 self) \- Add to MetaCart
+
+We have been developing a theory for the generic representation of 2-D shape, where structural descriptions are derived from the shocks (singularities) of a curve evolution process, acting on bounding contours. We now apply the theory to the problem of shape matching. The shocks are organized into a directed, acyclic shock graph, and complexity is managed by attending to the most significant (central) shape components first. The space of all such graphs is highly structured and can be characterized by the rules of a shock graph grammar. The grammar permits a reduction of a shock graph to a unique rooted shock tree. We introduce a novel tree matching algorithm which finds the best set of corresponding nodes between two shock trees in polynomial time. Using a diverse database of shapes, we demonstrate our system's performance under articulation, occlusion, and changes in viewpoint. Keywords: shape representation; shape matching; shock graph; shock graph grammar; subgraph isomorphism. 1 I...</description></snippet><snippet id="FW14-e004-7122-09"><link cache="FW14-topics-docs/e004/7122_09.html" timestamp="2014-05-21 14:32:46">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.38.8230&amp;rank=9</link><title>Tcl: An Embeddable Command Language</title><description>Tcl: An Embeddable Command Language
+
+by John K. Ousterhout , 1990
+
+"... 22, 1989 set a {dog cat {horse cow mule} bear} will receive two arguments: "a" and "dog cat {horse ..."
+
+Abstract \- Cited by 200 (2 self) \- Add to MetaCart
+
+Tcl is an interpreter for a tool command language. It consists of a library package that is embedded in tools (such as editors, debuggers, etc.) as the basic command interpreter. Tcl provides (a) a parser for a simple textual command language, (b) a collection of built-in utility commands, and (c) a C interface that tools use to augment the built-in commands with tool-specific commands. Tcl is particularly attractive when integrated with the widget library of a window system: it increases the programmability of the widgets by providing mechanisms for variables, procedures, expressions, etc; it allows users to program both the appearance and the actions of widgets; and it offers a simple but powerful communication mechanism between interactive programs. This paper will appear in the 1990 Winter USENIX Conference Proceedings ############################# The work described here was supported in part by the National Science Foundation under Grant ECS-8351961. Tcl: An Embeddable Command...</description></snippet><snippet id="FW14-e004-7122-10"><link cache="FW14-topics-docs/e004/7122_10.html" timestamp="2014-05-21 14:33:08">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=F6D2AF054AFC1B9DA5866BE29A5E27E2?doi=10.1.1.122.8268&amp;rank=10</link><title>Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments</title><description>Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments
+
+by Gary B. Huang, Manu Ramesh, Tamara Berg, Erik Learned-miller
+
+"... individual. 1 We note that for more general classes of objects such as cars or dogs, the term “recognition ..."
+
+Abstract \- Cited by 187 (9 self) \- Add to MetaCart
+
+Abstract — Face recognition has benefitted greatly from the many databases that have been produced to study it. Most of these databases have been created under controlled conditions to facilitate the study of specific parameters on the face recognition problem. These parameters include such variables as position, pose, lighting, expression, background, camera quality, occlusion, age, and gender. While there are many applications for face recognition technology in which one can control the parameters of image acquisition, there are also many applications in which the practitioner has little or no control over such parameters. This database is provided as an aid in studying the latter, unconstrained, face recognition problem. The database represents an initial attempt to provide a set of labeled face photographs spanning the range of conditions typically encountered by people in their everyday lives. The database exhibits “natural ” variability in pose, lighting, focus, resolution, facial expression, age, gender, race, accessories, make-up, occlusions, background, and photographic quality. Despite this variability, the images in the database are presented in a simple and consistent format for maximum ease of use. In addition to describing the details of the database and its acquisition, we provide specific experimental paradigms for which the database is suitable. This is done in an effort to make research performed with the database as consistent and comparable as possible. I.</description></snippet></snippets></search_results>

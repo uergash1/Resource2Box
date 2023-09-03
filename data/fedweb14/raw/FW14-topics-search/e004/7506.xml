@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7506">I touch myself singer dead</query><engine status="OK" timestamp="2014-04-21 03:43:33" name="CiteSeerX" id="FW14-e004"/><snippets><snippet id="FW14-e004-7506-01"><link cache="FW14-topics-docs/e004/7506_01.html" timestamp="2014-04-21 03:43:35">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.29.5833&amp;rank=1</link><title>Context-Aware Computing Applications</title><description>Context-Aware Computing Applications
+
+by Bill N. Schilit , Norman Adams, Roy Want \- IN PROCEEDINGS OF THE WORKSHOP ON MOBILE COMPUTING SYSTEMS AND APPLICATIONS , 1994
+
+"... is what we can see, hear, and touch. In this paper we define context-aware computing, and describe four ..."
+
+Abstract \- Cited by 659 (4 self) \- Add to MetaCart
+
+of the world around us is what we can see, hear, and &lt;em&gt;touch&lt;/em&gt;. In this paper we define context-aware computing</description></snippet><snippet id="FW14-e004-7506-02"><link cache="FW14-topics-docs/e004/7506_02.html" timestamp="2014-04-21 03:47:32">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.206.1458&amp;rank=2</link><title>Metaphors We Live By</title><description>Metaphors We Live By
+
+by George Lakoff, Mark Johnson , 1980
+
+"... those of lesser men. SEEING IS TOUCHING; EYES ARE LIMBS I can’t take my eyes off her. He sits with his ..."
+
+Abstract \- Cited by 1328 (6 self) \- Add to MetaCart
+
+that convey a different meaning. For example, consider the expression, “&lt;em&gt;I&lt;/em&gt;’d like to share some time with you</description></snippet><snippet id="FW14-e004-7506-03"><link cache="FW14-topics-docs/e004/7506_03.html" timestamp="2014-04-21 03:51:38">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.133.2288&amp;rank=3</link><title>Nearest Neighbor Queries</title><description>Nearest Neighbor Queries
+
+by Nick Roussopoulos, Stephen Kelley, Frederic Vincent , 1995
+
+"... of an MBR, each face of that MBR touches an MBR of lower level, and MBR Level i+1 MBR Level i MBR Level i+1 ..."
+
+Abstract \- Cited by 482 (1 self) \- Add to MetaCart
+
+A frequently encountered type of query in Geographic Information Systems is to find the k nearest neighbor objects to a given point in space. Processing such queries requires substantially different search algorithms than those for location or range queries. In this paper we present an efficient branch-and-bound R-tree traversal algorithm to find the nearest neighbor object to a point, and then generalize it to finding the k nearest neighbors. We also discuss metrics for an optimistic and a pessimistic search ordering strategy as well as for pruning. Finally, we present the results of several experiments obtained using the implementation of our algorithm and examine the behavior of the metrics and the scalability of the algorithm.</description></snippet><snippet id="FW14-e004-7506-04"><link cache="FW14-topics-docs/e004/7506_04.html" timestamp="2014-04-21 03:52:30">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.15.2644&amp;rank=4</link><title>Understanding Line Drawings of Scenes with Shadows</title><description>Understanding Line Drawings of Scenes with Shadows
+
+by David Waltz \- The Psychology of Computer Vision , 1975
+
+"... , i.e. the ones which I could resolve myself, in general require that the program recognize lines ..."
+
+Abstract \- Cited by 349 (0 self) \- Add to MetaCart
+
+configurations require the use of 1obal hypotheses? 19 In this essay &lt;em&gt;I&lt;/em&gt; describe a working collection of computer</description></snippet><snippet id="FW14-e004-7506-05"><link cache="FW14-topics-docs/e004/7506_05.html" timestamp="2014-04-21 03:54:09">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.49.6261&amp;rank=5</link><title>Universal Plans for Reactive Robots in Unpredictable Environments</title><description>Universal Plans for Reactive Robots in Unpredictable Environments
+
+by M.J. Schoppers , 1987
+
+"... reactivity, i.e. the automatic synthesis of robot programs capable of realtime performance ..."
+
+Abstract \- Cited by 324 (0 self) \- Add to MetaCart
+
+In: Proc 10th IJCAI, 1987, 1039ff. To date, reactive robot behavior has been achieved only through manual programming. This paper describes a new kind of plan, called a "universal plan", which can be synthesized automatically, yet generates appropriate behavior in unpredictable environments. In classical planning work, problems were posed with unique initial and final world states; in my approach a problem specifies only a goal condition. The planner is thus unable to commit to any specific future course of events but must specify appropriate reactions for anticipated situations. An alternative conception is that one universal plan compactly represents every classical plan. Which part of the universal plan is executed depends entirely on how the environment behaves at execution time. Universal plans are constructed from state-space operator schemas by a nonlinear planner. They explicitly identify predicates requiring monitoring at each moment of execution, and provide for sabotage, se...</description></snippet><snippet id="FW14-e004-7506-06"><link cache="FW14-topics-docs/e004/7506_06.html" timestamp="2014-04-21 03:55:17">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.108.3622&amp;rank=6</link><title>Particle Systems - A Technique for Modeling a Class of Fuzzy Objects</title><description>Particle Systems - A Technique for Modeling a Class of Fuzzy Objects
+
+by William T. Reeves \- ACM Transactions on Graphics , 1983
+
+"... --Vol. 2, No. 2 361 William T. Reeves where MeanPartssa is the mean per screen area, VarParts~a I its ..."
+
+Abstract \- Cited by 318 (0 self) \- Add to MetaCart
+
+This paper introduces particle systems--a method for modeling fuzzy objects such as fire, clouds, and water. Particle systems model an object as a cloud of primitive particles that define its volume. Over a period of time, particles are generated into the system, move and change form within the system, and die from the system. The resulting model is able to represent motion, changes of form, and dynamics that are not possible with classical surface-based representations. The particles can easily be motion blurred, and therefore do not exhibit temporal aliasing or strobing. Stochastic processes are used to generate and control the many particles within a particle system. The application of particle systems to the wall of fire element from the Genesis Demo sequence of the film Star Trek II: The Wrath of Khan [10] is presented.</description></snippet><snippet id="FW14-e004-7506-07"><link cache="FW14-topics-docs/e004/7506_07.html" timestamp="2014-04-21 03:57:24">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.135.1095&amp;rank=7</link><title>Email overload: exploring personal information management of email</title><description>Email overload: exploring personal information management of email
+
+by Steve Whittaker, Candace Sidner \- CHI 96 CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS , 1996
+
+"... these problems arise? A simple one-touch model ofemail might assume: incoming messages that are inJbrmational, i ..."
+
+Abstract \- Cited by 316 (19 self) \- Add to MetaCart
+
+Email is one of the most successful computer applications yet devised. Our empirical data show however, that although email was origirally designed as a communications application, it is now used for additional functions, that it was not designed for, such as task management and personal archiving. We call this email overload. We demonstrate that email overload creates problems for personal information management: users often have cluttered inboxes containing hundreds of messages, including outstanding tasks, partially read documents and conversational threads. Furthermore, user attemtps to rationalise their inboxes by filing are often unsuccessful, with the consequence that important messages get overlooked, or "lost" in archives. We explain how email overloading arises and propose technical solutions to the problem.</description></snippet><snippet id="FW14-e004-7506-08"><link cache="FW14-topics-docs/e004/7506_08.html" timestamp="2014-04-21 03:59:34">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.56.8794&amp;rank=8</link><title>Partial-Order Methods for the Verification of Concurrent Systems - An Approach to the State-Explosion Problem</title><description>Partial-Order Methods for the Verification of Concurrent Systems - An Approach to the State-Explosion Problem
+
+by Patrice Godefroid , 1995
+
+"... continuous source of encouragements to me. I consider myself fortunate that I had access to his valuable ..."
+
+Abstract \- Cited by 289 (11 self) \- Add to MetaCart
+
+State-space exploration techniques are increasingly being used for debugging and proving correct finite-state concurrent reactive systems. The reason for this success is mainly the simplicity of these techniques. Indeed, they are easy to understand, easy to implement and, last but not least, easy to use: they are fully automatic. Moreover, the range of properties that they can verify has been substantially broadened thanks to the development of model-checking methods for various temporal logics. The main limit of state-space exploration verification techniques is the often excessive size of the state space due, among other causes, to the modeling of concurrency by interleaving. However, exploring all interleavings of concurrent events is not a priori necessary for verification: interleavings corresponding to the same concurrent execution contain related information. One can thus hope to be able to verify properties of a concurrent system without exploring all interleavings of its concu...</description></snippet><snippet id="FW14-e004-7506-09"><link cache="FW14-topics-docs/e004/7506_09.html" timestamp="2014-04-21 04:00:04">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.19.3090&amp;rank=9</link><title>Interactive Control of Avatars Animated with Human Motion Data</title><description>Interactive Control of Avatars Animated with Human Motion Data
+
+by Jehee Lee, Jinxiang Chai, Paul S. A. Reitsma, Jessica K. Hodgins, Nancy S. Pollard , 2002
+
+"... the avatar motion to directly recorded human motion. CR Categories: I.3.7 [Three-Dimensional Graphics ..."
+
+Abstract \- Cited by 264 (32 self) \- Add to MetaCart
+
+Real-time control of three-dimensional avatars is an important problem in the context of computer games and virtual environments. Avatar animation and control is difficult, however, because a large repertoire of avatar behaviors must be made available, and the user must be able to select from this set of behaviors, possibly with a low-dimensional input device. One appealing approach to obtaining a rich set of avatar behaviors is to collect an extended, unlabeled sequence of motion data appropriate to the application. In this paper, we show that such a motion database can be preprocessed for flexibility in behavior and efficient search and exploited for real-time avatar control. Flexibility is created by identifying plausible transitions between motion segments, and efficient search through the resulting graph structure is obtained through clustering. Three interface techniques are demonstrated for controlling avatar motion using this data structure: the user selects from a set of available choices, sketches a path through an environment, or acts out a desired motion in front of a video camera. We demonstrate the flexibility of the approach through four different applications and compare the avatar motion to directly recorded human motion.</description></snippet><snippet id="FW14-e004-7506-10"><link cache="FW14-topics-docs/e004/7506_10.html" timestamp="2014-04-21 04:02:23">http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=915D37574EE4F2DE769A8C5CCD3A6785?doi=10.1.1.112.6917&amp;rank=10</link><title>Myself and “I</title><description>Myself and “I
+
+by John Perry \- In M. Stamm (ed). Philosophie in Synthetischer Absicht , 1998
+
+"... ﻿Myself and I John Perry October 1997 [In Marcelo Stamm, editor, Philosophie in Synthetisher ..."
+
+Abstract \- Cited by 4 (0 self) \- Add to MetaCart
+
+In this essay &lt;em&gt;I&lt;/em&gt; distinguish three kinds of self-knowledge. &lt;em&gt;I&lt;/em&gt; call these three kinds agent</description></snippet></snippets></search_results>

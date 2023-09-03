@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<search_results><query id="7022">hermitian conjugate</query><engine status="OK" timestamp="2014-04-20 09:15:15" name="WordPress" id="FW14-e026"/><snippets><snippet id="FW14-e026-7022-01"><link cache="FW14-topics-docs/e026/7022_01.html" timestamp="2014-04-20 09:15:16">http://zjcfeiyu.wordpress.com/2013/08/10/conjugate-transpose/</link><title>Conjugate Transpose</title><description>Conjugate Transpose
+
+10 Aug 2013 by Jiachen Zhang on zjcfeiyu zjcfeiyu.wordpress.com/2013/08/10/conjugate-transpose/
+
+…  mathematics, the conjugate transpose, Hermitian transpose, Hermitian conjugate, bedaggered matrix, or adjoint matrix of an m-by-n matrix A …
+
+Topics: academic, Nouns</description></snippet><snippet id="FW14-e026-7022-02"><link cache="FW14-topics-docs/e026/7022_02.html" timestamp="2014-04-20 09:18:00">http://imnotepad.wordpress.com/2012/04/11/conjugate-transpose/</link><title>Conjugate Transpose</title><description>Conjugate Transpose
+
+11 Apr 2012 by ifort on I'm Notepad imnotepad.wordpress.com/2012/04/11/conjugate-transpose/
+
+…  mathematics, the conjugate transpose, Hermitian transpose, Hermitian conjugate, or adjoint matrix of an m-by-n matrix A with complex …
+
+Topics: FORTRAN</description></snippet><snippet id="FW14-e026-7022-03"><link cache="FW14-topics-docs/e026/7022_03.html" timestamp="2014-04-20 09:22:12">http://conlatio.wordpress.com/2011/02/01/hermitian-matrix/</link><title>Hermitian matrix</title><description>Hermitian matrix
+
+1 Feb 2011 by arnulfo on conlatio conlatio.wordpress.com/2011/02/01/hermitian-matrix/
+
+Hermitian matrix From Wikipedia, the free encyclopedia In mathematics, a Hermitian matrix (or self-adjoint matrix) is a square …  in the i-th row and j-th column is equal to the complex conjugate of the element in the j-th row and i-th column, for all …</description></snippet><snippet id="FW14-e026-7022-04"><link cache="FW14-topics-docs/e026/7022_04.html" timestamp="2014-04-20 09:24:39">http://graceyeonjinlee.wordpress.com/2012/07/25/brushing-up-on-linear-algebra/</link><title>Brushing up on Linear Algebra</title><description>Brushing up on Linear Algebra
+
+25 Jul 2012 by yeonjinlee on Robots with Grace graceyeonjinlee.wordpress.com/2012/07/25/brushing-up-on-linear-algebra/
+
+Hermitian Matrix Square matrix with complex entries that is equal to its own conjugate transpose. i.e. [3 2+i; 2-i 1] Positive Definite Matrix A …  z with real # entries. z*Mz &gt; 0 (for complex or Hermitian Matrix M) example: [z_0 z_1] [1 0; 0 1] [z_0; z_1]  = z_0^2 …
+
+Topics: Computer Graphics, Linear Algebra</description></snippet><snippet id="FW14-e026-7022-05"><link cache="FW14-topics-docs/e026/7022_05.html" timestamp="2014-04-20 09:28:16">http://psiepsilon.wordpress.com/2013/06/08/the-standard-model/</link><title>The Standard Model</title><description>The Standard Model
+
+8 Jun 2013 by Ψε = (Dimension10) on Psi Epsilon psiepsilon.wordpress.com/2013/06/08/the-standard-model/
+
+http://www.youtube.com/watch?v=jZLectJ-36M&amp;feature=youtu.be   Note that h.c. is the hermitian conjugate.
+
+Topics: Physics, quantum mechanics, Special Relativity, Education, standard model, lagrangian density, Quantum Field Theory, quantum chromodynamics, Electroweak Theory, Quantum Electromagnetic-Weak dynamics, Quantum Higgs Dynamics</description></snippet><snippet id="FW14-e026-7022-06"><link cache="FW14-topics-docs/e026/7022_06.html" timestamp="2014-04-20 09:32:25">http://mylambda.wordpress.com/2009/11/23/recall-terminalogy/</link><title>Recall: Terminalogy</title><description>Recall: Terminalogy
+
+23 Nov 2009 by ciksalma on Sharing Thoughts and Knowledge mylambda.wordpress.com/2009/11/23/recall-terminalogy/
+
+…  X^{T}$ is a matrix transpose of X and $latex X^{*}$ is a conjugate transpose (or self-adjoint or Hermitian, sometimes denoted with a symbol 'dagger' $latex …
+
+Topics: terminalogy</description></snippet><snippet id="FW14-e026-7022-07"><link cache="FW14-topics-docs/e026/7022_07.html" timestamp="2014-04-20 09:37:04">http://glenmartin.wordpress.com/dirac-bra-ket-notation/</link><title>Dirac “bra-ket” Notation</title><description>Dirac “bra-ket” Notation
+
+3 Mar 2011 by Glen Mark Martin on Whiskey...Tango...Foxtrot? glenmartin.wordpress.com/dirac-bra-ket-notation/
+
+…  these state vectors and calculations involving them. Conjugate Transpose (or Hermitian Conjugate): formed from an m-by-n matrix by taking the transpose of …</description></snippet><snippet id="FW14-e026-7022-08"><link cache="FW14-topics-docs/e026/7022_08.html" timestamp="2014-04-20 09:39:09">http://llennardd.wordpress.com/2013/08/17/matrix-matrix-multiplication-notes/</link><title>Matrix-Matrix multiplication: notes</title><description>Matrix-Matrix multiplication: notes
+
+17 Aug 2013 by llennardd on +___ llennardd.wordpress.com/2013/08/17/matrix-matrix-multiplication-notes/
+
+…  rings in general. Note that A and B are reversed. Hermitian conjugate: If A and B have complex entries, then where   denotes the Hermitian conjugate of a matrix (complex conjugate and …
+
+Topics: Mat, Matrix, wk3</description></snippet><snippet id="FW14-e026-7022-09"><link cache="FW14-topics-docs/e026/7022_09.html" timestamp="2014-04-20 09:42:31">http://jaxwebster.wordpress.com/2012/01/14/a-bit-about-sylvesters-law-of-inertia/</link><title>Generalising Sylvester’s Law of Inertia</title><description>Generalising Sylvester’s Law of Inertia
+
+14 Jan 2012 by Jax on Jack's Personal Blog on Mathematics jaxwebster.wordpress.com/2012/01/14/a-bit-about-sylvesters-law-of-inertia/
+
+…  Law of Inertia is a statement about how the Eigenvalues of Hermitian matrices change under matrix *-congruence. Equivalently, it is a …  covariance matrix of AX is ARA', where a dash denotes conjugate-transpose). Click to …
+
+Topics: mathematics</description></snippet><snippet id="FW14-e026-7022-10"><link cache="FW14-topics-docs/e026/7022_10.html" timestamp="2014-04-20 09:43:55">http://psiepsilon.wordpress.com/2012/11/20/standard-model-part-1/</link><title>Standard Model Part 1</title><description>Standard Model Part 1
+
+20 Nov 2012 by Ψε = (Dimension10) on Psi Epsilon psiepsilon.wordpress.com/2012/11/20/standard-model-part-1/
+
+…  is the potential of the higgs field h.c. is the hermitian conjugate contd in next …
+
+Topics: Physics, standard model, Higgs mechanism, Higgs boson, boson, Fermionic field, Laplace operator, phi, fermión, potential</description></snippet></snippets></search_results>
