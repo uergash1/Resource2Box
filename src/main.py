@@ -25,13 +25,24 @@ def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset):
     return loss.mean()
 
 
+########## GPU Settings ##########
+if torch.cuda.is_available():
+    device = torch.device("cuda:" + args.gpu)
+else:
+    device = torch.device("cpu")
+print('Device:\t', device, '\n')
+
+
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-bert = BertModel.from_pretrained('bert-base-uncased')
+bert = BertModel.from_pretrained('bert-base-uncased').to(device)
+
+for param in bert.parameters():
+    param.requires_grad = False
 
 embedding_dim = args.dim  # BERT's output dimension
 
-attention_layer = Attention(embedding_dim)
-box_embedding = BoxEmbedding(embedding_dim)
+attention_layer = Attention(embedding_dim).to(device)
+box_embedding = BoxEmbedding(embedding_dim).to(device)
 
 params = list(attention_layer.parameters()) + list(box_embedding.parameters())
 optimizer = optim.Adam(params, lr=args.learning_rate)
@@ -50,22 +61,22 @@ for epoch in range(args.epochs):
 
         # Process query
         query_tokens = tokenizer(queries[query_idx], return_tensors="pt", padding=True, truncation=True)
-        query_output = bert(**query_tokens)
-        query_embedding = query_output.last_hidden_state.mean(dim=1)
+        query_output = bert(**query_tokens.to(device))
+        query_embedding = query_output.last_hidden_state.mean(dim=1).to(device)
 
         # Process positive data source
         pos_docs = documents[pos_idx]
         pos_tokens = tokenizer(pos_docs, return_tensors="pt", padding=True, truncation=True)
-        pos_output = bert(**pos_tokens)
+        pos_output = bert(**pos_tokens.to(device))
         pos_doc_embeddings = pos_output.last_hidden_state.mean(dim=1)
-        pos_data_source_embedding = attention_layer(pos_doc_embeddings)
+        pos_data_source_embedding = attention_layer(pos_doc_embeddings.to(device))
 
         # Process negative data source
         neg_docs = documents[neg_idx]
         neg_tokens = tokenizer(neg_docs, return_tensors="pt", padding=True, truncation=True)
-        neg_output = bert(**neg_tokens)
+        neg_output = bert(**neg_tokens.to(device))
         neg_doc_embeddings = neg_output.last_hidden_state.mean(dim=1)
-        neg_data_source_embedding = attention_layer(neg_doc_embeddings)
+        neg_data_source_embedding = attention_layer(neg_doc_embeddings.to(device))
 
         # Get box embeddings
         pos_center, pos_offset = box_embedding(pos_data_source_embedding)
