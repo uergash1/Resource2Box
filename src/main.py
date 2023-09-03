@@ -4,6 +4,18 @@ from box_embedding import BoxEmbedding
 import torch.optim as optim
 from transformers import BertModel, BertTokenizer
 from tqdm import tqdm
+import random
+import warnings
+import numpy as np
+import utils
+from data import Dataset
+
+warnings.filterwarnings('ignore')
+args = utils.parse_args()
+
+random.seed(args.random_seed)
+np.random.seed(args.random_seed)
+torch.manual_seed(args.random_seed)
 
 
 def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset):
@@ -16,21 +28,22 @@ def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset):
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 bert = BertModel.from_pretrained('bert-base-uncased')
 
-embedding_dim = 768  # BERT's output dimension
-num_data_sources = 100  # Number of data sources
+embedding_dim = args.dim  # BERT's output dimension
 
 attention_layer = Attention(embedding_dim)
 box_embedding = BoxEmbedding(embedding_dim)
 
 params = list(attention_layer.parameters()) + list(box_embedding.parameters())
-optimizer = optim.Adam(params, lr=0.001)
+optimizer = optim.Adam(params, lr=args.learning_rate)
+
+data = Dataset(args)
 
 # Dummy data and training pairs
-documents = [["This is doc 1 of source " + str(i), "This is doc 2 of source " + str(i)] for i in range(num_data_sources)]
-queries = ["This is query " + str(i) for i in range(200)]
-train_pairs = [(i % 200, i % 100, (i + 1) % 100) for i in range(1000)]
+documents = data.load_documents()
+queries = data.load_queries()
+train_pairs = data.get_train_pairs()
 
-for epoch in range(3):
+for epoch in range(args.epochs):
     epoch_loss = 0.0
     for query_idx, pos_idx, neg_idx in tqdm(train_pairs, desc=f"Epoch {epoch+1}"):
         optimizer.zero_grad()
