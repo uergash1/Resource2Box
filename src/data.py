@@ -18,11 +18,16 @@ class Dataset:
         self.__load_query_resource_artifacts__()
 
     def __load_query_resource_artifacts__(self):
-        self.resource_query_similarity = pd.read_csv(f'../data/{self.dataset_name}/processed/resource_query_similarity.tsv', sep='\t')
-        self.rname_to_id = dict([(name, id) for id, name in enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
-        self.id_to_rname = dict([(id, name) for id, name in enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
-        self.qname_to_id = dict([(name, id) for id, name in enumerate(sorted(self.resource_query_similarity['query_id'].unique().tolist()))])
-        self.id_to_qname = dict([(id, name) for id, name in enumerate(sorted(self.resource_query_similarity['query_id'].unique().tolist()))])
+        self.resource_query_similarity = pd.read_csv(
+            f'../data/{self.dataset_name}/processed/resource_query_similarity.tsv', sep='\t')
+        self.rname_to_id = dict([(name, id) for id, name in
+                                 enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
+        self.id_to_rname = dict([(id, name) for id, name in
+                                 enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
+        self.qname_to_id = dict([(name, id) for id, name in
+                                 enumerate(sorted(self.resource_query_similarity['query_id'].unique().tolist()))])
+        self.id_to_qname = dict([(id, name) for id, name in
+                                 enumerate(sorted(self.resource_query_similarity['query_id'].unique().tolist()))])
 
         # Loading documents
         self.documents = {}
@@ -61,13 +66,19 @@ class Dataset:
             resource_embedding_list.append(resource_embedding)
         return torch.stack(resource_embedding_list)
 
+    def get_resource_document_embedding(self, idx):
+        document_embedding_list = []
+        for i in idx:
+            document_embeddings = self.get_bert_embedding(self.documents[self.id_to_rname[i.item()]])
+            document_embedding_list.append(document_embeddings)
+        return torch.stack(document_embedding_list)
+
     def get_batch_embeddings(self, query_idx_batch, pos_idx_batch, neg_idx_batch):
         actual_queries = [self.queries[self.id_to_qname[i.item()]] for i in query_idx_batch]
         query_embedding_batch = self.get_bert_embedding(actual_queries)
-        pos_resource_embedding_batch = self.get_resource_embedding(pos_idx_batch)
-        neg_resource_embedding_batch = self.get_resource_embedding(neg_idx_batch)
+        pos_resource_embedding_batch = self.get_resource_document_embedding(pos_idx_batch)
+        neg_resource_embedding_batch = self.get_resource_document_embedding(neg_idx_batch)
         return query_embedding_batch, pos_resource_embedding_batch, neg_resource_embedding_batch
-
 
     def load_documents(self):
         documents = {}
@@ -92,13 +103,15 @@ class Dataset:
         train_pairs = []
         for count in range(self.args.train_pair_count):
             query = random.choice(list(self.qname_to_id.keys())[:self.args.train])
-            pos_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query) & (self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
+            pos_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query) & (
+                        self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
             pos_resource = random.choice(pos_resources)
 
             neg_resources = self.resource_query_similarity[
                 (self.resource_query_similarity['query_id'] == query) & (
-                            self.resource_query_similarity['similarity_score'] <= 0.0)]['resource_id'].tolist()
+                        self.resource_query_similarity['similarity_score'] <= 0.0)]['resource_id'].tolist()
             neg_resource = random.choice(neg_resources)
 
-            train_pairs.append((self.qname_to_id[query], self.rname_to_id[pos_resource], self.rname_to_id[neg_resource]))
+            train_pairs.append(
+                (self.qname_to_id[query], self.rname_to_id[pos_resource], self.rname_to_id[neg_resource]))
         return torch.tensor(train_pairs, dtype=torch.long)

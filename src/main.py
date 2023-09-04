@@ -66,7 +66,7 @@ for epoch in range(args.epochs):
         batch_data = batch[0]
         query_idx_batch, pos_idx_batch, neg_idx_batch = batch_data[:, 0], batch_data[:, 1], batch_data[:, 2]
 
-        query_embedding_batch, pos_resource_embedding_batch, neg_resource_embedding_batch = data.get_batch_embeddings(query_idx_batch, pos_idx_batch, neg_idx_batch)
+        query_embedding_batch, pos_resource_batch, neg_resource_batch = data.get_batch_embeddings(query_idx_batch, pos_idx_batch, neg_idx_batch)
 
         # # Process query
         # query_tokens = tokenizer(queries[query_idx], return_tensors="pt", padding=True, truncation=True)
@@ -86,8 +86,8 @@ for epoch in range(args.epochs):
         # neg_doc_embeddings = neg_output.last_hidden_state.mean(dim=1)
 
         # Get box embeddings
-        pos_center, pos_offset = box_embedding(pos_resource_embedding_batch)
-        neg_center, neg_offset = box_embedding(neg_resource_embedding_batch)
+        pos_center, pos_offset = box_embedding(pos_resource_batch)
+        neg_center, neg_offset = box_embedding(neg_resource_batch)
 
         # Compute loss
         loss = ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset)
