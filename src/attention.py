@@ -1,43 +1,23 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
+
 
 class Attention(nn.Module):
     def __init__(self, embedding_dim):
         super(Attention, self).__init__()
-        self.embedding_dim = embedding_dim
-        self.query = nn.Parameter(torch.randn(embedding_dim))
-        self.key = nn.Linear(embedding_dim, embedding_dim)
-        self.value = nn.Linear(embedding_dim, embedding_dim)
+        self.dim = embedding_dim
+        self.W_key = nn.Linear(embedding_dim, embedding_dim, bias=False)
+        self.W_val = nn.Linear(embedding_dim, embedding_dim, bias=False)
+        self.query = nn.Parameter(torch.randn(embedding_dim, 1))
 
     def forward(self, x):
-        # x: [num_docs, embedding_dim]
+        batch_size, num_document, dim = x.shape
 
-        # Compute keys and values
-        keys = self.key(x)  # [num_docs, embedding_dim]
-        values = self.value(x)  # [num_docs, embedding_dim]
+        key = self.W_key(x)
+        value = self.W_val(x)
+        query = self.query.unsqueeze(0).repeat(batch_size, 1, 1)
 
-        # Compute attention scores
-        query = self.query.unsqueeze(0)  # [1, embedding_dim]
-        scores = torch.matmul(keys, query.transpose(-2, -1))  # [num_docs, 1]
-        scores = scores.squeeze(-1)  # [num_docs]
-        attention_weights = F.softmax(scores, dim=-1)  # [num_docs]
+        attention = torch.softmax(torch.bmm(key, query) / (self.dim ** 0.5), 1)
+        aggregation = torch.sum(attention * value, 1)
 
-        # Compute aggregated embeddings
-        aggregated_embedding = torch.sum(values * attention_weights.unsqueeze(-1), dim=0)  # [embedding_dim]
-
-        return aggregated_embedding
-
-
-# class Attention(nn.Module):
-#     def __init__(self, embedding_dim):
-#         super(Attention, self).__init__()
-#         self.linear = nn.Linear(embedding_dim, 1)
-#
-#     def forward(self, x):
-#         # x shape: [num_documents, embedding_dim]
-#         weights = torch.nn.functional.softmax(self.linear(x).squeeze(-1), dim=0)
-#         # weights shape after unsqueeze and multiplication: [num_documents, 1] * [num_documents, embedding_dim]
-#         weighted_sum = (weights.unsqueeze(-1) * x).sum(dim=0)
-#         # weighted_sum shape: [embedding_dim]
-#         return weighted_sum.unsqueeze(0)  # shape: [1, embedding_dim]
+        return aggregation
