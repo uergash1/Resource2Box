@@ -7,7 +7,7 @@ def parse_args():
     parser.add_argument("--dataset", default='fedweb14', type=str, help='dataset')
     parser.add_argument("--title", default=True, type=bool, help='include document title')
     parser.add_argument("--body", default=True, type=bool, help='include document body')
-    parser.add_argument("--train_pair_count", default=4, type=int, help='number of train pairs')
+    parser.add_argument("--train_pair_count", default=2000, type=int, help='number of train pairs')
     parser.add_argument("--train", default=40, type=int, help='number of train queries')
     parser.add_argument("--test", default=10, type=int, help='number of test queries')
     parser.add_argument("--folds", default=5, type=int, help='number of folds for cross validation')
@@ -18,8 +18,8 @@ def parse_args():
     parser.add_argument("--eval_test", default=True, type=bool, help='Evaluate test data in each epoch')
     parser.add_argument("--eval_train", default=True, type=bool, help='Evaluate train data in each epoch')
 
-    parser.add_argument("--batch_size", default=2, type=int, help='batch size')
-    parser.add_argument("--epochs", default=3, type=int, help='number of epochs')
+    parser.add_argument("--batch_size", default=64, type=int, help='batch size')
+    parser.add_argument("--epochs", default=100, type=int, help='number of epochs')
     parser.add_argument("--learning_rate", default=1e-3, type=float, help='learning rate')
     parser.add_argument("--dim", default=768, type=int, help='embedding dimension')
 

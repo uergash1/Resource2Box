@@ -43,7 +43,7 @@ def ndcg_eval(model, data, current_fold, mode, k):
             y_score.append(resource_y_score)
 
         for kk in k:
-            ndcg_results[kk] = ndcg_score(y_true, y_score, k=kk)
+            ndcg_results[f"nDCG @{kk}"] = ndcg_score(y_true, y_score, k=kk)
     return ndcg_results
 
 
@@ -64,9 +64,10 @@ def train(model, data, current_fold):
             batch_data = batch[0]
             query_idx_batch, pos_idx_batch, neg_idx_batch = batch_data[:, 0], batch_data[:, 1], batch_data[:, 2]
 
-            query_embedding_batch, pos_resource_batch, neg_resource_batch = data.get_batch_embeddings(query_idx_batch,
-                                                                                                      pos_idx_batch,
-                                                                                                      neg_idx_batch)
+            query_embedding_batch, pos_resource_batch, neg_resource_batch = data.get_batch_embeddings(
+                query_idx_batch.tolist(),
+                pos_idx_batch.tolist(),
+                neg_idx_batch.tolist())
 
             pos_center, pos_offset = model(pos_resource_batch)
             neg_center, neg_offset = model(neg_resource_batch)
@@ -78,7 +79,7 @@ def train(model, data, current_fold):
             optimizer.step()
 
             if args.box_type == 'geometric':
-                model.W_offset.weight.data = model.W_offset.weight.data.clamp(min=1e-6)
+                model.box.W_offset.weight.data = model.box.W_offset.weight.data.clamp(min=1e-6)
 
         print(f"Epoch {epoch + 1}, Average Loss: {epoch_loss / len(train_pairs)}")
 
@@ -90,12 +91,12 @@ def train(model, data, current_fold):
             print(f"Test data nDCG results: {ndcg_results}")
 
 
-
 def main():
     data = Dataset(args, device)
 
     # Train n number of folds for cross validation
     for current_fold in range(args.folds):
+        print(f"************************ FOLD {current_fold + 1} *******************************")
         model = Model(args.box_type, args.dim).to(device)
         train(model, data, current_fold)
         ndcg_eval(model, data, current_fold, mode='test', k=args.ndcg_k)
