@@ -71,9 +71,12 @@ class Dataset:
                             self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
             pos_resource = random.choice(pos_resources)
 
+            pos_resource_score = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_name)
+                                                                & (self.resource_query_similarity['resource_id'] == pos_resource)]['similarity_score'].values[0]
+
             neg_resources = self.resource_query_similarity[
                 (self.resource_query_similarity['query_id'] == query_name) & (
-                        self.resource_query_similarity['similarity_score'] <= 0.0)]['resource_id'].tolist()
+                        self.resource_query_similarity['similarity_score'] < pos_resource_score)]['resource_id'].tolist()
             neg_resource = random.choice(neg_resources)
 
             train_pairs.append((query_id, self.rname_to_id[pos_resource], self.rname_to_id[neg_resource]))
