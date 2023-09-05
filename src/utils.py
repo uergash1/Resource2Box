@@ -32,8 +32,8 @@ def parse_args():
 def vector_box_distance(vector, center, offset, gamma=0.3):
     lower_left = center - offset
     upper_right = center + offset
-    dist_out = torch.sum((torch.relu(vector - upper_right) + torch.relu(lower_left - vector)) ** 2)
-    dist_in = torch.sum((center - torch.min(upper_right, torch.max(lower_left, vector))) ** 2)
+    dist_out = torch.sum((torch.relu(vector - upper_right) + torch.relu(lower_left - vector)) ** 2, 1)
+    dist_in = torch.sum((center - torch.min(upper_right, torch.max(lower_left, vector))) ** 2, 1)
     dist = dist_out + gamma * dist_in
     return dist
 

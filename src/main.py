@@ -31,6 +31,9 @@ def ndcg_eval(model, data, current_fold, mode, k):
 
     with torch.no_grad():
         query_embeddings, document_embeddings, y_true = data.get_eval_data(current_fold, mode)
+        query_embeddings = query_embeddings.to(device)
+        document_embeddings = document_embeddings.to(device)
+
         center, offset = model(document_embeddings)
 
         # Compute distance between test query and data source boxes
@@ -68,9 +71,10 @@ def train(model, data, current_fold):
                 query_idx_batch.tolist(),
                 pos_idx_batch.tolist(),
                 neg_idx_batch.tolist())
+            query_embedding_batch = query_embedding_batch.to(device)
 
-            pos_center, pos_offset = model(pos_resource_batch)
-            neg_center, neg_offset = model(neg_resource_batch)
+            pos_center, pos_offset = model(pos_resource_batch.to(device))
+            neg_center, neg_offset = model(neg_resource_batch.to(device))
 
             loss = utils.ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset)
             epoch_loss += loss.item()
