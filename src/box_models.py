@@ -3,11 +3,10 @@ import torch.nn as nn
 
 
 class GeometricBox(nn.Module):
-    def __init__(self, embedding_dim):
+    def __init__(self, hidden_dim):
         super(GeometricBox, self).__init__()
-        self.dim = embedding_dim
-        self.W_center = nn.Linear(embedding_dim, embedding_dim, bias=False)
-        self.W_offset = nn.Linear(embedding_dim, embedding_dim, bias=True)
+        self.W_center = nn.Linear(hidden_dim, hidden_dim, bias=False)
+        self.W_offset = nn.Linear(hidden_dim, hidden_dim, bias=True)
 
     def forward(self, x):
         center = self.W_center(x)

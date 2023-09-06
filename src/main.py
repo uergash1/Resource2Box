@@ -1,7 +1,6 @@
 import torch
 from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import ndcg_score
-from box_embedding import Model
+from box_embedding import Model, QueryModel
 import torch.optim as optim
 from tqdm import tqdm
 import random
@@ -13,6 +12,7 @@ from data import Dataset
 warnings.filterwarnings('ignore')
 args = utils.parse_args()
 
+########## Fix Seeds ##########
 random.seed(args.random_seed)
 np.random.seed(args.random_seed)
 torch.manual_seed(args.random_seed)
@@ -24,39 +24,19 @@ else:
     device = torch.device("cpu")
 print('Device:\t', device, '\n')
 
-
-def ndcg_eval(model, data, current_fold, mode, k):
-    ndcg_results = {}
-    model.eval()
-
-    with torch.no_grad():
-        query_embeddings, document_embeddings, y_true = data.get_eval_data(current_fold, mode)
-        query_embeddings = query_embeddings.to(device)
-        document_embeddings = document_embeddings.to(device)
-
-        center, offset = model(document_embeddings)
-
-        # Compute distance between test query and data source boxes
-        y_score = []
-        for query_embedding in tqdm(query_embeddings):
-            resource_y_score = []
-            for resource_id in range(center.shape[0]):
-                dist = torch.mean(torch.norm(query_embedding - center[resource_id], dim=-1) - offset[resource_id])
-                resource_y_score.append(dist.item())
-            y_score.append(resource_y_score)
-
-        for kk in k:
-            ndcg_results[f"nDCG @{kk}"] = ndcg_score(y_true, y_score, k=kk)
-    return ndcg_results
+config = f'{args.dataset}_lr{args.learning_rate}_dim{args.dim}_gamma{args.gamma}_delta{args.delta}'
+print(config, '\n')
 
 
-def train(model, data, current_fold):
+def train(model, query_layer, data, current_fold):
     params = list(model.parameters())
     optimizer = optim.Adam(params, lr=args.learning_rate)
 
     train_pairs = data.get_train_pairs(current_fold)
     train_data = TensorDataset(train_pairs)
     train_loader = DataLoader(train_data, batch_size=args.batch_size, shuffle=True)
+
+    train_losses, train_results, test_results = [], [], []
 
     model.train()
     for epoch in range(args.epochs):
@@ -71,12 +51,12 @@ def train(model, data, current_fold):
                 query_idx_batch.tolist(),
                 pos_idx_batch.tolist(),
                 neg_idx_batch.tolist())
-            query_embedding_batch = query_embedding_batch.to(device)
+            query_embedding_batch = query_layer(query_embedding_batch.to(device))
 
             pos_center, pos_offset = model(pos_resource_batch.to(device))
             neg_center, neg_offset = model(neg_resource_batch.to(device))
 
-            loss = utils.ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset)
+            loss = utils.ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset, args.delta)
             epoch_loss += loss.item()
 
             loss.backward()
@@ -86,13 +66,28 @@ def train(model, data, current_fold):
                 model.box.W_offset.weight.data = model.box.W_offset.weight.data.clamp(min=1e-6)
 
         print(f"Epoch {epoch + 1}, Average Loss: {epoch_loss / len(train_pairs)}")
+        train_losses.append(epoch_loss / len(train_pairs))
 
         if args.eval_train:
-            ndcg_results = ndcg_eval(model, data, current_fold, mode='train', k=args.ndcg_k)
-            print(f"Train data nDCG results: {ndcg_results}")
+            ndcg_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', k=args.ndcg_k,
+                                           device=device)
+            for k in [2, 4, 6, 8, 10]:
+                print(f'Train nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
+            train_results.append([ndcg_results[f"nDCG @{k}"] for k in [2, 4, 6, 8, 10]])
+
         if args.eval_test:
-            ndcg_results = ndcg_eval(model, data, current_fold, mode='test', k=args.ndcg_k)
-            print(f"Test data nDCG results: {ndcg_results}")
+            ndcg_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k,
+                                           device=device)
+            for k in [2, 4, 6, 8, 10]:
+                print(f'Test nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
+            test_results.append([ndcg_results[f"nDCG @{k}"] for k in [2, 4, 6, 8, 10]])
+
+        print()
+
+    with open(f'logs/{config}_fold{current_fold}.txt', 'w') as f:
+        for epoch in range(args.epochs):
+            log = ' '.join([f'{train_losses[epoch]}'] + [str(x) for x in train_results[epoch] + test_results[epoch]])
+            f.write(log + '\n')
 
 
 def main():
@@ -102,8 +97,9 @@ def main():
     for current_fold in range(args.folds):
         print(f"************************ FOLD {current_fold + 1} *******************************")
         model = Model(args.box_type, args.dim).to(device)
-        train(model, data, current_fold)
-        ndcg_eval(model, data, current_fold, mode='test', k=args.ndcg_k)
+        query_layer = QueryModel(args.dim).to(device)
+        train(model, query_layer, data, current_fold)
+        utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k, device=device)
 
 
 if __name__ == "__main__":

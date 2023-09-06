@@ -3,12 +3,12 @@ import torch.nn as nn
 
 
 class Attention(nn.Module):
-    def __init__(self, embedding_dim):
+    def __init__(self, embedding_dim, hidden_dim):
         super(Attention, self).__init__()
         self.dim = embedding_dim
-        self.W_key = nn.Linear(embedding_dim, embedding_dim, bias=False)
-        self.W_val = nn.Linear(embedding_dim, embedding_dim, bias=False)
-        self.query = nn.Parameter(torch.randn(embedding_dim, 1))
+        self.W_key = nn.Linear(embedding_dim, hidden_dim, bias=False)
+        self.W_val = nn.Linear(embedding_dim, hidden_dim, bias=False)
+        self.query = nn.Parameter(torch.randn(hidden_dim, 1))
 
     def forward(self, x):
         batch_size, num_document, dim = x.shape

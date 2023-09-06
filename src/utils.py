@@ -1,5 +1,7 @@
 import argparse
 import torch
+from tqdm import tqdm
+from sklearn.metrics import ndcg_score
 
 
 def parse_args():
@@ -19,17 +21,23 @@ def parse_args():
     parser.add_argument("--eval_train", default=True, type=bool, help='Evaluate train data in each epoch')
 
     parser.add_argument("--batch_size", default=64, type=int, help='batch size')
-    parser.add_argument("--epochs", default=100, type=int, help='number of epochs')
-    parser.add_argument("--learning_rate", default=1e-3, type=float, help='learning rate')
+    parser.add_argument("--epochs", default=40, type=int, help='number of epochs')
+    parser.add_argument("--learning_rate", default=1e-4, type=float, help='learning rate')
     parser.add_argument("--dim", default=768, type=int, help='embedding dimension')
 
     parser.add_argument("--box_type", default="geometric", type=str, help='box embedding type')
-    parser.add_argument("--gamma", default=0.3, type=float, help='box-vector distance parameter')
+    parser.add_argument("--gamma", default=0.0, type=float, help='box-vector distance parameter')
+    parser.add_argument("--delta", default=1.0, type=float, help='margin in hinge loss')
 
     return parser.parse_args()
 
 
 def vector_box_distance(vector, center, offset, gamma=0.3):
+    if vector.dim() == 1:
+        vector = vector.unsqueeze(0)
+        center = center.unsqueeze(0)
+        offset = offset.unsqueeze(0)
+
     lower_left = center - offset
     upper_right = center + offset
     dist_out = torch.sum((torch.relu(vector - upper_right) + torch.relu(lower_left - vector)) ** 2, 1)
@@ -38,10 +46,34 @@ def vector_box_distance(vector, center, offset, gamma=0.3):
     return dist
 
 
-def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset):
+def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset, delta):
     pos_distance = vector_box_distance(query_point, pos_center, pos_offset)
     neg_distance = vector_box_distance(query_point, neg_center, neg_offset)
-    loss = torch.relu(pos_distance - neg_distance + 1.0)  # Margin = 1.0
+    loss = torch.relu(pos_distance - neg_distance + delta)
     return loss.mean()
 
 
+def ndcg_eval(model, query_layer, data, current_fold, mode, k, device):
+    ndcg_results = {}
+    model.eval()
+
+    with torch.no_grad():
+        query_embeddings, document_embeddings, y_true = data.get_eval_data(current_fold, mode)
+        query_embeddings = query_embeddings.to(device)
+        document_embeddings = document_embeddings.to(device)
+
+        center, offset = model(document_embeddings)
+
+        # Compute distance between test query and data source boxes
+        y_score = []
+        for query_embedding in tqdm(query_embeddings):
+            resource_y_score = []
+            for resource_id in range(center.shape[0]):
+                dist = vector_box_distance(query_layer(query_embedding), center[resource_id], offset[resource_id])
+                resource_y_score.append(- dist.item())
+            y_score.append(resource_y_score)
+
+        for kk in k:
+            ndcg_results[f"nDCG @{kk}"] = ndcg_score(y_true, y_score, k=kk)
+
+    return ndcg_results
