@@ -28,6 +28,7 @@ def parse_args(DATASET):
     parser.add_argument("--box_type", default="geometric", type=str, help='box embedding type')
     parser.add_argument("--gamma", default=0.0, type=float, help='box-vector distance parameter')
     parser.add_argument("--delta", default=1.0, type=float, help='margin in hinge loss')
+    parser.add_argument("--threshold", default=0.8, type=float, help='resource-resource similarity threshold')
 
     return parser.parse_args()
 

@@ -1,8 +1,12 @@
 import torch
 import numpy as np
 import pandas as pd
+import pickle as pkl
+import os
 import random
-
+from tqdm import tqdm, trange
+from sklearn.metrics.pairwise import cosine_similarity
+from torch_geometric.utils import to_undirected
 
 class Dataset:
     def __init__(self, args, device):
@@ -32,6 +36,32 @@ class Dataset:
 
         # Loading queries
         self.queries = np.load(f"../data/{self.dataset_name}/embeddings/queries.npy")
+
+    def construct_resource_graph(self):
+        graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
+
+        if not os.path.exists(graph_file):
+            self.edge_index, self.edge_weight = [], []
+            for i in trange(len(self.id_to_rname)):
+                resource_i = self.id_to_rname[i]
+                for j in range(i + 1, len(self.id_to_rname)):
+                    resource_j = self.id_to_rname[j]
+                    sim = cosine_similarity(self.documents[resource_i], self.documents[resource_j])
+                    sim_ij = np.sum(sim > self.args.threshold) / (sim.shape[0] * sim.shape[1])
+                    if sim_ij > 0:
+                        self.edge_index.append([i, j])
+                        self.edge_weight.append(sim_ij)
+
+            self.edge_index = torch.tensor(self.edge_index).T
+            self.edge_weight = torch.tensor(self.edge_weight)
+            self.edge_index, self.edge_weight = to_undirected(self.edge_index, self.edge_weight)
+
+            with open(graph_file, 'wb') as f:
+                pkl.dump([self.edge_index, self.edge_weight], f)
+
+        else:
+            with open(graph_file, 'rb') as f:
+                self.edge_index, self.edge_weight = pkl.load(f)
 
     def get_batch_embeddings(self, query_idx_batch, pos_idx_batch, neg_idx_batch):
         query_embedding_batch = torch.Tensor([list(self.queries[i]) for i in query_idx_batch])

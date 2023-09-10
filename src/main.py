@@ -47,17 +47,17 @@ def train(model, query_layer, data, current_fold):
         for batch in tqdm(train_loader, desc=f"Epoch {epoch + 1}"):
             optimizer.zero_grad()
 
+            # Get resource embeddings
+            resource_center, resource_offset = model(data.resource_document_embedding.to(device))
+
             batch_data = batch[0]
             query_idx_batch, pos_idx_batch, neg_idx_batch = batch_data[:, 0], batch_data[:, 1], batch_data[:, 2]
 
-            query_embedding_batch, pos_resource_batch, neg_resource_batch = data.get_batch_embeddings(
-                query_idx_batch.tolist(),
-                pos_idx_batch.tolist(),
-                neg_idx_batch.tolist())
-            query_embedding_batch = query_layer(query_embedding_batch.to(device))
+            query_embedding_batch = torch.Tensor([list(data.queries[i]) for i in query_idx_batch])
+            pos_center, pos_offset = resource_center[pos_idx_batch], resource_offset[pos_idx_batch]
+            neg_center, neg_offset = resource_center[neg_idx_batch], resource_offset[neg_idx_batch]
 
-            pos_center, pos_offset = model(pos_resource_batch.to(device))
-            neg_center, neg_offset = model(neg_resource_batch.to(device))
+            query_embedding_batch = query_layer(query_embedding_batch.to(device))
 
             loss = utils.ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset, args.delta)
             epoch_loss += loss.item()
@@ -65,8 +65,8 @@ def train(model, query_layer, data, current_fold):
             loss.backward()
             optimizer.step()
 
-            if args.box_type == 'geometric':
-                model.box.W_offset.weight.data = model.box.W_offset.weight.data.clamp(min=1e-6)
+            # if args.box_type == 'geometric':
+            #    model.box.W_offset.weight.data = model.box.W_offset.weight.data.clamp(min=1e-6)
 
         print(f"Epoch {epoch + 1}, Average Loss: {epoch_loss / len(train_pairs)}")
         train_losses.append(epoch_loss / len(train_pairs))
@@ -99,7 +99,8 @@ def main():
     # Train n number of folds for cross validation
     for current_fold in range(args.folds):
         print(f"************************ FOLD {current_fold + 1} *******************************")
-        model = Model(args.box_type, args.dim).to(device)
+        model = Model(args.box_type, args.dim, data.edge_index.to(device), data.edge_weight.float().to(device)).to(
+            device)
         query_layer = QueryModel(args.dim).to(device)
         train(model, query_layer, data, current_fold)
         utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k, device=device)
