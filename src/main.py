@@ -9,8 +9,11 @@ import numpy as np
 import utils
 from data import Dataset
 
+
+# Dataset options: clueweb09b_100, clueweb09b_123, fedweb14, gov2
+DATASET = 'gov2'
 warnings.filterwarnings('ignore')
-args = utils.parse_args()
+args = utils.parse_args(DATASET)
 
 ########## Fix Seeds ##########
 random.seed(args.random_seed)
