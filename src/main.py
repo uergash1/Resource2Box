@@ -78,16 +78,16 @@ def train(model, query_layer, data, current_fold):
         if args.eval_train:
             ndcg_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', k=args.ndcg_k,
                                            device=device)
-            for k in [2, 4, 6, 8, 10]:
+            for k in args.ndcg_k:
                 print(f'Train nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            train_results.append([ndcg_results[f"nDCG @{k}"] for k in [2, 4, 6, 8, 10]])
+            train_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
 
         if args.eval_test:
             ndcg_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k,
                                            device=device)
-            for k in [2, 4, 6, 8, 10]:
+            for k in args.ndcg_k:
                 print(f'Test nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            test_results.append([ndcg_results[f"nDCG @{k}"] for k in [2, 4, 6, 8, 10]])
+            test_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
 
         print()
 
