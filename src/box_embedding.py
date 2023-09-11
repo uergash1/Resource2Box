@@ -18,8 +18,8 @@ class GNN(nn.Module):
         super(GNN, self).__init__()
         self.edge_index = edge_index
         self.edge_weight = edge_weight
-        self.conv1 = GraphConv(hidden_dim, hidden_dim)
-        self.conv2 = GraphConv(hidden_dim, hidden_dim)
+        self.conv1 = GCNConv(hidden_dim, hidden_dim)
+        self.conv2 = GCNConv(hidden_dim, hidden_dim)
 
     def forward(self, x):
         x = self.conv1(x, self.edge_index, self.edge_weight)

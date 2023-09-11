@@ -8,6 +8,7 @@ from tqdm import tqdm, trange
 from sklearn.metrics.pairwise import cosine_similarity
 from torch_geometric.utils import to_undirected
 
+
 class Dataset:
     def __init__(self, args, device):
         super(Dataset, self).__init__()
@@ -32,10 +33,17 @@ class Dataset:
         # Loading documents
         self.documents = {}
         for resource_id in self.rname_to_id.keys():
-            self.documents[resource_id] = np.load(f"../data/{self.dataset_name}/embeddings/resources/title_body/{resource_id}.npy")
+            self.documents[resource_id] = np.load(
+                f"../data/{self.dataset_name}/embeddings/resources/title_body/{resource_id}.npy")
 
         # Loading queries
         self.queries = np.load(f"../data/{self.dataset_name}/embeddings/queries.npy")
+
+        # Resource-resource graph
+        self.construct_resource_graph()
+
+        self.resource_document_embedding = torch.Tensor(
+            [list(self.documents[self.id_to_rname[i]]) for i in range(len(self.id_to_rname))])
 
     def construct_resource_graph(self):
         graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
@@ -85,8 +93,9 @@ class Dataset:
         document_embeddings = torch.Tensor(list(self.documents.values()))
         for query_id in query_portion:
             query_y_true = \
-            self.resource_query_similarity[self.resource_query_similarity['query_id'] == self.id_to_qname[query_id]][
-                'similarity_score'].tolist()
+                self.resource_query_similarity[
+                    self.resource_query_similarity['query_id'] == self.id_to_qname[query_id]][
+                    'similarity_score'].tolist()
             y_true.append(query_y_true)
         return query_embeddings, document_embeddings, y_true
 
@@ -98,15 +107,18 @@ class Dataset:
             query_name = self.id_to_qname[query_id]
             pos_resources = self.resource_query_similarity[
                 (self.resource_query_similarity['query_id'] == query_name) & (
-                            self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
+                        self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
             pos_resource = random.choice(pos_resources)
 
-            pos_resource_score = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_name)
-                                                                & (self.resource_query_similarity['resource_id'] == pos_resource)]['similarity_score'].values[0]
+            pos_resource_score = \
+            self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_name)
+                                           & (self.resource_query_similarity['resource_id'] == pos_resource)][
+                'similarity_score'].values[0]
 
             neg_resources = self.resource_query_similarity[
                 (self.resource_query_similarity['query_id'] == query_name) & (
-                        self.resource_query_similarity['similarity_score'] < pos_resource_score)]['resource_id'].tolist()
+                        self.resource_query_similarity['similarity_score'] < pos_resource_score)][
+                'resource_id'].tolist()
             neg_resource = random.choice(neg_resources)
 
             train_pairs.append((query_id, self.rname_to_id[pos_resource], self.rname_to_id[neg_resource]))

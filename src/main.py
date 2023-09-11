@@ -8,12 +8,16 @@ import warnings
 import numpy as np
 import utils
 from data import Dataset
+from dataset_configs import config
 
-
-# Dataset options: clueweb09b_100, clueweb09b_123, fedweb14, gov2
-DATASET = 'gov2'
 warnings.filterwarnings('ignore')
-args = utils.parse_args(DATASET)
+
+args = utils.parse_args()
+
+d_config = config[args.dataset]
+args.train = d_config['train']
+args.test = d_config['test']
+args.folds = d_config['folds']
 
 ########## Fix Seeds ##########
 random.seed(args.random_seed)
@@ -27,7 +31,7 @@ else:
     device = torch.device("cpu")
 print('Device:\t', device, '\n')
 
-config = f'{args.dataset}_lr{args.learning_rate}_dim{args.dim}_gamma{args.gamma}_delta{args.delta}'
+config = f'{args.dataset}_lr{args.learning_rate}_dim{args.dim}_gamma{args.gamma}_delta{args.delta}_thresh{args.threshold}'
 print(config, '\n')
 
 

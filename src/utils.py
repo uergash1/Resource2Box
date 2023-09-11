@@ -2,17 +2,15 @@ import argparse
 import torch
 from tqdm import tqdm
 from sklearn.metrics import ndcg_score
-from dataset_configs import config
 
 
-def parse_args(DATASET):
-    d_config = config[DATASET]
+def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", default=d_config['dataset_name'], type=str, help='dataset')
+    parser.add_argument("--dataset", default='fedweb14', type=str, help='dataset')
     parser.add_argument("--train_pair_count", default=1000, type=int, help='number of train pairs')
-    parser.add_argument("--train", default=d_config['train'], type=int, help='number of train queries')
-    parser.add_argument("--test", default=d_config['test'], type=int, help='number of test queries')
-    parser.add_argument("--folds", default=d_config['folds'], type=int, help='number of folds for cross validation')
+    parser.add_argument("--train", default=-1, type=int, help='number of train queries')
+    parser.add_argument("--test", default=-1, type=int, help='number of test queries')
+    parser.add_argument("--folds", default=-1, type=int, help='number of folds for cross validation')
     parser.add_argument("--random_seed", default=10, type=int, help='random seed')
     parser.add_argument("--gpu", default='0', type=str, help='gpu number')
 
