@@ -30,18 +30,23 @@ class GNN(nn.Module):
 
 
 class Model(nn.Module):
-    def __init__(self, box_type, hidden_dim, edge_index, edge_weight, bert_dim=768):
+    def __init__(self, box_type, hidden_dim, edge_index, edge_weight, use_gnn=True, bert_dim=768):
         super(Model, self).__init__()
         # Geometric or Attentive
         self.box_type = box_type
+        self.use_gnn = use_gnn
+
         self.attention = Attention(bert_dim, hidden_dim)
-        self.gcn = GNN(hidden_dim, edge_index, edge_weight)
+
+        if self.use_gnn:
+            self.gnn = GNN(hidden_dim, edge_index, edge_weight)
 
         if self.box_type == 'geometric':
             self.box = GeometricBox(hidden_dim)
 
     def forward(self, x):
         x = self.attention(x)
-        x = self.gcn(x) + x
+        if self.use_gnn:
+            x = self.gnn(x) + x
         return self.box(x)
 

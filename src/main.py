@@ -1,120 +1,137 @@
 import torch
-from torch.utils.data import DataLoader, TensorDataset
-from box_embedding import Model, QueryModel
-import torch.optim as optim
-from tqdm import tqdm
-import random
-import warnings
 import numpy as np
-import utils
-from data import Dataset
-from dataset_configs import config
-
-warnings.filterwarnings('ignore')
-
-args = utils.parse_args()
-
-d_config = config[args.dataset]
-args.train = d_config['train']
-args.test = d_config['test']
-args.folds = d_config['folds']
-
-########## Fix Seeds ##########
-random.seed(args.random_seed)
-np.random.seed(args.random_seed)
-torch.manual_seed(args.random_seed)
-
-########## GPU Settings ##########
-if torch.cuda.is_available():
-    device = torch.device("cuda:" + args.gpu)
-else:
-    device = torch.device("cpu")
-print('Device:\t', device, '\n')
-
-config = f'{args.dataset}_lr{args.learning_rate}_dim{args.dim}_gamma{args.gamma}_delta{args.delta}_thresh{args.threshold}'
-print(config, '\n')
+import pandas as pd
+import pickle as pkl
+import os
+import random
+from tqdm import tqdm, trange
+from sklearn.metrics.pairwise import cosine_similarity
+from torch_geometric.utils import to_undirected
 
 
-def train(model, query_layer, data, current_fold):
-    params = list(model.parameters())
-    optimizer = optim.Adam(params, lr=args.learning_rate)
+class Dataset:
+    def __init__(self, args, device):
+        super(Dataset, self).__init__()
 
-    train_pairs = data.get_train_pairs(current_fold)
-    train_data = TensorDataset(train_pairs)
-    train_loader = DataLoader(train_data, batch_size=args.batch_size, shuffle=True)
+        self.args = args
+        self.device = device
+        self.dataset_name = args.dataset
+        self.__load_query_resource_artifacts__()
 
-    train_losses, train_results, test_results = [], [], []
+    def __load_query_resource_artifacts__(self):
+        self.resource_query_similarity = pd.read_csv(
+            f'../data/{self.dataset_name}/processed/resource_query_similarity.tsv', sep='\t')
+        self.rname_to_id = dict([(name, id) for id, name in
+                                 enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
+        self.id_to_rname = dict([(id, name) for id, name in
+                                 enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
 
-    model.train()
-    for epoch in range(args.epochs):
-        epoch_loss = 0.0
-        for batch in tqdm(train_loader, desc=f"Epoch {epoch + 1}"):
-            optimizer.zero_grad()
+        # Loading queries
+        self.query_ids = sorted(list(self.resource_query_similarity['query_id'].unique()))
+        self.queries = np.load(f"../data/{self.dataset_name}/embeddings/queries.npy")
 
-            # Get resource embeddings
-            resource_center, resource_offset = model(data.resource_document_embedding.to(device))
+        self.query_ids_cv = list(self.query_ids)
+        random.shuffle(self.query_ids_cv)
 
-            batch_data = batch[0]
-            query_idx_batch, pos_idx_batch, neg_idx_batch = batch_data[:, 0], batch_data[:, 1], batch_data[:, 2]
+        # Loading resources
+        self.resource_ids = sorted(list(self.resource_query_similarity['resource_id'].unique()))
 
-            query_embedding_batch = torch.Tensor([list(data.queries[i]) for i in query_idx_batch])
-            pos_center, pos_offset = resource_center[pos_idx_batch], resource_offset[pos_idx_batch]
-            neg_center, neg_offset = resource_center[neg_idx_batch], resource_offset[neg_idx_batch]
+        self.resource_names = []
+        for file in os.listdir(f'../data/{self.dataset_name}/embeddings/resources/title_body/'):
+            if file.endswith('.npy'):
+                if self.dataset_name != 'fedweb14':
+                    self.resource_names.append(int(file.replace(".npy", "")))
+                else:
+                    self.resource_names.append(file.replace(".npy", ""))
+        self.resource_names = sorted(self.resource_names)
 
-            query_embedding_batch = query_layer(query_embedding_batch.to(device))
+        self.documents = {}
+        for resource_id in self.resource_ids:
+            resource_name = self.resource_names[resource_id]
+            self.documents[resource_id] = np.load(
+                f"../data/{self.dataset_name}/embeddings/resources/title_body/{resource_name}.npy")
 
-            loss = utils.ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset, args.delta)
-            epoch_loss += loss.item()
+        self.resource_document_embedding = torch.Tensor(
+            [self.documents[resource_id] for resource_id in self.resource_ids])
 
-            loss.backward()
-            optimizer.step()
+        # Resource-resource graph
+        self.construct_resource_graph()
 
-            # if args.box_type == 'geometric':
-            #    model.box.W_offset.weight.data = model.box.W_offset.weight.data.clamp(min=1e-6)
+    def construct_resource_graph(self):
+        graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
 
-        print(f"Epoch {epoch + 1}, Average Loss: {epoch_loss / len(train_pairs)}")
-        train_losses.append(epoch_loss / len(train_pairs))
+        if not os.path.exists(graph_file):
+            self.edge_index, self.edge_weight = [], []
+            for resource_i in trange(len(self.resource_ids)):
+                for resource_j in range(resource_i + 1, len(self.resource_ids)):
+                    sim = cosine_similarity(self.documents[resource_i], self.documents[resource_j])
+                    sim_ij = np.sum(sim > self.args.threshold) / (sim.shape[0] * sim.shape[1])
+                    if sim_ij > 0:
+                        self.edge_index.append([resource_i, resource_j])
+                        self.edge_weight.append(sim_ij)
 
-        if args.eval_train:
-            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', args=args, device=device)
-            for k in args.ndcg_k:
-                print(f'Train nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            train_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
+            self.edge_index = torch.tensor(self.edge_index).T
+            self.edge_weight = torch.tensor(self.edge_weight)
+            self.edge_index, self.edge_weight = to_undirected(self.edge_index, self.edge_weight)
 
-            for k in args.np_k:
-                print(f'Train nP@{k}: {np_results[f"nP @{k}"]:.6f}')
-            train_results.append([np_results[f"nP @{k}"] for k in args.np_k])
+            with open(graph_file, 'wb') as f:
+                pkl.dump([self.edge_index, self.edge_weight], f)
 
-        if args.eval_test:
-            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args, device=device)
-            for k in args.ndcg_k:
-                print(f'Test nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            test_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
+        else:
+            with open(graph_file, 'rb') as f:
+                self.edge_index, self.edge_weight = pkl.load(f)
 
-            for k in args.np_k:
-                print(f'Test nP@{k}: {np_results[f"nP @{k}"]:.6f}')
-            test_results.append([np_results[f"nP @{k}"] for k in args.np_k])
+    def get_train_test_portion(self, current_fold, mode):
+        portion = []
+        if mode == 'test':
+            portion = self.query_ids_cv[self.args.test * current_fold:self.args.test * (current_fold + 1)]
+        elif mode == 'train':
+            portion = self.query_ids_cv[:self.args.test * current_fold] + self.query_ids_cv[
+                                                                          self.args.test * (current_fold + 1):]
+        return portion
 
-        print()
+    def get_eval_data(self, current_fold, mode):
+        y_true = []
+        query_portion = self.get_train_test_portion(current_fold, mode)
+        query_embeddings = torch.Tensor([self.queries[query_id] for query_id in query_portion])
+        document_embeddings = self.resource_document_embedding
 
-    with open(f'logs/{config}_fold{current_fold}.txt', 'w') as f:
-        for epoch in range(args.epochs):
-            log = ' '.join([f'{train_losses[epoch]}'] + [str(x) for x in train_results[epoch] + test_results[epoch]])
-            f.write(log + '\n')
+        for query_id in query_portion:
+            query_y_true = []
+            for resource_id in self.resource_ids:
+                query_y_true.append(self.resource_query_similarity[
+                                        (self.resource_query_similarity['query_id'] == query_id) & (
+                                                    self.resource_query_similarity['resource_id'] == resource_id)][
+                                        'similarity_score'].values[0])
+            y_true.append(query_y_true)
 
+        return query_embeddings, document_embeddings, y_true
 
-def main():
-    data = Dataset(args, device)
+    def get_train_pairs(self, current_fold):
+        train_pairs = []
+        current_fold_queries = self.get_train_test_portion(current_fold, mode='train')
 
-    # Train n number of folds for cross validation
-    for current_fold in range(args.folds):
-        print(f"************************ FOLD {current_fold + 1} *******************************")
-        model = Model(args.box_type, args.dim, data.edge_index.to(device), data.edge_weight.float().to(device)).to(
-            device)
-        query_layer = QueryModel(args.dim).to(device)
-        train(model, query_layer, data, current_fold)
-        utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k, device=device)
+        for count in trange(self.args.train_pair_count):
+            query_id = random.choice(current_fold_queries)
 
+            pos_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (
+                        self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
 
-if __name__ == "__main__":
-    main()
+            if self.args.bias:
+                pos_scores = [self.resource_query_similarity[
+                                  (self.resource_query_similarity['query_id'] == query_id) & (
+                                              self.resource_query_similarity['resource_id'] == pos_resource_id)][
+                                  'similarity_score'].values[0] for pos_resource_id in pos_resources]
+                pos_prob = [score / sum(pos_scores) for score in pos_scores]
+            else:
+                pos_prob = [1 / len(pos_resources) for p in pos_resources]
+
+            pos_resource = np.random.choice(pos_resources, p=pos_prob)
+
+            neg_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (
+                        self.resource_query_similarity['similarity_score'] == 0)]['resource_id'].tolist()
+            neg_resource = random.choice(neg_resources)
+
+            train_pairs.append((query_id, pos_resource, neg_resource))
+
+        return torch.tensor(train_pairs, dtype=torch.long)
