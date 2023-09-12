@@ -76,22 +76,20 @@ def train(model, query_layer, data, current_fold):
         train_losses.append(epoch_loss / len(train_pairs))
 
         if args.eval_train:
-            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', args=args,
-                                                       device=device)
+            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', args=args, device=device)
             for k in args.ndcg_k:
                 print(f'Train nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            train_results.append([ndcg_results[f"nDCG @{k}"] for k in [2, 4, 6, 8, 10]])
+            train_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
 
             for k in args.np_k:
                 print(f'Train nP@{k}: {np_results[f"nP @{k}"]:.6f}')
             train_results.append([np_results[f"nP @{k}"] for k in args.np_k])
 
         if args.eval_test:
-            ndcg_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k,
-                                           device=device)
+            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args, device=device)
             for k in args.ndcg_k:
                 print(f'Test nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            test_results.append([ndcg_results[f"nDCG @{k}"] for k in [2, 4, 6, 8, 10]])
+            test_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
 
             for k in args.np_k:
                 print(f'Test nP@{k}: {np_results[f"nP @{k}"]:.6f}')

@@ -58,7 +58,7 @@ class Dataset:
         self.construct_resource_graph()
 
     def construct_resource_graph(self):
-        graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
+        graph_file = f'../graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
 
         if not os.path.exists(graph_file):
             self.edge_index, self.edge_weight = [], []
