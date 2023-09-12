@@ -2,11 +2,12 @@ import argparse
 import torch
 from tqdm import tqdm
 from sklearn.metrics import ndcg_score
+import numpy as np
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", default='clueweb09b_100', type=str, help='dataset')
+    parser.add_argument("--dataset", default='fedweb14', type=str, help='dataset')
     parser.add_argument("--train_pair_count", default=1000, type=int, help='number of train pairs')
     parser.add_argument("--train", default=-1, type=int, help='number of train queries')
     parser.add_argument("--test", default=-1, type=int, help='number of test queries')
@@ -14,7 +15,8 @@ def parse_args():
     parser.add_argument("--random_seed", default=10, type=int, help='random seed')
     parser.add_argument("--gpu", default='0', type=str, help='gpu number')
 
-    parser.add_argument("--ndcg_k", default=[2, 4, 6, 8, 10], type=list, help='nDCG results at k slice')
+    parser.add_argument("--np_k", default=[1, 5], type=list, help='nDCG results at k slice')
+    parser.add_argument("--ndcg_k", default=[5, 10, 20], type=list, help='nDCG results at k slice')
     parser.add_argument("--eval_test", default=True, type=bool, help='Evaluate test data in each epoch')
     parser.add_argument("--eval_train", default=True, type=bool, help='Evaluate train data in each epoch')
 
@@ -52,8 +54,9 @@ def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset, de
     return loss.mean()
 
 
-def ndcg_eval(model, query_layer, data, current_fold, mode, k, device):
+def ndcg_eval(model, query_layer, data, current_fold, mode, args, device):
     ndcg_results = {}
+    np_results = {}
     model.eval()
 
     with torch.no_grad():
@@ -72,7 +75,42 @@ def ndcg_eval(model, query_layer, data, current_fold, mode, k, device):
                 resource_y_score.append(- dist.item())
             y_score.append(resource_y_score)
 
-        for kk in k:
-            ndcg_results[f"nDCG @{kk}"] = ndcg_score(y_true, y_score, k=kk)
+        for k in args.ndcg_k:
+            ndcg_results[f"nDCG @{k}"] = ndcg_score(y_true, y_score, k=k)
 
-    return ndcg_results
+        for k in args.np_k:
+            np_results[f"nP @{k}"] = normalized_precision(y_true, y_score, k=k)
+
+    return ndcg_results, np_results
+
+
+def normalized_precision(y_true, y_score, k):
+    nPatk = []
+
+    def get_dict_data(list_data):
+        dict_data = {}
+        for qid, docs in enumerate(list_data):
+            dict_data[f"q{qid}"] = {}
+            for rid, doc in enumerate(docs):
+                dict_data[f"q{qid}"][f"r{rid}"] = float(doc)
+        return dict_data
+
+    idealscores = get_dict_data(y_true)
+    predictedscores = get_dict_data(y_score)
+
+    for qID in idealscores:
+        for SEID in predictedscores[qID]:
+            if not SEID in idealscores[qID]:
+                idealscores[qID][SEID] = 0.
+    for qID in sorted(idealscores.keys()):
+        tmp = sorted(predictedscores[qID].items(), key=lambda x: (x[1], x[0]), reverse=True)
+        sorted_predictedSEIDs = [t[0] for t in tmp]
+        top_predictedSEIDs = sorted_predictedSEIDs[:k]
+        tmp = sorted(idealscores[qID].items(), key=lambda x: (x[1], x[0]), reverse=True)
+        sorted_idealSEIDs = [t[0] for t in tmp]
+        top_idealSEIDs = sorted_idealSEIDs[:k]
+        top_predicted_values = [idealscores[qID][SEID] for SEID in top_predictedSEIDs]
+        top_ideal_values = [idealscores[qID][SEID] for SEID in top_idealSEIDs]
+        nPatk.append(np.sum(top_predicted_values) / np.sum(top_ideal_values))
+
+    return sum(nPatk) / len(nPatk)
