@@ -96,7 +96,7 @@ def train(model, query_layer, data, current_fold):
             test_results.append([np_results[f"nP @{k}"] for k in args.np_k])
         print()
 
-    with open(f'logs/{config}_fold{current_fold}.txt', 'w') as f:
+    with open(f'../logs/{config}_fold{current_fold}.txt', 'w') as f:
         for epoch in range(args.epochs):
             log = ' '.join([f'{train_losses[epoch]}'] + [str(x) for x in train_results[epoch] + test_results[epoch]])
             f.write(log + '\n')
@@ -112,7 +112,7 @@ def main():
                       args.use_gnn).to(device)
         query_layer = QueryModel(args.dim).to(device)
         train(model, query_layer, data, current_fold)
-        utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', k=args.ndcg_k, device=device)
+        utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args, device=device)
 
 
 if __name__ == "__main__":
