@@ -1,26 +1,27 @@
 import argparse
 import torch
+import numpy as np
 from tqdm import tqdm
 from sklearn.metrics import ndcg_score
-import numpy as np
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", default='gov2', type=str, help='dataset')
-    parser.add_argument("--train_pair_count", default=1000, type=int, help='number of train pairs')
+    parser.add_argument("--dataset", default='fedweb14', type=str, help='dataset')
+    parser.add_argument("--train_pair_count", default=10000, type=int, help='number of train pairs')
     parser.add_argument("--train", default=-1, type=int, help='number of train queries')
     parser.add_argument("--test", default=-1, type=int, help='number of test queries')
     parser.add_argument("--folds", default=-1, type=int, help='number of folds for cross validation')
     parser.add_argument("--random_seed", default=10, type=int, help='random seed')
     parser.add_argument("--gpu", default='0', type=str, help='gpu number')
 
-    parser.add_argument("--np_k", default=[1, 5], type=list, help='nDCG results at k slice')
-    parser.add_argument("--ndcg_k", default=[5, 10, 20], type=list, help='nDCG results at k slice')
+    parser.add_argument("--ndcg_k", default=[1, 5, 10, 20], type=list, help='nDCG results at k slice')
+    parser.add_argument("--np_k", default=[1, 5, 10, 20], type=list, help='nDCG results at k slice')
+
     parser.add_argument("--eval_test", default=True, type=bool, help='Evaluate test data in each epoch')
     parser.add_argument("--eval_train", default=True, type=bool, help='Evaluate train data in each epoch')
 
-    parser.add_argument("--batch_size", default=128, type=int, help='batch size')
+    parser.add_argument("--batch_size", default=256, type=int, help='batch size')
     parser.add_argument("--epochs", default=50, type=int, help='number of epochs')
     parser.add_argument("--learning_rate", default=1e-4, type=float, help='learning rate')
     parser.add_argument("--weight_decay", default=1e-5, type=float, help='reg weight')
@@ -33,6 +34,7 @@ def parse_args():
 
     parser.add_argument("--use_gnn", default=1, type=int, help='Use GNN')
     parser.add_argument("--bias", default=1, type=int, help='Sampling bias')
+    parser.add_argument("--loss_type", default='hinge', type=str, help='loss function')
 
     return parser.parse_args()
 
@@ -51,7 +53,14 @@ def vector_box_distance(vector, center, offset, gamma=0.3):
     return dist
 
 
-def ranking_loss(query_point, pos_center, pos_offset, neg_center, neg_offset, delta):
+def bpr_loss(query_point, pos_center, pos_offset, neg_center, neg_offset):
+    pos_distance = vector_box_distance(query_point, pos_center, pos_offset)
+    neg_distance = vector_box_distance(query_point, neg_center, neg_offset)
+    loss = - torch.log(torch.sigmoid(neg_distance - pos_distance))
+    return loss.mean()
+
+
+def hinge_loss(query_point, pos_center, pos_offset, neg_center, neg_offset, delta):
     pos_distance = vector_box_distance(query_point, pos_center, pos_offset)
     neg_distance = vector_box_distance(query_point, neg_center, neg_offset)
     loss = torch.relu(pos_distance - neg_distance + delta)

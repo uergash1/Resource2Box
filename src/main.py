@@ -31,9 +31,14 @@ else:
     device = torch.device("cpu")
 print('Device:\t', device, '\n')
 
-config = f'{args.dataset}_lr{args.learning_rate}_wd{args.weight_decay}_dim{args.dim}_gamma{args.gamma}_delta{args.delta}_bias{args.bias}'
+config = f'{args.dataset}_lr{args.learning_rate}_wd{args.weight_decay}_dim{args.dim}_gamma{args.gamma}_bias{args.bias}_loss-{args.loss_type}'
+
+if args.loss_type == 'hinge':
+    config += f'_delta{args.delta}'
+
 if args.use_gnn:
     config += f'_gnn{args.threshold}'
+
 print(config, '\n')
 
 
@@ -41,14 +46,17 @@ def train(model, query_layer, data, current_fold):
     params = list(model.parameters())
     optimizer = optim.Adam(params, lr=args.learning_rate, weight_decay=args.weight_decay)
 
-    train_pairs = data.get_train_pairs(current_fold)
-    train_data = TensorDataset(train_pairs)
-    train_loader = DataLoader(train_data, batch_size=args.batch_size, shuffle=True)
-
-    train_losses, train_results, test_results = [], [], []
+    train_losses, train_results, test_results = [], {'ndcg': [], 'np': []}, {'ndcg': [], 'np': []}
+    sample_cnt = 0
 
     model.train()
     for epoch in range(args.epochs):
+
+        if epoch % 5 == 0:
+            sample_cnt += 1
+            train_pairs = data.get_train_pairs(current_fold, sample_cnt)
+            train_data = TensorDataset(train_pairs)
+            train_loader = DataLoader(train_data, batch_size=args.batch_size, shuffle=True)
 
         epoch_loss = 0.0
         for batch in tqdm(train_loader, desc=f"Epoch {epoch + 1}"):
@@ -66,7 +74,12 @@ def train(model, query_layer, data, current_fold):
 
             query_embedding_batch = query_layer(query_embedding_batch.to(device))
 
-            loss = utils.ranking_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset, args.delta)
+            if args.loss_type == 'hinge':
+                loss = utils.hinge_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset,
+                                        args.delta)
+            elif args.loss_type == 'bpr':
+                loss = utils.bpr_loss(query_embedding_batch, pos_center, pos_offset, neg_center, neg_offset)
+
             epoch_loss += loss.item()
 
             loss.backward()
@@ -76,29 +89,36 @@ def train(model, query_layer, data, current_fold):
         train_losses.append(epoch_loss / len(train_pairs))
 
         if args.eval_train:
-            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', args=args, device=device)
+            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', args=args,
+                                                       device=device)
+
             for k in args.ndcg_k:
                 print(f'Train nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            train_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
+            train_results['ndcg'].append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
 
             for k in args.np_k:
                 print(f'Train nP@{k}: {np_results[f"nP @{k}"]:.6f}')
-            train_results.append([np_results[f"nP @{k}"] for k in args.np_k])
+            train_results['np'].append([np_results[f"nP @{k}"] for k in args.np_k])
 
         if args.eval_test:
-            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args, device=device)
+            ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args,
+                                                       device=device)
+
             for k in args.ndcg_k:
                 print(f'Test nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
-            test_results.append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
+            test_results['ndcg'].append([ndcg_results[f"nDCG @{k}"] for k in args.ndcg_k])
 
             for k in args.np_k:
                 print(f'Test nP@{k}: {np_results[f"nP @{k}"]:.6f}')
-            test_results.append([np_results[f"nP @{k}"] for k in args.np_k])
+            test_results['np'].append([np_results[f"nP @{k}"] for k in args.np_k])
+
         print()
 
-    with open(f'../logs/{config}_fold{current_fold}.txt', 'w') as f:
+    with open(f'logs/{config}_fold{current_fold}.txt', 'w') as f:
         for epoch in range(args.epochs):
-            log = ' '.join([f'{train_losses[epoch]}'] + [str(x) for x in train_results[epoch] + test_results[epoch]])
+            log = ' '.join([f'{train_losses[epoch]}'] +
+                           [str(x) for x in train_results['ndcg'][epoch] + test_results['ndcg'][epoch]] +
+                           [str(x) for x in train_results['np'][epoch] + test_results['np'][epoch]])
             f.write(log + '\n')
 
 
@@ -112,7 +132,6 @@ def main():
                       args.use_gnn).to(device)
         query_layer = QueryModel(args.dim).to(device)
         train(model, query_layer, data, current_fold)
-        utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args, device=device)
 
 
 if __name__ == "__main__":

@@ -30,6 +30,7 @@ class Dataset:
         self.query_ids = sorted(list(self.resource_query_similarity['query_id'].unique()))
         self.queries = np.load(f"../data/{self.dataset_name}/embeddings/queries.npy")
 
+        random.seed(2023)
         self.query_ids_cv = list(self.query_ids)
         random.shuffle(self.query_ids_cv)
 
@@ -57,8 +58,11 @@ class Dataset:
         # Resource-resource graph
         self.construct_resource_graph()
 
+        # Query's pos/neg resources
+        self.get_positive_negative_resources()
+
     def construct_resource_graph(self):
-        graph_file = f'../graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
+        graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
 
         if not os.path.exists(graph_file):
             self.edge_index, self.edge_weight = [], []
@@ -107,31 +111,68 @@ class Dataset:
 
         return query_embeddings, document_embeddings, y_true
 
-    def get_train_pairs(self, current_fold):
-        train_pairs = []
-        current_fold_queries = self.get_train_test_portion(current_fold, mode='train')
+    def get_positive_negative_resources(self):
+        self.query2resources = {}
 
-        for count in trange(self.args.train_pair_count):
-            query_id = random.choice(current_fold_queries)
+        for query_id in tqdm(self.query_ids):
+            pos_resources = sorted(self.resource_query_similarity[
+                                       (self.resource_query_similarity['query_id'] == query_id) & (
+                                                   self.resource_query_similarity['similarity_score'] > 0.0)][
+                                       'resource_id'].tolist())
+            pos_scores = [self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (
+                        self.resource_query_similarity['resource_id'] == pos_resource_id)]['similarity_score'].values[0]
+                          for pos_resource_id in pos_resources]
+            pos_prob = [score / sum(pos_scores) for score in pos_scores]
 
-            pos_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (
-                        self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
+            neg_resources = sorted(self.resource_query_similarity[
+                                       (self.resource_query_similarity['query_id'] == query_id) & (
+                                                   self.resource_query_similarity['similarity_score'] == 0.0)][
+                                       'resource_id'].tolist())
 
-            if self.args.bias:
-                pos_scores = [self.resource_query_similarity[
-                                  (self.resource_query_similarity['query_id'] == query_id) & (
-                                              self.resource_query_similarity['resource_id'] == pos_resource_id)][
-                                  'similarity_score'].values[0] for pos_resource_id in pos_resources]
-                pos_prob = [score / sum(pos_scores) for score in pos_scores]
-            else:
-                pos_prob = [1 / len(pos_resources) for p in pos_resources]
+            self.query2resources[query_id] = {
+                'pos_resources': pos_resources,
+                'pos_scores': pos_scores,
+                'pos_prob': pos_prob,
+                'neg_resources': neg_resources
+            }
 
-            pos_resource = np.random.choice(pos_resources, p=pos_prob)
+    def get_train_pairs(self, current_fold, sample_idx):
 
-            neg_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (
-                        self.resource_query_similarity['similarity_score'] == 0)]['resource_id'].tolist()
-            neg_resource = random.choice(neg_resources)
+        sample_file = f'samples/{self.args.dataset}_bias{self.args.bias}_fold{current_fold}_idx{sample_idx}.pkl'
 
-            train_pairs.append((query_id, pos_resource, neg_resource))
+        if not os.path.exists(sample_file):
 
-        return torch.tensor(train_pairs, dtype=torch.long)
+            train_pairs = []
+            current_fold_queries = self.get_train_test_portion(current_fold, mode='train')
+
+            for count in trange(self.args.train_pair_count):
+                query_id = random.choice(current_fold_queries)
+
+                # pos_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist()
+                pos_resources = self.query2resources[query_id]['pos_resources']
+
+                if self.args.bias:
+                    # pos_scores = [self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (self.resource_query_similarity['resource_id'] == pos_resource_id)]['similarity_score'].values[0] for pos_resource_id in pos_resources]
+                    # pos_prob = [score/sum(pos_scores) for score in pos_scores]
+                    pos_prob = self.query2resources[query_id]['pos_prob']
+                else:
+                    pos_prob = [1 / len(pos_resources) for p in pos_resources]
+
+                pos_resource = np.random.choice(pos_resources, p=pos_prob)
+
+                # neg_resources = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (self.resource_query_similarity['similarity_score'] == 0)]['resource_id'].tolist()
+                neg_resources = self.query2resources[query_id]['neg_resources']
+                neg_resource = random.choice(neg_resources)
+
+                train_pairs.append((query_id, pos_resource, neg_resource))
+
+            train_pairs = torch.tensor(train_pairs, dtype=torch.long)
+
+            with open(sample_file, 'wb') as f:
+                pkl.dump(train_pairs, f)
+
+        else:
+            with open(sample_file, 'rb') as f:
+                train_pairs = pkl.load(f)
+
+        return train_pairs
