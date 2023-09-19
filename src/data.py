@@ -4,6 +4,7 @@ import pandas as pd
 import pickle as pkl
 import os
 import random
+import json
 from tqdm import tqdm, trange
 from sklearn.metrics.pairwise import cosine_similarity
 from torch_geometric.utils import to_undirected
@@ -21,10 +22,9 @@ class Dataset:
     def __load_query_resource_artifacts__(self):
         self.resource_query_similarity = pd.read_csv(
             f'../data/{self.dataset_name}/processed/resource_query_similarity.tsv', sep='\t')
-        self.rname_to_id = dict([(name, id) for id, name in
-                                 enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
-        self.id_to_rname = dict([(id, name) for id, name in
-                                 enumerate(sorted(self.resource_query_similarity['resource_id'].unique().tolist()))])
+
+        with open(f'../data/{self.dataset_name}/processed/id_to_rname.json') as f:
+            self.id_to_rname = json.load(f)
 
         # Loading queries
         self.query_ids = sorted(list(self.resource_query_similarity['query_id'].unique()))
@@ -37,20 +37,10 @@ class Dataset:
         # Loading resources
         self.resource_ids = sorted(list(self.resource_query_similarity['resource_id'].unique()))
 
-        self.resource_names = []
-        for file in os.listdir(f'../data/{self.dataset_name}/embeddings/resources/title_body/'):
-            if file.endswith('.npy'):
-                if self.dataset_name != 'fedweb14':
-                    self.resource_names.append(int(file.replace(".npy", "")))
-                else:
-                    self.resource_names.append(file.replace(".npy", ""))
-        self.resource_names = sorted(self.resource_names)
-
         self.documents = {}
         for resource_id in self.resource_ids:
-            resource_name = self.resource_names[resource_id]
             self.documents[resource_id] = np.load(
-                f"../data/{self.dataset_name}/embeddings/resources/title_body/{resource_name}.npy")
+                f"../data/{self.dataset_name}/embeddings/resources/title_body/{self.id_to_rname[str(resource_id)]}.npy")
 
         self.resource_document_embedding = torch.Tensor(
             [self.documents[resource_id] for resource_id in self.resource_ids])
