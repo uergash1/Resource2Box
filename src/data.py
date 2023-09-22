@@ -52,7 +52,7 @@ class Dataset:
         self.get_positive_negative_resources()
 
     def construct_resource_graph(self):
-        graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
+        graph_file = f'../graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
 
         if not os.path.exists(graph_file):
             self.edge_index, self.edge_weight = [], []
@@ -128,7 +128,7 @@ class Dataset:
 
     def get_train_pairs(self, current_fold, sample_idx):
 
-        sample_file = f'samples/{self.args.dataset}_bias{self.args.bias}_fold{current_fold}_idx{sample_idx}.pkl'
+        sample_file = f'../samples/{self.args.dataset}_bias{self.args.bias}_fold{current_fold}_idx{sample_idx}.pkl'
 
         if not os.path.exists(sample_file):
 

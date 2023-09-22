@@ -7,7 +7,7 @@ from sklearn.metrics import ndcg_score
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", default='fedweb14', type=str, help='dataset')
+    parser.add_argument("--dataset", default='gov2', type=str, help='dataset')
     parser.add_argument("--train_pair_count", default=10000, type=int, help='number of train pairs')
     parser.add_argument("--train", default=-1, type=int, help='number of train queries')
     parser.add_argument("--test", default=-1, type=int, help='number of test queries')
