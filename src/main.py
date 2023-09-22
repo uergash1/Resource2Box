@@ -39,6 +39,8 @@ if args.loss_type == 'hinge':
 if args.use_gnn:
     config += f'_gnn{args.threshold}'
 
+config += f'_ver{args.version}'
+
 print(config, '\n')
 
 
@@ -90,7 +92,7 @@ def train(model, query_layer, data, current_fold):
 
         if args.eval_train:
             ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='train', args=args,
-                                                       device=device)
+                                                       device=device, config=config)
 
             for k in args.ndcg_k:
                 print(f'Train nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')
@@ -101,8 +103,13 @@ def train(model, query_layer, data, current_fold):
             train_results['np'].append([np_results[f"nP @{k}"] for k in args.np_k])
 
         if args.eval_test:
+            if epoch == args.epochs - 1 and args.save_model:
+                write_result = True
+            else:
+                write_result = False
+
             ndcg_results, np_results = utils.ndcg_eval(model, query_layer, data, current_fold, mode='test', args=args,
-                                                       device=device)
+                                                       device=device, config=config, write_result=write_result)
 
             for k in args.ndcg_k:
                 print(f'Test nDCG@{k}: {ndcg_results[f"nDCG @{k}"]:.6f}')

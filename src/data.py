@@ -21,7 +21,7 @@ class Dataset:
 
     def __load_query_resource_artifacts__(self):
         self.resource_query_similarity = pd.read_csv(
-            f'../data/{self.dataset_name}/processed/resource_query_similarity.tsv', sep='\t')
+            f'../data/{self.dataset_name}/processed/resource_query_similarity_v{self.args.version}.tsv', sep='\t')
 
         with open(f'../data/{self.dataset_name}/processed/id_to_rname.json') as f:
             self.id_to_rname = json.load(f)
@@ -52,7 +52,7 @@ class Dataset:
         self.get_positive_negative_resources()
 
     def construct_resource_graph(self):
-        graph_file = f'../graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
+        graph_file = f'graphs/{self.args.dataset}_threshold{self.args.threshold}.npy'
 
         if not os.path.exists(graph_file):
             self.edge_index, self.edge_weight = [], []
@@ -93,22 +93,19 @@ class Dataset:
         for query_id in query_portion:
             query_y_true = []
             for resource_id in self.resource_ids:
-                query_y_true.append(self.resource_query_similarity[
-                                        (self.resource_query_similarity['query_id'] == query_id) & (
-                                                    self.resource_query_similarity['resource_id'] == resource_id)][
-                                        'similarity_score'].values[0])
+                score = self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (self.resource_query_similarity['resource_id'] == resource_id)]['similarity_score'].values[0]
+                score = max(score, 0)
+                query_y_true.append(score)
             y_true.append(query_y_true)
 
-        return query_embeddings, document_embeddings, y_true
+        return query_embeddings, query_portion, document_embeddings, y_true
 
     def get_positive_negative_resources(self):
         self.query2resources = {}
 
         for query_id in tqdm(self.query_ids):
             pos_resources = sorted(self.resource_query_similarity[
-                                       (self.resource_query_similarity['query_id'] == query_id) & (
-                                                   self.resource_query_similarity['similarity_score'] > 0.0)][
-                                       'resource_id'].tolist())
+                                       (self.resource_query_similarity['query_id'] == query_id) & (self.resource_query_similarity['similarity_score'] > 0.0)]['resource_id'].tolist())
             pos_scores = [self.resource_query_similarity[(self.resource_query_similarity['query_id'] == query_id) & (
                         self.resource_query_similarity['resource_id'] == pos_resource_id)]['similarity_score'].values[0]
                           for pos_resource_id in pos_resources]
@@ -128,7 +125,7 @@ class Dataset:
 
     def get_train_pairs(self, current_fold, sample_idx):
 
-        sample_file = f'../samples/{self.args.dataset}_bias{self.args.bias}_fold{current_fold}_idx{sample_idx}.pkl'
+        sample_file = f'samples/{self.args.dataset}_bias{self.args.bias}_fold{current_fold}_idx{sample_idx}.pkl'
 
         if not os.path.exists(sample_file):
 
