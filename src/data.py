@@ -28,7 +28,7 @@ class Dataset:
 
         # Loading queries
         self.query_ids = sorted(list(self.resource_query_similarity['query_id'].unique()))
-        self.queries = np.load(f"../data/{self.dataset_name}/embeddings/queries.npy")
+        self.queries = np.load(f"../data/{self.dataset_name}/embeddings/{self.args.embedding_repo}/queries.npy")
 
         random.seed(2023)
         self.query_ids_cv = list(self.query_ids)
@@ -40,7 +40,7 @@ class Dataset:
         self.documents = {}
         for resource_id in self.resource_ids:
             self.documents[resource_id] = np.load(
-                f"../data/{self.dataset_name}/embeddings/resources/{self.args.doc_numbers_per_resource}/{self.id_to_rname[str(resource_id)]}.npy")
+                f"../data/{self.dataset_name}/embeddings/{self.args.embedding_repo}/resources/{self.args.doc_numbers_per_resource}/{self.id_to_rname[str(resource_id)]}.npy")
 
         self.resource_document_embedding = torch.Tensor(
             [self.documents[resource_id] for resource_id in self.resource_ids])

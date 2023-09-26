@@ -9,6 +9,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", default='gov2', type=str, help='dataset')
     parser.add_argument("--doc_numbers_per_resource", default=10, type=int, help='number of docs per resource')
+    parser.add_argument("--embedding_repo", default='ms-marco-MiniLM-L-12-v2', type=int, help='hugginface model name')
     parser.add_argument("--train_pair_count", default=10000, type=int, help='number of train pairs')
     parser.add_argument("--train", default=-1, type=int, help='number of train queries')
     parser.add_argument("--test", default=-1, type=int, help='number of test queries')
