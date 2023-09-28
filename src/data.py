@@ -40,7 +40,7 @@ class Dataset:
         self.documents = {}
         for resource_id in self.resource_ids:
             self.documents[resource_id] = np.load(
-                f"../data/{self.dataset_name}/embeddings/{self.args.embedding_repo}/resources/{self.args.doc_numbers_per_resource}/{self.id_to_rname[str(resource_id)]}.npy")
+                f"../data/{self.dataset_name}/embeddings/{self.args.embedding_repo}/{self.args.doc_numbers_per_resource}/{self.id_to_rname[str(resource_id)]}.npy")
 
         self.resource_document_embedding = torch.Tensor(
             [self.documents[resource_id] for resource_id in self.resource_ids])
